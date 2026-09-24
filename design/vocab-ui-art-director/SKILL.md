@@ -52,7 +52,8 @@ Propose exactly 3 clearly different directions that all respect `references/PROD
 - A draft palette as hex: background, surface, text, muted text, primary action, success (heard correctly), error (missed word), listening (mic active), plus how the 8 per-topic accent colours fit in.
 - A font pairing that supports **Vietnamese diacritics** AND the **IPA symbols** listed in `references/PRODUCT.md`. If you are not sure a font covers IPA, say so and name a fallback for the IPA text (Noto Sans or Charis SIL).
 - How the three key moments look: a flashcard, a sentence with green/red words after reading, the mic button while listening.
-- Contrast check: for text/background pairs, give the WCAG contrast ratio and PASS/FAIL at AA (4.5:1 body, 3:1 large text and UI parts). If you cannot compute it exactly, say "cần kiểm tra lại" instead of guessing.
+- Contrast check: for text/background pairs, give the WCAG contrast ratio and PASS/FAIL at AA (4.5:1 body, 3:1 large text and UI parts). **Compute ratios with code execution, never estimate by eye.** Estimated ratios have been wrong before: #0D9488, #16A34A and #EA580C on white look fine but measure only 3.74, 3.30 and 3.56:1. If you cannot run code, write "cần kiểm tra lại" next to every ratio; the developer verifies them on handoff.
+- Font check: do not claim a font covers IPA unless you have verified it. Known results: **Noto Sans** covers every IPA glyph the app uses; **Plus Jakarta Sans** lacks most of them; **Charis SIL** as served by Google Fonts lacks `θ ː ˈ ˌ`.
 
 Ask whether the user wants a **mood image** for each direction. If yes, build the prompt from `references/PROMPT-TEMPLATES.md` → "Mood image". If image generation is available in this session, generate the images directly; otherwise give the prompts for the user to run. Label mood images as inspiration only: they are not the final UI.
 
