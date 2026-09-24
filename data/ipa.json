@@ -1,0 +1,82 @@
+{
+ "groups": [
+  {
+   "title": "Nguyên âm đơn",
+   "items": [
+    {"p": "iː", "tip": "Âm 'i' kéo dài, môi dàn sang hai bên như đang cười.", "ex": [["see", "/siː/"], ["green", "/ɡriːn/"], ["sleeve", "/sliːv/"]]},
+    {"p": "ɪ", "tip": "Âm 'i' ngắn và thả lỏng, không kéo dài như /iː/.", "ex": [["sit", "/sɪt/"], ["big", "/bɪɡ/"], ["fish", "/fɪʃ/"]]},
+    {"p": "e", "tip": "Giống 'e' tiếng Việt, miệng mở vừa, phát âm ngắn.", "ex": [["bed", "/bed/"], ["pen", "/pen/"], ["shell", "/ʃel/"]]},
+    {"p": "æ", "tip": "Hạ hàm xuống thấp, miệng mở rộng; âm nằm giữa 'a' và 'e'.", "ex": [["cat", "/kæt/"], ["bad", "/bæd/"], ["match", "/mætʃ/"]]},
+    {"p": "ɑː", "tip": "Âm 'a' dài, miệng mở to, lưỡi lùi về phía sau.", "ex": [["car", "/kɑː/"], ["father", "/ˈfɑːðə/"], ["calm", "/kɑːm/"]]},
+    {"p": "ɒ", "tip": "Âm 'o' ngắn, môi hơi tròn (giọng Anh).", "ex": [["hot", "/hɒt/"], ["dog", "/dɒɡ/"], ["shop", "/ʃɒp/"]]},
+    {"p": "ɔː", "tip": "Âm 'o' kéo dài, môi tròn.", "ex": [["saw", "/sɔː/"], ["door", "/dɔː/"], ["bald", "/bɔːld/"]]},
+    {"p": "ʊ", "tip": "Âm 'u' ngắn, môi tròn nhẹ, thả lỏng.", "ex": [["book", "/bʊk/"], ["put", "/pʊt/"], ["good", "/ɡʊd/"]]},
+    {"p": "uː", "tip": "Âm 'u' kéo dài, môi tròn và chu ra phía trước.", "ex": [["blue", "/bluː/"], ["food", "/fuːd/"], ["loose", "/luːs/"]]},
+    {"p": "ʌ", "tip": "Âm ngắn, gần giống 'ă' tiếng Việt.", "ex": [["cup", "/kʌp/"], ["sun", "/sʌn/"], ["button", "/ˈbʌtən/"]]},
+    {"p": "ɜː", "tip": "Âm 'ơ' kéo dài, môi thả lỏng; giọng Anh không cong lưỡi đọc 'r'.", "ex": [["bird", "/bɜːd/"], ["work", "/wɜːk/"], ["turtle", "/ˈtɜːtl/"]]},
+    {"p": "ə", "tip": "Âm 'ơ' rất nhẹ, không nhấn; hay gặp ở âm tiết yếu.", "ex": [["about", "/əˈbaʊt/"], ["sofa", "/ˈsəʊfə/"], ["collar", "/ˈkɒlə/"]]}
+   ]
+  },
+  {
+   "title": "Nguyên âm đôi",
+   "items": [
+    {"p": "eɪ", "tip": "Trượt từ /e/ sang /ɪ/, gần giống 'ây'.", "ex": [["day", "/deɪ/"], ["face", "/feɪs/"], ["whale", "/weɪl/"]]},
+    {"p": "aɪ", "tip": "Trượt từ 'a' sang /ɪ/, gần giống 'ai'.", "ex": [["my", "/maɪ/"], ["time", "/taɪm/"], ["tight", "/taɪt/"]]},
+    {"p": "ɔɪ", "tip": "Trượt từ /ɔː/ sang /ɪ/, gần giống 'oi'.", "ex": [["boy", "/bɔɪ/"], ["coin", "/kɔɪn/"], ["boiling", "/ˈbɔɪlɪŋ/"]]},
+    {"p": "əʊ", "tip": "Trượt từ /ə/ sang /ʊ/, gần giống 'âu' (giọng Anh).", "ex": [["go", "/ɡəʊ/"], ["home", "/həʊm/"], ["slow", "/sləʊ/"]]},
+    {"p": "aʊ", "tip": "Trượt từ 'a' sang /ʊ/, gần giống 'ao'.", "ex": [["now", "/naʊ/"], ["house", "/haʊs/"], ["shower", "/ˈʃaʊə/"]]},
+    {"p": "ɪə", "tip": "Trượt từ /ɪ/ sang /ə/, gần giống 'ia'.", "ex": [["ear", "/ɪə/"], ["here", "/hɪə/"], ["beard", "/bɪəd/"]]},
+    {"p": "eə", "tip": "Trượt từ /e/ sang /ə/, gần giống 'e-ơ'.", "ex": [["hair", "/heə/"], ["care", "/keə/"], ["where", "/weə/"]]},
+    {"p": "ʊə", "tip": "Trượt từ /ʊ/ sang /ə/; nhiều người Anh ngày nay đọc thành /ɔː/.", "ex": [["tour", "/tʊə/"], ["pure", "/pjʊə/"], ["assure", "/əˈʃʊə/"]]}
+   ]
+  },
+  {
+   "title": "Phụ âm",
+   "items": [
+    {"p": "p", "tip": "Mím môi rồi bật hơi mạnh, không rung dây thanh.", "ex": [["pen", "/pen/"], ["cap", "/kæp/"]]},
+    {"p": "b", "tip": "Giống /p/ nhưng rung dây thanh.", "ex": [["bag", "/bæɡ/"], ["cab", "/kæb/"]]},
+    {"p": "t", "tip": "Đầu lưỡi chạm lợi trên rồi bật hơi (bật mạnh hơn 't' tiếng Việt).", "ex": [["tea", "/tiː/"], ["cat", "/kæt/"]]},
+    {"p": "d", "tip": "Giống /t/ nhưng rung dây thanh.", "ex": [["day", "/deɪ/"], ["bed", "/bed/"]]},
+    {"p": "k", "tip": "Cuống lưỡi chạm vòm mềm rồi bật hơi; nhớ đọc rõ ở cuối từ.", "ex": [["key", "/kiː/"], ["back", "/bæk/"]]},
+    {"p": "ɡ", "tip": "Giống /k/ nhưng rung dây thanh.", "ex": [["go", "/ɡəʊ/"], ["bag", "/bæɡ/"]]},
+    {"p": "f", "tip": "Răng trên chạm môi dưới, thổi hơi, không rung.", "ex": [["fish", "/fɪʃ/"], ["leaf", "/liːf/"]]},
+    {"p": "v", "tip": "Giống /f/ nhưng rung dây thanh; răng vẫn chạm môi, không tròn môi như /w/.", "ex": [["van", "/væn/"], ["sleeve", "/sliːv/"]]},
+    {"p": "θ", "tip": "Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi, không rung.", "ex": [["think", "/θɪŋk/"], ["three", "/θriː/"], ["bath", "/bɑːθ/"]]},
+    {"p": "ð", "tip": "Giống /θ/ nhưng rung dây thanh.", "ex": [["this", "/ðɪs/"], ["they", "/ðeɪ/"], ["mother", "/ˈmʌðə/"]]},
+    {"p": "s", "tip": "Âm xì, không rung; nhớ đọc /s/ ở cuối từ.", "ex": [["see", "/siː/"], ["rice", "/raɪs/"]]},
+    {"p": "z", "tip": "Giống /s/ nhưng rung, như tiếng ong 'zzz'.", "ex": [["zoo", "/zuː/"], ["rise", "/raɪz/"]]},
+    {"p": "ʃ", "tip": "Môi chu ra, thổi hơi như khi suỵt ai đó im lặng.", "ex": [["she", "/ʃiː/"], ["fish", "/fɪʃ/"]]},
+    {"p": "ʒ", "tip": "Giống /ʃ/ nhưng rung dây thanh.", "ex": [["vision", "/ˈvɪʒən/"], ["measure", "/ˈmeʒə/"]]},
+    {"p": "h", "tip": "Thở hơi nhẹ ra, như hà hơi lên kính.", "ex": [["hat", "/hæt/"], ["house", "/haʊs/"]]},
+    {"p": "tʃ", "tip": "Âm 'ch' bật hơi, môi chu ra.", "ex": [["chip", "/tʃɪp/"], ["match", "/mætʃ/"]]},
+    {"p": "dʒ", "tip": "Giống /tʃ/ nhưng rung dây thanh.", "ex": [["jet", "/dʒet/"], ["age", "/eɪdʒ/"]]},
+    {"p": "m", "tip": "Mím môi, hơi đi ra đằng mũi.", "ex": [["man", "/mæn/"], ["calm", "/kɑːm/"]]},
+    {"p": "n", "tip": "Đầu lưỡi chạm lợi trên, hơi đi ra đằng mũi.", "ex": [["no", "/nəʊ/"], ["sun", "/sʌn/"]]},
+    {"p": "ŋ", "tip": "Cuống lưỡi chạm vòm mềm, giống 'ng'; không bật thêm /ɡ/ phía sau.", "ex": [["sing", "/sɪŋ/"], ["long", "/lɒŋ/"]]},
+    {"p": "l", "tip": "Đầu lưỡi chạm lợi trên; /l/ cuối từ thì lưỡi lùi về sau.", "ex": [["light", "/laɪt/"], ["full", "/fʊl/"]]},
+    {"p": "r", "tip": "Cong đầu lưỡi về sau, không chạm vòm miệng; giọng Anh không đọc 'r' ở cuối từ.", "ex": [["red", "/red/"], ["very", "/ˈveri/"]]},
+    {"p": "j", "tip": "Giống 'd' giọng miền Nam ('dê'), lưỡi nâng gần vòm miệng.", "ex": [["yes", "/jes/"], ["you", "/juː/"]]},
+    {"p": "w", "tip": "Tròn môi và chu ra rồi mở nhanh; răng không chạm môi.", "ex": [["wet", "/wet/"], ["west", "/west/"]]}
+   ]
+  }
+ ],
+ "pairs": [
+  {"contrast": "iː – ɪ", "note": "Âm dài hay ngắn làm đổi nghĩa.", "pairs": [[["sheep", "/ʃiːp/"], ["ship", "/ʃɪp/"]], [["leave", "/liːv/"], ["live", "/lɪv/"]], [["seat", "/siːt/"], ["sit", "/sɪt/"]]]},
+  {"contrast": "æ – e", "note": "/æ/ mở miệng rộng hơn /e/.", "pairs": [[["bad", "/bæd/"], ["bed", "/bed/"]], [["man", "/mæn/"], ["men", "/men/"]], [["sad", "/sæd/"], ["said", "/sed/"]]]},
+  {"contrast": "ʌ – ɑː", "note": "/ʌ/ ngắn như 'ă', /ɑː/ dài và mở to.", "pairs": [[["cut", "/kʌt/"], ["cart", "/kɑːt/"]], [["much", "/mʌtʃ/"], ["march", "/mɑːtʃ/"]], [["hut", "/hʌt/"], ["heart", "/hɑːt/"]]]},
+  {"contrast": "ɒ – ɔː", "note": "/ɒ/ ngắn, /ɔː/ dài.", "pairs": [[["shot", "/ʃɒt/"], ["short", "/ʃɔːt/"]], [["pot", "/pɒt/"], ["port", "/pɔːt/"]], [["fox", "/fɒks/"], ["forks", "/fɔːks/"]]]},
+  {"contrast": "ʊ – uː", "note": "/ʊ/ ngắn và thả lỏng, /uː/ dài và chu môi.", "pairs": [[["full", "/fʊl/"], ["fool", "/fuːl/"]], [["pull", "/pʊl/"], ["pool", "/puːl/"]], [["look", "/lʊk/"], ["Luke", "/luːk/"]]]},
+  {"contrast": "ɜː – ɔː", "note": "/ɜː/ môi thả lỏng, /ɔː/ môi tròn.", "pairs": [[["work", "/wɜːk/"], ["walk", "/wɔːk/"]], [["burn", "/bɜːn/"], ["born", "/bɔːn/"]], [["shirt", "/ʃɜːt/"], ["short", "/ʃɔːt/"]]]},
+  {"contrast": "eɪ – e", "note": "/eɪ/ phải trượt sang /ɪ/.", "pairs": [[["late", "/leɪt/"], ["let", "/let/"]], [["taste", "/teɪst/"], ["test", "/test/"]], [["gate", "/ɡeɪt/"], ["get", "/ɡet/"]]]},
+  {"contrast": "θ – s", "note": "/θ/ đặt lưỡi giữa hai răng; /s/ thì không.", "pairs": [[["think", "/θɪŋk/"], ["sink", "/sɪŋk/"]], [["thick", "/θɪk/"], ["sick", "/sɪk/"]], [["mouth", "/maʊθ/"], ["mouse", "/maʊs/"]]]},
+  {"contrast": "θ – t", "note": "/θ/ là âm thổi hơi, /t/ là âm bật.", "pairs": [[["three", "/θriː/"], ["tree", "/triː/"]], [["thin", "/θɪn/"], ["tin", "/tɪn/"]], [["thank", "/θæŋk/"], ["tank", "/tæŋk/"]]]},
+  {"contrast": "ð – d", "note": "/ð/ đặt lưỡi giữa hai răng và rung.", "pairs": [[["they", "/ðeɪ/"], ["day", "/deɪ/"]], [["then", "/ðen/"], ["den", "/den/"]], [["though", "/ðəʊ/"], ["dough", "/dəʊ/"]]]},
+  {"contrast": "ʃ – s", "note": "/ʃ/ chu môi, /s/ dàn môi.", "pairs": [[["she", "/ʃiː/"], ["see", "/siː/"]], [["shoe", "/ʃuː/"], ["Sue", "/suː/"]], [["ship", "/ʃɪp/"], ["sip", "/sɪp/"]]]},
+  {"contrast": "tʃ – ʃ", "note": "/tʃ/ có tiếng bật đầu, /ʃ/ chỉ có hơi.", "pairs": [[["chip", "/tʃɪp/"], ["ship", "/ʃɪp/"]], [["watch", "/wɒtʃ/"], ["wash", "/wɒʃ/"]], [["cheap", "/tʃiːp/"], ["sheep", "/ʃiːp/"]]]},
+  {"contrast": "v – w", "note": "/v/ răng chạm môi, /w/ tròn môi.", "pairs": [[["vest", "/vest/"], ["west", "/west/"]], [["vent", "/vent/"], ["went", "/went/"]], [["vet", "/vet/"], ["wet", "/wet/"]]]},
+  {"contrast": "l – n", "note": "/l/ hơi đi hai bên lưỡi, /n/ hơi đi ra mũi.", "pairs": [[["light", "/laɪt/"], ["night", "/naɪt/"]], [["lock", "/lɒk/"], ["knock", "/nɒk/"]], [["lot", "/lɒt/"], ["not", "/nɒt/"]]]},
+  {"contrast": "s – z (cuối từ)", "note": "Âm cuối đổi nghĩa — đừng nuốt âm cuối.", "pairs": [[["rice", "/raɪs/"], ["rise", "/raɪz/"]], [["place", "/pleɪs/"], ["plays", "/pleɪz/"]], [["bus", "/bʌs/"], ["buzz", "/bʌz/"]]]},
+  {"contrast": "t – d (cuối từ)", "note": "Âm cuối đổi nghĩa — đừng nuốt âm cuối.", "pairs": [[["bet", "/bet/"], ["bed", "/bed/"]], [["bat", "/bæt/"], ["bad", "/bæd/"]], [["cart", "/kɑːt/"], ["card", "/kɑːd/"]]]},
+  {"contrast": "k – ɡ (cuối từ)", "note": "Âm cuối đổi nghĩa — đừng nuốt âm cuối.", "pairs": [[["back", "/bæk/"], ["bag", "/bæɡ/"]], [["pick", "/pɪk/"], ["pig", "/pɪɡ/"]], [["duck", "/dʌk/"], ["dug", "/dʌɡ/"]]]}
+ ]
+}

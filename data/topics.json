@@ -1,0 +1,2857 @@
+[
+ {
+  "key": "appearance",
+  "title": "Ngoại hình",
+  "subtitle": "Appearance",
+  "icon": "🪞",
+  "cardBg": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(145deg, #d7f5e2 0%, #a2e7bb 55%, #6dd995 100%)",
+  "front": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #d3f3df 0%, #9ce5b7 55%, #69d892 100%)",
+  "back": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #b8eccb 0%, #88e0a8 55%, #57d385 100%)",
+  "ink": "#0d4b24",
+  "accent": "#22c55e",
+  "accent1": "#1ca24d",
+  "accent2": "#22c55e",
+  "deck": [
+   {
+    "word": "complexion",
+    "pos": "noun",
+    "ipa": "/kəmˈplekʃən/",
+    "syn": "skin tone, skin",
+    "vi": "làn da, sắc mặt",
+    "en": "the natural color and appearance of a person's skin, especially the face",
+    "ex": "She has a fair complexion that burns easily in the sun.",
+    "emoji": "🧴"
+   },
+   {
+    "word": "thin-faced",
+    "pos": "adjective",
+    "ipa": "/ˌθɪn ˈfeɪst/",
+    "syn": "slim-faced",
+    "vi": "mặt thon, gầy",
+    "en": "having a narrow, slender face",
+    "ex": "She's thin-faced with high cheekbones.",
+    "emoji": "😶"
+   },
+   {
+    "word": "round-faced",
+    "pos": "adjective",
+    "ipa": "/ˌraʊnd ˈfeɪst/",
+    "syn": "—",
+    "vi": "mặt tròn",
+    "en": "having a round-shaped face",
+    "ex": "He's quite round-faced, like his mother.",
+    "emoji": "☺️"
+   },
+   {
+    "word": "curly hair",
+    "pos": "noun phrase",
+    "ipa": "/ˈkɜːli heər/",
+    "syn": "wavy hair",
+    "vi": "tóc xoăn",
+    "en": "hair that grows in curls or loops",
+    "ex": "She has curly hair that's hard to manage in humid weather.",
+    "emoji": "🦱"
+   },
+   {
+    "word": "dark-skinned",
+    "pos": "adjective",
+    "ipa": "/ˌdɑːk ˈskɪnd/",
+    "syn": "—",
+    "vi": "da ngăm, da tối màu",
+    "en": "having skin of a dark color",
+    "ex": "He's tall and dark-skinned.",
+    "emoji": "👤"
+   },
+   {
+    "word": "crew-cut",
+    "pos": "noun",
+    "ipa": "/ˈkruː kʌt/",
+    "syn": "—",
+    "vi": "tóc cắt ngắn kiểu lính",
+    "en": "a very short haircut, especially for men",
+    "ex": "Her brother has a crew-cut for the summer.",
+    "emoji": "✂️"
+   },
+   {
+    "word": "bald",
+    "pos": "adjective",
+    "ipa": "/bɔːld/",
+    "syn": "hairless",
+    "vi": "hói đầu",
+    "en": "having little or no hair on the head",
+    "ex": "He started going bald in his early thirties.",
+    "emoji": "🦲"
+   },
+   {
+    "word": "beard and moustache",
+    "pos": "noun",
+    "ipa": "/bɪəd ənd məsˈtæʃ/",
+    "syn": "facial hair",
+    "vi": "râu quai nón và ria mép",
+    "en": "hair growing on a man's chin and upper lip",
+    "ex": "He grew a beard and moustache over the winter.",
+    "emoji": "🧔"
+   },
+   {
+    "word": "chubby face",
+    "pos": "adjective phrase",
+    "ipa": "/ˈtʃʌbi feɪs/",
+    "syn": "round, plump face",
+    "vi": "mặt bầu bĩnh",
+    "en": "having a slightly fat, rounded face",
+    "ex": "The baby has such a chubby face.",
+    "emoji": "🐹"
+   },
+   {
+    "word": "receding hair",
+    "pos": "adjective phrase",
+    "ipa": "/rɪˈsiːdɪŋ heə/",
+    "syn": "thinning hair",
+    "vi": "tóc thưa dần, hói trán",
+    "en": "hair that is gradually disappearing from the front of the head",
+    "ex": "He has receding hair and a few wrinkles.",
+    "emoji": "👨"
+   },
+   {
+    "word": "wrinkles",
+    "pos": "noun",
+    "ipa": "/ˈrɪŋkəlz/",
+    "syn": "lines",
+    "vi": "nếp nhăn",
+    "en": "small lines in the skin, especially on the face, caused by age",
+    "ex": "She has a few wrinkles around her eyes when she smiles.",
+    "emoji": "〰️"
+   },
+   {
+    "word": "gone grey",
+    "pos": "adjective phrase",
+    "ipa": "/ɡɒn ɡreɪ/",
+    "syn": "—",
+    "vi": "tóc bạc",
+    "en": "(of hair) turned grey or white with age",
+    "ex": "His hair has gone grey, almost white.",
+    "emoji": "🦳"
+   },
+   {
+    "word": "ginger-haired / red-haired",
+    "pos": "adjective",
+    "ipa": "/ˈdʒɪndʒə heəd/",
+    "syn": "red-haired",
+    "vi": "tóc đỏ hoe",
+    "en": "having orange-red colored hair",
+    "ex": "My cousin is ginger-haired like our grandfather.",
+    "emoji": "🦰"
+   },
+   {
+    "word": "auburn",
+    "pos": "adjective",
+    "ipa": "/ˈɔːbən/",
+    "syn": "red-brown",
+    "vi": "(tóc) nâu đỏ",
+    "en": "(of hair) reddish-brown in color",
+    "ex": "She has such beautiful auburn hair.",
+    "emoji": "🍂"
+   },
+   {
+    "word": "plump / stout",
+    "pos": "adjective",
+    "ipa": "/plʌmp, staʊt/",
+    "syn": "chubby, overweight",
+    "vi": "mập mạp, đẫy đà",
+    "en": "rather fat (used politely, especially of older people)",
+    "ex": "He's a rather plump, cheerful old man.",
+    "emoji": "🍐"
+   },
+   {
+    "word": "slim",
+    "pos": "adjective",
+    "ipa": "/slɪm/",
+    "syn": "slender, thin",
+    "vi": "thon thả, mảnh mai",
+    "en": "attractively thin, especially referring to a person's build",
+    "ex": "She's a slim woman who exercises every day.",
+    "emoji": "🥒"
+   },
+   {
+    "word": "skinny",
+    "pos": "adjective",
+    "ipa": "/ˈskɪni/",
+    "syn": "thin, bony",
+    "vi": "gầy gò, ốm nhom",
+    "en": "very thin (often used negatively)",
+    "ex": "He looked skinny after months of illness.",
+    "emoji": "🥢"
+   },
+   {
+    "word": "obese",
+    "pos": "adjective",
+    "ipa": "/əʊˈbiːs/",
+    "syn": "overweight, fat",
+    "vi": "béo phì",
+    "en": "extremely overweight, in a way that's unhealthy",
+    "ex": "Poor diet has led to more obese children.",
+    "emoji": "📈"
+   },
+   {
+    "word": "overweight",
+    "pos": "adjective",
+    "ipa": "/ˌəʊvəˈweɪt/",
+    "syn": "fat (polite alternative)",
+    "vi": "thừa cân",
+    "en": "weighing more than is considered healthy",
+    "ex": "The doctor said he was a bit overweight.",
+    "emoji": "➕"
+   },
+   {
+    "word": "stocky",
+    "pos": "adjective",
+    "ipa": "/ˈstɒki/",
+    "syn": "broad, solid, thickset",
+    "vi": "chắc nịch, vạm vỡ",
+    "en": "(of a person) broad and solidly built",
+    "ex": "He's short and stocky, like a rugby player.",
+    "emoji": "🧱"
+   },
+   {
+    "word": "well-built / muscular",
+    "pos": "adjective",
+    "ipa": "/ˌwel ˈbɪlt, ˈmʌskjələ/",
+    "syn": "athletic, muscly",
+    "vi": "vạm vỡ, cơ bắp",
+    "en": "having a strong, muscular body",
+    "ex": "He's well-built from years of training at the gym.",
+    "emoji": "💪"
+   },
+   {
+    "word": "anorexic",
+    "pos": "adjective",
+    "ipa": "/ˌænəˈreksɪk/",
+    "syn": "dangerously thin",
+    "vi": "biếng ăn (bệnh lý)",
+    "en": "suffering from anorexia; abnormally thin from refusing to eat",
+    "ex": "She became dangerously anorexic during her teenage years.",
+    "emoji": "🩺"
+   },
+   {
+    "word": "smart and elegant",
+    "pos": "adjective",
+    "ipa": "/smɑːt ənd ˈelɪɡənt/",
+    "syn": "well-dressed, stylish",
+    "vi": "lịch thiệp, sang trọng",
+    "en": "neatly and fashionably dressed",
+    "ex": "She's a very smart and elegant woman, always well-dressed.",
+    "emoji": "🎩"
+   },
+   {
+    "word": "scruffy",
+    "pos": "adjective",
+    "ipa": "/ˈskrʌfi/",
+    "syn": "untidy, messy",
+    "vi": "lôi thôi, luộm thuộm",
+    "en": "dirty and untidy in appearance",
+    "ex": "Her husband is quite scruffy and messy-looking.",
+    "emoji": "🧶"
+   },
+   {
+    "word": "good-looking / handsome",
+    "pos": "adjective",
+    "ipa": "/ˌɡʊd ˈlʊkɪŋ, ˈhænsəm/",
+    "syn": "attractive, handsome",
+    "vi": "ưa nhìn, đẹp trai",
+    "en": "(especially of a man) physically attractive",
+    "ex": "He's very good-looking, but his friend's rather unattractive.",
+    "emoji": "🤩"
+   },
+   {
+    "word": "unattractive",
+    "pos": "adjective",
+    "ipa": "/ˌʌnəˈtræktɪv/",
+    "syn": "plain, unappealing",
+    "vi": "không hấp dẫn",
+    "en": "not pleasant to look at",
+    "ex": "Some people worry too much about being unattractive.",
+    "emoji": "😕"
+   },
+   {
+    "word": "first impression",
+    "pos": "noun phrase",
+    "ipa": "/ˌfɜːst ɪmˈpreʃən/",
+    "syn": "initial reaction",
+    "vi": "ấn tượng ban đầu",
+    "en": "your first reaction to or opinion of someone or something",
+    "ex": "First impressions are always important in a job interview.",
+    "emoji": "👋"
+   },
+   {
+    "word": "disguise",
+    "pos": "noun / verb",
+    "ipa": "/dɪsˈgaɪz/",
+    "syn": "costume, camouflage",
+    "vi": "đồ cải trang, cải trang",
+    "en": "something worn to hide who you really are",
+    "ex": "He wore a disguise so nobody would recognize him.",
+    "emoji": "🥸"
+   },
+   {
+    "word": "outfit",
+    "pos": "noun",
+    "ipa": "/ˈaʊtfɪt/",
+    "syn": "ensemble, get-up",
+    "vi": "bộ trang phục",
+    "en": "a set of clothes worn together for a particular occasion",
+    "ex": "She bought a new outfit for the wedding.",
+    "emoji": "👗"
+   },
+   {
+    "word": "pyjamas",
+    "pos": "noun",
+    "ipa": "/pɪˈdʒɑːməz/",
+    "syn": "sleepwear",
+    "vi": "đồ ngủ",
+    "en": "loose-fitting clothes worn in bed",
+    "ex": "I had to change out of my pyjamas before work.",
+    "emoji": "🌙",
+    "tts": "puh jah muz"
+   },
+   {
+    "word": "waterproof",
+    "pos": "noun / adjective",
+    "ipa": "/ˈwɔːtəpruːf/",
+    "syn": "water-resistant",
+    "vi": "(đồ/trang phục) chống nước",
+    "en": "clothing that does not let water through",
+    "ex": "I put on my waterproof to walk in the rain.",
+    "emoji": "☔"
+   },
+   {
+    "word": "swimming costume",
+    "pos": "noun",
+    "ipa": "/ˈswɪmɪŋ ˌkɒstjuːm/",
+    "syn": "swimsuit",
+    "vi": "đồ bơi",
+    "en": "a piece of clothing worn for swimming",
+    "ex": "She packed a new swimming costume for the trip.",
+    "emoji": "🩱"
+   },
+   {
+    "word": "pullover",
+    "pos": "noun",
+    "ipa": "/ˈpʊləʊvə/",
+    "syn": "sweater, jumper",
+    "vi": "áo len chui đầu",
+    "en": "a knitted garment pulled over the head, with no buttons or zip",
+    "ex": "He wore a warm pullover on the cold evening.",
+    "emoji": "🧥"
+   },
+   {
+    "word": "collar",
+    "pos": "noun",
+    "ipa": "/ˈkɒlə/",
+    "syn": "—",
+    "vi": "cổ áo",
+    "en": "the part of a shirt or coat that fits around the neck",
+    "ex": "He turned up his collar to keep warm.",
+    "emoji": "👔"
+   },
+   {
+    "word": "button",
+    "pos": "noun / verb",
+    "ipa": "/ˈbʌtən/",
+    "syn": "fasten (v)",
+    "vi": "khuy áo, cài khuy",
+    "en": "a small disc used to fasten clothing",
+    "ex": "She did up the top button of her coat.",
+    "emoji": "🔘"
+   },
+   {
+    "word": "sleeve",
+    "pos": "noun",
+    "ipa": "/sliːv/",
+    "syn": "—",
+    "vi": "tay áo",
+    "en": "the part of a piece of clothing that covers the arm",
+    "ex": "He rolled up his sleeves before starting work.",
+    "emoji": "👕"
+   },
+   {
+    "word": "earring",
+    "pos": "noun",
+    "ipa": "/ˈɪərɪŋ/",
+    "syn": "—",
+    "vi": "khuyên tai, bông tai",
+    "en": "a piece of jewellery worn on the ear",
+    "ex": "She wore a pair of gold earrings.",
+    "emoji": "👂"
+   },
+   {
+    "word": "jewellery",
+    "pos": "noun",
+    "ipa": "/ˈdʒuːəlri/",
+    "syn": "accessories, gems",
+    "vi": "trang sức",
+    "en": "ornaments such as rings and necklaces, worn for decoration",
+    "ex": "I don't like wearing too much jewellery.",
+    "emoji": "💍"
+   },
+   {
+    "word": "casual",
+    "pos": "adjective",
+    "ipa": "/ˈkæʒjuəl/",
+    "syn": "relaxed, informal",
+    "vi": "(trang phục) thoải mái, giản dị",
+    "en": "(of clothes) suitable for everyday wear, informal",
+    "ex": "I usually wear casual clothes to work on Fridays.",
+    "emoji": "👟"
+   },
+   {
+    "word": "formal",
+    "pos": "adjective",
+    "ipa": "/ˈfɔːməl/",
+    "syn": "smart, dressy",
+    "vi": "(trang phục) trang trọng",
+    "en": "suitable for official or important occasions",
+    "ex": "He wore a formal suit to the wedding.",
+    "emoji": "🤵"
+   },
+   {
+    "word": "loose",
+    "pos": "adjective",
+    "ipa": "/luːs/",
+    "syn": "baggy, roomy",
+    "vi": "rộng, thùng thình",
+    "en": "not fitting closely to the body",
+    "ex": "The shirt was a large size so it felt loose on me.",
+    "emoji": "🎈"
+   },
+   {
+    "word": "tight",
+    "pos": "adjective",
+    "ipa": "/taɪt/",
+    "syn": "fitted, snug",
+    "vi": "chật, bó sát",
+    "en": "fitting very closely to the body",
+    "ex": "These jeans are too tight for me now.",
+    "emoji": "📌"
+   },
+   {
+    "word": "stylish",
+    "pos": "adjective",
+    "ipa": "/ˈstaɪlɪʃ/",
+    "syn": "classy, fashionable",
+    "vi": "phong cách, sành điệu",
+    "en": "fashionable and attractive in appearance",
+    "ex": "She always looks stylish, even in casual clothes.",
+    "emoji": "✨"
+   },
+   {
+    "word": "fashionable",
+    "pos": "adjective",
+    "ipa": "/ˈfæʃənəbəl/",
+    "syn": "trendy, in vogue",
+    "vi": "thời thượng, hợp mốt",
+    "en": "following the most modern style or trend",
+    "ex": "Skinny jeans were very fashionable a few years ago.",
+    "emoji": "👠"
+   },
+   {
+    "word": "put on",
+    "pos": "phrasal verb",
+    "ipa": "/pʊt ɒn/",
+    "syn": "wear",
+    "vi": "mặc vào",
+    "en": "to place clothing onto your body",
+    "ex": "She put on her coat before going outside.",
+    "emoji": "⬆️"
+   },
+   {
+    "word": "take off",
+    "pos": "phrasal verb",
+    "ipa": "/teɪk ɒf/",
+    "syn": "remove",
+    "vi": "cởi ra",
+    "en": "to remove clothing from your body",
+    "ex": "He took off his shoes at the front door.",
+    "emoji": "⬇️"
+   },
+   {
+    "word": "try on",
+    "pos": "phrasal verb",
+    "ipa": "/traɪ ɒn/",
+    "syn": "—",
+    "vi": "thử (đồ) lên",
+    "en": "to put on a piece of clothing to see if it fits",
+    "ex": "I tried on three dresses before choosing one.",
+    "emoji": "🔄"
+   },
+   {
+    "word": "grow out of",
+    "pos": "phrasal verb",
+    "ipa": "/ɡrəʊ aʊt ɒv/",
+    "syn": "outgrow",
+    "vi": "mặc không vừa vì đã lớn hơn",
+    "en": "to become too big for a piece of clothing",
+    "ex": "She's already grown out of her school uniform.",
+    "emoji": "🌱"
+   },
+   {
+    "word": "fit",
+    "pos": "verb",
+    "ipa": "/fɪt/",
+    "syn": "suit (in size)",
+    "vi": "vừa vặn",
+    "en": "to be the right size and shape for someone",
+    "ex": "This jacket doesn't fit me anymore.",
+    "emoji": "✅"
+   },
+   {
+    "word": "match",
+    "pos": "verb",
+    "ipa": "/mætʃ/",
+    "syn": "coordinate with",
+    "vi": "hợp với (do tương đồng)",
+    "en": "to have the same color or style as something else",
+    "ex": "The scarf matches her blue eyes perfectly.",
+    "emoji": "🧩"
+   },
+   {
+    "word": "go with",
+    "pos": "phrasal verb",
+    "ipa": "/ɡəʊ wɪð/",
+    "syn": "complement",
+    "vi": "hợp với (không cần tương đồng)",
+    "en": "to look good when combined with something else",
+    "ex": "I think these shoes go well with your dress.",
+    "emoji": "🤝"
+   },
+   {
+    "word": "wear out",
+    "pos": "phrasal verb",
+    "ipa": "/weər aʊt/",
+    "syn": "—",
+    "vi": "trở nên cũ, hỏng",
+    "en": "to become damaged or unusable through use",
+    "ex": "I wear this jacket so much I'll probably wear it out soon.",
+    "emoji": "🕳️"
+   }
+  ]
+ },
+ {
+  "key": "personality",
+  "title": "Tính cách & Giao tiếp",
+  "subtitle": "Personality & Social",
+  "icon": "🧠",
+  "cardBg": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(145deg, #eae2fd 0%, #cebbfb 55%, #b293f9 100%)",
+  "front": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #e8defd 0%, #cbb6fb 55%, #b090f9 100%)",
+  "back": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #dacbfc 0%, #c0a7fa 55%, #a783f8 100%)",
+  "ink": "#35235d",
+  "accent": "#8b5cf6",
+  "accent1": "#724bca",
+  "accent2": "#8b5cf6",
+  "deck": [
+   {
+    "word": "anxious",
+    "pos": "adjective",
+    "ipa": "/ˈæŋkʃəs/",
+    "syn": "worried, nervous",
+    "vi": "lo lắng",
+    "en": "feeling worried or nervous about something",
+    "ex": "She felt anxious before the exam results came out.",
+    "emoji": "😰"
+   },
+   {
+    "word": "calm",
+    "pos": "adjective",
+    "ipa": "/kɑːm/",
+    "syn": "relaxed, composed",
+    "vi": "bình tĩnh",
+    "en": "not showing or feeling nervousness, anger, or other strong emotions",
+    "ex": "He stayed calm during the emergency.",
+    "emoji": "😌"
+   },
+   {
+    "word": "cheerful",
+    "pos": "adjective",
+    "ipa": "/ˈtʃɪəfl/",
+    "syn": "happy, upbeat",
+    "vi": "vui vẻ",
+    "en": "noticeably happy and optimistic",
+    "ex": "She's always cheerful, even on a bad day.",
+    "emoji": "😄"
+   },
+   {
+    "word": "confident",
+    "pos": "adjective",
+    "ipa": "/ˈkɒnfɪdənt/",
+    "syn": "self-assured",
+    "vi": "tự tin",
+    "en": "feeling sure about your own abilities",
+    "ex": "He gave a confident speech in front of everyone.",
+    "emoji": "😎"
+   },
+   {
+    "word": "embarrassed",
+    "pos": "adjective",
+    "ipa": "/ɪmˈbærəst/",
+    "syn": "ashamed, self-conscious",
+    "vi": "ngượng ngùng, xấu hổ",
+    "en": "feeling awkward or ashamed",
+    "ex": "I was embarrassed when I forgot her name.",
+    "emoji": "😳"
+   },
+   {
+    "word": "honest",
+    "pos": "adjective",
+    "ipa": "/ˈɒnɪst/",
+    "syn": "truthful, sincere",
+    "vi": "chân thật",
+    "en": "telling the truth or able to be trusted",
+    "ex": "He gave an honest answer, even though it was difficult.",
+    "emoji": "😇"
+   },
+   {
+    "word": "relaxed",
+    "pos": "adjective",
+    "ipa": "/rɪˈlækst/",
+    "syn": "calm, at ease",
+    "vi": "thoải mái",
+    "en": "free from tension or anxiety",
+    "ex": "I feel relaxed after a walk in the park.",
+    "emoji": "🧘"
+   },
+   {
+    "word": "silly",
+    "pos": "adjective",
+    "ipa": "/ˈsɪli/",
+    "syn": "foolish, childish",
+    "vi": "ngốc nghếch",
+    "en": "showing a lack of thought or judgement",
+    "ex": "It was silly of me to forget my umbrella.",
+    "emoji": "🤪"
+   },
+   {
+    "word": "stupid",
+    "pos": "adjective",
+    "ipa": "/ˈstjuːpɪd/",
+    "syn": "foolish, unintelligent",
+    "vi": "ngu ngốc",
+    "en": "lacking intelligence or good sense",
+    "ex": "That was a stupid mistake to make.",
+    "emoji": "🤦"
+   },
+   {
+    "word": "annoyed",
+    "pos": "adjective",
+    "ipa": "/əˈnɔɪd/",
+    "syn": "irritated, frustrated",
+    "vi": "khó chịu, bực mình",
+    "en": "slightly angry",
+    "ex": "I was annoyed that the bus was late again.",
+    "emoji": "😤"
+   },
+   {
+    "word": "disappointed",
+    "pos": "adjective",
+    "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+    "syn": "let down, unsatisfied",
+    "vi": "thất vọng",
+    "en": "sad because something didn't meet expectations",
+    "ex": "She was disappointed with her exam results.",
+    "emoji": "😞"
+   },
+   {
+    "word": "generous",
+    "pos": "adjective",
+    "ipa": "/ˈdʒenərəs/",
+    "syn": "giving, unselfish",
+    "vi": "rộng lượng, hào phóng",
+    "en": "willing to give freely",
+    "ex": "He's very generous with his time and money.",
+    "emoji": "🎁"
+   },
+   {
+    "word": "gentle",
+    "pos": "adjective",
+    "ipa": "/ˈdʒentl/",
+    "syn": "mild, tender",
+    "vi": "nhẹ nhàng, dịu dàng",
+    "en": "kind, calm, and not rough",
+    "ex": "She has a gentle way of speaking to children.",
+    "emoji": "🕊️"
+   },
+   {
+    "word": "interested",
+    "pos": "adjective",
+    "ipa": "/ˈɪntrɪstɪd/",
+    "syn": "keen, curious",
+    "vi": "quan tâm, hứng thú",
+    "en": "wanting to know or learn about something",
+    "ex": "I'm interested in learning more about your culture.",
+    "emoji": "🧐"
+   },
+   {
+    "word": "reliable",
+    "pos": "adjective",
+    "ipa": "/rɪˈlaɪəbl/",
+    "syn": "dependable, trustworthy",
+    "vi": "đáng tin cậy",
+    "en": "able to be trusted to do what is expected",
+    "ex": "She's a reliable friend who's always there for you.",
+    "emoji": "🛡️"
+   },
+   {
+    "word": "relaxing",
+    "pos": "adjective",
+    "ipa": "/rɪˈlæksɪŋ/",
+    "syn": "soothing, calming",
+    "vi": "thư giãn",
+    "en": "making you feel calm and free from stress",
+    "ex": "A hot bath is very relaxing after a long day.",
+    "emoji": "🛀"
+   },
+   {
+    "word": "sensible",
+    "pos": "adjective",
+    "ipa": "/ˈsensəbl/",
+    "syn": "practical, wise",
+    "vi": "biết điều, chín chắn",
+    "en": "showing good judgement and practicality",
+    "ex": "It was sensible of her to save some money each month.",
+    "emoji": "🧠"
+   },
+   {
+    "word": "serious",
+    "pos": "adjective",
+    "ipa": "/ˈsɪəriəs/",
+    "syn": "earnest, solemn",
+    "vi": "nghiêm túc",
+    "en": "thoughtful and not joking",
+    "ex": "He's quite a serious person who rarely laughs.",
+    "emoji": "😐"
+   },
+   {
+    "word": "tired",
+    "pos": "adjective",
+    "ipa": "/ˈtaɪəd/",
+    "syn": "exhausted, weary",
+    "vi": "mệt mỏi",
+    "en": "in need of rest or sleep",
+    "ex": "I felt tired after the long flight.",
+    "emoji": "😴"
+   },
+   {
+    "word": "amusing",
+    "pos": "adjective",
+    "ipa": "/əˈmjuːzɪŋ/",
+    "syn": "funny, entertaining",
+    "vi": "vui vẻ, hài hước",
+    "en": "causing laughter or providing entertainment",
+    "ex": "He told an amusing story about his trip.",
+    "emoji": "😂"
+   },
+   {
+    "word": "comforting",
+    "pos": "adjective",
+    "ipa": "/ˈkʌmfətɪŋ/",
+    "syn": "reassuring, soothing",
+    "vi": "an ủi, dễ chịu",
+    "en": "making you feel less worried or upset",
+    "ex": "Her comforting words calmed me down.",
+    "emoji": "🤗"
+   },
+   {
+    "word": "patient",
+    "pos": "adjective",
+    "ipa": "/ˈpeɪʃənt/",
+    "syn": "tolerant, calm",
+    "vi": "kiên nhẫn",
+    "en": "able to wait calmly without getting annoyed",
+    "ex": "The teacher was very patient with the slow learners.",
+    "emoji": "⏳"
+   },
+   {
+    "word": "sympathetic",
+    "pos": "adjective",
+    "ipa": "/ˌsɪmpəˈθetɪk/",
+    "syn": "understanding, compassionate",
+    "vi": "đồng cảm, thấu hiểu",
+    "en": "showing understanding and care for someone's feelings",
+    "ex": "She was sympathetic when I told her about my problem.",
+    "emoji": "🤝"
+   },
+   {
+    "word": "interesting",
+    "pos": "adjective",
+    "ipa": "/ˈɪntrestɪŋ/",
+    "syn": "engaging, fascinating",
+    "vi": "thú vị",
+    "en": "attracting attention or curiosity",
+    "ex": "I found the documentary really interesting.",
+    "emoji": "💡"
+   },
+   {
+    "word": "enthusiastic",
+    "pos": "adjective",
+    "ipa": "/ɪnˌθjuːziˈæstɪk/",
+    "syn": "eager, keen",
+    "vi": "nhiệt tình, hào hứng",
+    "en": "showing intense interest and excitement",
+    "ex": "She's very enthusiastic about her new job.",
+    "emoji": "🙌"
+   },
+   {
+    "word": "extroverted",
+    "pos": "adjective",
+    "ipa": "/ˈekstrəvɜːtɪd/",
+    "syn": "outgoing, sociable",
+    "vi": "hướng ngoại",
+    "en": "confident, sociable, and outgoing",
+    "ex": "He's extroverted and loves meeting new people.",
+    "emoji": "🎉"
+   },
+   {
+    "word": "introverted",
+    "pos": "adjective",
+    "ipa": "/ˈɪntrəvɜːtɪd/",
+    "syn": "reserved, shy",
+    "vi": "hướng nội",
+    "en": "quiet, reserved, and focused on inner thoughts",
+    "ex": "She's more introverted and prefers small gatherings.",
+    "emoji": "🤫"
+   },
+   {
+    "word": "optimistic",
+    "pos": "adjective",
+    "ipa": "/ˌɒptɪˈmɪstɪk/",
+    "syn": "positive, hopeful",
+    "vi": "lạc quan",
+    "en": "hopeful and confident about the future",
+    "ex": "He's optimistic about passing the exam.",
+    "emoji": "🌞"
+   },
+   {
+    "word": "pessimistic",
+    "pos": "adjective",
+    "ipa": "/ˌpesɪˈmɪstɪk/",
+    "syn": "negative, gloomy",
+    "vi": "bi quan",
+    "en": "expecting the worst outcome",
+    "ex": "She tends to be pessimistic when things go wrong.",
+    "emoji": "⛈️"
+   },
+   {
+    "word": "wise",
+    "pos": "adjective",
+    "ipa": "/waɪz/",
+    "syn": "sensible, sage",
+    "vi": "thông thái, sáng suốt",
+    "en": "having good judgement based on knowledge and experience",
+    "ex": "It was wise of her to ask the locals for directions.",
+    "emoji": "🦉"
+   },
+   {
+    "word": "bring up",
+    "pos": "phrasal verb",
+    "ipa": "/brɪŋ ʌp/",
+    "syn": "raise",
+    "vi": "nuôi nấng",
+    "en": "to raise a child",
+    "ex": "She was brought up by her grandparents.",
+    "emoji": "👶"
+   },
+   {
+    "word": "get on",
+    "pos": "phrasal verb",
+    "ipa": "/get ɒn/",
+    "syn": "get along",
+    "vi": "có mối quan hệ tốt",
+    "en": "to have a good relationship with someone",
+    "ex": "I get on really well with my sister.",
+    "emoji": "😊"
+   },
+   {
+    "word": "grow up",
+    "pos": "phrasal verb",
+    "ipa": "/grəʊ ʌp/",
+    "syn": "mature",
+    "vi": "lớn lên",
+    "en": "to become an adult",
+    "ex": "He grew up in a small village.",
+    "emoji": "🌱"
+   },
+   {
+    "word": "move in",
+    "pos": "phrasal verb",
+    "ipa": "/muːv ɪn/",
+    "syn": "cohabit",
+    "vi": "chuyển vào sống cùng",
+    "en": "to start living in a home, often with a partner",
+    "ex": "They moved in together after getting engaged.",
+    "emoji": "🏠"
+   },
+   {
+    "word": "fall for",
+    "pos": "phrasal verb",
+    "ipa": "/fɔːl fɔː/",
+    "syn": "fall in love with",
+    "vi": "say mê, phải lòng",
+    "en": "to become romantically attracted to someone",
+    "ex": "He fell for her the moment they met.",
+    "emoji": "💘"
+   },
+   {
+    "word": "fall out with",
+    "pos": "phrasal verb",
+    "ipa": "/fɔːl aʊt wɪð/",
+    "syn": "quarrel with",
+    "vi": "cãi nhau, bất hòa với",
+    "en": "to have an argument and stop being friendly with someone",
+    "ex": "She fell out with her best friend over a small issue.",
+    "emoji": "💔"
+   },
+   {
+    "word": "look down on",
+    "pos": "phrasal verb",
+    "ipa": "/lʊk daʊn ɒn/",
+    "syn": "despise, disdain",
+    "vi": "coi thường",
+    "en": "to think you're better than someone else",
+    "ex": "He never looks down on people less fortunate than him.",
+    "emoji": "👎"
+   },
+   {
+    "word": "look up to",
+    "pos": "phrasal verb",
+    "ipa": "/lʊk ʌp tuː/",
+    "syn": "admire, respect",
+    "vi": "coi trọng, ngưỡng mộ",
+    "en": "to admire and respect someone",
+    "ex": "I've always looked up to my older sister.",
+    "emoji": "👍"
+   },
+   {
+    "word": "make up",
+    "pos": "phrasal verb",
+    "ipa": "/meɪk ʌp/",
+    "syn": "reconcile",
+    "vi": "làm hòa",
+    "en": "to become friendly again after an argument",
+    "ex": "They made up after a week of not speaking.",
+    "emoji": "🕊️"
+   },
+   {
+    "word": "pick on",
+    "pos": "phrasal verb",
+    "ipa": "/pɪk ɒn/",
+    "syn": "bully, target",
+    "vi": "đối xử tệ, bắt nạt",
+    "en": "to repeatedly treat someone unfairly or unkindly",
+    "ex": "Bullies often pick on kids who seem shy.",
+    "emoji": "😈"
+   },
+   {
+    "word": "put down",
+    "pos": "phrasal verb",
+    "ipa": "/pʊt daʊn/",
+    "syn": "belittle, criticize",
+    "vi": "chỉ trích, chế giễu",
+    "en": "to criticize someone in a way that makes them feel foolish",
+    "ex": "He always puts his younger brother down in front of friends.",
+    "emoji": "🗯️"
+   },
+   {
+    "word": "pass away",
+    "pos": "phrasal verb",
+    "ipa": "/pɑːs əˈweɪ/",
+    "syn": "die (polite form)",
+    "vi": "qua đời",
+    "en": "to die (a polite way of saying it)",
+    "ex": "Her grandmother passed away peacefully last year.",
+    "emoji": "🕊️"
+   },
+   {
+    "word": "landline",
+    "pos": "noun",
+    "ipa": "/ˈlændlaɪn/",
+    "syn": "fixed line",
+    "vi": "điện thoại cố định",
+    "en": "a telephone connected by a wire, not a mobile phone",
+    "ex": "My mom still prefers calling on the landline.",
+    "emoji": "☎️"
+   },
+   {
+    "word": "face-to-face",
+    "pos": "adjective",
+    "ipa": "/ˌfeɪstəˈfeɪs/",
+    "syn": "in-person",
+    "vi": "trực tiếp, mặt đối mặt",
+    "en": "in the physical presence of someone",
+    "ex": "We had a face-to-face conversation about the issue.",
+    "emoji": "🗣️"
+   },
+   {
+    "word": "handwritten letter",
+    "pos": "noun",
+    "ipa": "/ˌhændˈrɪtən ˈletə/",
+    "syn": "—",
+    "vi": "thư viết tay",
+    "en": "a letter written by hand rather than typed",
+    "ex": "She still writes handwritten letters to her grandmother.",
+    "emoji": "✍️"
+   },
+   {
+    "word": "instant message",
+    "pos": "noun",
+    "ipa": "/ˌɪnstənt ˈmesɪdʒ/",
+    "syn": "text, IM",
+    "vi": "tin nhắn nhanh",
+    "en": "a message sent and received in real time online",
+    "ex": "We usually keep in touch through instant messages.",
+    "emoji": "💬"
+   },
+   {
+    "word": "telegraph",
+    "pos": "noun",
+    "ipa": "/ˈtelɪgrɑːf/",
+    "syn": "telegram",
+    "vi": "điện tín",
+    "en": "an old system for sending messages over long distances electrically",
+    "ex": "People used to send urgent news by telegraph.",
+    "emoji": "📡"
+   },
+   {
+    "word": "telepathy",
+    "pos": "noun",
+    "ipa": "/təˈlepəθi/",
+    "syn": "mind-reading",
+    "vi": "thần giao cách cảm",
+    "en": "the supposed ability to communicate through the mind alone",
+    "ex": "They joke that their close friendship is basically telepathy.",
+    "emoji": "🔮"
+   },
+   {
+    "word": "communicate",
+    "pos": "verb",
+    "ipa": "/kəˈmjuːnɪkeɪt/",
+    "syn": "interact, converse",
+    "vi": "giao tiếp",
+    "en": "to share or exchange information or ideas",
+    "ex": "It's important to communicate clearly with your team.",
+    "emoji": "📢"
+   },
+   {
+    "word": "bring up (a subject)",
+    "pos": "phrasal verb",
+    "ipa": "/brɪŋ ʌp/",
+    "syn": "raise, mention",
+    "vi": "đưa ra (một chủ đề)",
+    "en": "to introduce a topic for discussion",
+    "ex": "She brought up an interesting point during the meeting.",
+    "emoji": "💭"
+   },
+   {
+    "word": "put through",
+    "pos": "phrasal verb",
+    "ipa": "/pʊt θruː/",
+    "syn": "connect",
+    "vi": "nối máy",
+    "en": "to connect someone by telephone",
+    "ex": "The receptionist put me through to the manager.",
+    "emoji": "🔌"
+   },
+   {
+    "word": "hang up",
+    "pos": "phrasal verb",
+    "ipa": "/hæŋ ʌp/",
+    "syn": "end the call",
+    "vi": "dập máy",
+    "en": "to end a telephone call",
+    "ex": "She hung up on me before I could finish talking.",
+    "emoji": "📵"
+   },
+   {
+    "word": "get across",
+    "pos": "phrasal verb",
+    "ipa": "/get əˈkrɒs/",
+    "syn": "convey, communicate",
+    "vi": "truyền đạt (thông tin)",
+    "en": "to succeed in making people understand something",
+    "ex": "The teacher struggled to get the idea across to the class.",
+    "emoji": "📨"
+   }
+  ]
+ },
+ {
+  "key": "celebration",
+  "title": "Sự kiện & Lễ kỷ niệm",
+  "subtitle": "Celebrations & Events",
+  "icon": "🎉",
+  "cardBg": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(145deg, #f8defc 0%, #efb1f8 55%, #e685f4 100%)",
+  "front": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #f7dafc 0%, #eeacf8 55%, #e581f4 100%)",
+  "back": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #f3c4fa 0%, #ea9bf6 55%, #e272f3 100%)",
+  "ink": "#521b5b",
+  "accent": "#d946ef",
+  "accent1": "#b239c4",
+  "accent2": "#d946ef",
+  "deck": [
+   {
+    "word": "participate (in sth)",
+    "pos": "verb",
+    "ipa": "/pɑːˈtɪsɪpeɪt/",
+    "vi": "tham gia",
+    "en": "to become part of an activity",
+    "ex": "Over 200 students participated in the anniversary celebration.",
+    "syn": "take part in sth",
+    "emoji": "🙋"
+   },
+   {
+    "word": "occasion",
+    "pos": "noun",
+    "ipa": "/əˈkeɪʒn/",
+    "vi": "dịp, sự kiện",
+    "en": "a time when something happens, especially something important",
+    "ex": "Her wedding was a joyful occasion for the whole family.",
+    "syn": "event",
+    "emoji": "📅"
+   },
+   {
+    "word": "fireworks",
+    "pos": "noun",
+    "ipa": "/ˈfaɪəwɜːks/",
+    "vi": "pháo hoa",
+    "en": "objects that burn or explode in the sky with colours and noise",
+    "ex": "The night sky lit up with spectacular fireworks at midnight.",
+    "syn": "pyrotechnics",
+    "emoji": "🎆"
+   },
+   {
+    "word": "ton",
+    "pos": "noun",
+    "ipa": "/tʌn/",
+    "vi": "tấn (đơn vị đo trọng lượng)",
+    "en": "a unit for measuring weight (in Britain, one ton = 1,016 kilograms)",
+    "ex": "The festival float was decorated with almost a ton of flowers.",
+    "syn": "tonne",
+    "emoji": "⚖️"
+   },
+   {
+    "word": "throw sth",
+    "pos": "verb",
+    "ipa": "/θrəʊ/",
+    "vi": "ném",
+    "en": "to use your hand and arm to send an object through the air",
+    "ex": "Guests threw rice at the newly married couple.",
+    "syn": "toss",
+    "emoji": "🤾"
+   },
+   {
+    "word": "blossom",
+    "pos": "noun",
+    "ipa": "/ˈblɒsəm/",
+    "vi": "hoa (nở rộ)",
+    "en": "a flower or mass of flowers, especially on fruit trees in spring",
+    "ex": "The garden was full of cherry blossom during the spring festival.",
+    "syn": "bloom",
+    "emoji": "🌸"
+   },
+   {
+    "word": "approach sb/sth",
+    "pos": "verb",
+    "ipa": "/əˈprəʊtʃ/",
+    "vi": "đến gần, tiếp cận",
+    "en": "to come nearer to somebody or something",
+    "ex": "As the anniversary approached, the family began planning a big party.",
+    "syn": "come closer to",
+    "emoji": "🚶"
+   },
+   {
+    "word": "light sth up",
+    "pos": "phrasal verb",
+    "ipa": "/ˌlaɪt ˈʌp/",
+    "vi": "thắp sáng",
+    "en": "to make something bright with light",
+    "ex": "Thousands of lanterns lit up the streets during the festival.",
+    "syn": "illuminate sth",
+    "emoji": "💡"
+   },
+   {
+    "word": "contest",
+    "pos": "noun",
+    "ipa": "/ˈkɒntest/",
+    "vi": "cuộc thi",
+    "en": "a competition to see who is the best at something",
+    "ex": "She won first prize in the costume contest at the party.",
+    "syn": "competition",
+    "emoji": "🏆"
+   },
+   {
+    "word": "spectacular",
+    "pos": "adjective",
+    "ipa": "/spekˈtækjələ(r)/",
+    "vi": "hoành tráng, ngoạn mục",
+    "en": "very impressive, large, beautiful, and often colourful",
+    "ex": "The opening ceremony featured a spectacular light show.",
+    "syn": "stunning",
+    "emoji": "✨"
+   },
+   {
+    "word": "entertainment",
+    "pos": "noun",
+    "ipa": "/ˌentəˈteɪnmənt/",
+    "vi": "sự giải trí",
+    "en": "an activity that people enjoy watching or listening to, e.g. theatre, film, music",
+    "ex": "Live music was the main entertainment at the family reunion.",
+    "syn": "amusement",
+    "emoji": "🎭"
+   },
+   {
+    "word": "wild",
+    "pos": "adjective",
+    "ipa": "/waɪld/",
+    "vi": "cuồng nhiệt, sôi động",
+    "en": "exciting and enjoyable",
+    "ex": "The crowd went wild when the fireworks began.",
+    "syn": "exciting",
+    "emoji": "🔥"
+   },
+   {
+    "word": "mean a lot to sb",
+    "pos": "phrase",
+    "ipa": "/ˌmiːn ə ˈlɒt tuː/",
+    "vi": "có ý nghĩa nhiều đối với ai",
+    "en": "to be very important to somebody",
+    "ex": "This anniversary means a lot to my grandparents.",
+    "syn": "matter a great deal to sb",
+    "emoji": "💗"
+   },
+   {
+    "word": "neighbourhood",
+    "pos": "noun",
+    "ipa": "/ˈneɪbəhʊd/",
+    "vi": "khu phố, hàng xóm",
+    "en": "an area of a town and the people who live there",
+    "ex": "The whole neighbourhood came together to celebrate the festival.",
+    "syn": "district",
+    "emoji": "🏘️"
+   },
+   {
+    "word": "community",
+    "pos": "noun",
+    "ipa": "/kəˈmjuːnəti/",
+    "vi": "cộng đồng",
+    "en": "all the people who live in a particular area or town",
+    "ex": "The event brought the local community closer together.",
+    "syn": "society",
+    "emoji": "🤝"
+   },
+   {
+    "word": "have fun",
+    "pos": "phrase",
+    "ipa": "/ˌhæv ˈfʌn/",
+    "vi": "vui chơi",
+    "en": "to enjoy yourself",
+    "ex": "Everyone had fun dancing at the party.",
+    "syn": "enjoy oneself",
+    "emoji": "🎉"
+   },
+   {
+    "word": "dress up",
+    "pos": "phrasal verb",
+    "ipa": "/ˌdres ˈʌp/",
+    "vi": "ăn diện, hoá trang",
+    "en": "to put on special clothes, either for fun or for a formal event",
+    "ex": "Children love to dress up for the costume parade.",
+    "syn": "get dressed up",
+    "emoji": "👗"
+   },
+   {
+    "word": "striking",
+    "pos": "adjective",
+    "ipa": "/ˈstraɪkɪŋ/",
+    "vi": "nổi bật, gây ấn tượng",
+    "en": "very attractive in a way that causes people to notice",
+    "ex": "She wore a striking red dress to the anniversary dinner.",
+    "syn": "eye-catching",
+    "emoji": "👀"
+   },
+   {
+    "word": "anniversary",
+    "pos": "noun",
+    "ipa": "/ˌænɪˈvɜːsəri/",
+    "vi": "lễ kỷ niệm theo năm",
+    "en": "an annual celebration of an event that happened in a previous year",
+    "ex": "They celebrated their tenth wedding anniversary with a big party.",
+    "syn": "jubilee",
+    "emoji": "📆"
+   },
+   {
+    "word": "invitation",
+    "pos": "noun",
+    "ipa": "/ˌɪnvɪˈteɪʃn/",
+    "vi": "lời mời",
+    "en": "a written or spoken request for someone to attend an event",
+    "ex": "We sent out the wedding invitations a month in advance.",
+    "syn": "invite",
+    "emoji": "💌"
+   },
+   {
+    "word": "guest",
+    "pos": "noun",
+    "ipa": "/ɡest/",
+    "vi": "khách",
+    "en": "a person who is invited to an event",
+    "ex": "Over 300 guests attended the anniversary celebration.",
+    "syn": "visitor",
+    "emoji": "🧑‍🤝‍🧑"
+   },
+   {
+    "word": "speech",
+    "pos": "noun",
+    "ipa": "/spiːtʃ/",
+    "vi": "bài phát biểu",
+    "en": "a formal talk given to an audience",
+    "ex": "The best man gave a touching speech at the reception.",
+    "syn": "address",
+    "emoji": "🎤"
+   },
+   {
+    "word": "bridegroom / groom",
+    "pos": "noun",
+    "ipa": "/ˈbraɪdɡruːm/, /ɡruːm/",
+    "vi": "chú rể",
+    "en": "a man on the day of his wedding",
+    "ex": "The groom looked nervous as he waited at the altar.",
+    "syn": "—",
+    "emoji": "🤵"
+   },
+   {
+    "word": "groomsman / groomsmen",
+    "pos": "noun",
+    "ipa": "/ˈɡruːmzmən/",
+    "vi": "phù rể",
+    "en": "a male friend who helps the groom on his wedding day",
+    "ex": "His older brother was chosen as the head groomsman.",
+    "syn": "best man",
+    "emoji": "🕴️"
+   },
+   {
+    "word": "bridesmaid / bridesmaids",
+    "pos": "noun",
+    "ipa": "/ˈbraɪdzmeɪd/",
+    "vi": "phù dâu",
+    "en": "a woman who helps the bride on her wedding day",
+    "ex": "The bridesmaids wore matching pink dresses.",
+    "syn": "maid of honour",
+    "emoji": "💐"
+   },
+   {
+    "word": "wedding vows",
+    "pos": "noun",
+    "ipa": "/ˈwedɪŋ vaʊz/",
+    "vi": "lời hẹn ước khi kết hôn",
+    "en": "formal promises made by a couple during their wedding ceremony",
+    "ex": "They wrote their own wedding vows to make the ceremony more personal.",
+    "syn": "marriage vows",
+    "emoji": "💞"
+   },
+   {
+    "word": "honeymoon",
+    "pos": "noun",
+    "ipa": "/ˈhʌnimuːn/",
+    "vi": "tuần trăng mật",
+    "en": "a holiday taken by a couple who have just got married",
+    "ex": "The couple spent their honeymoon in Da Lat.",
+    "syn": "—",
+    "emoji": "✈️"
+   },
+   {
+    "word": "organize a party",
+    "pos": "collocation",
+    "ipa": "/ˌɔːɡənaɪz ə ˈpɑːti/",
+    "vi": "tổ chức tiệc",
+    "en": "to plan and arrange a celebration",
+    "ex": "My friends organized a surprise party for my birthday.",
+    "syn": "throw a party",
+    "emoji": "🥳"
+   },
+   {
+    "word": "diamond ring",
+    "pos": "noun phrase",
+    "ipa": "/ˌdaɪəmənd ˈrɪŋ/",
+    "vi": "nhẫn kim cương",
+    "en": "a ring set with a diamond, often given when proposing marriage",
+    "ex": "He proposed with a beautiful diamond ring.",
+    "syn": "engagement ring",
+    "emoji": "💍"
+   },
+   {
+    "word": "get engaged",
+    "pos": "phrasal verb",
+    "ipa": "/ɡet ɪnˈɡeɪdʒd/",
+    "vi": "đính hôn",
+    "en": "to formally agree to marry someone",
+    "ex": "They got engaged after dating for three years.",
+    "syn": "become engaged",
+    "emoji": "💑"
+   },
+   {
+    "word": "get married",
+    "pos": "phrasal verb",
+    "ipa": "/ɡet ˈmærɪd/",
+    "vi": "kết hôn",
+    "en": "to become husband and wife in a formal ceremony",
+    "ex": "They got married in a small ceremony by the beach.",
+    "syn": "tie the knot",
+    "emoji": "💒"
+   },
+   {
+    "word": "Labour Day",
+    "pos": "noun",
+    "ipa": "/ˈleɪbə deɪ/",
+    "vi": "Quốc tế lao động",
+    "en": "an annual holiday celebrating workers, on 1 May in Vietnam",
+    "ex": "Labour Day is a public holiday in Vietnam on May 1st.",
+    "syn": "May Day",
+    "emoji": "🛠️"
+   },
+   {
+    "word": "International Children's Day",
+    "pos": "noun",
+    "ipa": "/ˌɪntəˌnæʃnəl ˈtʃɪldrənz deɪ/",
+    "vi": "Quốc tế thiếu nhi",
+    "en": "an annual holiday celebrating children, on 1 June",
+    "ex": "Many families take their kids to the park on International Children's Day.",
+    "syn": "—",
+    "emoji": "🎈"
+   }
+  ]
+ },
+ {
+  "key": "housing",
+  "title": "Nhà cửa",
+  "subtitle": "Housing & Household",
+  "icon": "🏠",
+  "cardBg": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(145deg, #fdeed3 0%, #fbd699 55%, #f8bf5e 100%)",
+  "front": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #fdecce 0%, #fad391 55%, #f8bd59 100%)",
+  "back": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #fce0b1 0%, #facb7b 55%, #f7b546 100%)",
+  "ink": "#5d3c04",
+  "accent": "#f59e0b",
+  "accent1": "#c98209",
+  "accent2": "#f59e0b",
+  "deck": [
+   {
+    "word": "Communal",
+    "pos": "adj",
+    "ipa": "/kəˈmjuːnəl/",
+    "emoji": "🤝",
+    "vi": "(thuộc) chung, cộng đồng",
+    "en": "shared by or belonging to a group of people rather than to one person",
+    "ex": "This is the communal kitchen for every student.",
+    "syn": "shared, joint"
+   },
+   {
+    "word": "Oven",
+    "pos": "n",
+    "ipa": "/ˈʌvən/",
+    "emoji": "🔥",
+    "vi": "Lò nướng",
+    "en": "an enclosed compartment used for baking, roasting, or heating food",
+    "ex": "We can use the oven to bake cakes.",
+    "syn": "stove"
+   },
+   {
+    "word": "Blender",
+    "pos": "n",
+    "ipa": "/ˈblendə/",
+    "emoji": "🥤",
+    "vi": "Máy xay sinh tố",
+    "en": "an electric kitchen appliance used for mixing or liquefying food",
+    "ex": "We mix different kinds of juices with a blender.",
+    "syn": "mixer"
+   },
+   {
+    "word": "Refrigerator",
+    "pos": "n",
+    "ipa": "/rɪˈfrɪdʒəreɪtə/",
+    "emoji": "🧊",
+    "vi": "Tủ lạnh",
+    "en": "an appliance for keeping food and drinks cold",
+    "ex": "There is a refrigerator to store the juice.",
+    "syn": "fridge"
+   },
+   {
+    "word": "Dishwasher",
+    "pos": "n",
+    "ipa": "/ˈdɪʃwɒʃə/",
+    "emoji": "🍽️",
+    "vi": "Máy rửa bát",
+    "en": "a machine that washes plates, cups, and cutlery automatically",
+    "ex": "There is also a dishwasher to wash dirty dishes and cups.",
+    "syn": ""
+   },
+   {
+    "word": "Spacious",
+    "pos": "adj",
+    "ipa": "/ˈspeɪʃəs/",
+    "emoji": "📐",
+    "vi": "Rộng rãi",
+    "en": "having a lot of space; large in area",
+    "ex": "Because the kitchen is spacious, we gather to have parties here every month.",
+    "syn": "roomy, large"
+   },
+   {
+    "word": "Alarm clock",
+    "pos": "n",
+    "ipa": "/əˈlɑːm klɒk/",
+    "emoji": "⏰",
+    "vi": "Đồng hồ báo thức",
+    "en": "a clock designed to make a sound at a chosen time to wake someone up",
+    "ex": "I set the alarm clock and put it on the dresser.",
+    "syn": ""
+   },
+   {
+    "word": "Dresser",
+    "pos": "n",
+    "ipa": "/ˈdresə/",
+    "emoji": "🗄️",
+    "vi": "Tủ ngăn kéo",
+    "en": "a piece of bedroom furniture with drawers for storing clothes",
+    "ex": "I put my alarm clock on the dresser.",
+    "syn": "chest of drawers"
+   },
+   {
+    "word": "Switch off",
+    "pos": "phrasal v",
+    "ipa": "/swɪtʃ ɒf/",
+    "emoji": "💡",
+    "vi": "Tắt",
+    "en": "to stop the flow of electricity to a light or device",
+    "ex": "I switch off the light and go to sleep early.",
+    "syn": "turn off"
+   },
+   {
+    "word": "Do the vacuuming",
+    "pos": "v phrase",
+    "ipa": "/duː ðə ˈvækjuːmɪŋ/",
+    "emoji": "🧹",
+    "vi": "Hút bụi",
+    "en": "to clean a floor or carpet using a vacuum cleaner",
+    "ex": "I often do the vacuuming to collect dirt.",
+    "syn": "vacuum, hoover"
+   },
+   {
+    "word": "Bed sheet",
+    "pos": "n",
+    "ipa": "/ˈbed ʃiːt/",
+    "emoji": "🛏️",
+    "vi": "Khăn trải giường",
+    "en": "a large piece of cloth used to cover a mattress for sleeping",
+    "ex": "I wash the pillow and bed sheet every weekend.",
+    "syn": ""
+   },
+   {
+    "word": "Tidy up",
+    "pos": "phrasal v",
+    "ipa": "/ˌtaɪdi ˈʌp/",
+    "emoji": "🧺",
+    "vi": "Sắp xếp, dọn dẹp",
+    "en": "to make a place neat by putting things in order",
+    "ex": "I tidy the room up every weekend.",
+    "syn": "clean up, organize"
+   }
+  ]
+ },
+ {
+  "key": "sea_animals",
+  "title": "Động vật biển",
+  "subtitle": "Sea Animals",
+  "icon": "🌊",
+  "cardBg": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(145deg, #d2f2f7 0%, #96e0ed 55%, #5bcfe3 100%)",
+  "front": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #cdf0f6 0%, #8fdeec 55%, #56cde2 100%)",
+  "back": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #afe8f1 0%, #79d8e8 55%, #42c8de 100%)",
+  "ink": "#024551",
+  "accent": "#06b6d4",
+  "accent1": "#0595ae",
+  "accent2": "#06b6d4",
+  "deck": [
+   {
+    "word": "fish",
+    "pos": "noun",
+    "ipa": "/fɪʃ/",
+    "emoji": "🐟",
+    "vi": "con cá",
+    "en": "a cold-blooded animal that lives in water and breathes through gills",
+    "ex": "There are colorful fish swimming in the coral reef.",
+    "syn": "—"
+   },
+   {
+    "word": "shark",
+    "pos": "noun",
+    "ipa": "/ʃɑːk/",
+    "emoji": "🦈",
+    "vi": "cá mập",
+    "en": "a large sea fish with sharp teeth, some species of which are dangerous to humans",
+    "ex": "A shark circled slowly near the reef.",
+    "syn": "—"
+   },
+   {
+    "word": "whale",
+    "pos": "noun",
+    "ipa": "/weɪl/",
+    "emoji": "🐋",
+    "vi": "cá voi",
+    "en": "a very large sea mammal that breathes air through a hole on top of its head",
+    "ex": "The whale surfaced and blew a spray of water into the air.",
+    "syn": "—",
+    "tts": "wayl"
+   },
+   {
+    "word": "dolphin",
+    "pos": "noun",
+    "ipa": "/ˈdɒlfɪn/",
+    "emoji": "🐬",
+    "vi": "cá heo",
+    "en": "an intelligent sea mammal known for its playful behaviour and curved fin",
+    "ex": "A pod of dolphins swam alongside the boat.",
+    "syn": "—"
+   },
+   {
+    "word": "octopus",
+    "pos": "noun",
+    "ipa": "/ˈɒktəpəs/",
+    "emoji": "🐙",
+    "vi": "bạch tuộc",
+    "en": "a soft-bodied sea creature with eight long arms",
+    "ex": "The octopus squeezed through a tiny gap in the rocks.",
+    "syn": "—"
+   },
+   {
+    "word": "crab",
+    "pos": "noun",
+    "ipa": "/kræb/",
+    "emoji": "🦀",
+    "vi": "con cua",
+    "en": "a sea creature with a hard shell, two pincers, and legs, that walks sideways",
+    "ex": "A small crab scuttled sideways across the sand.",
+    "syn": "—"
+   },
+   {
+    "word": "starfish",
+    "pos": "noun",
+    "ipa": "/ˈstɑːfɪʃ/",
+    "emoji": "⭐",
+    "vi": "sao biển",
+    "en": "a star-shaped sea creature usually with five arms",
+    "ex": "We spotted an orange starfish clinging to a rock.",
+    "syn": "sea star"
+   },
+   {
+    "word": "jellyfish",
+    "pos": "noun",
+    "ipa": "/ˈdʒelifɪʃ/",
+    "emoji": "🪼",
+    "vi": "sứa",
+    "en": "a soft, transparent sea creature with stinging tentacles",
+    "ex": "Swimmers were warned about jellyfish near the shore.",
+    "syn": "—"
+   },
+   {
+    "word": "turtle",
+    "pos": "noun",
+    "ipa": "/ˈtɜːtl/",
+    "emoji": "🐢",
+    "vi": "rùa biển",
+    "en": "a sea reptile with a hard shell that comes ashore to lay eggs",
+    "ex": "The sea turtle laid its eggs on the quiet beach at night.",
+    "syn": "—"
+   },
+   {
+    "word": "seahorse",
+    "pos": "noun",
+    "ipa": "/ˈsiːhɔːs/",
+    "emoji": "🐴",
+    "vi": "cá ngựa",
+    "en": "a small fish with a head shaped like a horse's, which swims upright",
+    "ex": "A tiny seahorse curled its tail around a piece of coral.",
+    "syn": "—"
+   },
+   {
+    "word": "squid",
+    "pos": "noun",
+    "ipa": "/skwɪd/",
+    "emoji": "🦑",
+    "vi": "mực ống",
+    "en": "a sea creature with a long soft body and ten arms",
+    "ex": "The squid shot out a cloud of ink to escape.",
+    "syn": "—"
+   },
+   {
+    "word": "seal",
+    "pos": "noun",
+    "ipa": "/siːl/",
+    "emoji": "🦭",
+    "vi": "hải cẩu",
+    "en": "a sea mammal with flippers that lives partly on land and partly in the sea",
+    "ex": "A seal basked lazily on a sunny rock.",
+    "syn": "—"
+   },
+   {
+    "word": "sea lion",
+    "pos": "noun",
+    "ipa": "/ˈsiː ˌlaɪən/",
+    "emoji": "🦁",
+    "vi": "sư tử biển",
+    "en": "a large sea mammal related to the seal, known for its loud bark",
+    "ex": "The sea lion barked loudly for its next fish.",
+    "syn": "—",
+    "icon_svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M14 46 C10 34 16 20 30 16 C44 12 54 20 56 30 C58 40 50 48 38 50 C26 52 18 52 14 46 Z\" fill=\"#9c7248\"/><path d=\"M20 40 C14 42 10 46 10 50 C16 50 20 46 22 42 Z\" fill=\"#7d5a37\"/><ellipse cx=\"46\" cy=\"24\" rx=\"8\" ry=\"6\" fill=\"#a9825a\"/><circle cx=\"48\" cy=\"22\" r=\"1.6\" fill=\"#1f2937\"/><path d=\"M50 25 L58 24 M50 27 L58 28 M50 29 L57 31\" stroke=\"#3a2a18\" stroke-width=\"1\" stroke-linecap=\"round\"/></svg>"
+   },
+   {
+    "word": "shrimp",
+    "pos": "noun",
+    "ipa": "/ʃrɪmp/",
+    "emoji": "🦐",
+    "vi": "tôm",
+    "en": "a small, long-bodied sea creature often eaten as food",
+    "ex": "We ordered grilled shrimp for dinner.",
+    "syn": "prawn"
+   },
+   {
+    "word": "shell",
+    "pos": "noun",
+    "ipa": "/ʃel/",
+    "emoji": "🐚",
+    "vi": "vỏ sò, vỏ ốc",
+    "en": "the hard outer covering of some sea creatures",
+    "ex": "She collected pretty shells along the beach.",
+    "syn": "—"
+   },
+   {
+    "word": "coral",
+    "pos": "noun",
+    "ipa": "/ˈkɒrəl/",
+    "emoji": "🪸",
+    "vi": "san hô",
+    "en": "a hard, colourful structure formed by tiny sea animals living together",
+    "ex": "Bright coral covered the shallow seabed.",
+    "syn": "—"
+   },
+   {
+    "word": "seaweed",
+    "pos": "noun",
+    "ipa": "/ˈsiːwiːd/",
+    "emoji": "🌿",
+    "vi": "rong biển",
+    "en": "a plant-like organism that grows in the sea",
+    "ex": "Green seaweed drifted gently with the current.",
+    "syn": "—",
+    "icon_svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M18 58 C14 46 22 40 16 30 C10 20 20 12 18 4\" stroke=\"#16a34a\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M32 58 C36 44 26 36 34 24 C40 16 30 8 32 2\" stroke=\"#22c55e\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M46 58 C42 48 50 40 44 28 C40 20 48 12 46 6\" stroke=\"#15803d\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/></svg>"
+   },
+   {
+    "word": "stingray",
+    "pos": "noun",
+    "ipa": "/ˈstɪŋreɪ/",
+    "emoji": "🌊",
+    "vi": "cá đuối",
+    "en": "a flat sea fish with a long tail that can deliver a sharp sting",
+    "ex": "The stingray glided smoothly just above the sandy seabed.",
+    "syn": "—",
+    "icon_svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M40 32 C52 33 60 38 60 43\" stroke=\"#5b8291\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M32 8 C48 16 60 26 60 32 C60 38 48 48 32 56 C16 48 4 38 4 32 C4 26 16 16 32 8 Z\" fill=\"#6b93a1\"/><circle cx=\"25\" cy=\"27\" r=\"2.2\" fill=\"#1f2937\"/><circle cx=\"39\" cy=\"27\" r=\"2.2\" fill=\"#1f2937\"/></svg>"
+   }
+  ]
+ },
+ {
+  "key": "weather",
+  "title": "Thời tiết & Khí hậu",
+  "subtitle": "Weather & Climate",
+  "icon": "🌦️",
+  "cardBg": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(145deg, #fcdddd 0%, #f8b0b0 55%, #f48484 100%)",
+  "front": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #fcdada 0%, #f8abab 55%, #f48080 100%)",
+  "back": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #fac3c3 0%, #f69a9a 55%, #f37171 100%)",
+  "ink": "#5b1a1a",
+  "accent": "#ef4444",
+  "accent1": "#c43838",
+  "accent2": "#ef4444",
+  "deck": [
+   {
+    "word": "Drizzle",
+    "pos": "n/v",
+    "ipa": "/ˈdrɪzəl/",
+    "emoji": "🌦️",
+    "vi": "mưa phùn",
+    "en": "light rain falling in very fine drops",
+    "ex": "In spring, when it rains in very small drops, it is a drizzle.",
+    "syn": ""
+   },
+   {
+    "word": "Shower",
+    "pos": "n/v",
+    "ipa": "/ˈʃaʊə/",
+    "emoji": "🌧️",
+    "vi": "mưa rào",
+    "en": "rain that falls for a short period of time",
+    "ex": "In summer, rain lasts for a short period of time, which is called a shower.",
+    "syn": ""
+   },
+   {
+    "word": "Pour",
+    "pos": "v",
+    "ipa": "/pɔː/",
+    "emoji": "⛈️",
+    "vi": "mưa (rất) to, đổ mưa",
+    "en": "to rain very hard and heavily",
+    "ex": "When it is raining a lot, we can say it is pouring.",
+    "syn": ""
+   },
+   {
+    "word": "Precipitation",
+    "pos": "n",
+    "ipa": "/prɪˌsɪpɪˈteɪʃn/",
+    "emoji": "💧",
+    "vi": "lượng mưa",
+    "en": "rain, snow, etc. that falls from the sky",
+    "ex": "Heavy rain increases precipitation and causes floods.",
+    "syn": ""
+   },
+   {
+    "word": "Cause",
+    "pos": "v",
+    "ipa": "/kɔːz/",
+    "emoji": "➡️",
+    "vi": "gây ra",
+    "en": "to make something happen",
+    "ex": "Heavy rain increases precipitation and causes floods.",
+    "syn": "lead to"
+   },
+   {
+    "word": "Drought",
+    "pos": "n",
+    "ipa": "/draʊt/",
+    "emoji": "🏜️",
+    "vi": "hạn hán",
+    "en": "a long period of time with little or no rain",
+    "ex": "A drought is a long period without rain.",
+    "syn": ""
+   },
+   {
+    "word": "Lead to",
+    "pos": "v",
+    "ipa": "/liːd tuː/",
+    "emoji": "🔗",
+    "vi": "gây ra, dẫn đến",
+    "en": "to result in something happening",
+    "ex": "Heavy rain can lead to floods.",
+    "syn": "cause"
+   },
+   {
+    "word": "Unpredictable",
+    "pos": "adj",
+    "ipa": "/ˌʌnprɪˈdɪktəbəl/",
+    "emoji": "🎲",
+    "vi": "không thể dự đoán được",
+    "en": "impossible to know what will happen",
+    "ex": "The UK has very unpredictable weather.",
+    "syn": ""
+   },
+   {
+    "word": "Gale",
+    "pos": "n",
+    "ipa": "/geɪl/",
+    "emoji": "🌬️",
+    "vi": "cơn gió mạnh",
+    "en": "a very strong wind",
+    "ex": "The weather can change from strong wind and gales in the morning to snow in the afternoon.",
+    "syn": ""
+   },
+   {
+    "word": "Breeze",
+    "pos": "n",
+    "ipa": "/briːz/",
+    "emoji": "🍃",
+    "vi": "gió nhẹ",
+    "en": "a light, gentle wind",
+    "ex": "A gentle breeze made the hot afternoon more bearable.",
+    "syn": ""
+   },
+   {
+    "word": "Block the road",
+    "pos": "v phrase",
+    "ipa": "/blɒk ðə rəʊd/",
+    "emoji": "🚧",
+    "vi": "gây cản trở đường",
+    "en": "to stop traffic from passing along a road",
+    "ex": "Heavy snow can block the road at night.",
+    "syn": ""
+   },
+   {
+    "word": "Changeable",
+    "pos": "adj",
+    "ipa": "/ˈtʃeɪndʒəbl/",
+    "emoji": "🔄",
+    "vi": "hay thay đổi (thời tiết)",
+    "en": "likely to change often and suddenly",
+    "ex": "British weather is famously changeable — sunny one hour, rainy the next.",
+    "syn": "unpredictable"
+   },
+   {
+    "word": "Affect",
+    "pos": "v",
+    "ipa": "/əˈfekt/",
+    "emoji": "💥",
+    "vi": "ảnh hưởng",
+    "en": "to influence someone or something",
+    "ex": "The wind affects Japanese weather a lot.",
+    "syn": ""
+   },
+   {
+    "word": "Humid",
+    "pos": "adj",
+    "ipa": "/ˈhjuːmɪd/",
+    "emoji": "💦",
+    "vi": "ẩm (nóng ẩm)",
+    "en": "containing a lot of moisture in the air",
+    "ex": "In summer, it blows from the Pacific Ocean, causing hot and humid weather.",
+    "syn": ""
+   },
+   {
+    "word": "Spell",
+    "pos": "n",
+    "ipa": "/spel/",
+    "emoji": "⏳",
+    "vi": "khoảng thời gian, đợt (thời tiết)",
+    "en": "a short period of a particular type of weather",
+    "ex": "Between June and mid-July, there is a spell of wet weather.",
+    "syn": ""
+   },
+   {
+    "word": "Bright",
+    "pos": "adj",
+    "ipa": "/braɪt/",
+    "emoji": "🔆",
+    "vi": "tươi sáng",
+    "en": "full of light; shining strongly",
+    "ex": "There is hardly any bright sunshine, so it can be said to be sunless.",
+    "syn": ""
+   },
+   {
+    "word": "Delightful",
+    "pos": "adj",
+    "ipa": "/dɪˈlaɪtfəl/",
+    "emoji": "🌤️",
+    "vi": "dễ chịu",
+    "en": "very pleasant and enjoyable",
+    "ex": "In autumn or spring, we often have mild and delightful days.",
+    "syn": ""
+   },
+   {
+    "word": "Damp",
+    "pos": "adj",
+    "ipa": "/dæmp/",
+    "emoji": "🌫️",
+    "vi": "ẩm ướt",
+    "en": "slightly wet",
+    "ex": "The weather is not damp because it hardly rains.",
+    "syn": ""
+   },
+   {
+    "word": "Cloudless",
+    "pos": "adj",
+    "ipa": "/ˈklaʊdləs/",
+    "emoji": "☀️",
+    "vi": "quang đãng",
+    "en": "with no clouds in the sky",
+    "ex": "It can be said to be sunless and cloudless at the same time.",
+    "syn": ""
+   },
+   {
+    "word": "Tropical",
+    "pos": "adj",
+    "ipa": "/ˈtrɒpɪkəl/",
+    "emoji": "🌴",
+    "vi": "nhiệt đới",
+    "en": "relating to the hottest parts of the world",
+    "ex": "Vietnam is a tropical country, which has hot temperatures.",
+    "syn": ""
+   },
+   {
+    "word": "Sunless",
+    "pos": "adj",
+    "ipa": "/ˈsʌnləs/",
+    "emoji": "☁️",
+    "vi": "âm u, ít nắng",
+    "en": "with little or no sunshine",
+    "ex": "It can be said to be sunless and cloudless at the same time.",
+    "syn": ""
+   },
+   {
+    "word": "Mild",
+    "pos": "adj",
+    "ipa": "/maɪld/",
+    "emoji": "🌥️",
+    "vi": "dễ chịu, ôn hòa",
+    "en": "not extreme, especially not too cold",
+    "ex": "In autumn or spring, we often have mild and delightful days.",
+    "syn": ""
+   },
+   {
+    "word": "Boiling",
+    "pos": "adj",
+    "ipa": "/ˈbɔɪlɪŋ/",
+    "emoji": "🥵",
+    "vi": "nóng nực",
+    "en": "extremely hot",
+    "ex": "It's always boiling outside in the summer.",
+    "syn": ""
+   },
+   {
+    "word": "Balmy",
+    "pos": "adj",
+    "ipa": "/ˈbɑːmi/",
+    "emoji": "🌅",
+    "vi": "ấm áp, dễ chịu",
+    "en": "pleasantly warm",
+    "ex": "During this season, it's always pleasantly warm with balmy evenings.",
+    "syn": ""
+   },
+   {
+    "word": "Freezing",
+    "pos": "adj",
+    "ipa": "/ˈfriːzɪŋ/",
+    "emoji": "🥶",
+    "vi": "rét lạnh",
+    "en": "extremely cold",
+    "ex": "In winter, it can get freezing sometimes, which makes me not want to get out of the blanket.",
+    "syn": ""
+   }
+  ]
+ },
+ {
+  "key": "emotions_opinions",
+  "title": "Cảm xúc & Quan điểm",
+  "subtitle": "Emotions & Opinions",
+  "icon": "🎭",
+  "cardBg": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(145deg, #dddbf5 0%, #b0abe9 55%, #837cdc 100%)",
+  "front": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #d9d7f4 0%, #aaa5e7 55%, #7f78db 100%)",
+  "back": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #c3bfee 0%, #9994e2 55%, #7068d7 100%)",
+  "ink": "#19154d",
+  "accent": "#4338ca",
+  "accent1": "#372ea6",
+  "accent2": "#4338ca",
+  "deck": [
+   {
+    "word": "Content",
+    "pos": "adj",
+    "ipa": "/kənˈtent/",
+    "emoji": "😌",
+    "vi": "cảm thấy hài lòng",
+    "en": "satisfied with what you have; not wanting more",
+    "ex": "He seems fairly content with his life.",
+    "syn": "satisfied, pleased"
+   },
+   {
+    "word": "Grateful",
+    "pos": "adj",
+    "ipa": "/ˈɡreɪtfəl/",
+    "emoji": "🙏",
+    "vi": "biết ơn",
+    "en": "feeling or showing thanks for something",
+    "ex": "I'm so grateful to you for all that you've done.",
+    "syn": "thankful, appreciative"
+   },
+   {
+    "word": "Excited",
+    "pos": "adj",
+    "ipa": "/ɪkˈsaɪtɪd/",
+    "emoji": "🤩",
+    "vi": "cảm giác vui vẻ, phấn chấn",
+    "en": "feeling very happy and enthusiastic about something",
+    "ex": "I was excited that he was coming to visit.",
+    "syn": "thrilled, enthusiastic"
+   },
+   {
+    "word": "Delighted",
+    "pos": "adj",
+    "ipa": "/dɪˈlaɪtɪd/",
+    "emoji": "😁",
+    "vi": "rất hài lòng, rất sung sướng",
+    "en": "feeling or showing great pleasure",
+    "ex": "I'm absolutely delighted that you can come.",
+    "syn": "thrilled, overjoyed"
+   },
+   {
+    "word": "Thrilled",
+    "pos": "adj (informal)",
+    "ipa": "/θrɪld/",
+    "emoji": "🥳",
+    "vi": "cực kì vui vì điều gì",
+    "en": "extremely pleased and excited",
+    "ex": "I was thrilled that so many people turned up to the party.",
+    "syn": "delighted, excited"
+   },
+   {
+    "word": "Fancy",
+    "pos": "v",
+    "ipa": "/ˈfænsi/",
+    "emoji": "😍",
+    "vi": "muốn một thứ gì đó",
+    "en": "to want or feel like having or doing something",
+    "ex": "Do you fancy having a drink this evening?",
+    "syn": "feel like, desire"
+   },
+   {
+    "word": "Desire",
+    "pos": "v",
+    "ipa": "/dɪˈzaɪə/",
+    "emoji": "🔥",
+    "vi": "cực kì muốn một thứ gì đó",
+    "en": "to want something very much",
+    "ex": "The hotel had everything you could possibly desire.",
+    "syn": "want, crave"
+   },
+   {
+    "word": "Adore",
+    "pos": "v",
+    "ipa": "/əˈdɔː/",
+    "emoji": "🥰",
+    "vi": "rất yêu ai đó, cực kì yêu thích",
+    "en": "to love and admire someone or something very much",
+    "ex": "I absolutely adore chocolate.",
+    "syn": "love, treasure"
+   },
+   {
+    "word": "Amazed",
+    "pos": "adj",
+    "ipa": "/əˈmeɪzd/",
+    "emoji": "😲",
+    "vi": "kinh ngạc",
+    "en": "feeling great surprise or wonder",
+    "ex": "I was amazed at how quickly she finished the marathon.",
+    "syn": "astonished, astounded"
+   },
+   {
+    "word": "Satisfied",
+    "pos": "adj",
+    "ipa": "/ˈsætɪsfaɪd/",
+    "emoji": "✅",
+    "vi": "hài lòng",
+    "en": "pleased because something has happened as you wanted",
+    "ex": "She felt satisfied with the results of her hard work.",
+    "syn": "content, pleased"
+   },
+   {
+    "word": "Pleased",
+    "pos": "adj",
+    "ipa": "/pliːzd/",
+    "emoji": "🙂",
+    "vi": "hạnh phúc, hài lòng",
+    "en": "feeling or showing satisfaction and happiness",
+    "ex": "She was pleased with her exam results.",
+    "syn": "glad, satisfied"
+   },
+   {
+    "word": "Calm",
+    "pos": "adj",
+    "ipa": "/kɑːm/",
+    "emoji": "🍃",
+    "vi": "yên lặng, bình tĩnh, thư giãn",
+    "en": "not showing or feeling nervousness or strong emotion",
+    "ex": "Try to stay calm during the exam.",
+    "syn": "relaxed, composed"
+   },
+   {
+    "word": "Surprised",
+    "pos": "adj",
+    "ipa": "/səˈpraɪzd/",
+    "emoji": "😮",
+    "vi": "ngạc nhiên",
+    "en": "feeling mild astonishment or shock",
+    "ex": "I was surprised to see him at the party.",
+    "syn": "astonished, amazed"
+   },
+   {
+    "word": "Frustrated",
+    "pos": "adj",
+    "ipa": "/frʌsˈtreɪtɪd/",
+    "emoji": "😤",
+    "vi": "cảm thấy khó chịu, bực tức (vì không đạt được điều mình muốn)",
+    "en": "feeling annoyed because you cannot achieve what you want",
+    "ex": "Are you feeling frustrated in your present job?",
+    "syn": "annoyed, exasperated"
+   },
+   {
+    "word": "Despise",
+    "pos": "v",
+    "ipa": "/dɪˈspaɪz/",
+    "emoji": "🤢",
+    "vi": "ghét cay ghét đắng",
+    "en": "to dislike and have contempt for someone or something",
+    "ex": "I despise him for being bad-mannered.",
+    "syn": "loathe, detest"
+   },
+   {
+    "word": "Depressed",
+    "pos": "adj",
+    "ipa": "/dɪˈprest/",
+    "emoji": "😔",
+    "vi": "vô cùng bất hạnh, thất vọng, chán nản",
+    "en": "feeling very unhappy and without hope",
+    "ex": "He has felt depressed ever since he lost his job.",
+    "syn": "miserable, dejected"
+   },
+   {
+    "word": "Annoyed",
+    "pos": "adj",
+    "ipa": "/əˈnɔɪd/",
+    "emoji": "😒",
+    "vi": "bị làm phiền",
+    "en": "feeling slightly angry",
+    "ex": "She was annoyed that the bus was late again.",
+    "syn": "irritated, bothered"
+   },
+   {
+    "word": "Ashamed",
+    "pos": "adj",
+    "ipa": "/əˈʃeɪmd/",
+    "emoji": "😳",
+    "vi": "xấu hổ",
+    "en": "feeling embarrassed or guilty because of something you have done",
+    "ex": "He felt ashamed of himself for lying to his friend.",
+    "syn": "embarrassed, guilty"
+   },
+   {
+    "word": "Disappointed",
+    "pos": "adj",
+    "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+    "emoji": "😞",
+    "vi": "thất vọng",
+    "en": "sad because something did not happen or was not as good as expected",
+    "ex": "I was disappointed with my exam results.",
+    "syn": "let down, unsatisfied"
+   },
+   {
+    "word": "Worried",
+    "pos": "adj",
+    "ipa": "/ˈwʌrid/",
+    "emoji": "😟",
+    "vi": "lo âu",
+    "en": "feeling anxious about something",
+    "ex": "She looked worried about the upcoming exam.",
+    "syn": "anxious, concerned"
+   },
+   {
+    "word": "Frightened",
+    "pos": "adj",
+    "ipa": "/ˈfraɪtnd/",
+    "emoji": "😨",
+    "vi": "sợ hãi",
+    "en": "feeling afraid or nervous, usually about something dangerous",
+    "ex": "The little boy was frightened of the dark.",
+    "syn": "scared, afraid"
+   },
+   {
+    "word": "Anxious",
+    "pos": "adj",
+    "ipa": "/ˈæŋkʃəs/",
+    "emoji": "😰",
+    "vi": "lo lắng bồn chồn",
+    "en": "feeling worried and nervous",
+    "ex": "Many students feel anxious before a big exam.",
+    "syn": "worried, uneasy"
+   },
+   {
+    "word": "Nervous",
+    "pos": "adj",
+    "ipa": "/ˈnɜːvəs/",
+    "emoji": "😬",
+    "vi": "hồi hộp trước một sự việc đáng sợ",
+    "en": "worried and slightly afraid about something that is about to happen",
+    "ex": "She felt nervous before her driving test.",
+    "syn": "anxious, tense"
+   },
+   {
+    "word": "Embarrassed",
+    "pos": "adj",
+    "ipa": "/ɪmˈbærəst/",
+    "emoji": "😅",
+    "vi": "xấu hổ",
+    "en": "feeling shy, awkward, or ashamed",
+    "ex": "He felt embarrassed when he forgot her name.",
+    "syn": "ashamed, self-conscious"
+   },
+   {
+    "word": "Angry",
+    "pos": "adj",
+    "ipa": "/ˈæŋɡri/",
+    "emoji": "😠",
+    "vi": "giận dữ",
+    "en": "feeling or showing strong displeasure",
+    "ex": "My parents were angry with me for coming home late.",
+    "syn": "furious, irritated"
+   },
+   {
+    "word": "Upset",
+    "pos": "adj",
+    "ipa": "/ʌpˈset/",
+    "emoji": "😖",
+    "vi": "bị ai đó làm lo lắng, khó chịu",
+    "en": "unhappy or worried because of something unpleasant that has happened",
+    "ex": "She was upset after hearing the bad news.",
+    "syn": "distressed, unhappy"
+   },
+   {
+    "word": "Miserable",
+    "pos": "adj",
+    "ipa": "/ˈmɪzərəbl/",
+    "emoji": "😢",
+    "vi": "khốn khổ, bị ngược đãi",
+    "en": "very unhappy",
+    "ex": "He felt miserable after losing his favourite pet.",
+    "syn": "depressed, wretched"
+   },
+   {
+    "word": "Afraid",
+    "pos": "adj",
+    "ipa": "/əˈfreɪd/",
+    "emoji": "😱",
+    "vi": "lo sợ một việc không hay",
+    "en": "feeling fear or worry about something",
+    "ex": "She was afraid of making a mistake in front of everyone.",
+    "syn": "frightened, scared"
+   },
+   {
+    "word": "Persuade",
+    "pos": "v",
+    "ipa": "/pəˈsweɪd/",
+    "emoji": "🗣️",
+    "vi": "thuyết phục (= convince, talk sb into sth)",
+    "en": "to make someone agree to do something by giving them good reasons",
+    "ex": "Numerous individuals are persuaded to go to the gym.",
+    "syn": "convince, talk into"
+   },
+   {
+    "word": "Assure",
+    "pos": "v",
+    "ipa": "/əˈʃʊə/",
+    "emoji": "🤝",
+    "vi": "đảm bảo",
+    "en": "to tell someone confidently that something is true",
+    "ex": "They were assured of the media's assurances and claims.",
+    "syn": "guarantee, reassure"
+   },
+   {
+    "word": "Confess",
+    "pos": "v",
+    "ipa": "/kənˈfes/",
+    "emoji": "😓",
+    "vi": "thú nhận",
+    "en": "to admit that you have done something wrong",
+    "ex": "Many people confess that they change their hobbies for the level of fame.",
+    "syn": "admit, own up"
+   },
+   {
+    "word": "Remind",
+    "pos": "v",
+    "ipa": "/rɪˈmaɪnd/",
+    "emoji": "🔔",
+    "vi": "nhắc nhở",
+    "en": "to make someone remember something",
+    "ex": "They remind us that many people pursue their favourite pastimes because they take a great interest in these activities.",
+    "syn": "prompt, jog sb's memory"
+   },
+   {
+    "word": "Justify",
+    "pos": "v",
+    "ipa": "/ˈdʒʌstɪfaɪ/",
+    "emoji": "⚖️",
+    "vi": "biện minh, chứng minh",
+    "en": "to give a good reason for something",
+    "ex": "It is justified that people's hobbies and interests sometimes change.",
+    "syn": "account for, vindicate"
+   },
+   {
+    "word": "Debate",
+    "pos": "v",
+    "ipa": "/dɪˈbeɪt/",
+    "emoji": "💬",
+    "vi": "tranh luận",
+    "en": "to discuss a topic formally, giving different opinions",
+    "ex": "There have been several debates about whether famous hobbies show trends or our real passion.",
+    "syn": "discuss, argue"
+   },
+   {
+    "word": "Conflict",
+    "pos": "v",
+    "ipa": "/kənˈflɪkt/",
+    "emoji": "⚔️",
+    "vi": "xung đột",
+    "en": "to disagree with or be opposed to something",
+    "ex": "Some people are in conflict with this idea.",
+    "syn": "clash, disagree"
+   },
+   {
+    "word": "Approve",
+    "pos": "v",
+    "ipa": "/əˈpruːv/",
+    "emoji": "👍",
+    "vi": "tán thành",
+    "en": "to officially agree with or accept something",
+    "ex": "I can therefore partly approve of the idea that hobbies reflect changing fashions.",
+    "syn": "endorse, support"
+   },
+   {
+    "word": "Assess",
+    "pos": "v",
+    "ipa": "/əˈses/",
+    "emoji": "🔍",
+    "vi": "đánh giá",
+    "en": "to judge or decide the value or quality of something",
+    "ex": "Jogging, reading, drawing, etc. are always favored and assessed by many people.",
+    "syn": "evaluate, judge"
+   },
+   {
+    "word": "Oppose",
+    "pos": "v",
+    "ipa": "/əˈpəʊz/",
+    "emoji": "👎",
+    "vi": "phản đối",
+    "en": "to disagree with something and try to prevent it",
+    "ex": "They do not oppose or criticize the current trends but never follow what is in fashion.",
+    "syn": "object to, resist"
+   },
+   {
+    "word": "Hold",
+    "pos": "v",
+    "ipa": "/həʊld/",
+    "emoji": "💭",
+    "vi": "có, giữ (quan điểm)",
+    "en": "to have a particular opinion or belief",
+    "ex": "I personally hold the belief that hobby is a personal matter.",
+    "syn": "believe, maintain"
+   },
+   {
+    "word": "Criticize",
+    "pos": "v",
+    "ipa": "/ˈkrɪtɪsaɪz/",
+    "emoji": "🗯️",
+    "vi": "chỉ trích",
+    "en": "to express disapproval of someone or something",
+    "ex": "They never follow what is in fashion only for their popularity.",
+    "syn": "condemn, disapprove of"
+   },
+   {
+    "word": "Claim",
+    "pos": "v",
+    "ipa": "/kleɪm/",
+    "emoji": "📣",
+    "vi": "khẳng định",
+    "en": "to state that something is true although it has not been proved",
+    "ex": "Numerous individuals are persuaded to go to the gym because of the media's assurances and claims.",
+    "syn": "assert, declare"
+   }
+  ]
+ },
+ {
+  "key": "leisure",
+  "title": "Vui chơi giải trí",
+  "subtitle": "Leisure & Entertainment",
+  "icon": "🎉",
+  "cardBg": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(145deg, #eed4db 0%, #d79bac 55%, #c0637c 100%)",
+  "front": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #ecd0d7 0%, #d494a6 55%, #be5e78 100%)",
+  "back": "linear-gradient(135deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0) 45%), linear-gradient(150deg, #e0b3c0 0%, #cb7f94 55%, #b64b69 100%)",
+  "ink": "#3c0716",
+  "accent": "#9f1239",
+  "accent1": "#820f2f",
+  "accent2": "#9f1239",
+  "deck": [
+   {
+    "word": "Pastime",
+    "pos": "n",
+    "ipa": "/ˈpɑːstaɪm/",
+    "emoji": "🎲",
+    "vi": "thú tiêu khiển",
+    "en": "an activity that you do regularly for enjoyment in your free time",
+    "ex": "Reading is her favourite pastime.",
+    "syn": "hobby, leisure activity"
+   },
+   {
+    "word": "Leisure",
+    "pos": "n",
+    "ipa": "/ˈleʒə/",
+    "emoji": "🛋️",
+    "vi": "thời gian rảnh, sự thư thái",
+    "en": "time when you are not working and can relax",
+    "ex": "In her leisure time, she likes to paint.",
+    "syn": "free time, spare time"
+   },
+   {
+    "word": "Preference",
+    "pos": "n",
+    "ipa": "/ˈprefrəns/",
+    "emoji": "💗",
+    "vi": "sự ưa thích, sở thích riêng",
+    "en": "a greater interest in one thing than another",
+    "ex": "My preference is for quiet hobbies like reading rather than loud sports.",
+    "syn": "liking, inclination"
+   },
+   {
+    "word": "Liking",
+    "pos": "n",
+    "ipa": "/ˈlaɪkɪŋ/",
+    "emoji": "😊",
+    "vi": "sự yêu thích",
+    "en": "a feeling of enjoying or being attracted to something",
+    "ex": "He has a liking for outdoor activities like hiking.",
+    "syn": "fondness, taste"
+   },
+   {
+    "word": "Photography",
+    "pos": "n",
+    "ipa": "/fəˈtɒɡrəfi/",
+    "emoji": "📷",
+    "vi": "nhiếp ảnh",
+    "en": "the activity of taking photographs",
+    "ex": "Photography has been my passion since I got my first camera.",
+    "syn": "—"
+   },
+   {
+    "word": "Gardening",
+    "pos": "n",
+    "ipa": "/ˈɡɑːdnɪŋ/",
+    "emoji": "🌱",
+    "vi": "làm vườn",
+    "en": "the activity of growing and taking care of plants in a garden",
+    "ex": "My grandmother spends every weekend gardening.",
+    "syn": "—"
+   },
+   {
+    "word": "Recreation",
+    "pos": "n",
+    "ipa": "/ˌriːkriˈeɪʃn/",
+    "emoji": "🎡",
+    "vi": "sự giải trí",
+    "en": "activities done for enjoyment when you are not working",
+    "ex": "Swimming and cycling are popular forms of recreation in the summer.",
+    "syn": "leisure, pastime"
+   },
+   {
+    "word": "Individual",
+    "pos": "adj",
+    "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+    "emoji": "👤",
+    "vi": "cá nhân",
+    "en": "relating to one single person rather than a group",
+    "ex": "Every individual has the right to choose their own hobbies.",
+    "syn": "personal, single"
+   },
+   {
+    "word": "Cycling",
+    "pos": "n",
+    "ipa": "/ˈsaɪklɪŋ/",
+    "emoji": "🚴",
+    "vi": "đi xe đạp",
+    "en": "the activity of riding a bicycle",
+    "ex": "We go cycling in the park every Sunday morning.",
+    "syn": "—"
+   },
+   {
+    "word": "Horse-riding",
+    "pos": "n",
+    "ipa": "/ˈhɔːs ˌraɪdɪŋ/",
+    "emoji": "🐎",
+    "vi": "cưỡi ngựa",
+    "en": "the activity of riding a horse for pleasure or sport",
+    "ex": "She has gone horse-riding every summer since she was a child.",
+    "syn": "equestrianism"
+   },
+   {
+    "word": "Gymnastics",
+    "pos": "n",
+    "ipa": "/dʒɪmˈnæstɪks/",
+    "emoji": "🤸",
+    "vi": "thể dục dụng cụ",
+    "en": "physical exercises involving jumping, bending, and stretching, often performed as a sport",
+    "ex": "My daughter does gymnastics twice a week after school.",
+    "syn": "—"
+   },
+   {
+    "word": "Keep fit",
+    "pos": "v phrase",
+    "ipa": "/kiːp fɪt/",
+    "emoji": "💪",
+    "vi": "giữ gìn sức khỏe/vóc dáng",
+    "en": "to stay physically healthy through regular exercise",
+    "ex": "He jogs every morning to keep fit.",
+    "syn": "stay in shape"
+   },
+   {
+    "word": "Extreme sports",
+    "pos": "n",
+    "ipa": "/ɪkˈstriːm spɔːts/",
+    "emoji": "🧗",
+    "vi": "thể thao mạo hiểm",
+    "en": "sports that involve a high level of risk and excitement",
+    "ex": "Rock climbing and skydiving are both extreme sports.",
+    "syn": "—"
+   },
+   {
+    "word": "Sport(s)",
+    "pos": "n",
+    "ipa": "/spɔːts/",
+    "emoji": "🏀",
+    "vi": "thể thao",
+    "en": "a physical activity done for exercise or competition",
+    "ex": "He does sports every afternoon after school, mostly basketball.",
+    "syn": "—"
+   },
+   {
+    "word": "Skiing",
+    "pos": "n",
+    "ipa": "/ˈskiːɪŋ/",
+    "emoji": "⛷️",
+    "vi": "trượt tuyết",
+    "en": "the sport of moving over snow on skis",
+    "ex": "We went skiing in the mountains last winter.",
+    "syn": "—"
+   },
+   {
+    "word": "Skydiving",
+    "pos": "n",
+    "ipa": "/ˈskaɪˌdaɪvɪŋ/",
+    "emoji": "🪂",
+    "vi": "nhảy dù",
+    "en": "the sport of jumping from an aircraft and falling before opening a parachute",
+    "ex": "Skydiving was the most thrilling experience of my life.",
+    "syn": "—"
+   },
+   {
+    "word": "Cliff jumping",
+    "pos": "n",
+    "ipa": "/klɪf ˈdʒʌmpɪŋ/",
+    "emoji": "🌊",
+    "vi": "nhảy từ vách đá xuống nước",
+    "en": "the activity of jumping into water from a high cliff",
+    "ex": "Cliff jumping is popular among tourists in coastal areas, but it can be dangerous.",
+    "syn": "—"
+   },
+   {
+    "word": "Opponent",
+    "pos": "n",
+    "ipa": "/əˈpəʊnənt/",
+    "emoji": "🥊",
+    "vi": "đối thủ",
+    "en": "a person that someone competes against in a game or competition",
+    "ex": "In the final match, she played against a very strong opponent.",
+    "syn": "rival, competitor"
+   },
+   {
+    "word": "Scoreboard",
+    "pos": "n",
+    "ipa": "/ˈskɔːbɔːd/",
+    "emoji": "📊",
+    "vi": "bảng điểm",
+    "en": "a large board that shows the score during a game or match",
+    "ex": "Everyone kept looking at the scoreboard to see who was winning.",
+    "syn": "—"
+   },
+   {
+    "word": "Craft",
+    "pos": "n",
+    "ipa": "/krɑːft/",
+    "emoji": "🏺",
+    "vi": "nghề thủ công",
+    "en": "an activity that involves making things skilfully with your hands",
+    "ex": "Pottery is a traditional craft in this village.",
+    "syn": "handicraft"
+   },
+   {
+    "word": "Calligraphy",
+    "pos": "n",
+    "ipa": "/kəˈlɪɡrəfi/",
+    "emoji": "✒️",
+    "vi": "thư pháp",
+    "en": "the art of producing decorative handwriting",
+    "ex": "She has been practising calligraphy for three years.",
+    "syn": "—"
+   },
+   {
+    "word": "Sew",
+    "pos": "v",
+    "ipa": "/səʊ/",
+    "emoji": "🧷",
+    "vi": "may, khâu",
+    "en": "to join or repair cloth using a needle and thread",
+    "ex": "My mother taught me how to sew when I was young.",
+    "syn": "—"
+   },
+   {
+    "word": "Knitting",
+    "pos": "n",
+    "ipa": "/ˈnɪtɪŋ/",
+    "emoji": "🧶",
+    "vi": "đan (len)",
+    "en": "the activity of making clothes from wool using needles",
+    "ex": "My grandmother spends her evenings knitting scarves for the whole family.",
+    "syn": "—"
+   },
+   {
+    "word": "Sewing",
+    "pos": "n",
+    "ipa": "/ˈsəʊɪŋ/",
+    "emoji": "🧵",
+    "vi": "việc may vá",
+    "en": "the activity of making or repairing things using a needle and thread",
+    "ex": "Sewing is one of the skills taught in the after-school club.",
+    "syn": "—"
+   },
+   {
+    "word": "Embroidery",
+    "pos": "n",
+    "ipa": "/ɪmˈbrɔɪdəri/",
+    "emoji": "🪡",
+    "vi": "thêu",
+    "en": "the activity of decorating cloth with patterns sewn in thread",
+    "ex": "The dress was decorated with beautiful hand-made embroidery.",
+    "syn": "—"
+   },
+   {
+    "word": "Drawing",
+    "pos": "n",
+    "ipa": "/ˈdrɔːɪŋ/",
+    "emoji": "✏️",
+    "vi": "vẽ (bằng bút, chì)",
+    "en": "the activity of making pictures using a pen or pencil",
+    "ex": "He has loved drawing since he was a little boy.",
+    "syn": "—"
+   },
+   {
+    "word": "Painting",
+    "pos": "n",
+    "ipa": "/ˈpeɪntɪŋ/",
+    "emoji": "🎨",
+    "vi": "vẽ tranh (sơn, màu)",
+    "en": "the activity of producing pictures using paint",
+    "ex": "She spends every weekend painting landscapes in the countryside.",
+    "syn": "—"
+   },
+   {
+    "word": "Sculpture",
+    "pos": "n",
+    "ipa": "/ˈskʌlptʃə/",
+    "emoji": "🗿",
+    "vi": "điêu khắc",
+    "en": "the art of making figures or objects from stone, wood, clay, etc.",
+    "ex": "The artist is famous for making sculptures out of recycled metal.",
+    "syn": "—"
+   },
+   {
+    "word": "Collector",
+    "pos": "n",
+    "ipa": "/kəˈlektə/",
+    "emoji": "🏷️",
+    "vi": "người sưu tầm",
+    "en": "a person who collects things as a hobby",
+    "ex": "My uncle is a keen stamp collector.",
+    "syn": "—"
+   },
+   {
+    "word": "Collect",
+    "pos": "v",
+    "ipa": "/kəˈlekt/",
+    "emoji": "🧲",
+    "vi": "sưu tầm",
+    "en": "to gather things of a particular type over a period of time",
+    "ex": "He has collected antique watches since he was a teenager.",
+    "syn": "gather"
+   },
+   {
+    "word": "Collection",
+    "pos": "n",
+    "ipa": "/kəˈlekʃn/",
+    "emoji": "🗃️",
+    "vi": "bộ sưu tập",
+    "en": "a group of objects gathered together, often as a hobby",
+    "ex": "She has built up an impressive collection of postage stamps over the years.",
+    "syn": "—"
+   },
+   {
+    "word": "Postage stamps",
+    "pos": "n",
+    "ipa": "/ˈpəʊstɪdʒ stæmps/",
+    "emoji": "📮",
+    "vi": "tem thư",
+    "en": "small pieces of paper stuck on letters to show that postage has been paid, often collected as a hobby",
+    "ex": "He inherited his grandfather's collection of rare postage stamps.",
+    "syn": "—"
+   },
+   {
+    "word": "Antique watches",
+    "pos": "n",
+    "ipa": "/ænˈtiːk ˈwɒtʃɪz/",
+    "emoji": "⌚",
+    "vi": "đồng hồ cổ",
+    "en": "old, valuable watches, often collected for their rarity",
+    "ex": "The museum displayed a collection of antique watches from the 19th century.",
+    "syn": "—"
+   },
+   {
+    "word": "Life jacket",
+    "pos": "n",
+    "ipa": "/ˈlaɪf ˌdʒækɪt/",
+    "emoji": "🦺",
+    "vi": "phao cứu sinh",
+    "en": "a special jacket that helps you float and stay safe in water",
+    "ex": "Everyone on the boat must wear a life jacket in case of an emergency.",
+    "syn": "life vest"
+   },
+   {
+    "word": "Helmet",
+    "pos": "n",
+    "ipa": "/ˈhelmɪt/",
+    "emoji": "⛑️",
+    "vi": "mũ bảo hiểm",
+    "en": "a hard hat that protects your head during a dangerous activity",
+    "ex": "You should always wear a helmet when riding a bike or a motorbike.",
+    "syn": "—"
+   },
+   {
+    "word": "Leisure centre",
+    "pos": "n",
+    "ipa": "/ˈleʒə ˈsentə/",
+    "emoji": "🏢",
+    "vi": "trung tâm giải trí",
+    "en": "a public building with facilities for sports and leisure activities",
+    "ex": "Our local leisure centre has a swimming pool, a gym, and a cafe.",
+    "syn": "recreation centre"
+   },
+   {
+    "word": "Registration form",
+    "pos": "n",
+    "ipa": "/ˌredʒɪˈstreɪʃn fɔːm/",
+    "emoji": "📝",
+    "vi": "đơn đăng ký",
+    "en": "an official document you fill in to join or take part in something",
+    "ex": "You need to fill in a registration form before you can join the club.",
+    "syn": "application form"
+   },
+   {
+    "word": "Membership",
+    "pos": "n",
+    "ipa": "/ˈmembəʃɪp/",
+    "emoji": "🪪",
+    "vi": "tư cách thành viên",
+    "en": "the state of belonging to a club, group, or organisation",
+    "ex": "Membership at the leisure centre costs about $30 a month.",
+    "syn": "—"
+   },
+   {
+    "word": "Wander",
+    "pos": "v",
+    "ipa": "/ˈwɒndə/",
+    "emoji": "🚶",
+    "vi": "đi dạo, đi lang thang",
+    "en": "to walk slowly around a place without any particular purpose",
+    "ex": "We spent the afternoon wandering around the old town with no particular plan.",
+    "syn": "stroll, roam"
+   }
+  ]
+ }
+]

@@ -1,0 +1,107 @@
+{
+ "appearance": {
+  "title": "My New Neighbours",
+  "sentences": [
+   "When I first met my new neighbour, my {first impression} was that she looked {smart and elegant}.",
+   "She is {slim} and quite tall, with a fair {complexion} and {curly hair} that falls over her shoulders.",
+   "Her husband, on the other hand, is {stocky} and {well-built|well-built / muscular}, with a thick {beard and moustache}.",
+   "He is almost {bald} now, and the little hair he has left has {gone grey}.",
+   "At weekends, he wears {casual} clothes, like an old {pullover} with a torn {sleeve}.",
+   "For work, however, he always chooses a {formal} {outfit} and a {stylish} tie.",
+   "Last week, he {tried on|try on} a new suit, but it was too {tight} around the {collar}.",
+   "He joked that he had {grown out of|grow out of} all his favourite clothes."
+  ]
+ },
+ "personality": {
+  "title": "My Best Friend",
+  "sentences": [
+   "My best friend Lan is one of the most {cheerful} and {optimistic} people I know.",
+   "She is {extroverted} and loves meeting new people {face-to-face}.",
+   "I am more {introverted}, so I sometimes feel {anxious} in large groups.",
+   "Lan is always {patient} and {sympathetic} when I talk about my problems.",
+   "We {grew up|grow up} in the same street, and we have always {got on|get on} well.",
+   "Even when we {fall out with} each other, we {make up} very quickly.",
+   "She is {honest}, {reliable} and very {generous} with her time.",
+   "These days we mostly {communicate} by {instant message}, but we still meet every weekend.",
+   "I really {look up to} her, and I hope we will always stay close."
+  ]
+ },
+ "celebration": {
+  "title": "A Family Anniversary",
+  "sentences": [
+   "Last year, my family decided to {organize a party} for my grandparents' wedding {anniversary}.",
+   "We sent an {invitation} to every family in the {neighbourhood}.",
+   "Dozens of {guests|guest} came, and many of them {dressed up|dress up} in traditional clothes.",
+   "My grandfather gave a short {speech} about the day they {got married|get married}.",
+   "He said that the {occasion} {meant a lot to|mean a lot to sb} him.",
+   "Everyone {participated|participate (in sth)} in a singing {contest}, and we {had fun|have fun} until midnight.",
+   "At the end of the night, {spectacular} {fireworks} {lit up|light sth up} the sky.",
+   "It was the most memorable night our {community} had seen for years."
+  ]
+ },
+ "housing": {
+  "title": "My Flat",
+  "sentences": [
+   "I live in a {spacious} flat on the third floor of an old building.",
+   "Every morning, I {switch off} my {alarm clock} and get up at six.",
+   "In the kitchen, I use a {blender} to make fruit smoothies.",
+   "The {refrigerator} is always full of vegetables, and the {oven} is perfect for baking bread.",
+   "After dinner, I load the {dishwasher} and {tidy up} the living room.",
+   "On Saturdays, I {do the vacuuming} and change the {bed sheets|bed sheet}.",
+   "My clothes are kept neatly in a wooden {dresser} in the bedroom.",
+   "The building also has a {communal} garden where neighbours can relax."
+  ]
+ },
+ "sea_animals": {
+  "title": "A Day Under the Sea",
+  "sentences": [
+   "Last summer, I went snorkelling near a beautiful {coral} reef.",
+   "The water was full of colourful {fish} swimming around the {seaweed}.",
+   "I saw a tiny {seahorse} hiding between the rocks and a {starfish} lying on the sand.",
+   "A {crab} walked sideways past a broken {shell}.",
+   "Suddenly, a large {turtle} swam slowly past me.",
+   "Our guide warned us not to touch the {jellyfish} or the {stingray}.",
+   "Later, from the boat, we watched a group of {dolphins|dolphin} jumping out of the water.",
+   "Luckily, we did not see any {sharks|shark} that day!"
+  ]
+ },
+ "weather": {
+  "title": "The Weather in My Hometown",
+  "sentences": [
+   "The weather in my hometown is very {changeable}.",
+   "In spring, there is often a light {drizzle} in the morning, followed by {bright} sunshine.",
+   "Summer is {boiling} and {humid}, and sudden {showers|shower} are very common.",
+   "Sometimes heavy rain can {block the road} to my school.",
+   "In autumn, a gentle {breeze} makes the air {mild} and {delightful}.",
+   "Winter is {damp} and {sunless}, although it is rarely {freezing}.",
+   "Because of climate change, the weather has become more {unpredictable}.",
+   "A long {spell} of hot weather can {lead to} a {drought}, which {affects|affect} farmers badly."
+  ]
+ },
+ "emotions_opinions": {
+  "title": "My First Presentation",
+  "sentences": [
+   "Last month, I had to give a presentation in English, and I felt extremely {nervous}.",
+   "The night before, I was so {anxious} that I could not sleep.",
+   "My sister tried to {persuade} me that everything would be fine.",
+   "She {reminded|remind} me that I had prepared very carefully.",
+   "When I finally stood in front of the class, I was {surprised} to feel {calm}.",
+   "My teacher was {pleased} with my ideas, and my classmates were {amazed} by my slides.",
+   "I felt {delighted} and {grateful} for all the support I had received.",
+   "Now I am no longer {afraid} of speaking in public, and I am {excited} about the next one."
+  ]
+ },
+ "leisure": {
+  "title": "How My Family Spends Free Time",
+  "sentences": [
+   "My favourite {pastime} is {photography}, but I have many other hobbies too.",
+   "In my free time, I also enjoy {gardening} and {drawing}.",
+   "At weekends, I go {cycling} with friends to {keep fit}.",
+   "My brother prefers {extreme sports} such as {skydiving} and {cliff jumping}.",
+   "He always wears a {helmet} and a {life jacket} to stay safe.",
+   "My grandmother has a completely different {preference}: she loves {knitting} and {embroidery}.",
+   "My grandfather is a keen {collector} of {postage stamps} and {antique watches}.",
+   "Last month, I filled in a {registration form} to get a {membership} at the local {leisure centre}."
+  ]
+ }
+}
