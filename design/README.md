@@ -25,6 +25,14 @@ Skill này làm 3 việc:
 
 > Tên skill phải viết thường và nối bằng gạch ngang. Trong zip chỉ có file `.md`, không có file nhị phân (Spark từ chối các file như `.png`, `.ttf`, `.DS_Store`).
 
+## 1b. Hoặc dùng Gem (nhanh hơn Spark)
+Gem dùng **chung bộ file** với skill, không phải bảo trì hai bản:
+1. gemini.google.com → **Gems** → **New Gem**, đặt tên `Vocab UI Art Director`.
+2. **Instructions:** dán nội dung `vocab-ui-art-director/SKILL.md`, **bỏ phần đầu nằm giữa hai dòng `---`**.
+3. **Knowledge → Add files:** tải lên 4 file trong `vocab-ui-art-director/references/`.
+4. Chọn model: **Flash** khi cần thử nhanh nhiều lần, **Pro** khi cần phân tích ảnh kỹ và chốt DESIGN.md.
+5. Kiểm tra bằng cùng câu hỏi thử ở bước 3 phía trên.
+
 ## 2. Quy trình làm việc
 
 | Bước | Bạn làm | Skill trả về |
