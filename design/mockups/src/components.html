@@ -1,0 +1,175 @@
+<div class="sections">
+
+    <!-- Speak / slow -->
+    <section class="section">
+      <h2>Nút nghe mẫu</h2>
+      <p class="note"><code>speak</code> / <code>speak-slow</code> · 48px · đang phát: nền teal và vòng lan toả</p>
+      <div class="row">
+        <div class="state">
+          <button class="btn-icon" data-ui="speak" aria-label="Nghe phát âm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+          <span class="state-label">Nghe · chờ</span>
+        </div>
+        <div class="state">
+          <button class="btn-icon is-playing" data-ui="speak" aria-label="Đang phát"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+          <span class="state-label">Nghe · đang phát</span>
+        </div>
+        <div class="state">
+          <button class="btn-icon" data-ui="speak-slow" aria-label="Nghe chậm">🐌</button>
+          <span class="state-label">Chậm · chờ</span>
+        </div>
+        <div class="state">
+          <button class="btn-icon is-playing" data-ui="speak-slow" aria-label="Đang phát chậm">🐌</button>
+          <span class="state-label">Chậm · đang phát</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mic -->
+    <section class="section">
+      <h2>Nút micro</h2>
+      <p class="note"><code>mic</code> · 64px · hành động chính của màn luyện đọc</p>
+      <div class="row">
+        <div class="state">
+          <button class="btn-mic" data-ui="mic" aria-label="Bấm để nói"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg></button>
+          <span class="state-label">Chờ</span>
+        </div>
+        <div class="state">
+          <button class="btn-mic is-listening" data-ui="mic" aria-label="Đang nghe, bấm để dừng" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg></button>
+          <span class="state-label">Đang nghe</span>
+        </div>
+        <div class="state">
+          <button class="btn-mic" data-ui="mic" aria-disabled="true" aria-label="Trình duyệt không hỗ trợ micro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/><path d="M3 3l18 18"/></svg></button>
+          <span class="state-label">Không hỗ trợ</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Result pill -->
+    <section class="section">
+      <h2>Kết quả kiểm tra</h2>
+      <p class="note"><code>check-result</code> · luôn có icon và chữ, không chỉ dựa vào màu</p>
+      <div class="stack">
+        <div class="result is-correct" data-ui="check-result" role="status"><span aria-hidden="true">✅</span><span><b>Chính xác</b>. Máy nghe được: “bald”</span></div>
+        <div class="result is-wrong" data-ui="check-result" role="status"><span aria-hidden="true">❌</span><span><b>Máy nghe thành:</b> “bold”</span></div>
+        <div class="result is-empty" data-ui="check-result" role="status"><span aria-hidden="true">🤔</span><span><b>Chưa nghe rõ</b>. Thử nói to và rõ hơn.</span></div>
+      </div>
+    </section>
+
+    <!-- Word feedback -->
+    <section class="section">
+      <h2>Tô màu từ sau khi đọc</h2>
+      <p class="note"><code>word</code> · đúng: xanh + gạch chân thẳng · sót: đỏ + gạch chân lượn sóng + đậm</p>
+      <p class="passage-sample">
+        <span class="w-ok">He</span> <span class="w-ok">is</span> <span class="w-ok">almost</span> <span class="w-bad w-vocab" title="Máy chưa nghe ra từ này">bald</span> <span class="w-ok">now,</span> <span class="w-ok">and</span> <span class="w-ok">the</span> <span class="w-ok">little</span> <span class="w-ok">hair</span> <span class="w-ok">he</span> <span class="w-ok">has</span> <span class="w-ok">left</span> <span class="w-ok">has</span> <span class="w-ok w-vocab">gone</span> <span class="w-ok w-vocab">grey.</span>
+      </p>
+      <div class="result is-wrong" style="margin-top:12px"><span aria-hidden="true">📝</span><span>Máy nghe được: “he is almost bold now and the little hair he has left has gone grey” · <b>92%</b></span></div>
+    </section>
+
+    <!-- Chips -->
+    <section class="section">
+      <h2>Chip / tab</h2>
+      <p class="note"><code>tab</code>, <code>filter-all</code>, <code>filter-unknown</code> · cao 36px, vùng chạm 44px</p>
+      <div class="stack">
+        <div class="tabs" role="tablist">
+          <button class="chip" role="tab" aria-selected="true" data-ui="tab" data-tab="flashcards">📚 Flashcard</button>
+          <button class="chip" role="tab" aria-selected="false" data-ui="tab" data-tab="read">📖 Luyện đọc</button>
+          <button class="chip" role="tab" aria-selected="false" data-ui="tab" data-tab="ipa">🔤 Phát âm IPA</button>
+        </div>
+        <div class="tabs">
+          <button class="chip is-active" data-ui="filter-all">📚 Tất cả (52)</button>
+          <button class="chip" data-ui="filter-unknown">🧠 Chỉ từ chưa thuộc (40)</button>
+          <button class="chip" data-ui="reset">↺ Reset tiến độ</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stat tiles -->
+    <section class="section">
+      <h2>Ô thống kê</h2>
+      <p class="note"><code>stat-total</code>, <code>stat-known</code>, <code>stat-unknown</code></p>
+      <div class="stats">
+        <div class="stat"><div class="stat-num" data-ui="stat-total">52</div><div class="stat-lbl">Tổng số từ</div></div>
+        <div class="stat"><div class="stat-num is-success" data-ui="stat-known">12</div><div class="stat-lbl">✅ Đã thuộc</div></div>
+        <div class="stat"><div class="stat-num is-error" data-ui="stat-unknown">7</div><div class="stat-lbl">😕 Chưa thuộc</div></div>
+      </div>
+    </section>
+
+    <!-- Progress -->
+    <section class="section">
+      <h2>Thanh tiến độ</h2>
+      <p class="note"><code>progress-bar</code> · 8px</p>
+      <div class="stack">
+        <div class="progress"><div class="progress-meta"><span>Mới bắt đầu</span><span>0/52</span></div><div class="progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" data-ui="progress-bar" style="width:0%"></div></div></div>
+        <div class="progress"><div class="progress-meta"><span>Đang học</span><span>21/52</span></div><div class="progress-track" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" data-ui="progress-bar" style="width:40%"></div></div></div>
+        <div class="progress"><div class="progress-meta"><span>Hoàn thành 🎉</span><span>52/52</span></div><div class="progress-track" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" data-ui="progress-bar" style="width:100%"></div></div></div>
+      </div>
+    </section>
+
+    <!-- Toast -->
+    <section class="section">
+      <h2>Toast</h2>
+      <p class="note">Thông báo ngắn ở cuối màn hình, tự ẩn sau 4 giây</p>
+      <div class="toast" role="status" data-ui="toast">✅ Đã chuyển 120 từ đã đánh dấu từ web cũ sang.</div>
+    </section>
+
+    <!-- Topic cards -->
+    <section class="section span-2">
+      <h2>Thẻ chủ đề: 8 màu</h2>
+      <p class="note"><code>topic-card</code> · một màu nhấn → tự tính màu nền (12%), màu chữ (55% + đen) và viền (25%)</p>
+      <div class="topic-grid">
+        <button class="topic-card" data-ui="topic-card" data-topic="appearance" style="--topic-accent:#22C55E">
+          <div><div class="topic-icon" data-ui="topic-icon">🪞</div><div class="topic-title" data-ui="topic-title">Ngoại hình</div><div class="topic-sub" data-ui="topic-subtitle">Appearance</div></div>
+          <div class="topic-foot"><div class="topic-meta"><span data-ui="topic-count">52 từ</span><span data-ui="topic-progress-label">21/52</span></div><div class="progress-track"><div class="progress-fill" data-ui="topic-progress-bar" style="width:40%"></div></div></div>
+        </button>
+        <button class="topic-card" data-ui="topic-card" data-topic="personality" style="--topic-accent:#8B5CF6">
+          <div><div class="topic-icon">🧠</div><div class="topic-title">Tính cách &amp; Giao tiếp</div><div class="topic-sub">Personality &amp; Social</div></div>
+          <div class="topic-foot"><div class="topic-meta"><span>53 từ</span><span>0/53</span></div><div class="progress-track"><div class="progress-fill" style="width:0%"></div></div></div>
+        </button>
+        <button class="topic-card" data-ui="topic-card" data-topic="celebration" style="--topic-accent:#D946EF">
+          <div><div class="topic-icon">🎉</div><div class="topic-title">Sự kiện &amp; Lễ kỷ niệm</div><div class="topic-sub">Celebrations &amp; Events</div></div>
+          <div class="topic-foot"><div class="topic-meta"><span>33 từ</span><span>33/33</span></div><div class="progress-track"><div class="progress-fill" style="width:100%"></div></div></div>
+        </button>
+        <button class="topic-card" data-ui="topic-card" data-topic="housing" style="--topic-accent:#F59E0B">
+          <div><div class="topic-icon">🏠</div><div class="topic-title">Nhà cửa</div><div class="topic-sub">Housing &amp; Household</div></div>
+          <div class="topic-foot"><div class="topic-meta"><span>12 từ</span><span>6/12</span></div><div class="progress-track"><div class="progress-fill" style="width:50%"></div></div></div>
+        </button>
+        <button class="topic-card" data-ui="topic-card" data-topic="sea_animals" style="--topic-accent:#06B6D4">
+          <div><div class="topic-icon">🌊</div><div class="topic-title">Động vật biển</div><div class="topic-sub">Sea Animals</div></div>
+          <div class="topic-foot"><div class="topic-meta"><span>18 từ</span><span>4/18</span></div><div class="progress-track"><div class="progress-fill" style="width:22%"></div></div></div>
+        </button>
+        <button class="topic-card" data-ui="topic-card" data-topic="weather" style="--topic-accent:#EF4444">
+          <div><div class="topic-icon">🌦️</div><div class="topic-title">Thời tiết &amp; Khí hậu</div><div class="topic-sub">Weather &amp; Climate</div></div>
+          <div class="topic-foot"><div class="topic-meta"><span>25 từ</span><span>15/25</span></div><div class="progress-track"><div class="progress-fill" style="width:60%"></div></div></div>
+        </button>
+        <button class="topic-card" data-ui="topic-card" data-topic="emotions_opinions" style="--topic-accent:#4338CA">
+          <div><div class="topic-icon">🎭</div><div class="topic-title">Cảm xúc &amp; Quan điểm</div><div class="topic-sub">Emotions &amp; Opinions</div></div>
+          <div class="topic-foot"><div class="topic-meta"><span>41 từ</span><span>8/41</span></div><div class="progress-track"><div class="progress-fill" style="width:20%"></div></div></div>
+        </button>
+        <button class="topic-card" data-ui="topic-card" data-topic="leisure" style="--topic-accent:#9F1239">
+          <div><div class="topic-icon">🎉</div><div class="topic-title">Vui chơi giải trí</div><div class="topic-sub">Leisure &amp; Entertainment</div></div>
+          <div class="topic-foot"><div class="topic-meta"><span>39 từ</span><span>30/39</span></div><div class="progress-track"><div class="progress-fill" style="width:77%"></div></div></div>
+        </button>
+      </div>
+    </section>
+
+    <!-- Bottom sheet -->
+    <section class="section span-2">
+      <h2>Bottom sheet</h2>
+      <p class="note"><code>sheet</code>, <code>sheet-close</code> · bo 28px ở hai góc trên · nút đóng 44px · nền mờ phía sau</p>
+      <div class="phone">
+        <div class="phone-behind">Nội dung màn hình phía sau (đoạn văn đang luyện đọc)…</div>
+        <div class="backdrop"></div>
+        <div class="sheet" role="dialog" aria-modal="true" aria-label="Chi tiết từ" data-ui="sheet">
+          <div class="sheet-handle" aria-hidden="true"></div>
+          <button class="sheet-close" data-ui="sheet-close" aria-label="Đóng">✕</button>
+          <div class="sheet-word" data-ui="word">bald</div>
+          <div class="ipa" data-ui="ipa">/bɔːld/</div>
+          <div class="sheet-vi" data-ui="meaning-vi">hói đầu</div>
+          <p class="sheet-en" data-ui="meaning-en">having little or no hair on the head</p>
+          <div class="sheet-actions">
+            <button class="btn-icon" data-ui="speak" aria-label="Nghe phát âm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            <button class="btn-icon" data-ui="speak-slow" aria-label="Nghe chậm">🐌</button>
+          </div>
+        </div>
+      </div>
+    </section>
