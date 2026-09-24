@@ -1,5 +1,7 @@
 """Builds design/mockups/index.html: one self-contained page with the
 component sheet and every screen/state frame, rendered as plain HTML + CSS.
+Styles are the app's own css/app.css (plus board.css for the page chrome),
+so the mockups always show the real design system.
 
 Content comes from data/*.json (the app's real data), so mockups never drift
 from what the app will actually show. Run: python3 design/mockups/build.py
@@ -398,7 +400,8 @@ page = f'''<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-{(SRC / 'styles.css').read_text()}</style>
+{(ROOT / 'css/app.css').read_text()}
+{(SRC / 'board.css').read_text()}</style>
 </head>
 <body>
 <div class="page board">
