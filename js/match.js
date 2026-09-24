@@ -9,7 +9,7 @@
 const NUMBER_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
   'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
 
-// British spellings the (American-leaning) recognizer writes differently.
+// UK and US spellings of the same word (the recognizer may return either).
 // Normalization is applied to BOTH sides of the comparison, so over-eager
 // rules only matter if they merge two genuinely different words.
 const SPELLING = {

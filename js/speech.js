@@ -1,17 +1,17 @@
 // Browser speech: text-to-speech (listen to a model) and speech recognition
 // (check what you said). Both are built into the browser — no server, no key.
 //
-// ONE place decides the accent for both directions. The original flashcard
-// app deliberately used an American voice, so this keeps en-US.
-export const LANG = 'en-US';
+// ONE place decides the accent for both directions: British English, to
+// match the Cambridge (UK) IPA shown on every card.
+export const LANG = 'en-GB';
 
 // ---------- TEXT-TO-SPEECH ----------
 // Voice picking must work around inconsistent browser data: some voices
-// report lang as "en_US" (underscore) instead of "en-US", and some only
-// signal "American" through the voice NAME (e.g. "Google US English",
-// "Microsoft Guy Online (Natural) - English (United States)"). Score each
-// voice instead of taking the first loose match, so a real en-US voice
-// always wins over a same-language-different-accent one (e.g. en-GB/en-AU).
+// report lang as "en_GB" (underscore) instead of "en-GB", and some only
+// signal "British" through the voice NAME (e.g. "Google UK English Female",
+// "Microsoft Sonia Online (Natural) - English (United Kingdom)", Apple's
+// "Daniel"/"Kate"/"Serena"). Score each voice instead of taking the first
+// loose match, so a real en-GB voice always wins over another English accent.
 const synth = 'speechSynthesis' in window ? window.speechSynthesis : null;
 let voices = [];
 function refreshVoices() { voices = (synth && synth.getVoices()) || []; }
@@ -21,7 +21,7 @@ function accentScore(v) {
   const lang = (v.lang || '').replace('_', '-').toLowerCase();
   const name = (v.name || '').toLowerCase();
   if (lang === LANG.toLowerCase()) return 3;
-  if (name.includes('united states') || name.includes('us english') || /\bus\b/.test(name)) return 2;
+  if (name.includes('united kingdom') || name.includes('uk english') || /\b(uk|british|daniel|kate|serena|arthur|martha)\b/.test(name)) return 2;
   if (lang.startsWith('en')) return 1;
   return -1;
 }
