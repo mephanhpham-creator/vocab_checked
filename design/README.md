@@ -1,36 +1,37 @@
-# Gem "Vocab Speaking UI Art Director": hướng dẫn dùng
+# Skill `vocab-ui-art-director` cho Gemini Spark: hướng dẫn dùng
 
-Gem là bản Gemini được cài sẵn vai trò, cách làm việc và tài liệu tham khảo. Nó tương đương một "skill" bên Claude.
-
-Gem này làm 3 việc:
+Skill này làm 3 việc:
 1. Phân tích các ảnh giao diện bạn sưu tầm.
-2. Đề xuất 3 hướng thiết kế, bạn chọn một.
+2. Đề xuất 3 hướng thiết kế (có thể tạo luôn ảnh mood), bạn chọn một.
 3. Xuất file **DESIGN.md** và các **prompt thiết kế màn hình**, sẵn sàng đưa vào Claude Design.
 
-> Gem được dựng theo tinh thần skill `kf-cl-design-init`: **chốt hướng bằng lời trước, chốt con số bằng mắt sau**. Bạn không phải tự nghĩ mã màu hay tên font. Khác biệt là Gem này đã có sẵn bối cảnh sản phẩm, nên không cần phỏng vấn lại từ đầu.
+> Skill được dựng theo tinh thần `kf-cl-design-init`: **chốt hướng bằng lời trước, chốt con số bằng mắt sau**. Bạn không phải tự nghĩ mã màu hay tên font. Khác biệt là skill này đã có sẵn bối cảnh sản phẩm, nên không cần phỏng vấn lại từ đầu.
 
-## 1. Tạo Gem (khoảng 5 phút)
-1. Vào gemini.google.com → **Gems** → **New Gem**.
-2. **Name:** `Vocab Speaking UI Art Director`
-3. **Instructions:** dán toàn bộ nội dung file [`INSTRUCTIONS.md`](INSTRUCTIONS.md).
-4. **Knowledge → Add files:** tải lên 4 file trong thư mục [`knowledge/`](knowledge/):
-   - `PRODUCT.md`: sản phẩm, người dùng, ràng buộc bắt buộc.
-   - `SCREENS.md`: 7 màn hình, các trạng thái, "hợp đồng giao diện".
-   - `DESIGN-MD-FORMAT.md`: mẫu DESIGN.md chuẩn mà Stitch và Claude Design đều đọc được.
-   - `PROMPT-TEMPLATES.md`: mẫu prompt tạo ảnh và prompt thiết kế màn hình.
-5. Bấm **Save**.
+## 1. Cài skill vào Gemini Spark (khoảng 2 phút)
+1. Lấy file **`vocab-ui-art-director.zip`** (mình đã gửi kèm). Nếu cần tự đóng gói lại, chạy `npm run pack:skill`. Trong file zip:
+   ```
+   SKILL.md                      ← hướng dẫn chính, nằm ngay gốc zip (Spark yêu cầu)
+   references/PRODUCT.md         ← sản phẩm, người dùng, ràng buộc bắt buộc
+   references/SCREENS.md         ← 7 màn hình, các trạng thái, "hợp đồng giao diện" data-ui
+   references/DESIGN-MD-FORMAT.md← mẫu DESIGN.md chuẩn mà Stitch và Claude Design đều đọc được
+   references/PROMPT-TEMPLATES.md← mẫu prompt ảnh mood, prompt màn hình, prompt icon
+   ```
+2. Vào **gemini.google.com/spark/skills** → **Upload** → chọn file zip.
+3. **Kiểm tra skill đã đọc đủ tài liệu:** mở một cuộc trò chuyện mới và gõ
+   > *Dùng skill vocab-ui-art-director: liệt kê 4 file references bạn đọc được và 3 ràng buộc "Must" quan trọng nhất trong PRODUCT.md.*
 
-> Nếu Gemini báo phần Instructions quá dài, giữ nguyên các mục *Role*, *Method* và *Workflow*, chuyển mục *Guardrails* thành một file Knowledge riêng.
->
-> Mẹo: nếu tải các file này từ Google Drive thay vì từ máy, Gem sẽ tự dùng bản mới nhất mỗi khi file trên Drive được sửa.
+   Nếu skill trả lời đúng 4 file (ví dụ nhắc đến "IPA", "44×44px", "Vietnamese diacritics") thì skill đã sẵn sàng.
+   Nếu skill báo không mở được thư mục `references/`, báo lại mình. Mình sẽ gộp tất cả vào một file SKILL.md duy nhất (dài hơn, nhưng chắc chắn đọc được).
+
+> Tên skill phải viết thường và nối bằng gạch ngang. Trong zip chỉ có file `.md`, không có file nhị phân (Spark từ chối các file như `.png`, `.ttf`, `.DS_Store`).
 
 ## 2. Quy trình làm việc
 
-| Bước | Bạn làm | Gem trả về |
+| Bước | Bạn làm | Skill trả về |
 |---|---|---|
 | 1 | Tải 1–6 ảnh giao diện bạn thích, nói rõ thích/không thích gì ở mỗi ảnh | Bảng phân tích "núm vặn" phong cách cho từng ảnh |
 | 2 | Trả lời các câu hỏi khi ảnh mâu thuẫn nhau | Điểm chung của các ảnh |
-| 3 | Xem 3 hướng thiết kế, có thể yêu cầu ảnh mood | 3 hướng: bảng màu, font, độ bo góc; (tuỳ chọn) prompt ảnh mood |
+| 3 | Xem 3 hướng thiết kế, có thể yêu cầu ảnh mood | 3 hướng: bảng màu, font, độ bo góc; (tuỳ chọn) ảnh mood tạo ngay trong Spark |
 | 4 | Chọn 1 hướng, hoặc trộn các hướng | **DESIGN.md** đã chốt |
 | 5 | Nhận prompt | 1 prompt cho bộ component dùng chung và 1 prompt cho mỗi màn hình S1–S7 |
 | 6 | Đưa sang Claude Design (xem mục 3) | Checklist bàn giao |
@@ -46,7 +47,7 @@ Gem này làm 3 việc:
 | Phù hợp với | Ảnh mood, minh hoạ, icon chủ đề | **Thiết kế các màn hình chính thức** | Khi không dùng Claude Design |
 
 **Khuyến nghị:**
-- **Gem Gemini dùng để phân tích và ra định hướng**, cộng với ảnh mood nếu bạn muốn "nhìn thử cảm giác".
+- **Skill trên Gemini Spark dùng để phân tích và ra định hướng**, cộng với ảnh mood nếu bạn muốn "nhìn thử cảm giác".
 - **Màn hình chính thức làm trên Claude Design.**
 
 Lý do: bước C (lắp logic vào giao diện) cần HTML thật. Một tấm ảnh PNG thì mình vẫn phải dựng lại từ đầu, và chữ tiếng Việt/IPA trong ảnh AI rất dễ sai.

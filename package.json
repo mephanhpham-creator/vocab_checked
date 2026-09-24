@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "start": "python3 -m http.server 8000"
+    "start": "python3 -m http.server 8000",
+    "pack:skill": "mkdir -p dist && rm -f dist/vocab-ui-art-director.zip && cd design/vocab-ui-art-director && zip -rX ../../dist/vocab-ui-art-director.zip SKILL.md references -x '.*'"
   }
 }

@@ -2,7 +2,7 @@
 
 Web học từ vựng IELTS và luyện nói, gồm flashcard, đọc to đoạn văn có chấm theo giọng nói, và luyện phát âm IPA. Chạy như một trang tĩnh, dự kiến host trên GitHub Pages.
 
-> **Trạng thái:** phần logic và dữ liệu đã xong và có test. **Giao diện hiện tại là bản tạm**, đang được thiết kế lại qua quy trình trong [`design/gemini-gem/`](design/gemini-gem/README.md).
+> **Trạng thái:** phần logic và dữ liệu đã xong và có test. **Giao diện hiện tại là bản tạm**, đang được thiết kế lại qua quy trình trong [`design/`](design/README.md).
 
 ## Cấu trúc
 | Đường dẫn | Nội dung |
@@ -14,7 +14,7 @@ Web học từ vựng IELTS và luyện nói, gồm flashcard, đọc to đoạn
 | `js/speech.js` | Giọng đọc mẫu và nhận dạng giọng nói của trình duyệt, **giọng Anh (en-GB)** |
 | `js/store.js` | Tải dữ liệu, lưu tiến độ, nhập tiến độ từ web cũ |
 | `js/main.js`, `flashcards.js`, `reading.js`, `ipa.js`, `ui.js`, `css/`, `index.html` | Giao diện tạm |
-| `design/gemini-gem/` | Gem Gemini để thiết kế lại giao diện |
+| `design/vocab-ui-art-director/` | Skill cho Gemini Spark để thiết kế lại giao diện ([hướng dẫn](design/README.md)) |
 
 ## Chạy và kiểm thử
 ```bash
