@@ -263,6 +263,78 @@ def s7():
 <div class="sheet-actions">{speak_btn()}{slow_btn()}</div>''', short=True, under=passage_html())
 
 
+
+# ---------- S2 Flashcard deck ----------
+CARD = deck_word('complexion')
+FC_TOPIC = T['appearance']
+
+
+def flashcard_screen(state):
+    t, c = FC_TOPIC, CARD
+    total = len(t['deck'])
+    known = {'done': total}.get(state, 12)
+    unknown = {'done': 0}.get(state, 7)
+    status = {'known': '✅', 'unknown': '😕', 'done': '✅'}.get(state, '')
+    fil_unknown = state == 'empty'
+    left = total - known
+    chips = (f'<button class="chip{" is-active" if not fil_unknown else ""}" data-ui="filter-all">📚 Tất cả ({total})</button>'
+             f'<button class="chip{" is-active" if fil_unknown else ""}" data-ui="filter-unknown">🧠 Chỉ từ chưa thuộc ({0 if fil_unknown else left})</button>'
+             '<button class="chip" data-ui="reset">↺ Reset tiến độ</button>')
+    if fil_unknown:
+        known, unknown = total, 0
+    pct = round(known / total * 100)
+    check = {
+        'listening': '<div class="heard-live" style="font-size:13px"><span class="live-dot" aria-hidden="true"></span>Đang nghe… hãy nói “complexion”</div>',
+        'correct': result('correct', '<b>Chính xác</b>. Máy nghe được: “complexion”'),
+        'wrong': result('wrong', '<b>Máy nghe thành:</b> “connection”'),
+        'nothing': result('empty', '<b>Chưa nghe rõ</b>. Thử nói to và rõ hơn.'),
+    }.get(state, '')
+    if state == 'back':
+        face = f"""<div class="flashcard is-back" data-ui="card">
+  <div class="fc-back-word" data-ui="word">{e(c['word'])}</div>
+  <div class="fc-vi" data-ui="meaning-vi">{e(c['vi'])}</div>
+  <p class="fc-en" data-ui="meaning-en">{e(c['en'])}</p>
+  <p class="fc-ex" data-ui="example">“{e(c['ex'])}”</p>
+  <div class="fc-syn" data-ui="synonyms"><b>Đồng nghĩa:</b> {e(c['syn'])}</div>
+  <div class="fc-hint">Chạm để lật lại</div></div>"""
+    elif fil_unknown:
+        face = """<div class="empty-state" data-ui="empty-state"><div class="big" aria-hidden="true">🌟</div>
+  <h3>Không có từ nào chưa thuộc</h3><p>Bạn đã thuộc hết bộ này. Chọn “📚 Tất cả” để ôn lại, hoặc học chủ đề khác.</p></div>"""
+    else:
+        face = f"""<div class="flashcard" data-ui="card">
+  <span class="fc-pos" data-ui="pos">{e(c['pos'].upper())}</span><span class="fc-status" data-ui="status" aria-label="Trạng thái">{status}</span>
+  <div class="fc-emoji" data-ui="emoji" aria-hidden="true">{c['emoji']}</div>
+  <div class="fc-word" data-ui="word">{e(c['word'])}</div>
+  <div class="ipa" data-ui="ipa">{e(c['ipa'])}</div>
+  <div class="fc-controls">{speak_btn()}{mic_btn('listening' if state == 'listening' else 'idle')}{slow_btn()}</div>
+  <div class="fc-check" data-ui="check-result">{check}</div>
+  <div class="fc-hint">Chạm vào thẻ để lật</div></div>"""
+    body_below = ''
+    if not fil_unknown:
+        k = ' aria-pressed="true"' if state in ('known', 'done') else ' aria-pressed="false"'
+        u = ' aria-pressed="true"' if state == 'unknown' else ' aria-pressed="false"'
+        body_below = f"""<div class="mark-row"><button class="btn-mark is-unknown" data-ui="mark-unknown"{u}>😕 Chưa thuộc</button><button class="btn-mark is-known" data-ui="mark-known"{k}>✅ Đã thuộc</button></div>
+  <div class="nav-row"><button class="btn-soft" data-ui="prev">← Trước</button><button class="btn-soft" data-ui="flip">Lật thẻ 🔄</button><button class="btn-soft" data-ui="next">Tiếp →</button></div>
+  <div class="counter" data-ui="counter">Thẻ 3 / {total}</div>"""
+    done = ''
+    if state == 'done':
+        done = '<div class="done-banner" data-ui="done-banner" role="status"><span aria-hidden="true">🎉</span><span><b>Hoàn thành bộ từ này rồi!</b> Bạn đã thuộc cả 52 từ. Bấm “↺ Reset tiến độ” để ôn lại từ đầu, hoặc chọn chủ đề khác.</span></div>'
+    return f"""<div class="app themed" style="--topic-accent:{t['accent']}">
+  <div class="topbar"><button class="btn-back" data-ui="back">← Danh sách chủ đề</button><span class="topic-name" data-ui="topic-name">{e(t['title'])}</span></div>
+  <div class="toolbar">{chips}</div>
+  <div class="stats">
+    <div class="stat"><div class="stat-num" data-ui="stat-total">{total}</div><div class="stat-lbl">Tổng số từ</div></div>
+    <div class="stat"><div class="stat-num is-success" data-ui="stat-known">{known}</div><div class="stat-lbl">✅ Đã thuộc</div></div>
+    <div class="stat"><div class="stat-num is-error" data-ui="stat-unknown">{unknown}</div><div class="stat-lbl">😕 Chưa thuộc</div></div>
+  </div>
+  <div class="progress-track" role="progressbar" aria-valuenow="{pct}" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" data-ui="progress-bar" style="width:{pct}%"></div></div>
+  {done}{face}{body_below}
+  <details class="shortcuts" data-ui="shortcuts"><summary>⌨️ Phím tắt (máy tính)</summary><dl>
+    <dt>Lật thẻ</dt><dd><kbd>Space</kbd></dd><dt>Thẻ trước / tiếp</dt><dd><kbd>←</kbd> <kbd>→</kbd></dd>
+    <dt>Đã thuộc / Chưa thuộc</dt><dd><kbd>K</kbd> <kbd>U</kbd></dd><dt>Nghe / nghe chậm</dt><dd><kbd>L</kbd> <kbd>S</kbd></dd>
+    <dt>Nói để kiểm tra</dt><dd><kbd>M</kbd></dd><dt>Đổi bộ lọc</dt><dd><kbd>F</kbd></dd><dt>Về danh sách</dt><dd><kbd>Esc</kbd></dd></dl></details>
+</div>"""
+
 # ---------- Page ----------
 mixed = [40, 0, 100, 50, 22, 60, 20, 77]
 components = (SRC / 'components.html').read_text()
@@ -273,6 +345,18 @@ groups = [
         frame('2. Tab Luyện đọc', '· điểm tốt nhất trung bình', home('read', [64, 0, 100, 38, 0, 86, 12, 50])),
         frame('3. Tab Phát âm IPA', '· hiển thị S4', home('ipa', [], ipa_groups())),
         frame('4. Lần đầu mở app', '· mọi chủ đề 0%', home('flashcards', [0] * 8)),
+    ]),
+    group('s2', 'S2 · Flashcard', 'Mặt trước: 🔊 · 🎤 64px · 🐌. Nút đánh dấu là công tắc: bấm lần nữa để bỏ. Phím tắt thu gọn trên điện thoại.', [
+        frame('1. Mặt trước', '', flashcard_screen('front')),
+        frame('2. Mặt sau', '', flashcard_screen('back')),
+        frame('3. Đã đánh dấu thuộc', '', flashcard_screen('known')),
+        frame('4. Đã đánh dấu chưa thuộc', '', flashcard_screen('unknown')),
+        frame('5. Đang nghe', '', flashcard_screen('listening')),
+        frame('6. Nghe đúng', '', flashcard_screen('correct')),
+        frame('7. Nghe sai', '· “connection”', flashcard_screen('wrong')),
+        frame('8. Không nghe thấy gì', '', flashcard_screen('nothing')),
+        frame('9. Bộ lọc trống', '· “Chỉ từ chưa thuộc”', flashcard_screen('empty')),
+        frame('10. Thuộc hết bộ', '', flashcard_screen('done')),
     ]),
     group('s3', 'S3 · Luyện đọc', 'Câu đang đọc được tô nền. Nút mic 64px ở giữa hàng điều khiển, trong vùng ngón cái. Từ đúng: xanh + gạch thẳng; từ sót: đỏ + gạch sóng + đậm.', [
         frame('1. Trước khi đọc', '', read_screen('idle')),
@@ -303,7 +387,7 @@ groups = [
         frame('1. Mặc định', '', s7(), sheet=True),
     ]),
 ]
-nav = ''.join(f'<a class="chip" href="#{g}">{n}</a>' for g, n in [('components', 'Components'), ('s1', 'S1'), ('s3', 'S3'), ('s4', 'S4'), ('s5', 'S5'), ('s6', 'S6'), ('s7', 'S7')])
+nav = ''.join(f'<a class="chip" href="#{g}">{n}</a>' for g, n in [('components', 'Components'), ('s1', 'S1'), ('s2', 'S2'), ('s3', 'S3'), ('s4', 'S4'), ('s5', 'S5'), ('s6', 'S6'), ('s7', 'S7')])
 page = f'''<!DOCTYPE html>
 <html lang="vi">
 <head>
