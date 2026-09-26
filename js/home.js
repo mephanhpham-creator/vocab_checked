@@ -3,7 +3,7 @@
 import { getStatus } from './store.js';
 import { speak, RATE } from './speech.js';
 import { checkWord } from './match.js';
-import { $, esc, speakBtn, micBtn, bindMic, wordResult, liveHtml, result, openWordSheet } from './ui.js';
+import { $, esc, speakBtn, micBtn, bindMic, wordResult, liveHtml, result, openWordSheet, art, bindArtFallbacks } from './ui.js';
 
 // Same word set all day, a new one tomorrow: seeded by the local date.
 function dailyWords(topics, count = 3) {
@@ -14,20 +14,6 @@ function dailyWords(topics, count = 3) {
   const seed = [...`${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7);
   const step = Math.max(1, Math.floor(list.length / count));
   return Array.from({ length: Math.min(count, list.length) }, (_, i) => list[(seed + i * step) % list.length]);
-}
-
-// Illustration slot: shows the PNG when it exists, an emoji otherwise.
-function art(src, alt, fallback) {
-  return `<img src="${src}" alt="${esc(alt)}" data-fallback="${fallback}">`;
-}
-function bindArtFallbacks(root) {
-  root.querySelectorAll('img[data-fallback]').forEach(img => img.addEventListener('error', () => {
-    const span = document.createElement('span');
-    span.className = 'art-fallback';
-    span.setAttribute('aria-hidden', 'true');
-    span.textContent = img.dataset.fallback;
-    img.replaceWith(span);
-  }, { once: true }));
 }
 
 const WAVE = Array.from({ length: 28 }, (_, i) => 20 + Math.round(70 * Math.abs(Math.sin(i * 1.7)) * (0.5 + 0.5 * Math.abs(Math.cos(i * 0.6)))));

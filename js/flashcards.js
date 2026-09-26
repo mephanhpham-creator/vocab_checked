@@ -3,11 +3,11 @@
 import { getStatus, setStatus, resetTopic } from './store.js';
 import { speak, stopSpeaking, RATE } from './speech.js';
 import { checkWord } from './match.js';
-import { $, esc, topicStyle, speakBtn, slowBtn, micBtn, bindMic, wordResult, liveHtml, result } from './ui.js';
+import { $, esc, topicStyle, speakBtn, slowBtn, micBtn, bindMic, wordResult, liveHtml, result, topicHead, cheer, bindArtFallbacks } from './ui.js';
 
 export function renderFlashcards(root, topic, goHome) {
   root.innerHTML = `<div class="app themed" style="${topicStyle(topic)}">
-    <div class="topbar"><button class="btn-back" type="button" data-ui="back">← Danh sách chủ đề</button><span class="topic-name" data-ui="topic-name">${esc(topic.title)}</span></div>
+    ${topicHead(topic, 'Từ vựng', `${topic.deck.length} từ`)}
     <div class="toolbar">
       <button class="chip is-active" type="button" data-ui="filter-all"></button>
       <button class="chip" type="button" data-ui="filter-unknown"></button>
@@ -19,7 +19,7 @@ export function renderFlashcards(root, topic, goHome) {
       <div class="stat"><div class="stat-num is-error" data-ui="stat-unknown"></div><div class="stat-lbl">😕 Chưa thuộc</div></div>
     </div>
     <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" data-ui="progress-bar"></div></div>
-    <div class="done-banner" data-ui="done-banner" role="status" hidden><span aria-hidden="true">🎉</span><span><b>Hoàn thành bộ từ này rồi!</b> Bạn đã thuộc cả ${topic.deck.length} từ. Bấm “↺ Reset tiến độ” để ôn lại từ đầu, hoặc chọn chủ đề khác.</span></div>
+    <div class="done-banner" data-ui="done-banner" role="status" hidden>${cheer(`<b>Hoàn thành bộ từ này rồi! 🎉</b><br>Bạn đã thuộc cả ${topic.deck.length} từ. Bấm “↺ Reset tiến độ” để ôn lại, hoặc chọn chủ đề khác.`)}</div>
     <div class="fc-scene" data-ui="scene">
       <div class="fc-inner" data-ui="card" role="button" tabindex="0" aria-label="Thẻ từ vựng, chạm để lật">
         <div class="flashcard">
@@ -41,8 +41,7 @@ export function renderFlashcards(root, topic, goHome) {
         </div>
       </div>
     </div>
-    <div class="empty-state" data-ui="empty-state" hidden><div class="big" aria-hidden="true">🌟</div>
-      <h3>Không có từ nào chưa thuộc</h3><p>Bạn đã thuộc hết bộ này. Chọn “📚 Tất cả” để ôn lại, hoặc học chủ đề khác.</p></div>
+    <div class="empty-state" data-ui="empty-state" hidden>${cheer('<b>Không còn từ nào chưa thuộc! 🌟</b><br>Chọn “📚 Tất cả” để ôn lại, hoặc học chủ đề khác nhé.')}</div>
     <div class="mark-row" data-ui="mark-row"><button class="btn-mark is-unknown" type="button" data-ui="mark-unknown" aria-pressed="false">😕 Chưa thuộc</button><button class="btn-mark is-known" type="button" data-ui="mark-known" aria-pressed="false">✅ Đã thuộc</button></div>
     <div class="nav-row" data-ui="nav-row"><button class="btn-soft" type="button" data-ui="prev">← Trước</button><button class="btn-soft" type="button" data-ui="flip">Lật thẻ 🔄</button><button class="btn-soft" type="button" data-ui="next">Tiếp →</button></div>
     <div class="counter" data-ui="counter"></div>
@@ -52,6 +51,7 @@ export function renderFlashcards(root, topic, goHome) {
       <dt>Nói để kiểm tra</dt><dd><kbd>M</kbd></dd><dt>Đổi bộ lọc</dt><dd><kbd>F</kbd></dd><dt>Về danh sách</dt><dd><kbd>Esc</kbd></dd></dl></details>
   </div>`;
 
+  bindArtFallbacks(root);
   const el = (name) => $(root, name);
   const deck = topic.deck;
   const card = el('card');
@@ -65,7 +65,8 @@ export function renderFlashcards(root, topic, goHome) {
     order = deck.map((_, i) => i).filter(i => filterMode === 'all' || status(i) !== 'known');
     pos = Math.max(0, Math.min(pos, order.length - 1));
     const empty = order.length === 0;
-    el('empty-state').hidden = !empty;
+    // Everything known: the done banner already cheers, so skip the second mascot.
+    el('empty-state').hidden = !empty || deck.every((_, i) => status(i) === 'known');
     for (const name of ['scene', 'mark-row', 'nav-row', 'counter']) el(name).hidden = empty;
     updateStats();
     if (empty) return;

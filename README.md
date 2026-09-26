@@ -2,7 +2,7 @@
 
 Web học từ vựng IELTS và luyện nói, gồm flashcard, đọc to đoạn văn có chấm theo giọng nói, và luyện phát âm IPA. Chạy như một trang tĩnh, dự kiến host trên GitHub Pages.
 
-> Giao diện theo design system **Sprout** ([`design/DESIGN.md`](design/DESIGN.md)). Mockup các màn và trạng thái: [`design/mockups/index.html`](design/mockups/index.html). Riêng S1 trong mockup vẫn là trang chủ cũ, trang chủ hiện tại xem trực tiếp trên web. Hình minh hoạ: [`design/ILLUSTRATIONS.md`](design/ILLUSTRATIONS.md).
+> Giao diện theo design system **Sprout** ([`design/DESIGN.md`](design/DESIGN.md)). Mockup trong [`design/mockups/index.html`](design/mockups/index.html) là bản thiết kế trước (Fresh Sorbet), chỉ dùng để xem lại các trạng thái. Giao diện hiện tại xem trực tiếp trên web. Hình minh hoạ: [`design/ILLUSTRATIONS.md`](design/ILLUSTRATIONS.md).
 
 ## Cấu trúc
 | Đường dẫn | Nội dung |

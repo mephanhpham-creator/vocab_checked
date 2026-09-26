@@ -3,7 +3,7 @@
 import { saveSentenceScore, getSentenceScore } from './store.js';
 import { speak, stopSpeaking, RATE, canListen } from './speech.js';
 import { compare, parseSentence } from './match.js';
-import { $, esc, topicStyle, speakBtn, slowBtn, micBtn, bindMic, openWordSheet, result, liveHtml } from './ui.js';
+import { $, esc, topicStyle, speakBtn, slowBtn, micBtn, bindMic, openWordSheet, result, liveHtml, topicHead, cheer, bindArtFallbacks } from './ui.js';
 
 const IDLE_HINT = '<p class="quiz-hint">Bấm 🎤 rồi đọc to câu đang được tô sáng.</p>';
 
@@ -14,7 +14,7 @@ export function renderReading(root, topic, passage, goHome) {
   const lastResult = {}; // sentence index -> compare() result, this visit only
 
   root.innerHTML = `<div class="app themed" style="${topicStyle(topic)}">
-    <div class="topbar"><button class="btn-back" type="button" data-ui="back">← Danh sách chủ đề</button><span class="topic-name" data-ui="topic-name">${esc(topic.title)}</span></div>
+    ${topicHead(topic, 'Luyện đọc', `${sentences.length} câu`)}
     <div data-ui="notice-slot">${canListen ? '' : '<div class="notice is-warn" data-ui="notice" role="alert"><span aria-hidden="true">⚠️</span><span>Trình duyệt này chưa hỗ trợ nhận dạng giọng nói. Hãy mở trang bằng <b>Chrome</b>, <b>Edge</b> hoặc <b>Safari</b> để luyện nói.</span></div>'}</div>
     <h2 class="passage-title" data-ui="passage-title">${esc(passage.title)}</h2>
     <p class="read-hint">Chạm từ <b>in đậm</b> để xem nghĩa · chạm câu khác để chuyển câu</p>
@@ -49,7 +49,7 @@ export function renderReading(root, topic, passage, goHome) {
     if (!res) return IDLE_HINT;
     if (!res.heard) return result('empty', '<b>Chưa nghe rõ.</b> Thử nói to và rõ hơn, rồi bấm 🎤 lại.');
     const pct = Math.round(res.score * 100);
-    if (res.score === 1) return result('correct', `<b>Tuyệt vời!</b> Máy nghe đúng cả câu · <b>100%</b>`);
+    if (res.score === 1) return cheer('<b>Tuyệt vời! 🎉</b><br>Máy nghe đúng cả câu · <b>100%</b>');
     return result('wrong', `Máy nghe được: “${esc(res.heard)}” · <b>${pct}%</b>. Từ gạch sóng là từ máy chưa nghe ra.`);
   }
 
@@ -58,6 +58,7 @@ export function renderReading(root, topic, passage, goHome) {
     el('status').innerHTML = `Câu ${cur + 1} / ${sentences.length}` + (best !== undefined ? ` · Tốt nhất: <b>${Math.round(best * 100)}%</b>` : '');
     el('heard').classList.remove('is-live');
     el('heard').innerHTML = heardHtml(lastResult[cur]);
+    bindArtFallbacks(el('heard'));
     const scores = sentences.map((_, i) => getSentenceScore(topic.key, i)).filter(s => s !== undefined);
     el('stat-read').textContent = `${scores.length}/${sentences.length}`;
     el('stat-avg').textContent = scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length * 100) + '%' : '–';

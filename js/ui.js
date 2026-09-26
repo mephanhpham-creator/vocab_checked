@@ -25,6 +25,31 @@ export const micBtn = ({ small = false } = {}) => canListen
   ? `<button class="btn-mic${small ? ' is-sm' : ''}" type="button" data-ui="mic" aria-label="Bấm để nói" aria-pressed="false" title="Nói để kiểm tra (M)">${ICON.mic}</button>`
   : `<button class="btn-mic${small ? ' is-sm' : ''}" type="button" data-ui="mic" aria-disabled="true" aria-label="Trình duyệt không hỗ trợ micro">${ICON.micOff}</button>`;
 
+// ---------- Illustrations ----------
+// Shows the image when it loads, an emoji otherwise, so a missing file never
+// breaks the page. Call bindArtFallbacks(root) after inserting the HTML.
+export const art = (src, alt, fallback) => `<img src="${src}" alt="${esc(alt)}" data-fallback="${fallback}">`;
+export function bindArtFallbacks(root) {
+  root.querySelectorAll('img[data-fallback]').forEach(img => img.addEventListener('error', () => {
+    const span = document.createElement('span');
+    span.className = 'art-fallback';
+    span.setAttribute('aria-hidden', 'true');
+    span.textContent = img.dataset.fallback;
+    img.replaceWith(span);
+  }, { once: true }));
+}
+// The chick mascot cheering with a speech bubble (done states, perfect reads).
+export const cheer = (html) => `<div class="cheer" data-ui="cheer"><div class="cheer-art">${art('assets/illustrations/mascot.webp', '', '🐥')}</div><div class="cheer-bubble">${html}</div></div>`;
+
+// Page header for one topic: back link, icon, title, subtitle.
+export function topicHead(topic, backLabel, sub) {
+  return `<div class="topic-head">
+    <button class="crumb" type="button" data-ui="back">← ${esc(backLabel)}</button>
+    <div class="topic-head-main"><span class="topic-head-icon" aria-hidden="true">${topic.icon}</span>
+      <div><h1 data-ui="topic-name">${esc(topic.title)}</h1><p>${esc(topic.subtitle || '')} · ${esc(sub)}</p></div></div>
+  </div>`;
+}
+
 // ---------- Result pills ----------
 export function result(kind, html) { // kind: correct | wrong | empty
   const icon = { correct: '✅', wrong: '❌', empty: '🤔' }[kind];
