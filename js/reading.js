@@ -3,7 +3,7 @@
 import { saveSentenceScore, getSentenceScore } from './store.js';
 import { speak, stopSpeaking, RATE, canListen } from './speech.js';
 import { compare, parseSentence } from './match.js';
-import { $, esc, topicStyle, speakBtn, slowBtn, micBtn, bindMic, openSheet, result, liveHtml } from './ui.js';
+import { $, esc, topicStyle, speakBtn, slowBtn, micBtn, bindMic, openWordSheet, result, liveHtml } from './ui.js';
 
 const IDLE_HINT = '<p class="quiz-hint">Bấm 🎤 rồi đọc to câu đang được tô sáng.</p>';
 
@@ -70,25 +70,12 @@ export function renderReading(root, topic, passage, goHome) {
     renderStatus();
   }
 
-  // S7 word detail sheet.
-  function showWord(deckWord) {
-    const c = findCard(deckWord);
-    if (!c) return;
-    const sheet = openSheet(`
-      <div class="sheet-head"><div class="sheet-word" data-ui="word">${esc(c.word)}</div><div class="ipa sheet-center" data-ui="ipa">${esc(c.ipa)}</div></div>
-      <div class="sheet-center"><div class="sheet-vi" data-ui="meaning-vi">${esc(c.vi)}</div><p class="sheet-en" data-ui="meaning-en">${esc(c.en)}</p></div>
-      ${c.ex ? `<p class="sheet-example" data-ui="example">“${esc(c.ex)}”</p>` : ''}
-      <div class="sheet-actions">${speakBtn()}${slowBtn()}</div>`, { label: `Nghĩa của từ ${c.word}` });
-    $(sheet, 'speak').addEventListener('click', (e) => speak(c.tts || c.word, RATE.normal, e.currentTarget));
-    $(sheet, 'speak-slow').addEventListener('click', (e) => speak(c.tts || c.word, RATE.slowWord, e.currentTarget));
-  }
-
   function onPassageActivate(e) {
     const w = e.target.closest('[data-vocab]');
     const s = e.target.closest('[data-ui="sentence"]');
     if (!s) return;
     if (+s.dataset.i !== cur) select(+s.dataset.i);
-    else if (w) showWord(w.dataset.vocab);
+    else if (w) { const c = findCard(w.dataset.vocab); if (c) openWordSheet(c); }
   }
   el('passage').addEventListener('click', onPassageActivate);
   el('passage').addEventListener('keydown', (e) => { if (e.key === 'Enter' && e.target.dataset.vocab) onPassageActivate(e); });

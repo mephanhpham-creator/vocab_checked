@@ -1,12 +1,13 @@
 ---
 version: alpha
-name: Fresh Sorbet
-description: Friendly, vibrant and encouraging design system with soft pastel gradients, pill contours and airy touch-first components for Vietnamese IELTS learners.
+name: Sprout
+description: Warm, playful learning-app look (cream background, leaf-green actions, rounded display type, pastel word cards, illustrated hero and mascot) for Vietnamese IELTS learners. Evolves "Fresh Sorbet".
 colors:
-  primary: "#0F766E"          # Deep teal: primary buttons, active chips, idle mic (white text on it 5.47:1 PASS)
+  primary: "#2E7D32"          # Leaf green: primary buttons, active nav, idle mic (white text on it 5.13:1; on cream 4.86:1 PASS)
+  primary-strong: "#1B5E20"   # Brand name and page headings (on cream 7.45:1)
   secondary: "#3B82F6"        # Xanh dương phụ trợ
-  tertiary: "#F59E0B"         # Vàng ấm
-  neutral: "#FFFDF9"          # Nền trang chính: chuyển gradient mềm sang #F0FDF4
+  tertiary: "#F5B301"         # Sunny yellow: decorative sparkles and glows only, never text
+  neutral: "#FFF8EC"          # Cream page background, soft gradient to #F3F9EC
   surface: "#FFFFFF"          # Bề mặt thẻ, sheet, hộp thoại
   on-surface: "#1F2937"       # Body text (on white 14.68:1 PASS)
   muted: "#4B5563"            # Secondary text (on white 7.56:1 PASS)
@@ -22,15 +23,15 @@ colors:
   topic-emotions_opinions: "#4338CA"
   topic-leisure: "#9F1239"
 typography:
-  headline-lg: { fontFamily: "Plus Jakarta Sans, sans-serif", fontSize: "28px", fontWeight: 700, lineHeight: 1.25 }
-  headline-md: { fontFamily: "Plus Jakarta Sans, sans-serif", fontSize: "22px", fontWeight: 700, lineHeight: 1.3 }
-  title-md:    { fontFamily: "Plus Jakarta Sans, sans-serif", fontSize: "18px", fontWeight: 600, lineHeight: 1.35 }
-  body-lg:     { fontFamily: "Plus Jakarta Sans, sans-serif", fontSize: "18px", fontWeight: 400, lineHeight: 1.6 }
-  body-md:     { fontFamily: "Plus Jakarta Sans, sans-serif", fontSize: "15px", fontWeight: 400, lineHeight: 1.5 }
-  body-sm:     { fontFamily: "Plus Jakarta Sans, sans-serif", fontSize: "13px", fontWeight: 400, lineHeight: 1.4 }
-  label-md:    { fontFamily: "Plus Jakarta Sans, sans-serif", fontSize: "15px", fontWeight: 600, lineHeight: 1.2 }
-  label-sm:    { fontFamily: "Plus Jakarta Sans, sans-serif", fontSize: "12px", fontWeight: 600, lineHeight: 1.2 }
-  word-display: { fontFamily: "Plus Jakarta Sans, sans-serif", fontSize: "32px", fontWeight: 800, lineHeight: 1.2 }
+  headline-lg: { fontFamily: "Baloo 2, Nunito, sans-serif", fontSize: "34px", fontWeight: 800, lineHeight: 1.25 }
+  headline-md: { fontFamily: "Baloo 2, Nunito, sans-serif", fontSize: "28px", fontWeight: 800, lineHeight: 1.3 }
+  title-md:    { fontFamily: "Nunito, sans-serif", fontSize: "18px", fontWeight: 600, lineHeight: 1.35 }
+  body-lg:     { fontFamily: "Nunito, sans-serif", fontSize: "18px", fontWeight: 400, lineHeight: 1.6 }
+  body-md:     { fontFamily: "Nunito, sans-serif", fontSize: "15px", fontWeight: 400, lineHeight: 1.5 }
+  body-sm:     { fontFamily: "Nunito, sans-serif", fontSize: "13px", fontWeight: 400, lineHeight: 1.4 }
+  label-md:    { fontFamily: "Nunito, sans-serif", fontSize: "15px", fontWeight: 600, lineHeight: 1.2 }
+  label-sm:    { fontFamily: "Nunito, sans-serif", fontSize: "12px", fontWeight: 600, lineHeight: 1.2 }
+  word-display: { fontFamily: "Nunito, sans-serif", fontSize: "32px", fontWeight: 800, lineHeight: 1.2 }
   ipa:         { fontFamily: "Noto Sans, sans-serif", fontSize: "18px", fontWeight: 400, lineHeight: 1.4 }
 rounded:
   sm: "8px"
@@ -63,14 +64,15 @@ components:
   progress-bar: { height: "8px", rounded: "{rounded.full}", backgroundColor: "rgba(0, 0, 0, 0.08)" }
 ---
 
-# Fresh Sorbet
+# Sprout
 
 ## Overview
 A cheerful, modern, and non-intimidating mobile study companion designed specifically for Vietnamese adult learners preparing for IELTS speaking. The visual language uses soft ambient mesh gradients (warm cream blending into cool mint), spacious rounded surfaces, multi-coloured pastel topic tags, and pill contours. It fosters positive reinforcement: making speech errors feels like low-stakes play rather than a formal test.
 
 ## Colors
-- **primary (`#0F766E`)**: Deep teal for primary buttons, focal active states, and the idle mic. On white 5.47:1; white text on it 5.47:1 (PASS AA).
-- **neutral (`#FFFDF9`)**: Warm creamy tint that subtly blends into fresh light mint (`#F0FDF4`) via CSS gradient.
+- **primary (`#2E7D32`)**: Leaf green for primary buttons, the active nav item and the idle mic. On white 5.13:1, on cream 4.86:1; white text on it 5.13:1 (PASS AA). `primary-strong` (`#1B5E20`) for the brand name and page headings.
+- **neutral (`#FFF8EC`)**: Warm cream page background, blending into light leaf (`#F3F9EC`).
+- **Pastel word cards**: green `#EAF5E4`/ink `#2E7D32` (4.56:1), pink `#FDEEF3`/ink `#BE185D` (5.38:1), blue `#EAF1FC`/ink `#1D4ED8` (5.90:1); icon tiles also use purple `#F3EEFE`.
 - **surface (`#FFFFFF`)**: Pure crisp white for elevated cards, bottom sheets, and tiles.
 - **on-surface (`#1F2937`)**: Neutral charcoal for high-contrast, crisp typography. Contrast on white: 14.68:1 (PASS AA).
 - **muted (`#4B5563`)**: Cool grey for secondary labels and hints. Contrast on white: 7.56:1 (PASS AA).
@@ -80,8 +82,9 @@ A cheerful, modern, and non-intimidating mobile study companion designed specifi
 - **Per-topic accents**: 8 distinct pastel accents representing curriculum themes.
 
 ## Typography
-- **Primary typeface**: `Plus Jakarta Sans` (Google Fonts). Geometric sans-serif with softly sculpted terminals; highly legible on mobile screens and provides complete native support for Vietnamese tone marks.
-- **Phonetic IPA typeface**: `Noto Sans` (Google Fonts). Verified to contain every IPA glyph the app uses (`ɪ ʊ ə ʌ ɒ ɔ ɑ ɜ æ θ ð ʃ ʒ ŋ ː ˈ ˌ`) plus Vietnamese. Plus Jakarta Sans lacks most IPA glyphs, and Charis SIL as served by Google Fonts lacks `θ ː ˈ ˌ`, so neither may render IPA.
+- **Display typeface**: `Baloo 2` 700–800 for the hero headline, page titles and brand name: rounded and friendly. Verified: full Vietnamese coverage.
+- **Body typeface**: `Nunito` 400–800: rounded sans, verified full Vietnamese coverage.
+- **Phonetic IPA typeface**: `Noto Sans` (Google Fonts). Verified to contain every IPA glyph the app uses (`ɪ ʊ ə ʌ ɒ ɔ ɑ ɜ æ θ ð ʃ ʒ ŋ ː ˈ ˌ`) plus Vietnamese. Nunito and Baloo 2 are not relied on for IPA, and Charis SIL as served by Google Fonts lacks `θ ː ˈ ˌ`, so neither may render IPA.
 - Minimum body text is set to 13px (strictly exceeds the 12px absolute minimum limit).
 
 ## Layout
@@ -108,6 +111,11 @@ A cheerful, modern, and non-intimidating mobile study companion designed specifi
 - **Result pill**: Informational pill showing live feedback ("Máy nghe được: ...", "Chính xác ✅", "Chưa nghe rõ 🤔").
 - **Bottom sheet**: Pull-up card with 28px rounded top corners, top grab handle, and explicit close button (44×44px).
 
+## Layout additions (Sprout)
+- **Navigation**: sticky white top bar (brand 🌱 + name + tagline, links Trang chủ / Từ vựng / Luyện đọc / Phát âm IPA; active link on a 10% green tint). Under 760px the links move to a fixed bottom tab bar (icon + label, 52px tall).
+- **Home dashboard** (max-width 1120px, 2:1 grid, stacks on phones): hero card (headline "Học tiếng Anh / dễ hơn mỗi ngày", three ✓ benefits, primary CTA, illustration slot) · "Hôm nay học gì?" list card with the mascot and speech bubble · "Từ vựng hôm nay" pastel word cards (horizontal scroll on phones) · quick pronunciation card with a decorative waveform that animates while listening.
+- **Illustrations**: `assets/illustrations/hero.png` and `mascot.png` (transparent PNG); prompts in `design/ILLUSTRATIONS.md`.
+
 ## Do's and Don'ts
 - **Do** provide non-colour cues alongside colour highlights for all spoken feedback.
 - **Do** ensure all interactive touch targets meet or exceed 44×44px (mic is 64px).
@@ -115,7 +123,7 @@ A cheerful, modern, and non-intimidating mobile study companion designed specifi
 - **Don't** design login, accounts, user profiles, or cloud sync pages.
 - **Don't** design leaderboards, streaks, ads, or paywalls.
 - **Don't** show simulated phoneme-level percentage scores (e.g. "your /θ/ was 62%"). The browser engine only reports recognized whole words.
-- **Don't** use stock photography of human models; rely purely on clear emoji and geometric SVG icons.
+- **Don't** use photos of real people. Flat, friendly illustrations (hero character, chick mascot) and emoji are fine; every illustration needs an emoji fallback so the page never breaks without it.
 - **Don't** render typography smaller than 12px.
 
 ## Topic Theming

@@ -1,7 +1,7 @@
-// Shared UI pieces so every screen looks and behaves the same (Fresh Sorbet
+// Shared UI pieces so every screen looks and behaves the same ("Sprout"
 // design system, see design/DESIGN.md): escaping, element lookup by the
 // data-ui contract, buttons, result pills, bottom sheet, mic wiring, toast.
-import { canListen, listen } from './speech.js';
+import { canListen, listen, speak, RATE } from './speech.js';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -50,6 +50,16 @@ export function openSheet(html, { label = 'Chi tiết' } = {}) {
   document.body.appendChild(layer);
   $(layer, 'sheet-close').focus();
   return $(layer, 'sheet');
+}
+// S7 word detail sheet: used from the reading passage and the home page.
+export function openWordSheet(c) {
+  const sheet = openSheet(`
+    <div class="sheet-head"><div class="sheet-word" data-ui="word">${esc(c.word)}</div><div class="ipa sheet-center" data-ui="ipa">${esc(c.ipa)}</div></div>
+    <div class="sheet-center"><div class="sheet-vi" data-ui="meaning-vi">${esc(c.vi)}</div><p class="sheet-en" data-ui="meaning-en">${esc(c.en)}</p></div>
+    ${c.ex ? `<p class="sheet-example" data-ui="example">“${esc(c.ex)}”</p>` : ''}
+    <div class="sheet-actions">${speakBtn()}${slowBtn()}</div>`, { label: `Nghĩa của từ ${c.word}` });
+  $(sheet, 'speak').addEventListener('click', (e) => speak(c.tts || c.word, RATE.normal, e.currentTarget));
+  $(sheet, 'speak-slow').addEventListener('click', (e) => speak(c.tts || c.word, RATE.slowWord, e.currentTarget));
 }
 export function closeSheet() { if (layer) { layer.remove(); layer = null; return true; } return false; }
 export const sheetOpen = () => !!layer;
