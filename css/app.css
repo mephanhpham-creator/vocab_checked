@@ -1,5 +1,4 @@
-/* "Sprout" design system: tokens and components follow design/DESIGN.md.
-   Shared by the app and by the design mockups (design/mockups/build.py). */
+/* "Sprout" design system: tokens and components follow design/DESIGN.md. */
 
 /* ===== Tokens ===== */
 :root{
@@ -71,13 +70,6 @@ button{font:inherit; color:inherit; cursor:pointer;}
 .result.is-wrong{background:rgba(185,28,28,.10); color:var(--error);}
 .result.is-empty{background:rgba(0,0,0,.05); color:var(--muted);}
 
-/* ===== Word feedback (inline, S3) ===== */
-.passage-sample{font-size:18px; line-height:2; margin:0;}
-.w-ok{background:rgba(22,163,74,.15); color:var(--success-ink); border-radius:var(--r-sm); padding:2px 4px;
-  text-decoration:underline; text-decoration-thickness:1.5px; text-underline-offset:4px;}
-.w-bad{background:rgba(185,28,28,.12); color:var(--error); border-radius:var(--r-sm); padding:2px 4px;
-  text-decoration:underline wavy; text-decoration-thickness:1.5px; text-underline-offset:4px; font-weight:600;}
-.w-vocab{font-weight:700; border-bottom:2px solid var(--primary);}
 
 /* ===== Chip / tab ===== */
 .chip{
@@ -89,7 +81,6 @@ button{font:inherit; color:inherit; cursor:pointer;}
 .chip::after{content:""; position:absolute; inset:-4px 0;}
 .chip:hover{background:rgba(0,0,0,.08);}
 .chip[aria-selected="true"], .chip.is-active{background:var(--primary); color:#fff;}
-.tabs{display:flex; gap:var(--s-sm); flex-wrap:wrap;}
 
 /* ===== Stat tile ===== */
 .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:var(--s-md);}
@@ -100,8 +91,6 @@ button{font:inherit; color:inherit; cursor:pointer;}
 .stat-num.is-error{color:var(--error);}
 
 /* ===== Progress bar ===== */
-.progress{width:100%;}
-.progress-meta{display:flex; justify-content:space-between; font-size:12px; font-weight:600; color:var(--muted); margin-bottom:6px;}
 .progress-track{height:8px; border-radius:var(--r-full); background:rgba(0,0,0,.08); overflow:hidden;}
 .progress-fill{height:100%; border-radius:inherit; background:var(--topic-ink, var(--primary)); transition:width .4s ease;}
 
@@ -158,9 +147,6 @@ button{font:inherit; color:inherit; cursor:pointer;}
 /* ===== App shell ===== */
 .stack{display:flex; flex-direction:column; gap:var(--s-md);}
 .app{max-width:600px; margin:0 auto; padding:var(--s-xl) var(--s-lg) 48px; display:flex; flex-direction:column; gap:var(--s-lg);}
-.app-title{font-size:22px; font-weight:700; line-height:1.3; margin:0; text-align:center;}
-.tabs.is-main{justify-content:center;}
-.tab-hint{font-size:13px; color:var(--muted); text-align:center; margin:0;}
 .storage-note{font-size:12px; color:var(--muted); text-align:center; line-height:1.5; margin:0;}
 .section-title{font-size:12px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); margin:var(--s-sm) 0 0;}
 .section-title small{font-weight:400; text-transform:none; letter-spacing:0;}
@@ -255,10 +241,6 @@ button{font:inherit; color:inherit; cursor:pointer;}
 .heard-live{display:flex; align-items:center; gap:var(--s-sm); font-size:15px; color:var(--on-surface);}
 
 /* Main tabs: equal segments that fit 390px on one row, full 44px touch height. */
-.tabs.is-main{display:grid; grid-template-columns:repeat(3,1fr); gap:6px; background:rgba(0,0,0,.04); padding:4px; border-radius:var(--r-full);}
-.tabs.is-main .chip{height:44px; padding:0 6px; justify-content:center; background:transparent;}
-.tabs.is-main .chip[aria-selected="true"]{background:var(--primary); color:#fff; box-shadow:0 4px 10px -4px rgba(46,125,50,.6);}
-.tabs.is-main .chip::after{display:none;}
 /* Topic cards grow with 2-line titles instead of overflowing a fixed square. */
 .topic-card{aspect-ratio:auto; min-height:176px; gap:var(--s-md);}
 /* Reading focus: other sentences recede (still AA: #6B7280 on white 4.83:1). */
@@ -312,7 +294,7 @@ button{font:inherit; color:inherit; cursor:pointer;}
 .shortcuts dd{margin:0; text-align:right;}
 kbd{font:600 12px/1 var(--font); background:rgba(0,0,0,.05); border:1px solid rgba(0,0,0,.1); border-radius:6px; padding:3px 6px; color:var(--on-surface);}
 
-/* ===== App runtime (layers the mockups draw statically) ===== */
+/* ===== App runtime layers (sheet overlay, floating toast, card flip) ===== */
 .sheet-layer{position:fixed; inset:0; z-index:40;}
 .sheet-layer .sheet{margin:0 auto; max-width:480px; max-height:85vh; animation:sheetUp .22s ease;}
 @keyframes sheetUp{from{transform:translateY(40px); opacity:0;} to{transform:none; opacity:1;}}

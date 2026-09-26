@@ -2,7 +2,7 @@
 
 Web học từ vựng IELTS và luyện nói, gồm flashcard, đọc to đoạn văn có chấm theo giọng nói, và luyện phát âm IPA. Chạy như một trang tĩnh, dự kiến host trên GitHub Pages.
 
-> Giao diện theo design system **Sprout** ([`design/DESIGN.md`](design/DESIGN.md)). Mockup trong [`design/mockups/index.html`](design/mockups/index.html) là bản thiết kế trước (Fresh Sorbet), chỉ dùng để xem lại các trạng thái. Giao diện hiện tại xem trực tiếp trên web. Hình minh hoạ: [`design/ILLUSTRATIONS.md`](design/ILLUSTRATIONS.md).
+> Giao diện theo design system **Sprout** ([`design/DESIGN.md`](design/DESIGN.md)). Hình minh hoạ: [`design/ILLUSTRATIONS.md`](design/ILLUSTRATIONS.md).
 
 ## Cấu trúc
 | Đường dẫn | Nội dung |
@@ -17,7 +17,7 @@ Web học từ vựng IELTS và luyện nói, gồm flashcard, đọc to đoạn
 | `js/home.js` | Trang chủ: banner, “Hôm nay học gì?”, từ vựng hôm nay, luyện phát âm nhanh |
 | `js/flashcards.js`, `reading.js`, `ipa.js` | Các màn S2 flashcard, S3 luyện đọc, S4–S7 IPA và bảng trượt |
 | `js/ui.js` | Thành phần dùng chung: nút, mic, ô kết quả, bottom sheet, toast. Phần tử được tìm theo thuộc tính `data-ui` |
-| `css/app.css` | Design system dùng chung cho app và mockup |
+| `css/app.css` | Design system Sprout (token, component, các màn) |
 | `design/vocab-ui-art-director/` | Skill cho Gemini Spark để thiết kế lại giao diện ([hướng dẫn](design/README.md)) |
 
 ## Chạy và kiểm thử

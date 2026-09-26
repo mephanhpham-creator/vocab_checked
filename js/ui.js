@@ -5,8 +5,8 @@ import { canListen, listen, speak, RATE } from './speech.js';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-// Elements are found by their data-ui name, the contract shared with the
-// design mockups (design/vocab-ui-art-director/references/SCREENS.md).
+// Elements are found by their data-ui name, the contract described in
+// design/vocab-ui-art-director/references/SCREENS.md.
 export const $ = (root, name) => root.querySelector(`[data-ui="${name}"]`);
 
 // Per-topic colours: one accent in, tint/ink/border derived in CSS.

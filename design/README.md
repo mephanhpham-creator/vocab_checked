@@ -69,6 +69,3 @@ Lý do: bước C (lắp logic vào giao diện) cần HTML thật. Một tấm 
 2. Chạy prompt **bộ component dùng chung** trước, sau đó lần lượt chạy prompt từng màn S1–S7.
 3. Đối chiếu từng màn với danh sách trạng thái trong `SCREENS.md`.
 4. Xuất **standalone HTML**, hoặc dùng tính năng **handoff to Claude Code**, rồi gửi lại cùng DESIGN.md. Claude Code sẽ gắn logic đã có sẵn (`js/`) vào theo các thuộc tính `data-ui`.
-
-## 5. Mockup đã dựng
-`design/mockups/index.html`: component sheet cùng các màn S1–S7 với đủ mọi trạng thái, làm bằng HTML + CSS thuần theo DESIGN.md "Fresh Sorbet". Trang này được sinh từ `design/mockups/build.py`, lấy CSS trong `src/styles.css` và nội dung thật trong `data/*.json`. Sau khi sửa CSS hoặc dữ liệu, chạy `python3 design/mockups/build.py` để tạo lại trang.
