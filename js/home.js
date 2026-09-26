@@ -47,7 +47,7 @@ export function renderHome(root, data) {
           <ul><li>Từ vựng vững hơn</li><li>Phát âm tự tin hơn</li><li>Mỗi ngày một chút, tiến bộ thật nhiều!</li></ul>
           <a class="btn-primary" data-ui="start" href="#/flashcards/${esc(next.key)}">Bắt đầu học ngay →</a>
         </div>
-        <div class="hero-art">${art('assets/illustrations/hero.png', 'Bạn nhỏ ôm sách tiếng Anh', '👩‍🎓')}</div>
+        <div class="hero-art">${art('assets/illustrations/hero.webp', 'Bạn nhỏ ôm sách tiếng Anh', '👩‍🎓')}</div>
       </section>
 
       <section class="card today-card" data-ui="today">
@@ -59,7 +59,7 @@ export function renderHome(root, data) {
         </div>
         <div class="mascot" aria-hidden="true">
           <div class="mascot-bubble">Học từ vựng và luyện phát âm siêu tiện luôn! ✨</div>
-          <div class="mascot-art">${art('assets/illustrations/mascot.png', '', '🐥')}</div>
+          <div class="mascot-art">${art('assets/illustrations/mascot.webp', '', '🐥')}</div>
         </div>
       </section>
 

@@ -4,10 +4,10 @@ Trang chủ có sẵn hai chỗ để đặt hình:
 
 | File | Vị trí | Hiện đang hiển thị |
 |---|---|---|
-| `assets/illustrations/hero.png` | Banner chào mừng, bên phải tiêu đề | 👩‍🎓 |
-| `assets/illustrations/mascot.png` | Góc khối "Hôm nay học gì?", cạnh bong bóng lời thoại | 🐥 |
+| `assets/illustrations/hero.webp` | Banner chào mừng, bên phải tiêu đề | 👩‍🎓 |
+| `assets/illustrations/mascot.webp` | Góc khối "Hôm nay học gì?", cạnh bong bóng lời thoại | 🐥 |
 
-Khi chưa có hình, web tự hiển thị emoji ở cột bên phải, nên trang không bao giờ bị vỡ. Bạn gửi file PNG cho mình, mình sẽ đặt vào đúng thư mục.
+✅ Đã có cả hai hình (tạo bằng Gemini, đã tách nền trắng và nén sang WebP khoảng 50 KB mỗi hình). Nếu một hình không tải được, web tự hiển thị emoji thay thế.
 
 ## Cách làm
 1. Mở Gemini và dán **từng prompt** bên dưới (mỗi hình một cuộc trò chuyện).
@@ -16,7 +16,7 @@ Khi chưa có hình, web tự hiển thị emoji ở cột bên phải, nên tra
    - Gemini thường không xuất được nền trong suốt thật, nên prompt yêu cầu **nền trắng tinh**. Mình sẽ tự tách nền trước khi đưa lên web.
 4. Tạo hình banner trước. Khi tạo linh vật, gửi kèm hình banner và nói "cùng phong cách với hình này" để hai hình đồng bộ.
 
-## Prompt 1: hình banner (hero.png)
+## Prompt 1: hình banner (hero.webp)
 ```
 A cute chibi-style illustration of a young Vietnamese woman student with a warm smile,
 shoulder-length dark brown hair with a small bun, wearing a cream sweater, happily hugging
@@ -28,7 +28,7 @@ Plain pure white background (#FFFFFF), no shadow on the ground, no text, no lett
 Square 1024x1024.
 ```
 
-## Prompt 2: linh vật (mascot.png)
+## Prompt 2: linh vật (mascot.webp)
 ```
 A cute round yellow baby chick mascot with a tiny green leaf sprout growing on top of its head,
 big shiny eyes, rosy cheeks, orange beak, one wing raised in a cheerful wave.

@@ -114,7 +114,7 @@ A cheerful, modern, and non-intimidating mobile study companion designed specifi
 ## Layout additions (Sprout)
 - **Navigation**: sticky white top bar (brand 🌱 + name + tagline, links Trang chủ / Từ vựng / Luyện đọc / Phát âm IPA; active link on a 10% green tint). Under 760px the links move to a fixed bottom tab bar (icon + label, 52px tall).
 - **Home dashboard** (max-width 1120px, 2:1 grid, stacks on phones): hero card (headline "Học tiếng Anh / dễ hơn mỗi ngày", three ✓ benefits, primary CTA, illustration slot) · "Hôm nay học gì?" list card with the mascot and speech bubble · "Từ vựng hôm nay" pastel word cards (horizontal scroll on phones) · quick pronunciation card with a decorative waveform that animates while listening.
-- **Illustrations**: `assets/illustrations/hero.png` and `mascot.png` (transparent PNG); prompts in `design/ILLUSTRATIONS.md`.
+- **Illustrations**: `assets/illustrations/hero.webp` and `mascot.webp` (transparent PNG); prompts in `design/ILLUSTRATIONS.md`.
 
 ## Do's and Don'ts
 - **Do** provide non-colour cues alongside colour highlights for all spoken feedback.
