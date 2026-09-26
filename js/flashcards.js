@@ -1,148 +1,116 @@
-// Flashcard deck for one topic — ported from the original Netlify app
-// (3D flip, known/unknown marks, filter, shortcuts), plus a 🎤 check.
+// S2 Flashcard deck for one topic: 3D flip, known/unknown marks, filter,
+// shortcuts, and a 🎤 check of the headword.
 import { getStatus, setStatus, resetTopic } from './store.js';
 import { speak, stopSpeaking, RATE } from './speech.js';
 import { checkWord } from './match.js';
-import { bindMic, resultHtml, esc } from './ui.js';
+import { $, esc, topicStyle, speakBtn, slowBtn, micBtn, bindMic, wordResult, liveHtml, result, topicHead, cheer, bindArtFallbacks } from './ui.js';
 
 export function renderFlashcards(root, topic, goHome) {
-  root.innerHTML = `
-    <div class="topbar">
-      <button class="home-btn" id="homeBtn">← Danh sách chủ đề</button>
-      <div class="topbar-title">${esc(topic.title)}</div>
-    </div>
-
+  root.innerHTML = `<div class="app themed" style="${topicStyle(topic)}">
+    ${topicHead(topic, 'Từ vựng', `${topic.deck.length} từ`)}
     <div class="toolbar">
-      <div class="chip active" id="filterAll">📚 Tất cả (<span id="countAllChip">0</span>)</div>
-      <div class="chip" id="filterUnknown">🧠 Chỉ từ chưa thuộc (<span id="countUnknownChip">0</span>)</div>
-      <div class="chip" id="resetBtn">↺ Reset tiến độ</div>
+      <button class="chip is-active" type="button" data-ui="filter-all"></button>
+      <button class="chip" type="button" data-ui="filter-unknown"></button>
+      <button class="chip" type="button" data-ui="reset">↺ Reset tiến độ</button>
     </div>
-
     <div class="stats">
-      <div class="stat"><div class="num" id="statTotal">0</div><div class="lbl">Tổng số từ</div></div>
-      <div class="stat"><div class="num" id="statKnown" style="color:var(--known)">0</div><div class="lbl">Đã thuộc</div></div>
-      <div class="stat"><div class="num" id="statUnknown" style="color:var(--unknown)">0</div><div class="lbl">Chưa thuộc</div></div>
+      <div class="stat"><div class="stat-num" data-ui="stat-total"></div><div class="stat-lbl">Tổng số từ</div></div>
+      <div class="stat"><div class="stat-num is-success" data-ui="stat-known"></div><div class="stat-lbl">✅ Đã thuộc</div></div>
+      <div class="stat"><div class="stat-num is-error" data-ui="stat-unknown"></div><div class="stat-lbl">😕 Chưa thuộc</div></div>
     </div>
-
-    <div class="progress-track-fc"><div class="progress-fill-fc" id="progressFillFc"></div></div>
-
-    <div class="scene" id="scene">
-      <div class="card" id="card">
-        <div class="face front">
-          <div class="badge-pos" id="posBadge"></div>
-          <div class="status-dot" id="statusDot"></div>
-          <div class="emoji" id="emojiFront"></div>
-          <div class="word-row">
-            <div class="word" id="wordFront"></div>
-            <button class="speak-btn" id="speakBtn" type="button" aria-label="Nghe phát âm" title="Nghe phát âm (L)">🔊</button>
-            <button class="speak-btn" id="speakSlowBtn" type="button" aria-label="Nghe phát âm siêu chậm" title="Nghe phát âm siêu chậm (S)">🐌</button>
-            <button class="speak-btn mic-btn" id="micBtn" type="button" aria-label="Nói để kiểm tra phát âm" title="Nói để kiểm tra phát âm (M)">🎤</button>
-          </div>
-          <div class="ipa" id="ipaFront"></div>
-          <div class="check-result" id="checkResult"></div>
-          <div class="hint">Nhấn <kbd>Space</kbd> hoặc chạm để lật thẻ</div>
+    <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100"><div class="progress-fill" data-ui="progress-bar"></div></div>
+    <div class="done-banner" data-ui="done-banner" role="status" hidden>${cheer(`<b>Hoàn thành bộ từ này rồi! 🎉</b><br>Bạn đã thuộc cả ${topic.deck.length} từ. Bấm “↺ Reset tiến độ” để ôn lại, hoặc chọn chủ đề khác.`)}</div>
+    <div class="fc-scene" data-ui="scene">
+      <div class="fc-inner" data-ui="card" role="button" tabindex="0" aria-label="Thẻ từ vựng, chạm để lật">
+        <div class="flashcard">
+          <span class="fc-pos" data-ui="pos"></span><span class="fc-status" data-ui="status"></span>
+          <div class="fc-emoji" data-ui="emoji" aria-hidden="true"></div>
+          <div class="fc-word" data-ui="word"></div>
+          <div class="ipa" data-ui="ipa"></div>
+          <div class="fc-controls">${speakBtn()}${micBtn()}${slowBtn()}</div>
+          <div class="fc-check" data-ui="check-result"></div>
+          <div class="fc-hint">Chạm vào thẻ để lật</div>
         </div>
-        <div class="face back">
-          <div class="word" id="wordBack"></div>
-          <div class="meaning-vi" id="meaningVi"></div>
-          <div class="meaning-en" id="meaningEn"></div>
-          <div class="example" id="example"></div>
-          <div class="synonyms" id="synonyms"></div>
+        <div class="flashcard is-back">
+          <div class="fc-back-word" data-ui="back-word"></div>
+          <div class="fc-vi" data-ui="meaning-vi"></div>
+          <p class="fc-en" data-ui="meaning-en"></p>
+          <p class="fc-ex" data-ui="example"></p>
+          <div class="fc-syn" data-ui="synonyms"></div>
+          <div class="fc-hint">Chạm để lật lại</div>
         </div>
       </div>
     </div>
+    <div class="empty-state" data-ui="empty-state" hidden>${cheer('<b>Không còn từ nào chưa thuộc! 🌟</b><br>Chọn “📚 Tất cả” để ôn lại, hoặc học chủ đề khác nhé.')}</div>
+    <div class="mark-row" data-ui="mark-row"><button class="btn-mark is-unknown" type="button" data-ui="mark-unknown" aria-pressed="false">😕 Chưa thuộc</button><button class="btn-mark is-known" type="button" data-ui="mark-known" aria-pressed="false">✅ Đã thuộc</button></div>
+    <div class="nav-row" data-ui="nav-row"><button class="btn-soft" type="button" data-ui="prev">← Trước</button><button class="btn-soft" type="button" data-ui="flip">Lật thẻ 🔄</button><button class="btn-soft" type="button" data-ui="next">Tiếp →</button></div>
+    <div class="counter" data-ui="counter"></div>
+    <details class="shortcuts" data-ui="shortcuts"><summary>⌨️ Phím tắt (máy tính)</summary><dl>
+      <dt>Lật thẻ</dt><dd><kbd>Space</kbd></dd><dt>Thẻ trước / tiếp</dt><dd><kbd>←</kbd> <kbd>→</kbd></dd>
+      <dt>Đã thuộc / Chưa thuộc</dt><dd><kbd>K</kbd> <kbd>U</kbd></dd><dt>Nghe / nghe chậm</dt><dd><kbd>L</kbd> <kbd>S</kbd></dd>
+      <dt>Nói để kiểm tra</dt><dd><kbd>M</kbd></dd><dt>Đổi bộ lọc</dt><dd><kbd>F</kbd></dd><dt>Về danh sách</dt><dd><kbd>Esc</kbd></dd></dl></details>
+  </div>`;
 
-    <div class="empty-state" id="emptyState">
-      🎉 Bạn đã đánh dấu <b>thuộc</b> hết các từ trong bộ lọc này rồi!<br>Chuyển sang "Tất cả" hoặc học chủ đề khác nhé.
-    </div>
-
-    <div class="mark-row">
-      <button class="mark-btn unknown" id="btnUnknown">😕 Chưa thuộc <kbd>U</kbd></button>
-      <button class="mark-btn known" id="btnKnown">✅ Đã thuộc <kbd>K</kbd></button>
-    </div>
-
-    <div class="controls">
-      <button class="ctrl-btn" id="prevBtn" title="Từ trước (←)">←</button>
-      <button class="ctrl-btn" id="flipBtn" title="Lật thẻ (Space)">⤾</button>
-      <button class="ctrl-btn" id="nextBtn" title="Từ tiếp theo (→)">→</button>
-    </div>
-
-    <div class="counter" id="counter"></div>
-    <div class="done-banner" id="doneBanner">🎉 Hoàn thành bộ từ này rồi! Xem lại từ "chưa thuộc" hoặc Reset để ôn lại từ đầu.</div>
-
-    <div class="shortcuts">
-      <h3>⌨️ Phím tắt</h3>
-      <div class="row"><span>Lật thẻ</span><span><kbd>Space</kbd> / <kbd>Enter</kbd></span></div>
-      <div class="row"><span>Từ tiếp theo</span><span><kbd>→</kbd> / <kbd>D</kbd></span></div>
-      <div class="row"><span>Từ trước</span><span><kbd>←</kbd> / <kbd>A</kbd></span></div>
-      <div class="row"><span>Đánh dấu đã thuộc</span><span><kbd>K</kbd></span></div>
-      <div class="row"><span>Đánh dấu chưa thuộc</span><span><kbd>U</kbd></span></div>
-      <div class="row"><span>Nghe phát âm / siêu chậm</span><span><kbd>L</kbd> / <kbd>S</kbd></span></div>
-      <div class="row"><span>Nói để kiểm tra phát âm</span><span><kbd>M</kbd></span></div>
-      <div class="row"><span>Chuyển bộ lọc (chỉ từ chưa thuộc)</span><span><kbd>F</kbd></span></div>
-      <div class="row"><span>Quay lại danh sách chủ đề</span><span><kbd>Esc</kbd></span></div>
-    </div>`;
-
-  const el = (id) => root.querySelector('#' + id);
+  bindArtFallbacks(root);
+  const el = (name) => $(root, name);
   const deck = topic.deck;
   const card = el('card');
   let order = [], pos = 0, flipped = false, filterMode = 'all';
 
   const status = (i) => getStatus(topic.key, deck[i].word);
-
-  function clampPos() {
-    order = deck.map((_, i) => i).filter(i => filterMode === 'all' || status(i) !== 'known');
-    pos = Math.max(0, Math.min(pos, order.length - 1));
-  }
+  const current = () => deck[order[pos]];
 
   function renderCard() {
     stopSpeaking();
-    clampPos();
+    order = deck.map((_, i) => i).filter(i => filterMode === 'all' || status(i) !== 'known');
+    pos = Math.max(0, Math.min(pos, order.length - 1));
     const empty = order.length === 0;
-    el('emptyState').classList.toggle('show', empty);
-    for (const sel of ['#scene', '.mark-row', '.controls']) root.querySelector(sel).style.display = empty ? 'none' : '';
+    // Everything known: the done banner already cheers, so skip the second mascot.
+    el('empty-state').hidden = !empty || deck.every((_, i) => status(i) === 'known');
+    for (const name of ['scene', 'mark-row', 'nav-row', 'counter']) el(name).hidden = empty;
     updateStats();
-    if (empty) { el('counter').textContent = ''; el('doneBanner').classList.remove('show'); return; }
+    if (empty) return;
 
-    const idx = order[pos], c = deck[idx], s = status(idx);
-    el('posBadge').textContent = (c.pos || '').toUpperCase();
+    const c = current(), s = status(order[pos]);
+    el('pos').textContent = (c.pos || '').toUpperCase();
     // A few animals have no accurate emoji (e.g. stingray, sea lion) — those
     // carry a hand-authored inline SVG silhouette in `icon_svg` instead.
-    const emojiEl = el('emojiFront');
-    if (c.icon_svg) emojiEl.innerHTML = c.icon_svg; else emojiEl.textContent = c.emoji || '📘';
-    el('wordFront').textContent = c.word;
-    el('ipaFront').textContent = c.ipa || '';
-    el('checkResult').innerHTML = '';
-    el('wordBack').textContent = c.word;
-    el('meaningVi').textContent = c.vi || '';
-    el('meaningEn').textContent = c.en || '';
-    el('example').textContent = c.ex ? '"' + c.ex + '"' : '';
-    el('synonyms').innerHTML = '<b>Đồng nghĩa:</b> ' + (c.syn || '—');
-    el('statusDot').textContent = s === 'known' ? '✅' : s === 'unknown' ? '😕' : '';
-    el('btnKnown').classList.toggle('on', s === 'known');
-    el('btnUnknown').classList.toggle('on', s === 'unknown');
+    if (c.icon_svg) el('emoji').innerHTML = c.icon_svg; else el('emoji').textContent = c.emoji || '📘';
+    el('word').textContent = c.word;
+    el('ipa').textContent = c.ipa || '';
+    el('check-result').innerHTML = '';
+    el('back-word').textContent = c.word;
+    el('meaning-vi').textContent = c.vi || '';
+    el('meaning-en').textContent = c.en || '';
+    el('example').textContent = c.ex ? `“${c.ex}”` : '';
+    el('synonyms').innerHTML = '<b>Đồng nghĩa:</b> ' + esc(c.syn || '—');
+    el('status').textContent = s === 'known' ? '✅' : s === 'unknown' ? '😕' : '';
+    el('status').setAttribute('aria-label', s === 'known' ? 'Đã thuộc' : s === 'unknown' ? 'Chưa thuộc' : '');
+    el('mark-known').setAttribute('aria-pressed', s === 'known');
+    el('mark-unknown').setAttribute('aria-pressed', s === 'unknown');
     el('counter').textContent = `Thẻ ${pos + 1} / ${order.length}` + (filterMode === 'unknown' ? ' (chưa thuộc)' : '');
     flipped = false;
-    card.classList.remove('flipped');
-    el('doneBanner').classList.toggle('show', deck.every((_, i) => status(i) === 'known'));
+    card.classList.remove('is-flipped');
   }
 
   function updateStats() {
     const known = deck.filter((_, i) => status(i) === 'known').length;
     const unknown = deck.filter((_, i) => status(i) === 'unknown').length;
-    el('statTotal').textContent = deck.length;
-    el('statKnown').textContent = known;
-    el('statUnknown').textContent = unknown;
-    el('countAllChip').textContent = deck.length;
-    el('countUnknownChip').textContent = deck.length - known;
-    el('progressFillFc').style.width = Math.round((known / deck.length) * 100) + '%';
+    const pct = Math.round((known / deck.length) * 100);
+    el('stat-total').textContent = deck.length;
+    el('stat-known').textContent = known;
+    el('stat-unknown').textContent = unknown;
+    el('filter-all').textContent = `📚 Tất cả (${deck.length})`;
+    el('filter-unknown').textContent = `🧠 Chỉ từ chưa thuộc (${deck.length - known})`;
+    el('progress-bar').style.width = pct + '%';
+    el('progress-bar').parentElement.setAttribute('aria-valuenow', pct);
+    el('done-banner').hidden = known !== deck.length;
   }
 
-  const current = () => deck[order[pos]];
-  // `tts` is an optional respelling for words the speech engine misreads
-  // (e.g. "pyjamas"); the visible word is never affected.
-  function speakCurrent(rate, btnId) { if (order.length) { const c = current(); speak(c.tts || c.word, rate, el(btnId)); } }
-  function flip() { flipped = !flipped; card.classList.toggle('flipped', flipped); }
+  // `tts` is an optional respelling for words the speech engine misreads;
+  // the visible word is never affected.
+  function speakCurrent(rate, btn) { if (order.length) { const c = current(); speak(c.tts || c.word, rate, btn); } }
+  function flip() { flipped = !flipped; card.classList.toggle('is-flipped', flipped); }
   function next() { if (order.length) { pos = (pos + 1) % order.length; renderCard(); } }
   function prev() { if (order.length) { pos = (pos - 1 + order.length) % order.length; renderCard(); } }
   function mark(s) {
@@ -153,27 +121,29 @@ export function renderFlashcards(root, topic, goHome) {
   }
   function setFilter(mode) {
     filterMode = mode;
-    el('filterAll').classList.toggle('active', mode === 'all');
-    el('filterUnknown').classList.toggle('active', mode === 'unknown');
+    el('filter-all').classList.toggle('is-active', mode === 'all');
+    el('filter-unknown').classList.toggle('is-active', mode === 'unknown');
     pos = 0; renderCard();
   }
 
-  card.addEventListener('click', flip);
-  el('flipBtn').addEventListener('click', flip);
-  el('speakBtn').addEventListener('click', (e) => { e.stopPropagation(); speakCurrent(RATE.normal, 'speakBtn'); });
-  el('speakSlowBtn').addEventListener('click', (e) => { e.stopPropagation(); speakCurrent(RATE.slowWord, 'speakSlowBtn'); });
-  bindMic(el('micBtn'), {
-    onStart: () => { el('checkResult').innerHTML = '<span class="res">🎙️ Đang nghe…</span>'; },
-    onResult: (alts) => { const r = checkWord(current().word, alts); el('checkResult').innerHTML = resultHtml(r.ok, r.heard); },
+  card.addEventListener('click', (e) => { if (!e.target.closest('button')) flip(); });
+  card.addEventListener('keydown', (e) => { if (e.key === 'Enter' && e.target === card) { e.preventDefault(); flip(); } });
+  el('flip').addEventListener('click', flip);
+  el('speak').addEventListener('click', (e) => { e.stopPropagation(); speakCurrent(RATE.normal, e.currentTarget); });
+  el('speak-slow').addEventListener('click', (e) => { e.stopPropagation(); speakCurrent(RATE.slowWord, e.currentTarget); });
+  bindMic(el('mic'), {
+    onStart: () => { el('check-result').innerHTML = liveHtml(`Đang nghe… hãy nói “${current().word}”`); },
+    onResult: (alts) => { const r = checkWord(current().word, alts); el('check-result').innerHTML = wordResult(r.ok, r.heard); },
+    onError: (msg) => { el('check-result').innerHTML = result('empty', esc(msg)); },
   });
-  el('nextBtn').addEventListener('click', next);
-  el('prevBtn').addEventListener('click', prev);
-  el('btnKnown').addEventListener('click', () => mark('known'));
-  el('btnUnknown').addEventListener('click', () => mark('unknown'));
-  el('homeBtn').addEventListener('click', goHome);
-  el('filterAll').addEventListener('click', () => setFilter('all'));
-  el('filterUnknown').addEventListener('click', () => setFilter('unknown'));
-  el('resetBtn').addEventListener('click', () => {
+  el('next').addEventListener('click', next);
+  el('prev').addEventListener('click', prev);
+  el('mark-known').addEventListener('click', () => mark('known'));
+  el('mark-unknown').addEventListener('click', () => mark('unknown'));
+  el('back').addEventListener('click', goHome);
+  el('filter-all').addEventListener('click', () => setFilter('all'));
+  el('filter-unknown').addEventListener('click', () => setFilter('unknown'));
+  el('reset').addEventListener('click', () => {
     if (confirm('Reset toàn bộ tiến độ của chủ đề này (đã thuộc / chưa thuộc)?')) { resetTopic(topic.key); pos = 0; renderCard(); }
   });
 
@@ -181,15 +151,16 @@ export function renderFlashcards(root, topic, goHome) {
 
   return {
     onKey(e) {
+      if (e.target.closest('button, summary, a')) { if (e.key === ' ' || e.key === 'Enter') return; }
       const k = e.key.toLowerCase();
-      if (k === ' ' || k === 'enter') { e.preventDefault(); flip(); }
+      if (k === ' ') { e.preventDefault(); flip(); }
       else if (k === 'arrowright' || k === 'd') next();
       else if (k === 'arrowleft' || k === 'a') prev();
       else if (k === 'k') mark('known');
       else if (k === 'u') mark('unknown');
-      else if (k === 'l') speakCurrent(RATE.normal, 'speakBtn');
-      else if (k === 's') speakCurrent(RATE.slowWord, 'speakSlowBtn');
-      else if (k === 'm') el('micBtn').click();
+      else if (k === 'l') speakCurrent(RATE.normal, el('speak'));
+      else if (k === 's') speakCurrent(RATE.slowWord, el('speak-slow'));
+      else if (k === 'm') el('mic').click();
       else if (k === 'f') setFilter(filterMode === 'all' ? 'unknown' : 'all');
       else if (k === 'escape') goHome();
     },

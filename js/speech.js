@@ -48,8 +48,8 @@ export function speak(text, rate = RATE.normal, button = null) {
   const v = pickVoice();
   if (v) u.voice = v;
   if (button) {
-    button.classList.add('speaking');
-    u.onend = u.onerror = () => button.classList.remove('speaking');
+    button.classList.add('is-playing');
+    u.onend = u.onerror = () => button.classList.remove('is-playing');
   }
   synth.speak(u);
 }
@@ -62,7 +62,7 @@ const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 export const canListen = !!Recognition;
 
 const ERRORS = {
-  'not-allowed': 'Bạn chưa cho phép dùng micro. Hãy bật quyền micro cho trang này rồi thử lại.',
+  'not-allowed': 'Chưa có quyền dùng micro. Chạm biểu tượng 🔒 cạnh địa chỉ web → Micro → Cho phép, rồi thử lại.',
   'service-not-allowed': 'Trình duyệt đang chặn nhận dạng giọng nói. Hãy bật quyền micro / Siri & Dictation rồi thử lại.',
   'audio-capture': 'Không tìm thấy micro.',
   network: 'Nhận dạng giọng nói cần kết nối mạng.',
