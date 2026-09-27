@@ -54,6 +54,8 @@ components:
   button-icon: { size: "48px", rounded: "{rounded.full}", backgroundColor: "rgba(15, 118, 110, 0.1)", textColor: "{colors.primary}" }
   chip: { backgroundColor: "rgba(0, 0, 0, 0.05)", textColor: "{colors.muted}", rounded: "{rounded.full}", padding: "8px", height: "36px", typography: "{typography.label-sm}" }
   chip-active: { backgroundColor: "{colors.primary}", textColor: "#FFFFFF", rounded: "{rounded.full}", padding: "8px", height: "36px", typography: "{typography.label-sm}" }
+  level-chip: { backgroundColor: "rgba(0, 0, 0, 0.05)", textColor: "{colors.muted}", rounded: "{rounded.full}", padding: "6px 16px", height: "44px", typography: "{typography.label-sm}" }   # active = chip-active; "coming soon" = transparent + 1px dashed border
+  level-badge: { backgroundColor: "rgba(46, 125, 50, 0.12)", textColor: "{colors.primary-strong}", rounded: "{rounded.full}", padding: "5px 8px", typography: "{typography.label-sm}" }
   topic-card: { rounded: "{rounded.xl}", padding: "18px", backgroundColor: "{colors.surface}" }
   flashcard: { rounded: "{rounded.xl}", padding: "24px", height: "380px", backgroundColor: "{colors.surface}" }
   word-ok: { backgroundColor: "rgba(22, 163, 74, 0.15)", textColor: "#166534", rounded: "{rounded.sm}", padding: "2px" }
@@ -110,6 +112,8 @@ A cheerful, modern, and non-intimidating mobile study companion designed specifi
   - Word missed (`word-bad`): Red text + light red background tint + a prominent wavy dashed underline (allowing immediate accessibility for colour-blind learners).
 - **Result pill**: Informational pill showing live feedback ("Máy nghe được: ...", "Chính xác ✅", "Chưa nghe rõ 🤔").
 - **Bottom sheet**: Pull-up card with 28px rounded top corners, top grab handle, and explicit close button (44×44px).
+- **Level picker (`data-ui="level-picker"`)**: one two-line chip per level (A2, B1, B2, C1, C2, IELTS: code + Vietnamese name), a 3-column grid on phones and 6 columns from 760px. The chosen level uses `chip-active`; levels still being written say "Sắp có" with a dashed outline, stay tappable, and explain themselves with the mascot. Levels are app-wide, so they always use the brand green, never a topic accent.
+- **Level badge (`data-ui="level"`)**: small green pill with the CEFR code on the flashcard front (next to the part of speech) and in the word sheet. Words not found in any CEFR list show no badge rather than a guessed level.
 
 ## Layout additions (Sprout)
 - **Navigation**: sticky white top bar (brand 🌱 + name + tagline, links Trang chủ / Từ vựng / Luyện đọc / Phát âm IPA; active link on a 10% green tint). Under 760px the links move to a fixed bottom tab bar (icon + label, 52px tall).
