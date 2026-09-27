@@ -79,7 +79,7 @@ export function openSheet(html, { label = 'Chi tiết' } = {}) {
 // S7 word detail sheet: used from the reading passage and the home page.
 export function openWordSheet(c) {
   const sheet = openSheet(`
-    <div class="sheet-head"><div class="sheet-word" data-ui="word">${esc(c.word)}</div><div class="ipa sheet-center" data-ui="ipa">${esc(c.ipa)}</div></div>
+    <div class="sheet-head"><div class="sheet-word" data-ui="word">${esc(c.word)} <span class="level-badge" data-ui="level">${esc(c.level || '')}</span></div><div class="ipa sheet-center" data-ui="ipa">${esc(c.ipa)}</div></div>
     <div class="sheet-center"><div class="sheet-vi" data-ui="meaning-vi">${esc(c.vi)}</div><p class="sheet-en" data-ui="meaning-en">${esc(c.en)}</p></div>
     ${c.ex ? `<p class="sheet-example" data-ui="example">“${esc(c.ex)}”</p>` : ''}
     <div class="sheet-actions">${speakBtn()}${slowBtn()}</div>`, { label: `Nghĩa của từ ${c.word}` });

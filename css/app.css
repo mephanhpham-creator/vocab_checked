@@ -82,6 +82,21 @@ button{font:inherit; color:inherit; cursor:pointer;}
 .chip:hover{background:rgba(0,0,0,.08);}
 .chip[aria-selected="true"], .chip.is-active{background:var(--primary); color:#fff;}
 
+/* ===== Level picker + level badge =====
+   Levels are app-wide (not per topic), so they use the brand green, never a topic accent. */
+.level-picker{display:grid; grid-template-columns:repeat(3,1fr); gap:var(--s-sm); margin:0 0 var(--s-xl);}
+@media (min-width:760px){ .level-picker{grid-template-columns:repeat(6,1fr); max-width:720px;} }
+.level-chip{height:auto; min-height:44px; padding:6px 16px; flex-direction:column; justify-content:center; gap:0; line-height:1.2;}
+.level-chip::after{display:none;}
+.level-chip b{font-size:15px; font-weight:800;}
+.level-chip span{font-size:12px; font-weight:600;}
+.level-chip.is-soon:not(.is-active){background:transparent; border:1px dashed rgba(0,0,0,.2);}
+.level-soon{margin-top:var(--s-lg);}
+.level-badge{font-size:12px; font-weight:800; letter-spacing:.04em; line-height:1; padding:5px 8px; border-radius:var(--r-full);
+  background:rgba(46,125,50,.12); color:var(--primary-strong);}
+.level-badge:empty{display:none;}
+.sheet-word .level-badge{vertical-align:middle;}
+
 /* ===== Stat tile ===== */
 .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:var(--s-md);}
 .stat{background:var(--surface); border:var(--hairline); border-radius:var(--r-md); padding:var(--s-md); box-shadow:var(--shadow); text-align:center;}
@@ -259,7 +274,8 @@ button{font:inherit; color:inherit; cursor:pointer;}
   display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:var(--s-sm);
 }
 .flashcard.is-back{background:var(--topic-tint);}
-.fc-pos{position:absolute; top:var(--s-lg); left:var(--s-lg); font-size:12px; font-weight:600; letter-spacing:.04em;
+.fc-tags{position:absolute; top:var(--s-lg); left:var(--s-lg); display:flex; gap:6px; align-items:center;}
+.fc-pos{font-size:12px; font-weight:600; letter-spacing:.04em;
   color:var(--topic-ink); background:var(--topic-tint); padding:4px 10px; border-radius:var(--r-full);}
 .fc-status{position:absolute; top:var(--s-md); right:var(--s-lg); font-size:20px;}
 .fc-emoji{font-size:52px; line-height:1;}

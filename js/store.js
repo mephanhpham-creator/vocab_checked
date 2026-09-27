@@ -10,6 +10,8 @@
 const PROGRESS_KEY = 'ielts_vocab_progress_v1';
 // { topicKey: { sentenceIndex: bestScore0to1 } }
 const READING_KEY = 'ielts_reading_v1';
+// 'a2' | 'b1' | ... | 'ielts': the level chosen in the level picker.
+const LEVEL_KEY = 'vocab_level_v1';
 
 function read(key) {
   try { return JSON.parse(localStorage.getItem(key)) || {}; } catch (e) { return {}; }
@@ -18,10 +20,50 @@ function write(key, value) {
   try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) { /* in-memory only */ }
 }
 
-export async function loadData() {
-  const get = (f) => fetch('data/' + f).then(r => { if (!r.ok) throw new Error(f); return r.json(); });
-  const [topics, passages, ipa] = await Promise.all([get('topics.json'), get('passages.json'), get('ipa.json')]);
-  return { topics, passages, ipa };
+const get = (f) => fetch('data/' + f).then(r => { if (!r.ok) throw new Error(f); return r.json(); });
+
+export const loadIpa = () => get('ipa.json');
+
+// ---------- Levels ----------
+// Each CEFR level is its own file (data/levels/<id>.json, built by
+// tools/build_level.py), fetched only when that level is opened — like
+// taking one volume off the shelf instead of carrying the whole set.
+// `ready: false` levels show a "coming soon" note instead of topics.
+export const LEVELS = [
+  { id: 'a2', label: 'A2', name: 'Sơ cấp', ready: true },
+  { id: 'b1', label: 'B1', name: 'Trung cấp', ready: false, soon: 'Bộ từ B1 đang được soạn, sẽ có sớm.' },
+  { id: 'b2', label: 'B2', name: 'Trung cao cấp', ready: false, soon: 'Bộ từ B2 đang được soạn, sẽ có sớm.' },
+  { id: 'c1', label: 'C1', name: 'Cao cấp', ready: false, soon: 'Bộ từ C1 đang được soạn, sẽ có sớm.' },
+  { id: 'c2', label: 'C2', name: 'Thành thạo', ready: false, soon: 'Bộ từ C2 sẽ được thêm khi có danh sách từ C2.' },
+  { id: 'ielts', label: 'IELTS', name: 'Chủ đề IELTS', ready: true },
+];
+export const levelInfo = (id) => LEVELS.find(l => l.id === id);
+
+const levelCache = {};
+export function loadLevel(id) {
+  if (!levelCache[id]) {
+    levelCache[id] = (id === 'ielts'
+      ? Promise.all([get('topics.json'), get('passages.json')]).then(([topics, passages]) => ({ topics, passages }))
+      : get(`levels/${id}.json`)
+    ).catch(e => { delete levelCache[id]; throw e; }); // allow a retry after a network error
+  }
+  return levelCache[id];
+}
+
+// Topic keys carry their level (a2_food_1); the original IELTS topics have none.
+export const levelOf = (topicKey) => (topicKey.match(/^(a2|b1|b2|c1|c2)_/) || [, 'ielts'])[1];
+
+// Default: returning learners with IELTS progress keep seeing IELTS; new ones start at A2.
+let level = (() => {
+  let id = null;
+  try { id = localStorage.getItem(LEVEL_KEY); } catch (e) { /* storage blocked */ }
+  if (levelInfo(id)) return id;
+  return Object.keys(read(PROGRESS_KEY)).some(k => levelOf(k) === 'ielts') ? 'ielts' : 'a2';
+})();
+export const getLevel = () => level;
+export function setLevel(id) {
+  level = id;
+  try { localStorage.setItem(LEVEL_KEY, id); } catch (e) { /* in-memory only */ }
 }
 
 // ---------- Flashcard status ----------

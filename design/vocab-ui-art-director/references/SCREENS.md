@@ -14,7 +14,9 @@ The top of the page has the app title "🎓 IELTS Vocab & Speaking", then 3 tabs
 |---|---|
 | `tab` + `data-tab="flashcards" / "read" / "ipa"` | Tab links: "📚 Flashcard", "📖 Luyện đọc", "🔤 Phát âm IPA". The active tab has `aria-selected="true"`. |
 | `tab-hint` *(dynamic)* | One-line hint per tab. |
-| `topic-grid` | Grid of topic cards (Flashcard and Luyện đọc tabs). |
+| `level-picker`, `level-chip` ×6 | Level picker above the grid: A2 · B1 · B2 · C1 · C2 · IELTS (code + Vietnamese name, or "Sắp có"). |
+| `level-soon` *(state)* | Mascot + note when the chosen level isn't ready yet. |
+| `topic-grid` | Grid of topic cards (Flashcard and Luyện đọc tabs) for the chosen level. |
 | `topic-card` + `data-topic="{key}"` | One card per topic, tinted with that topic's accent. Contains the elements below. |
 | `topic-icon`, `topic-title`, `topic-subtitle` *(dynamic)* | e.g. 🪞 / "Ngoại hình" / "Appearance" |
 | `topic-count` *(dynamic)* | Flashcard tab: "52 từ". Read tab: "8 câu". |
@@ -33,7 +35,7 @@ States: Flashcard tab with mixed progress (0%, 40%, 100% cards) · Read tab · I
 | `stat-total`, `stat-known`, `stat-unknown` *(dynamic)* | 3 small stat tiles. |
 | `progress-bar` *(dynamic)* | Known / total. |
 | `card` | Flippable card (tap = flip). Front and back below. |
-| Front: `pos`, `status`, `emoji`, `word`, `ipa` *(dynamic)* | "NOUN" · ✅/😕/none · 🧴 · "complexion" · "/kəmˈplekʃən/" |
+| Front: `pos`, `level`, `status`, `emoji`, `word`, `ipa` *(dynamic)* | "NOUN" · "A2" (empty if unknown) · ✅/😕/none · 🧴 · "complexion" · "/kəmˈplekʃən/" |
 | Front: `speak`, `speak-slow`, `mic` | 🔊 normal, 🐌 very slow, 🎤 say it |
 | Front: `check-result` *(dynamic)* | See the mic states below. |
 | Back: `word`, `meaning-vi`, `meaning-en`, `example`, `synonyms` *(dynamic)* | "làn da, sắc mặt" · "the natural color and appearance of a person's skin, especially the face" · "She has a fair complexion that burns easily in the sun." · "Đồng nghĩa: skin tone, skin" |
@@ -102,6 +104,7 @@ States: before play · waiting for choice · correct · wrong.
 | **Mic button 🎤** | S2, S3, S5, S6 | idle · listening (clearly different: colour + pulse) · disabled (not supported) |
 | Result pill | S2, S5, S6 | correct ✅ · wrong ❌ "Máy nghe thành: …" · nothing heard 🤔 |
 | Chip / tab | S1, S2 | default · active |
+| Level chip / level badge | S1 · S2, S7 | default · active · coming soon (dashed) / badge hidden when no level |
 | Stat tile | S2, S3 | — |
 | Progress bar | S1, S2 | 0% · partial · 100% |
 | Bottom sheet | S5, S6, S7 | open |

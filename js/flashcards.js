@@ -23,7 +23,7 @@ export function renderFlashcards(root, topic, goHome) {
     <div class="fc-scene" data-ui="scene">
       <div class="fc-inner" data-ui="card" role="button" tabindex="0" aria-label="Thẻ từ vựng, chạm để lật">
         <div class="flashcard">
-          <span class="fc-pos" data-ui="pos"></span><span class="fc-status" data-ui="status"></span>
+          <div class="fc-tags"><span class="fc-pos" data-ui="pos"></span><span class="level-badge" data-ui="level" title="Trình độ CEFR"></span></div><span class="fc-status" data-ui="status"></span>
           <div class="fc-emoji" data-ui="emoji" aria-hidden="true"></div>
           <div class="fc-word" data-ui="word"></div>
           <div class="ipa" data-ui="ipa"></div>
@@ -73,6 +73,7 @@ export function renderFlashcards(root, topic, goHome) {
 
     const c = current(), s = status(order[pos]);
     el('pos').textContent = (c.pos || '').toUpperCase();
+    el('level').textContent = c.level || '';
     // A few animals have no accurate emoji (e.g. stingray, sea lion) — those
     // carry a hand-authored inline SVG silhouette in `icon_svg` instead.
     if (c.icon_svg) el('emoji').innerHTML = c.icon_svg; else el('emoji').textContent = c.emoji || '📘';
