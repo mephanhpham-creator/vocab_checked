@@ -45,13 +45,19 @@ def brit_to_ipa(phones):
         stress = ''
         if ph[0] in 'ˈˌ':
             stress, ph = ph[0], ph[1:]
+        marked = bool(stress)
         if stress == 'ˌ' and primary:
             stress = ''
         primary = primary or stress == 'ˈ'
         ph = MAP.get(ph, ph)
-        if not stress and ph in ('ɪə', 'ʊə'):
+        if not marked and ph in ('ɪə', 'ʊə'):
             ph = {'ɪə': 'iə', 'ʊə': 'uə'}[ph]
         seq.append([ph, stress])
+    if not primary:  # Britfone sometimes marks only secondary stress (moustache)
+        for item in seq:
+            if item[1] == 'ˌ':
+                item[1] = 'ˈ'
+                break
     out = [s for s, _ in seq]
     # Cambridge writes a vowel-before-vowel ɪ as i (video /ˈvɪdiəʊ/).
     out = ['i' if s == 'ɪ' and not seq[k][1] and k + 1 < len(out) and out[k + 1] in VOWELS else s
@@ -65,8 +71,8 @@ def brit_to_ipa(phones):
             j -= 1
         marks[j] = stress
     ipa = ''.join(marks.get(i, '') + s for i, s in enumerate(out))
-    ipa = re.sub('jʊ(?!ə)', 'jə', ipa)  # popular /ˈpɒpjələ/
-    return re.sub('ɪti$', 'əti', ipa)    # activity /ækˈtɪvəti/
+    ipa = re.sub('jʊ(?=[ˈˌ]?[bdfɡklmnprstvzʃʒθðŋ])', 'jə', ipa)  # popular /ˈpɒpjələ/
+    return re.sub('ɪti$', 'əti', ipa) if syllables(ipa) >= 3 else ipa  # activity /ækˈtɪvəti/, but city /ˈsɪti/
 
 
 def load_britfone(path):
@@ -88,9 +94,9 @@ def lookup_ipa(word, pos, brit):
     Compound noun: main stress on the first word only (/ˈbʌs stɒp/).
     Other phrases: secondary on the first word, main on the last (/ˌsɪt ˈdaʊn/)."""
     parts = []
-    if '-' in word and ' ' not in word:  # hyphenated: one written word
-        parts = [lookup_ipa(t, 'noun' if pos.startswith('noun') else 'adj', brit) for t in word.split('-')]
-        return None if None in parts else '/' + ''.join(p.strip('/') for p in parts) + '/'
+    if '-' in word and ' ' not in word:  # hyphenated: one written word, same stress rules
+        joined = lookup_ipa(word.replace('-', ' '), pos, brit)
+        return joined and joined.replace(' ', '')
     for tok in word.lower().split():
         tok = tok.strip("!?.'’")
         if tok not in brit:
@@ -101,8 +107,20 @@ def lookup_ipa(word, pos, brit):
     plain = [re.sub('[ˈˌ]', '', p) for p in parts]
     if pos.startswith('noun'):
         return '/' + ' '.join([parts[0]] + plain[1:]) + '/'
+    words = word.lower().split()
+    if words[-1] in PREPOSITIONS:  # ends in a preposition: stress the last real word (/ɡet ˈrɪd əv/)
+        k = max(i for i, t in enumerate(words) if t not in PREPOSITIONS)
+        return '/' + ' '.join(parts[i] if i == k else plain[i] for i in range(len(parts))) + '/'
+    if words[-1] in STRONG:  # adverb particle keeps its full, stressed form (/ˌfɪl ˈɪn/)
+        parts[-1] = 'ˈ' + STRONG[words[-1]].replace('ˈ', '')
     first = parts[0].replace('ˈ', 'ˌ') if 'ˈ' in parts[0] else 'ˌ' + plain[0]
     return '/' + ' '.join([first] + plain[1:-1] + [parts[-1]]) + '/'
+
+
+# Britfone lists the weak form of small words (in /ɪn/ unstressed); as the
+# adverb particle of a phrasal verb it is stressed (/ˌfɪl ˈɪn/).
+STRONG = {'in': 'ɪn', 'on': 'ɒn', 'up': 'ʌp', 'out': 'aʊt', 'off': 'ɒf', 'down': 'daʊn', 'over': 'əʊvə', 'back': 'bæk'}
+PREPOSITIONS = {'for', 'at', 'with', 'to', 'of', 'like'}
 
 
 # ---------- build ----------

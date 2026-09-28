@@ -1,0 +1,838 @@
+{
+ "b1_family_rel": {
+  "title": "Growing Up with a Twin",
+  "sentences": [
+   "I have a {twin} brother, and we shared a room for our whole {childhood}.",
+   "When our parents went out, our {elder} cousin used to {babysit} us.",
+   "Now we are at university, and my brother lives with a {roommate} from Spain.",
+   "We still have a close {relationship}, and he is also my best {mate}.",
+   "At family parties, every {relative} gives us a big {hug}.",
+   "I think {friendship} between brothers is special in every {generation}."
+  ]
+ },
+ "b1_wedding": {
+  "title": "My Sister's Wedding",
+  "sentences": [
+   "My sister got {engaged} last spring, and the {wedding} was in October.",
+   "The {ceremony} took place in a beautiful garden by the river.",
+   "The {bride} wore a long white dress, and the {groom} looked very nervous.",
+   "After the {celebration}, we watched {fireworks|firework} over the water.",
+   "It was a very {romantic} {occasion}, and everyone was happy.",
+   "The next day they flew to Bali for their {honeymoon}."
+  ]
+ },
+ "b1_looks": {
+  "title": "Describing a Stranger",
+  "sentences": [
+   "The police asked me to describe the man I saw.",
+   "He was {middle-aged}, of medium {height}, and quite {handsome}.",
+   "He was nearly {bald}, but he had a thick {moustache}.",
+   "He didn't {shave} that morning, so his face looked a bit dark.",
+   "The woman with him was {elderly}, with short {curly} {grey} hair.",
+   "I said he {looked like|look like} a famous actor from an old film."
+  ]
+ },
+ "b1_character_good": {
+  "title": "A Good Team Leader",
+  "sentences": [
+   "Our new team leader is {confident} but also very {gentle}.",
+   "She is {honest} with us and always {willing} to listen.",
+   "She is {creative} and {intelligent}, so she has lots of new ideas.",
+   "She is also {reliable}, because she never forgets a deadline.",
+   "Outside work, she is {sociable} and {cheerful}.",
+   "I think she is {wise} and very {responsible} for someone so young."
+  ]
+ },
+ "b1_character_bad": {
+  "title": "The Worst Boss",
+  "sentences": [
+   "My first boss was very {bossy} and {strict}.",
+   "He was often {rude} to customers and {unkind} to new workers.",
+   "He was also {selfish} and never shared the tips.",
+   "Once I made a {careless} mistake, and he called me {stupid}.",
+   "Later we found out that he used to {cheat} on his taxes.",
+   "Now I know it was {silly} to stay in that job for so long."
+  ]
+ },
+ "b1_behaviour": {
+  "title": "Good Habits",
+  "sentences": [
+   "My teacher says a good {attitude} is more important than {talent}.",
+   "She wants us to {behave} well and to be kind to others.",
+   "Reading every night is a {habit} that helps your {imagination}.",
+   "It takes {courage} to speak in front of the class.",
+   "A good sense of {humour} also helps when things go wrong.",
+   "Our class's {behaviour} has improved a lot this year."
+  ]
+ },
+ "b1_feelings_good": {
+  "title": "A Proud Moment",
+  "sentences": [
+   "When I won the writing competition, I was {delighted}.",
+   "My parents were very {proud} of me, and my teacher was {impressed}.",
+   "I felt {grateful} for all their help and support.",
+   "I was also {relieved}, because I had worked so hard.",
+   "That evening we were all in a great {mood}, and I couldn't stop smiling.",
+   "It was a {feeling} of real {happiness} that I will always remember."
+  ]
+ },
+ "b1_feelings_fear": {
+  "title": "A Night in the Forest",
+  "sentences": [
+   "Last summer we got lost in the forest at night.",
+   "I was {terrified}, because I have a {fear} of the dark.",
+   "My little brother was {confused} and kept asking where we were.",
+   "Every noise seemed to {frighten} us more.",
+   "I felt so {stressed} that I couldn't think clearly.",
+   "When we finally found the road, I was still {shocked}, and that night I had a {nightmare}."
+  ]
+ },
+ "b1_feelings_sad": {
+  "title": "A Disappointing Result",
+  "sentences": [
+   "I was really {disappointed} when I failed my driving test.",
+   "I felt {embarrassed} because all my friends had passed.",
+   "My sister passed first time, and I was a little {jealous}.",
+   "I was {exhausted} after weeks of lessons, and I felt {miserable}.",
+   "Now I {regret} not practising more before the test.",
+   "But I don't feel {lonely}, because my family is helping me try again."
+  ]
+ },
+ "b1_praise": {
+  "title": "An Unforgettable Holiday",
+  "sentences": [
+   "Our holiday in Da Nang was {unforgettable}.",
+   "The beaches were {gorgeous}, and the sea was so clear.",
+   "We stayed in a {charming} little hotel with {magnificent} views.",
+   "In the evenings, the city was {lively} and full of music.",
+   "The fireworks festival was {spectacular}.",
+   "It was the most {enjoyable} trip we have ever had."
+  ]
+ },
+ "b1_criticise": {
+  "title": "A Terrible Restaurant",
+  "sentences": [
+   "Last week we tried a new restaurant, and it was a {disappointing} evening.",
+   "The room was {dull}, and there was a {nasty} smell from the kitchen.",
+   "The soup was cold, and the fish was {disgusting}.",
+   "When my dad complained, the waiter was {unpleasant} to him.",
+   "It was {embarrassing} to leave in the middle of the meal.",
+   "The whole evening was {tiring} and {stressful}."
+  ]
+ },
+ "b1_body": {
+  "title": "After the Marathon",
+  "sentences": [
+   "Yesterday I ran my first marathon.",
+   "At the end I could hardly {breathe}, and I was out of {breath}.",
+   "Today my {knee} and my {ankle} really hurt.",
+   "My {shoulder} is stiff, and my {skin} is red from the sun.",
+   "Luckily, I didn't break a {bone}.",
+   "My mum kissed me on the {cheek} and said she was proud of me."
+  ]
+ },
+ "b1_illness": {
+  "title": "A Bad Winter",
+  "sentences": [
+   "This winter a lot of people in my office caught the {flu}.",
+   "I had a high {fever} and a terrible {cough}.",
+   "My throat was {sore}, and I also had an {earache}.",
+   "The doctor said it was a {virus}, not a serious {disease}.",
+   "I felt {unwell} for two weeks and I had to stay in bed.",
+   "Now I try to avoid {stress} and {unhealthy} food."
+  ]
+ },
+ "b1_treatment": {
+  "title": "At the Clinic",
+  "sentences": [
+   "Last night my brother cut his hand, so we went to the {clinic}.",
+   "We sat in the {waiting room} for an hour.",
+   "The nurse cleaned the cut and put a {bandage} on it.",
+   "The doctor gave him a {prescription} for some {pills|pill}.",
+   "He said my brother would {recover} in a few days.",
+   "It wasn't an {emergency}, but we were glad we went."
+  ]
+ },
+ "b1_garments": {
+  "title": "Packing for a Trip",
+  "sentences": [
+   "I'm packing my suitcase for a week in the mountains.",
+   "I need warm {clothing}, like a {pullover} and a {sweatshirt}.",
+   "I'm also taking a {tracksuit} for the gym.",
+   "For the evenings, I'll bring a shirt with a smart {collar}.",
+   "Don't forget your {pyjamas} and enough {underwear}!",
+   "I lost a {button} on my coat, so I need to sew it back on."
+  ]
+ },
+ "b1_fashion": {
+  "title": "What to Wear",
+  "sentences": [
+   "My sister is always {stylish} and {well-dressed}.",
+   "She likes {casual} clothes made of {cotton} or {silk}.",
+   "She never wears {tight} jeans, because she prefers {loose} trousers.",
+   "Her favourite colour is {navy blue}.",
+   "She follows every new {trend} and changes her {style} often.",
+   "She says a simple {pattern} is always {fashionable}."
+  ]
+ },
+ "b1_ingredients": {
+  "title": "A Healthy Shopping List",
+  "sentences": [
+   "This week I want to cook more healthy meals.",
+   "I need {spinach}, {broccoli} and some {cabbage}.",
+   "For the salad, I'll buy {lettuce}, {cucumber} and {olives|olive}.",
+   "For dinner, I'll cook {salmon} or {tuna} with fresh {herbs|herb}.",
+   "I also need some {flour} to make bread.",
+   "For dessert, I'll have a {peach} or some {pineapple}."
+  ]
+ },
+ "b1_snacks": {
+  "title": "Eating Habits",
+  "sentences": [
+   "My brother is a {vegetarian}, so he never eats meat.",
+   "He is on a {diet}, but he still loves {biscuits|biscuit}.",
+   "On Friday nights we usually order a {takeaway}.",
+   "My favourite is chicken with {French fries}.",
+   "At the cinema, I always buy a {bar} of chocolate.",
+   "My mum makes a delicious apple {pie} at weekends."
+  ]
+ },
+ "b1_kitchen": {
+  "title": "Making Vietnamese Coffee",
+  "sentences": [
+   "First, boil some water in the {kettle}.",
+   "Then {pour} the hot water slowly over the coffee.",
+   "Vietnamese coffee has a strong, {bitter} {flavour}.",
+   "Add some sweet milk from a {tin} and {stir} it well.",
+   "Be careful not to {spill} it on the table.",
+   "{Taste} it, and add ice if you like it cold."
+  ]
+ },
+ "b1_house": {
+  "title": "Our Cottage in the Country",
+  "sentences": [
+   "My grandparents live in a small {cottage} in the countryside.",
+   "It's very {cosy}, with {antique} furniture and soft {cushions|cushion}.",
+   "There's a {balcony} upstairs with a view of the hills.",
+   "In winter, the {central heating} keeps the house warm.",
+   "My grandma likes to {decorate} the rooms with flowers in a {vase}.",
+   "Behind the house there's a big {yard} where the children play."
+  ]
+ },
+ "b1_household": {
+  "title": "When the Power Went Off",
+  "sentences": [
+   "Last night there was a storm, and the power went off.",
+   "The {freezer} and the {microwave} stopped working.",
+   "I couldn't find a {torch}, so I lit a {candle} with a {lighter}.",
+   "My dad climbed a {ladder} to check the {switch}.",
+   "Then he changed the light {bulb} in the kitchen.",
+   "Finally, the {heater} came back on, and we could {plug} in our phones."
+  ]
+ },
+ "b1_chores": {
+  "title": "Sharing the Housework",
+  "sentences": [
+   "In our flat, we share the {housework}.",
+   "My roommate does the {laundry}, and I do the {ironing}.",
+   "The living room gets {dusty} very quickly.",
+   "My brother's room is always {untidy}, and his desk is a {mess}.",
+   "There's a {pile} of clothes on his chair.",
+   "I prefer to keep my room clean and {neat}."
+  ]
+ },
+ "b1_school_life": {
+  "title": "From School to University",
+  "sentences": [
+   "I went to {primary school} in my village and then to a {secondary} school in town.",
+   "I was never {absent}, and I always {attended|attend} every class.",
+   "At the end of school, every {candidate} took a big exam.",
+   "The {examiner} was strict, but I passed and got my {certificate}.",
+   "Last year I {graduated|graduate} from university.",
+   "My parents came to my {graduation}, and they were very proud."
+  ]
+ },
+ "b1_study": {
+  "title": "Writing an Essay",
+  "sentences": [
+   "This week I have to write an {essay} for my {economics} class.",
+   "First, I did some {research} in the university {laboratory}.",
+   "Then I drew a {diagram} to organise my ideas.",
+   "My teacher said my {handwriting} was hard to read.",
+   "She made some {corrections|correction} in red {ink}.",
+   "Before the exam, I will {revise} all my notes."
+  ]
+ },
+ "b1_language": {
+  "title": "Learning English Pronunciation",
+  "sentences": [
+   "English {pronunciation} can be difficult for learners.",
+   "Some words are hard to {pronounce}, like \"thought\" and \"through\".",
+   "Each {vowel} and {consonant} can have different sounds.",
+   "My teacher has a British {accent}, and I try to copy her.",
+   "When I {translate} a {phrase}, I check its {meaning} carefully.",
+   "I also practise {grammar}, especially the past {tense}."
+  ]
+ },
+ "b1_jobs_service": {
+  "title": "People in My Street",
+  "sentences": [
+   "Many people work in the shops on my street.",
+   "The {baker} makes fresh bread every morning.",
+   "Next door, the {butcher} sells meat, and the {barber} cuts men's hair.",
+   "My aunt is a {hairdresser}, and my uncle is a {vet}.",
+   "The {postman} brings our letters at ten o'clock.",
+   "My cousin wants to be a {travel agent} and plan holidays."
+  ]
+ },
+ "b1_jobs_pro": {
+  "title": "Dream Jobs",
+  "sentences": [
+   "When I was young, I wanted to be an {astronaut}.",
+   "My sister wanted to be a {detective} like in the films.",
+   "Now she is a {lawyer}, and I am a computer {programmer}.",
+   "My best friend is an {architect}, and she designs modern houses.",
+   "Her husband is a {lecturer} at the university.",
+   "My uncle is an {expert} on old cars."
+  ]
+ },
+ "b1_jobs_safety": {
+  "title": "Keeping Us Safe",
+  "sentences": [
+   "Many people work hard to keep us safe.",
+   "A {firefighter} puts out fires and rescues people.",
+   "A {policeman} or a {policewoman} helps when there is a crime.",
+   "A {security guard} protects shops and offices.",
+   "My grandfather was a {soldier} for many years.",
+   "Now he works as a {guard} at a museum."
+  ]
+ },
+ "b1_career": {
+  "title": "Looking for a Job",
+  "sentences": [
+   "After university, I started looking for {employment}.",
+   "I sent my {CV} to many companies and {applied|apply} for ten jobs.",
+   "Finally, I had an {interview} with a big company.",
+   "The {interviewer} asked about my {skills|skill} and experience.",
+   "They decided to {employ} me, and I started last month.",
+   "My {employer} says I could be {promoted|promote} next year."
+  ]
+ },
+ "b1_business": {
+  "title": "A Busy Week at Work",
+  "sentences": [
+   "This week I'm going to a {conference} in Ho Chi Minh City.",
+   "I have to give a {presentation} about our new products.",
+   "Our {firm} works in the travel {industry}.",
+   "I have a {full-time} job, but my friend works {part-time}.",
+   "We both signed a new {contract} last month.",
+   "My {salary} is higher now, so I'm very happy."
+  ]
+ },
+ "b1_tech": {
+  "title": "Working from Home",
+  "sentences": [
+   "Since I started working from home, I use a lot of technology.",
+   "Every morning I {connect} my laptop to the office {network}.",
+   "I have a {webcam} for video meetings and a good internet {connection}.",
+   "Sometimes the {signal} is weak, so I use a {cable} instead of wifi.",
+   "I {attach} files to emails and {delete} old {data} every week.",
+   "My phone reminds me to {install} every new {update}."
+  ]
+ },
+ "b1_talking": {
+  "title": "A Family Discussion",
+  "sentences": [
+   "Last night we had a long {discussion} about our summer holiday.",
+   "My brother and I began to {argue} about where to go.",
+   "I wanted to go to the beach, but he {disagreed|disagree} with me.",
+   "My mum tried to {interrupt}, but we didn't listen.",
+   "Finally, my dad made a {joke}, and there was a short {silence}.",
+   "Then we all laughed, and the {argument} was over."
+  ]
+ },
+ "b1_asking": {
+  "title": "Good Advice",
+  "sentences": [
+   "Before my trip to London, I asked my friend for some help.",
+   "She {advised|advise} me to take warm clothes.",
+   "She {recommended|recommend} a small hotel near the station.",
+   "She also {warned|warn} me that the trains are expensive.",
+   "I {promised|promise} to send her a postcard.",
+   "She {reminded|remind} me to take my passport, which was a good {suggestion}."
+  ]
+ },
+ "b1_formal": {
+  "title": "A Complaint Letter",
+  "sentences": [
+   "Last month my {parcel} arrived late and damaged.",
+   "I decided to {complain} to the company by email.",
+   "In my {complaint}, I explained what had happened.",
+   "The next day they sent a {reply} and an {apology}.",
+   "They {admitted|admit} that it was their mistake and {confirmed|confirm} my refund.",
+   "At the end of the email they wrote, \"Best {regards}\"."
+  ]
+ },
+ "b1_film_tv": {
+  "title": "A Night of TV",
+  "sentences": [
+   "Every Saturday night my family watches TV together.",
+   "My mum loves a {soap opera} that has hundreds of episodes.",
+   "My dad prefers a {documentary} about nature.",
+   "My little brother only watches films about a {superhero}.",
+   "Last week we watched the final {episode} of a new {series}.",
+   "The {audience} in the studio started to {clap} at the last {scene}."
+  ]
+ },
+ "b1_music_arts": {
+  "title": "A Night at the Theatre",
+  "sentences": [
+   "Last Friday we went to the {theatre} to see a {ballet}.",
+   "The {orchestra} played beautiful music.",
+   "I especially liked the {flute} and the {trumpet}.",
+   "Every {performer} danced perfectly.",
+   "After the show, we bought a {recording} of the {soundtrack}.",
+   "My sister wants to study {folk} music in the future."
+  ]
+ },
+ "b1_books": {
+  "title": "My Favourite Author",
+  "sentences": [
+   "My favourite {author} is a young {novelist} from Hanoi.",
+   "Her first {novel} became a {bestseller} last year.",
+   "I read the first {chapter} in one evening.",
+   "The {ending} was very surprising.",
+   "She also writes {poetry}, and her {poems|poem} are beautiful.",
+   "Her {publisher} says a {biography} about her will come out soon."
+  ]
+ },
+ "b1_stories": {
+  "title": "A Film I Love",
+  "sentences": [
+   "I love {historical} films and {science fiction}.",
+   "My favourite film is a {thriller} about {pirates|pirate}.",
+   "The {hero} is a young sailor, and the {heroine} is a clever doctor.",
+   "The {plot} is full of surprises.",
+   "There is a {mystery} about a hidden treasure.",
+   "I have watched it five times, and I still love it."
+  ]
+ },
+ "b1_hobbies": {
+  "title": "Finding a New Hobby",
+  "sentences": [
+   "In my {leisure} time, I like to try new things.",
+   "Last year I {signed up|sign up} for a {pottery} class.",
+   "My grandma taught me to {knit} and {sew}.",
+   "At weekends I {hike} in the hills near my town.",
+   "My brother has a big {collection} of old coins.",
+   "For me, hobbies are the best way to find {relaxation}."
+  ]
+ },
+ "b1_sport_types": {
+  "title": "Keeping Fit",
+  "sentences": [
+   "I try to keep my {fitness} level high.",
+   "Every morning I go {jogging} in the park.",
+   "Twice a week I do {yoga}, and on Saturday I play {squash}.",
+   "My brother loves {extreme sports|extreme sport} and {motor-racing}.",
+   "My sister does {gymnastics} and {athletics} at school.",
+   "After a hard {workout}, I always feel great."
+  ]
+ },
+ "b1_sport_comp": {
+  "title": "The Final Match",
+  "sentences": [
+   "Our team reached the final of the {championship}.",
+   "The {captain} told us to believe in ourselves.",
+   "The other team were the {champions|champion} from last year.",
+   "Our {goalkeeper} played brilliantly and {defended|defend} every shot.",
+   "In the end, we {beat} them two goals to one.",
+   "Our {supporters|supporter} sang and danced on the {pitch}."
+  ]
+ },
+ "b1_shops": {
+  "title": "A Busy Saturday at the Mall",
+  "sentences": [
+   "On Saturday the {mall} was very busy.",
+   "I tried on some jeans in the {changing room}.",
+   "There was a long {queue} at the {checkout}.",
+   "I bought some flowers at a small {stall} near the entrance.",
+   "The {owner} was very friendly and gave me good {service}.",
+   "The shop offers free {delivery} for large orders."
+  ]
+ },
+ "b1_products": {
+  "title": "Shopping Online",
+  "sentences": [
+   "I buy most {goods} online now.",
+   "Last week I found a {bargain}: a {second-hand} camera at a very {reduced} price.",
+   "The {quality} was excellent, and the {label} said it was nearly new.",
+   "Online shops have a huge {range} of {products|product}.",
+   "If an {item} is broken, you can ask for a {refund}.",
+   "But sometimes I buy things I don't need, like {luxury} bags!"
+  ]
+ },
+ "b1_money": {
+  "title": "Managing My Money",
+  "sentences": [
+   "When I was young, I saved all my {pocket money} in a box.",
+   "Now I have a {bank account}, and I try to save every month.",
+   "I can't {afford} a new car yet, so I take the bus.",
+   "When I travel, I check the {exchange rate} before I change {currency}.",
+   "Last year I got a {loan} from the bank to pay my university {fees|fee}.",
+   "I still {owe} a lot of money, but I will pay it back soon."
+  ]
+ },
+ "b1_town": {
+  "title": "The Old Town",
+  "sentences": [
+   "The old town is my favourite {district} in the city.",
+   "There is a beautiful {cathedral} and an old {palace}.",
+   "In the main square, there is a {fountain} and a {statue} of a king.",
+   "The {architecture} here is hundreds of years old.",
+   "At night, the {nightlife} is great, with lots of cafés and a {nightclub}.",
+   "The streets are for {pedestrians|pedestrian} only, so it's very peaceful."
+  ]
+ },
+ "b1_society": {
+  "title": "Tet Traditions",
+  "sentences": [
+   "Tet is the most important {traditional} festival in Vietnam.",
+   "It is a big part of our {culture}.",
+   "One {custom} is to visit relatives and give lucky money to children.",
+   "Many families go to the pagoda to {pray} for a good year.",
+   "Some people {volunteer} with a {charity} to help poor families.",
+   "It is a time when the whole {society} comes together."
+  ]
+ },
+ "b1_law": {
+  "title": "A Crime in the Neighbourhood",
+  "sentences": [
+   "Last week a {thief} tried to {rob} a shop in my street.",
+   "The police came quickly and {arrested|arrest} the {criminal}.",
+   "Next month he will see a {judge}.",
+   "If he is guilty, he will go to {prison}.",
+   "Stealing is against the {law}, and he must be {punished|punish}.",
+   "Now there is less {crime} in our area."
+  ]
+ },
+ "b1_war": {
+  "title": "A History Lesson",
+  "sentences": [
+   "Today in history class we learned about a terrible {war}.",
+   "The {army} fought a long {battle} near the river.",
+   "The {enemy} planned an {attack} at night.",
+   "Planes from the {air force} dropped a {bomb} on the bridge.",
+   "Many people died, and the country was destroyed.",
+   "Today everyone hopes for {peace}."
+  ]
+ },
+ "b1_transport": {
+  "title": "My Journey to Work",
+  "sentences": [
+   "I usually use {public transport} to get to work.",
+   "I take the {subway}, which is fast and cheap.",
+   "The {fare} is only a few thousand dong.",
+   "When there's a {traffic jam}, the bus is very slow.",
+   "At weekends I ride my {motorcycle}, and I always wear a {helmet}.",
+   "In a car, you should always {fasten} your {seat belt}."
+  ]
+ },
+ "b1_trips": {
+  "title": "Backpacking in Asia",
+  "sentences": [
+   "After university, I went {backpacking} around Asia.",
+   "I stayed in a cheap {hostel} and met other {backpackers|backpacker}.",
+   "My favourite {destination} was a small {resort} by the {seaside}.",
+   "The main tourist {attraction} was an old temple.",
+   "I went on a {guided} tour and bought a {souvenir} for my mum.",
+   "When I got home, it took me a week to {unpack}!"
+  ]
+ },
+ "b1_airport": {
+  "title": "At the Airport",
+  "sentences": [
+   "I arrived at the airport early for my {departure}.",
+   "At the {check-in} desk, I showed my passport and {visa}.",
+   "They checked my {baggage} and gave me a {boarding pass}.",
+   "Then I went through {security}.",
+   "Before the flight, I bought some chocolate at the {duty-free} shop.",
+   "When I arrived, I had to go through {immigration} and {customs}."
+  ]
+ },
+ "b1_compass": {
+  "title": "Travelling Around Vietnam",
+  "sentences": [
+   "Vietnam is a long country in {Southeast|southeast} Asia.",
+   "In the {northern} mountains, it can be very cold in winter.",
+   "The {southern} part of the country is hot all year.",
+   "The {western} border is with Laos and Cambodia.",
+   "The {eastern} side of the country has a long coast.",
+   "We took the coast {route} from Hanoi to Hue."
+  ]
+ },
+ "b1_landforms": {
+  "title": "Amazing Places",
+  "sentences": [
+   "Vietnam has some of the most beautiful {scenery} in the world.",
+   "Ha Long {Bay} has thousands of islands and huge {caves|cave}.",
+   "In the north, you can climb to the {peak} of Fansipan.",
+   "The {landscape} in the central {valley} is green and peaceful.",
+   "There is a {waterfall} near Da Lat where you can swim.",
+   "On the {shore}, children play in the {sand} and watch the {waves|wave}."
+  ]
+ },
+ "b1_plants": {
+  "title": "Life on the Farm",
+  "sentences": [
+   "My grandparents live in the countryside surrounded by {farmland}.",
+   "{Farming} is hard work, but they love it.",
+   "They grow rice and other {crops|crop}.",
+   "In the garden there is an old tree with a thick {trunk}.",
+   "A bird built a nest on one {branch}.",
+   "In spring, every {leaf} is bright green."
+  ]
+ },
+ "b1_environment": {
+  "title": "Saving the Planet",
+  "sentences": [
+   "{Climate change} is a big problem for our planet.",
+   "{Pollution} from cars and factories makes the air dirty.",
+   "We should use clean {energy}, like solar {power}.",
+   "At home, we {recycle} paper, plastic and glass.",
+   "We try not to {waste} food or water.",
+   "Please don't drop {litter} in the street!"
+  ]
+ },
+ "b1_animals": {
+  "title": "Animals on the Farm and in the Garden",
+  "sentences": [
+   "My uncle keeps {cattle} and {pigs|pig} on his farm.",
+   "Every morning he goes out to {feed} the animals.",
+   "Last spring a cow had a {calf}.",
+   "In the garden, an {ant} was carrying food.",
+   "In summer, a {mosquito} can {bite} you at night.",
+   "There are many {species} of insects around the farm."
+  ]
+ },
+ "b1_weather": {
+  "title": "Weather Around the Year",
+  "sentences": [
+   "The {climate} in Hanoi has four seasons.",
+   "In summer the {heat} is strong, and the air is {humid}.",
+   "In autumn there is a cool {breeze}, and the weather is {mild}.",
+   "In winter it can be {freezing} in the mountains.",
+   "During storms, there is {thunder} and {lightning}.",
+   "Before you go out, check the {weather forecast}."
+  ]
+ },
+ "b1_time": {
+  "title": "Changing Habits",
+  "sentences": [
+   "I {used to} get up late every day.",
+   "{Nowadays}, I have a new morning {routine}.",
+   "I go to the gym for a short {session} before work.",
+   "{Previously}, I never did any exercise.",
+   "{Lately}, I have felt much healthier.",
+   "I hope this change will be {permanent}, not {temporary}."
+  ]
+ },
+ "b1_numbers": {
+  "title": "A Maths Lesson",
+  "sentences": [
+   "Today in maths we learned how to {multiply} and {divide}.",
+   "We also practised {addition} and how to {subtract}.",
+   "Then we had to {measure} the classroom in {metres|metre}.",
+   "The {average} height of students in my class is one metre sixty.",
+   "We learned that a {dozen} means twelve.",
+   "Finally, we calculated what {percent} of students walk to school."
+  ]
+ },
+ "b1_size_shape": {
+  "title": "A Strange Rock",
+  "sentences": [
+   "On the beach, we found a {giant} rock.",
+   "It had an unusual {shape}, like a sleeping dog.",
+   "One {edge} was {sharp}, but the top was {smooth}.",
+   "There was a {tiny} {hole} in the middle.",
+   "Through the {gap}, we could see the sea.",
+   "It was the most {enormous} rock I have ever seen."
+  ]
+ },
+ "b1_qualities": {
+  "title": "An Old House",
+  "sentences": [
+   "We visited an {ancient} house in the old town.",
+   "It was {old-fashioned}, but very {colourful} inside.",
+   "There was a {hidden} room behind the {main} stairs.",
+   "The walls were {plain}, and the furniture was very {basic}.",
+   "The house was {damaged} in a storm, but it is still standing.",
+   "It is a {rare} and {typical} example of old architecture."
+  ]
+ },
+ "b1_judging": {
+  "title": "Choosing a Hotel",
+  "sentences": [
+   "Choosing a hotel can be {complicated}.",
+   "The location must be {convenient} and the price {reasonable}.",
+   "It's {essential} to read the reviews before you book.",
+   "Some reviews are {false}, so be careful.",
+   "It's {likely} that the best hotels will be full, so book early.",
+   "If the room is {uncomfortable}, it's {necessary} to tell the reception."
+  ]
+ },
+ "b1_v_action": {
+  "title": "The Lost Key",
+  "sentences": [
+   "Last night I couldn't find my house key.",
+   "I had to {knock} on the window to wake my sister.",
+   "She {grabbed|grab} a torch and {reached|reach} for the door.",
+   "Then she {pressed|press} the light switch, but nothing happened.",
+   "I {slipped|slip} on the wet step and almost fell.",
+   "Finally, we found the key {hidden|hide} under the mat, where I had left it!"
+  ]
+ },
+ "b1_v_change": {
+  "title": "How Our Town Changed",
+  "sentences": [
+   "Our town has {developed|develop} a lot in the last ten years.",
+   "The number of people has {increased|increase} quickly.",
+   "They {created|create} a new park and {rebuilt|rebuild} the old bridge.",
+   "Pollution has {decreased|decrease} because of the new buses.",
+   "Many old shops have {disappeared|disappear}.",
+   "The changes have {affected|affect} everyone's life."
+  ]
+ },
+ "b1_v_mind": {
+  "title": "Planning a Party",
+  "sentences": [
+   "I want to {organise} a surprise party for my best friend.",
+   "First, I need to {consider} how many people to invite.",
+   "I {expect} about twenty guests.",
+   "I'm trying to {avoid} telling her anything.",
+   "I {wonder} if she will guess.",
+   "I {intend} to {arrange} everything before Friday."
+  ]
+ },
+ "b1_v_social": {
+  "title": "A Good Neighbour",
+  "sentences": [
+   "Our neighbour is always happy to {support} other people.",
+   "When my mum was ill, she {provided|provide} meals for us.",
+   "She also {encouraged|encourage} me to study for my exams.",
+   "Everyone in our street {respects|respect} her.",
+   "We can always {rely on} her in difficult times.",
+   "I {trust} her completely."
+  ]
+ },
+ "b1_ph_daily": {
+  "title": "A Relaxing Weekend",
+  "sentences": [
+   "On Saturday morning we {set off} for the beach.",
+   "We stopped to {fill up} the car with petrol.",
+   "When we arrived, we {checked in|check in} at a small hotel.",
+   "In the afternoon we just wanted to {chill out} by the pool.",
+   "In the evening, we {hung out|hang out} at a café with friends.",
+   "On Sunday we {ran out|run out} of money, so we came home early."
+  ]
+ },
+ "b1_ph_people": {
+  "title": "Growing Up",
+  "sentences": [
+   "I was {brought up|bring up} by my grandparents in a small village.",
+   "My grandma {took care of|take care of} me when my parents worked in the city.",
+   "I always {got along|get along} well with my cousins.",
+   "When my parents {split up|split up}, I was very sad.",
+   "Now I {look forward to} visiting my village every summer.",
+   "When my grandma phones, I never {hang up} quickly."
+  ]
+ },
+ "b1_ph_events": {
+  "title": "A Difficult Project",
+  "sentences": [
+   "Last month our team had to {carry out} an important project.",
+   "At first, we wanted to {give up}, because it was so difficult.",
+   "The meeting was {put off|put off} twice.",
+   "But we {carried on|carry on} and worked late every night.",
+   "We {dealt with|deal with} many problems together.",
+   "In the end, the project {took place|take place} on time, and it was a success."
+  ]
+ },
+ "b1_adv_degree": {
+  "title": "An Exciting Match",
+  "sentences": [
+   "The match last night was {absolutely} amazing.",
+   "Our team played {extremely} well in the first half.",
+   "The other team were {fairly} strong, but we were better.",
+   "I was {slightly} worried when they scored.",
+   "The fans shouted so {loudly} that I could {hardly} hear.",
+   "In the end, we won, and I was {completely} happy."
+  ]
+ },
+ "b1_adv_freq": {
+  "title": "My Weekly Routine",
+  "sentences": [
+   "I {normally} get up at six o'clock.",
+   "I {regularly} go to the gym before work.",
+   "I {rarely} eat breakfast at home.",
+   "I {occasionally} go to the cinema with friends.",
+   "At weekends, I {mostly} relax and read.",
+   "{Meanwhile}, my brother {generally} sleeps until noon!"
+  ]
+ },
+ "b1_adv_link": {
+  "title": "A Rainy Holiday",
+  "sentences": [
+   "We went to the beach {in spite|spite} of the bad weather.",
+   "{Fortunately}, the rain stopped in the afternoon.",
+   "{Honestly}, I was worried at first.",
+   "I took an umbrella {in case} it rained again.",
+   "{Obviously}, we couldn't swim, {therefore} we went shopping.",
+   "{Hopefully}, next time the weather will be better."
+  ]
+ },
+ "b1_adv_place": {
+  "title": "A Walk in the Woods",
+  "sentences": [
+   "We walked {ahead} of the group into the woods.",
+   "The path went {directly} {towards} the lake.",
+   "It was {approximately} two kilometres {altogether}.",
+   "Suddenly, I heard a noise and stepped {backwards}.",
+   "My friend read the map {aloud}.",
+   "We were lost, and there was {nowhere} to go but {forward}."
+  ]
+ },
+ "b1_goals": {
+  "title": "Achieving Your Goals",
+  "sentences": [
+   "My {aim} is to speak English well by the end of the year.",
+   "It's a big {challenge}, but I have a clear {purpose}.",
+   "I have found a good {method} for learning new words.",
+   "With a lot of {effort}, I have made good {progress}.",
+   "The {improvement} in my speaking is my biggest {achievement}.",
+   "The {reward} will be a trip to London next summer."
+  ]
+ },
+ "b1_choices": {
+  "title": "City or Countryside?",
+  "sentences": [
+   "Living in the city has many {advantages|advantage}.",
+   "There are more job {opportunities|opportunity} and better schools.",
+   "But one {disadvantage} is the pollution.",
+   "Living in the countryside is quieter, but there is a {lack} of jobs.",
+   "It's a difficult {decision} for many young people.",
+   "In {conclusion}, each {option} has its {benefits|benefit}."
+  ]
+ },
+ "b1_ideas": {
+  "title": "A Good Place to Study",
+  "sentences": [
+   "The {atmosphere} in the library is calm and quiet.",
+   "It helps me pay {attention} to every {detail}.",
+   "I always sit in the same {position}, near the window.",
+   "In this {situation}, I can study for hours.",
+   "At home, I have no {private} space to work.",
+   "In {reality}, the library is my second home."
+  ]
+ }
+}
