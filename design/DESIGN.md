@@ -112,7 +112,7 @@ A cheerful, modern, and non-intimidating mobile study companion designed specifi
   - Word missed (`word-bad`): Red text + light red background tint + a prominent wavy dashed underline (allowing immediate accessibility for colour-blind learners).
 - **Result pill**: Informational pill showing live feedback ("Máy nghe được: ...", "Chính xác ✅", "Chưa nghe rõ 🤔").
 - **Bottom sheet**: Pull-up card with 28px rounded top corners, top grab handle, and explicit close button (44×44px).
-- **Level picker (`data-ui="level-picker"`)**: one two-line chip per level (A1, A2, B1, B2, C1, C2, IELTS: code + Vietnamese name), a 4-column grid on phones and 7 columns from 760px. The chosen level uses `chip-active`; levels still being written say "Sắp có" with a dashed outline, stay tappable, and explain themselves with the mascot. Levels are app-wide, so they always use the brand green, never a topic accent.
+- **Level picker (`data-ui="level-picker"`)**: one two-line chip per level (A1, A2, B1, B2, C1, C2, IELTS: code + Vietnamese name), a 4-column grid on phones and 7 columns from 760px, every row the same height so a name that wraps (e.g. "Thành thạo") never makes one row taller. The chosen level uses `chip-active`; levels still being written say "Sắp có" with a dashed outline, stay tappable, and explain themselves with the mascot. Levels are app-wide, so they always use the brand green, never a topic accent.
 - **Level badge (`data-ui="level"`)**: small green pill with the CEFR code on the flashcard front (next to the part of speech) and in the word sheet. Words not found in any CEFR list show no badge rather than a guessed level.
 
 ## Layout additions (Sprout)

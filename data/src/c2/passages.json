@@ -1,0 +1,365 @@
+{
+ "c2_char_good": {
+  "title": "A Doctor Everyone Trusts",
+  "sentences": [
+   "Doctor Hanh is known in our town for her {empathy} and {humility}.",
+   "She is {meticulous} with every patient and never rushes an examination.",
+   "She is also {observant}, so she often notices problems that others miss.",
+   "When patients are nervous, she is {courteous} and {discreet}.",
+   "Her colleagues admire her {sincerity} and her {resourceful} approach to difficult cases.",
+   "Even after thirty years, she remains {faithful} to her promise to help anyone in need."
+  ]
+ },
+ "c2_char_strong": {
+  "title": "The Runner Who Never Gave Up",
+  "sentences": [
+   "After a serious injury, few people believed Lan would ever run again.",
+   "But her {perseverance} surprised everyone.",
+   "She trained every morning with {relentless} energy and remarkable {endurance}.",
+   "Her coach said her {resilience} came from an {innate} love of the sport.",
+   "She was also {pragmatic}, setting small goals one step at a time.",
+   "When she finally won the city marathon, her {charisma} inspired a whole new generation of runners."
+  ]
+ },
+ "c2_char_social": {
+  "title": "Three Very Different Friends",
+  "sentences": [
+   "My friend Minh is {outgoing} and {laid-back}; he talks to everyone at parties.",
+   "His sister, by contrast, is a quiet {introvert} who can seem a little {withdrawn}.",
+   "Our third friend is slightly {eccentric} and wears a hat in every season.",
+   "He is also quite {blunt}, so he always says exactly what he thinks.",
+   "Although we have very different {dispositions|disposition}, we value each other's {openness}.",
+   "Together, we are {carefree} and happy."
+  ]
+ },
+ "c2_char_bad": {
+  "title": "A Difficult Boss",
+  "sentences": [
+   "My old boss was {conceited} and liked to talk about his own success.",
+   "He was also {pushy}, forcing us to work late without warning.",
+   "Worse, he was {hypocritical}: he demanded honesty but lied to clients.",
+   "He could be {ruthless} with anyone who disagreed with him.",
+   "His {vanity} was obvious, and his {stubbornness} made meetings very long.",
+   "In the end, his {unscrupulous} behaviour cost him his job."
+  ]
+ },
+ "c2_self": {
+  "title": "Becoming Your Own Person",
+  "sentences": [
+   "Leaving home at eighteen taught me {self-reliance}.",
+   "Living alone requires {self-discipline}, especially when it comes to money.",
+   "It also takes {willpower} to cook healthy meals instead of eating instant noodles.",
+   "Over time, I developed more {self-awareness} and {self-respect}.",
+   "Now I feel {self-assured} when I make big decisions.",
+   "Many {aspiring} young people go through the same journey."
+  ]
+ },
+ "c2_emo_sad": {
+  "title": "A Hard Year",
+  "sentences": [
+   "Last year was an {ordeal} for our family.",
+   "My father lost his job, and he felt a deep sense of {desperation}.",
+   "He began to {weep} quietly when he thought nobody was watching.",
+   "We all felt {shattered} and {weary}, as if we were stuck {in a rut|in a rut}.",
+   "Slowly, though, the {sorrow} began to fade.",
+   "Looking back, the year was {traumatic}, but it made us closer."
+  ]
+ },
+ "c2_emo_shock": {
+  "title": "The Night of the Storm",
+  "sentences": [
+   "When the storm hit, I was {horrified} by the noise of the wind.",
+   "My little brother was {frantic} and ran from room to room.",
+   "After the lights went out, we sat in a {dazed} silence.",
+   "In the morning we were {stunned} to see the fallen trees.",
+   "My mother was badly {shaken}, but she refused to show any {dread}.",
+   "Her calm voice slowly turned our {fury} at the weather into laughter."
+  ]
+ },
+ "c2_emo_pos": {
+  "title": "Going Home for Tet",
+  "sentences": [
+   "Every year I feel great {anticipation} before going home for Tet.",
+   "There is a special {buzz} in the air as people fill the trains.",
+   "I always feel a strong {longing} for my mother's cooking.",
+   "The sight of the old house fills me with {nostalgia}.",
+   "In the quiet countryside, I finally {unwind} and enjoy the {serenity} of the rice fields.",
+   "The {tenderness} of my family gives me deep {fulfilment}."
+  ]
+ },
+ "c2_beh_conduct": {
+  "title": "Rules for the Library",
+  "sentences": [
+   "The new library has clear rules about behaviour.",
+   "Loud or {disruptive} visitors will be asked to leave.",
+   "It is {inconsiderate} to take phone calls in the reading room.",
+   "{Disrespectful} or {abusive} language towards staff is not accepted.",
+   "Anyone who is {negligent} with borrowed books must pay for them.",
+   "Most visitors are {apologetic} when they break a rule by accident."
+  ]
+ },
+ "c2_beh_choice": {
+  "title": "Choosing a Career",
+  "sentences": [
+   "When I finished school, I felt a lot of {hesitation} about my future.",
+   "I had no {inclination} to study law, although my parents wanted me to.",
+   "I didn't want to {jump on the bandwagon|jump on the bandwagon} and study business just because it was popular.",
+   "In the end, I took a {gamble} and chose music.",
+   "My parents eventually {reconciled|reconcile} themselves to my decision.",
+   "Now I {juggle} teaching and performing, and I {excel} at both."
+  ]
+ },
+ "c2_mind_reason": {
+  "title": "How Detectives Think",
+  "sentences": [
+   "A good detective never jumps to conclusions.",
+   "She looks at the evidence from every {perspective}.",
+   "From small details, she can {deduce} who was at the scene.",
+   "Each {deduction} must be {plausible} and supported by facts.",
+   "Only {conclusive} evidence can prove a case beyond doubt.",
+   "It is a {paradox} that the simplest explanation is often the hardest to find."
+  ]
+ },
+ "c2_mind_know": {
+  "title": "Memory and Mistakes",
+  "sentences": [
+   "Our memory is not as reliable as we think.",
+   "When we {recollect} an event, we often {misinterpret} the details.",
+   "Our {recollection} can be influenced by stories we hear later.",
+   "Sometimes, our {intuition} tells us something is wrong, but we ignore it.",
+   "Scientists {ponder} why the brain works this way.",
+   "For now, much of it remains {inexplicable}."
+  ]
+ },
+ "c2_speak": {
+  "title": "Speaking Clearly",
+  "sentences": [
+   "Good speakers avoid {ambiguous} language.",
+   "They build {coherent} arguments and never {contradict} themselves.",
+   "They know that {sarcastic} remarks can easily be misunderstood.",
+   "Sometimes the most powerful message is {implicit} rather than spoken.",
+   "A well-chosen {proverb} can make a point memorable.",
+   "Above all, {persuasion} depends on trust."
+  ]
+ },
+ "c2_judge_pos": {
+  "title": "A Perfect Holiday",
+  "sentences": [
+   "Our hotel in Hoi An was {quaint}, with an {exquisite} garden.",
+   "The service was {faultless}, and the rooms were {spotless}.",
+   "We were given {complimentary} tea and cakes every afternoon.",
+   "The dinner on the river was {lavish} but {tasteful}.",
+   "The whole trip was a {phenomenal} experience.",
+   "For us, good company was {paramount}."
+  ]
+ },
+ "c2_neg_quality": {
+  "title": "A Disappointing Restaurant",
+  "sentences": [
+   "We tried a new restaurant last night, but the food was {bland}.",
+   "The decoration looked {dated}, and the chairs were {shabby}.",
+   "The waiter was polite, but his English was {feeble}.",
+   "Our dessert was {mediocre} and far too sweet.",
+   "When we complained, the manager gave a {pathetic} excuse.",
+   "It was a {tiresome} evening, and we won't go back."
+  ]
+ },
+ "c2_neg_harm": {
+  "title": "The Dangers of Fake News",
+  "sentences": [
+   "Fake news can be very {detrimental} to society.",
+   "Some websites use {deceptive} headlines to attract clicks.",
+   "Their sources are often {dubious}, and their claims are {questionable}.",
+   "Sharing such stories without checking them is {unwise}.",
+   "Some fake stories even cause {needless} panic about health.",
+   "Experts say that the truth can be {elusive} online."
+  ]
+ },
+ "c2_soc_politics": {
+  "title": "A Country in Change",
+  "sentences": [
+   "The country went through a {turbulent} period after the election.",
+   "There was {unrest} in several cities as people protested.",
+   "The new {chancellor} promised a {crackdown} on corruption.",
+   "A peace {pact} was signed with a neighbouring country after years of {diplomacy}.",
+   "The decision in parliament was {unanimous}.",
+   "Young {voters|voter} hope the changes will last."
+  ]
+ },
+ "c2_soc_crime": {
+  "title": "A Year of Disasters",
+  "sentences": [
+   "The report looked back on a year of {catastrophes|catastrophe}.",
+   "Floods left thousands of people {stranded} without food.",
+   "In some areas, {famine} and {starvation} followed.",
+   "In the cities, {vandalism} and {bribery} were growing problems.",
+   "Police arrested a gang for {forgery} and {blackmail}.",
+   "Experts say better laws could act as a {deterrent}."
+  ]
+ },
+ "c2_soc_money": {
+  "title": "Money Matters",
+  "sentences": [
+   "After paying rent and bills, many young workers have little {disposable income}.",
+   "Their {outgoings} often grow faster than their salaries.",
+   "Some are made {redundant} when companies {restructure}.",
+   "Others receive a small {inheritance} from their grandparents.",
+   "Governments try to {redistribute} wealth to reduce {deprivation}.",
+   "Finding a true {vocation} matters more to many people than {riches}."
+  ]
+ },
+ "c2_soc_life": {
+  "title": "Growing Up Today",
+  "sentences": [
+   "Teenagers today face a lot of {peer pressure} at school.",
+   "The {syllabus} is heavy, and {schooling} is very competitive.",
+   "Some pupils feel {solitary} and struggle to make friends.",
+   "Others form {inseparable} friendships that last for life.",
+   "There is also healthy {rivalry} between classes in sports.",
+   "Years later, a school {reunion} brings back all these memories."
+  ]
+ },
+ "c2_health_body": {
+  "title": "Signs of Ageing",
+  "sentences": [
+   "As we get older, our {complexion} changes.",
+   "{Wrinkles|wrinkle} appear around our eyes and mouth.",
+   "Our hands become {wrinkled}, and our {knuckles|knuckle} may grow stiff.",
+   "A {sedentary} lifestyle can make these changes happen faster.",
+   "Doctors say {strenuous} exercise is not necessary; walking is enough.",
+   "Good habits are the real secret of {longevity}."
+  ]
+ },
+ "c2_health_med": {
+  "title": "How Vaccines Work",
+  "sentences": [
+   "A {vaccine} trains your {immune system} to recognise a {germ}.",
+   "When you {vaccinate} a child, you protect them from {infectious} diseases.",
+   "Most people only feel slight {discomfort} after an injection.",
+   "Serious {side effects|side effect} are very rare.",
+   "Mass {vaccination} has saved millions from deadly {plagues|plague}.",
+   "It is one of the greatest successes of {preventive} medicine."
+  ]
+ },
+ "c2_nature": {
+  "title": "A Changing Coast",
+  "sentences": [
+   "The {coastline} of central Vietnam is famous for its beauty.",
+   "But sea levels are rising, and the land is starting to {erode}.",
+   "{Erosion} threatens villages that have stood for centuries.",
+   "{Torrential} rain makes the problem worse every autumn.",
+   "Scientists are studying {coral} reefs that protect the shore.",
+   "They say {renewable} energy and {sustainability} are the only long-term answer."
+  ]
+ },
+ "c2_things": {
+  "title": "Grandmother's House",
+  "sentences": [
+   "My grandmother's house has an old {fireplace} in the living room.",
+   "Above it, she keeps a {bronze} statue and a few {ornaments|ornament}.",
+   "In the kitchen, the {cutlery} is kept in a wooden box tied with a {ribbon}.",
+   "Up in the {loft}, there are {bundles|bundle} of old letters.",
+   "Everything is covered with {linen} to keep the dust away.",
+   "Standing in the {doorway}, I always feel like a child again."
+  ]
+ },
+ "c2_senses": {
+  "title": "A Night Market",
+  "sentences": [
+   "The night market is full of sounds and smells.",
+   "You can hear the {hum} of voices and the {roar} of motorbikes.",
+   "The {fragrance} of grilled corn fills the air.",
+   "Lanterns {glow} softly above the {smoky} food stalls.",
+   "The mangoes are {juicy}, and the spring rolls are {crisp}.",
+   "Far away, the {siren} of an ambulance fades into the night."
+  ]
+ },
+ "c2_arts": {
+  "title": "A Great Novel",
+  "sentences": [
+   "The novel tells the story of a young {protagonist} growing up after the war.",
+   "The {narrator} is her older brother.",
+   "The {narrative} moves between the present and a series of {flashbacks|flashback}.",
+   "The author's language is {poetic} and deeply {expressive}.",
+   "The book keeps readers in {suspense} until the very last page.",
+   "Many critics call it a {masterpiece}."
+  ]
+ },
+ "c2_v_grow": {
+  "title": "Learning a Language as an Adult",
+  "sentences": [
+   "Learning a new language can {sharpen} your mind at any age.",
+   "Practice helps you {retain} new words and {refine} your pronunciation.",
+   "Small successes {spur} you on to study more.",
+   "Over time, you {reap} the rewards of your hard work.",
+   "Holidays abroad let you {recharge} and {deepen} your skills.",
+   "Many adult learners even {surpass} their own expectations."
+  ]
+ },
+ "c2_v_decline": {
+  "title": "The Old Factory",
+  "sentences": [
+   "For years the old factory stood empty, slowly beginning to {crumble}.",
+   "Rising costs had {hindered|hinder} its business, and sales began to {fluctuate}.",
+   "Finally, the owners decided to {demolish} it.",
+   "Workers watched sadly as machines {flattened|flatten} the walls.",
+   "The city hopes the new park will not {revert} to wasteland.",
+   "It wants to {curb} the damage and {eradicate} pollution in the area."
+  ]
+ },
+ "c2_v_physical": {
+  "title": "A Surprise Party",
+  "sentences": [
+   "We {sneaked|sneak} into the house while Mai was at work.",
+   "When she opened the door, she {gasped|gasp} in surprise.",
+   "Her little brother began to {giggle} behind the sofa.",
+   "She {clutched|clutch} her bag and {blinked|blink} at the balloons.",
+   "Then she {frowned|frown} for a moment before laughing.",
+   "Her dad {winked|wink} at me and handed her a cake."
+  ]
+ },
+ "c2_measure": {
+  "title": "A Crowded City",
+  "sentences": [
+   "Hanoi faces an {influx} of workers from the countryside.",
+   "There is a {plethora} of new apartment buildings in the suburbs.",
+   "Yet the {scarcity} of affordable housing is a serious problem.",
+   "The {proximity} of schools and hospitals pushes prices up in the centre.",
+   "In some areas, the difference between rich and poor is {negligible}.",
+   "Every morning, {innumerable} motorbikes fill the streets."
+  ]
+ },
+ "c2_time": {
+  "title": "A Company's Story",
+  "sentences": [
+   "{At the outset|at the outset}, the company was just three friends in a garage.",
+   "{In retrospect|in retrospect}, their early years were the most {eventful}.",
+   "Several times, they were {on the brink of|on the brink of} closing down.",
+   "But they kept going, and years {elapsed|elapse} before they made a profit.",
+   "From 2015 {onwards}, sales grew quickly.",
+   "Today, a new project is {underway}, and the future looks bright."
+  ]
+ },
+ "c2_adv_manner": {
+  "title": "A Good Team Leader",
+  "sentences": [
+   "Our team leader always acts {decisively} in a crisis.",
+   "She speaks {diplomatically}, even to difficult clients.",
+   "She plans {strategically} and works {systematically}.",
+   "When she criticises us, she does it {respectfully}.",
+   "Thanks to her, projects usually run {smoothly}.",
+   "Everyone agrees {wholeheartedly} that she is the best leader we have had."
+  ]
+ },
+ "c2_adv_degree": {
+  "title": "A Night Sky",
+  "sentences": [
+   "The night sky is {infinitely} more beautiful in the countryside.",
+   "In the city, you can {scarcely} see any stars.",
+   "In {sparsely} populated areas, the Milky Way is {visibly} bright.",
+   "Astronomers say light pollution is {profoundly} changing our view of space.",
+   "{Theoretically}, we could reduce it very quickly.",
+   "{Undeniably}, looking at the stars is good for the soul."
+  ]
+ }
+}
