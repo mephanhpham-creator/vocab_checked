@@ -361,5 +361,192 @@
    "{Theoretically}, we could reduce it very quickly.",
    "{Undeniably}, looking at the stars is good for the soul."
   ]
+ },
+ "c2_ph_feel": {
+  "title": "Results Day",
+  "sentences": [
+   "On the morning of the results, I was {on edge} and couldn't eat.",
+   "My best friend was {down in the dumps} because she thought she had failed.",
+   "When I saw my grade, I was {on cloud nine}.",
+   "My friend passed too, and her smile really {made my day|make someone's day}.",
+   "Our classmates were {green with envy} when they heard our news.",
+   "At the ceremony, my mother's speech {brought a lump to my throat|bring a lump to your throat}."
+  ]
+ },
+ "c2_ph_calm": {
+  "title": "A Bad Referee",
+  "sentences": [
+   "In the last minute of the match, the referee gave the other team a penalty.",
+   "Our coach {lost his cool|lose your cool} and {saw red|see red}.",
+   "The fans {hit the roof|hit the roof}, and some began to shout.",
+   "Unfair decisions always {make my blood boil|make your blood boil}.",
+   "Only our captain managed to {keep a cool head}.",
+   "After the game, we went for a run to {let off steam}."
+  ]
+ },
+ "c2_ph_rest": {
+  "title": "A Weekend Away",
+  "sentences": [
+   "After a stressful month, I needed to {recharge my batteries|recharge your batteries}.",
+   "On Friday evening, I decided to {call it a day} early and leave the city.",
+   "At the beach house, I could finally {put my feet up|put your feet up}.",
+   "The first night, I {didn't sleep a wink|not sleep a wink} because of the waves.",
+   "But after that, the fresh air {did me a world of good|do someone a world of good}.",
+   "I came home {safe and sound}, with real {peace of mind}."
+  ]
+ },
+ "c2_ph_people": {
+  "title": "My Grandparents",
+  "sentences": [
+   "My grandparents still walk {arm in arm} after fifty years.",
+   "They {tied the knot|tie the knot} when they were only twenty.",
+   "My grandfather never {bears a grudge|bear a grudge}; he forgives everyone.",
+   "He always {gives people the benefit of the doubt|give someone the benefit of the doubt}.",
+   "When my father lost his job, they {stuck by him|stick by someone}.",
+   "They {mean well|mean well}, even when their advice is old-fashioned."
+  ]
+ },
+ "c2_ph_speak": {
+  "title": "A Difficult Conversation",
+  "sentences": [
+   "I had to {break the news} to my team that the project was cancelled.",
+   "{In all honesty}, I didn't know how to start.",
+   "{Let's face it}, nobody likes bad news.",
+   "One colleague was {at a loss for words}.",
+   "Another decided to {speak her mind|speak your mind} and said it was a big mistake.",
+   "{If you ask me}, she was right to be honest."
+  ]
+ },
+ "c2_ph_think": {
+  "title": "Where Have I Seen Him?",
+  "sentences": [
+   "Yesterday I met a man whose name {rang a bell|ring a bell}.",
+   "I tried to {cast my mind back|cast your mind back} to my school days.",
+   "{Come to think of it}, he looked like my old maths teacher.",
+   "But I {didn't have the faintest idea|not have the faintest idea} where I had seen him.",
+   "Then a phone call broke my {train of thought}.",
+   "Later, the answer suddenly {sprang to mind|spring to mind}: he was my neighbour's son."
+  ]
+ },
+ "c2_ph_judge": {
+  "title": "Two Critics",
+  "sentences": [
+   "Two film critics reviewed the same new film, and they were {poles apart}.",
+   "The first {thought highly of|think highly of} the acting.",
+   "He said the ending was {out of this world}.",
+   "The second {didn't think much of|not think much of} it.",
+   "She found the music {over the top} and the jokes {in bad taste}.",
+   "The film has become {a bone of contention} among audiences."
+  ]
+ },
+ "c2_ph_work": {
+  "title": "Starting a New Job",
+  "sentences": [
+   "When I started my first job, I had to {learn the ropes} quickly.",
+   "My manager gave me {a free hand} to organise my own work.",
+   "For the first month, I {burned the midnight oil|burn the midnight oil} every night.",
+   "I was {snowed under} with emails and reports.",
+   "Slowly, I began to {get the hang of} it.",
+   "Now I {pull my weight|pull your weight} and help new staff too."
+  ]
+ },
+ "c2_ph_win": {
+  "title": "From Failure to Success",
+  "sentences": [
+   "When my aunt opened her first bakery, it failed within a year.",
+   "All her savings went {down the drain}.",
+   "But she refused to {throw in the towel}.",
+   "She {learned the hard way|learn the hard way} that location matters.",
+   "Her second shop {made a splash|make a splash} in the local news.",
+   "Her hard work finally {bore fruit|bear fruit}, and she {made a name for herself|make a name for yourself}."
+  ]
+ },
+ "c2_ph_risk": {
+  "title": "A Storm at Sea",
+  "sentences": [
+   "The fishermen knew they were {playing with fire|play with fire} when they left port.",
+   "The storm got worse, and soon the situation {got out of hand|get out of hand}.",
+   "It was {touch and go} whether the boat would survive.",
+   "When the engine stopped, the captain {raised the alarm|raise the alarm}.",
+   "A rescue team arrived just in time; it was {a narrow escape}.",
+   "The crew agreed to {steer clear of} the sea during storms in future."
+  ]
+ },
+ "c2_ph_time": {
+  "title": "A Busy Day at the Station",
+  "sentences": [
+   "The train was due to leave at nine {on the dot}.",
+   "Passengers arrived {thick and fast} after eight.",
+   "{Every so often}, an announcement reminded them to hurry.",
+   "{At this rate}, the platform would soon be full.",
+   "When the doors opened, the seats were gone {in the blink of an eye}.",
+   "{The next thing I knew}, the train was moving."
+  ]
+ },
+ "c2_ph_sure": {
+  "title": "Will It Rain?",
+  "sentences": [
+   "The weather report says rain is {on the cards} for tomorrow.",
+   "{In all likelihood}, the picnic will be cancelled.",
+   "{The chances are} that the park will be muddy.",
+   "An umbrella is always {a safe bet}.",
+   "{Your best bet} is to plan something indoors.",
+   "After all, there is {only so much} we can do about the weather."
+  ]
+ },
+ "c2_ph_argue": {
+  "title": "Should Schools Ban Phones?",
+  "sentences": [
+   "{On the face of it}, banning phones in schools seems sensible.",
+   "{For one thing}, students would pay more attention in class.",
+   "{Then again}, phones can be useful for research.",
+   "{By the same token}, they can help parents contact their children.",
+   "{In essence}, the debate is about trust.",
+   "{The bottom line} is that students need clear rules."
+  ]
+ },
+ "c2_ph_relate": {
+  "title": "Why Did Sales Fall?",
+  "sentences": [
+   "The report tried to {account for} the fall in sales.",
+   "Experts {attributed it to|attribute something to} rising prices.",
+   "The new tax also {gave rise to|give rise to} complaints from customers.",
+   "Prices rose {in line with} the cost of fuel.",
+   "The data were {consistent with} what shop owners had said.",
+   "We still don't know {the extent to which} online shopping played a part."
+  ]
+ },
+ "c2_ph_happen": {
+  "title": "The Lost Letters",
+  "sentences": [
+   "Last year, a builder found a box of old letters behind a wall.",
+   "New facts about the town's history {came to light|come to light}.",
+   "The letters {shed light on} life during the war.",
+   "Some of the writers seemed to have {disappeared into thin air|disappear into thin air}.",
+   "Over time, a clear story {took shape|take shape}.",
+   "The town museum later {made way for|make way for} a special exhibition."
+  ]
+ },
+ "c2_ph_stand": {
+  "title": "A Village Says No",
+  "sentences": [
+   "When a company planned to build a factory near the river, villagers decided to {make a stand}.",
+   "They argued that the company {stood to gain|stand to gain} a lot, while they would lose clean water.",
+   "Several families {joined forces|join forces} and wrote to the newspapers.",
+   "The company tried to {cover up|cover something up} the risks.",
+   "But some villagers {went so far as to|go so far as to} block the road.",
+   "In the end, the company {saw sense|see sense} and chose another site."
+  ]
+ },
+ "c2_ph_life": {
+  "title": "A Spontaneous Traveller",
+  "sentences": [
+   "My cousin never plans her trips; she likes to {go with the flow}.",
+   "Last summer, she bought a ticket to Laos {on impulse}.",
+   "She {played it by ear|play it by ear} and stayed in small villages.",
+   "She hates feeling {out of place}, so she always learns a few local words.",
+   "She says she {has a weakness for|have a weakness for} street food.",
+   "Her {thirst for|a thirst for} adventure never seems to end."
+  ]
  }
 }
