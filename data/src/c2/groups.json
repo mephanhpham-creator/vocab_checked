@@ -1,0 +1,266 @@
+[
+ {
+  "key": "char_good",
+  "title": "Phẩm chất đáng quý",
+  "subtitle": "Admirable Traits",
+  "icon": "😇",
+  "accent": "#22c55e",
+  "section": "🧑 Tính cách"
+ },
+ {
+  "key": "char_strong",
+  "title": "Mạnh mẽ & cuốn hút",
+  "subtitle": "Strength & Charm",
+  "icon": "💪",
+  "accent": "#8b5cf6",
+  "section": "🧑 Tính cách"
+ },
+ {
+  "key": "char_social",
+  "title": "Phong cách giao tiếp",
+  "subtitle": "Social Styles",
+  "icon": "🎭",
+  "accent": "#d946ef",
+  "section": "🧑 Tính cách"
+ },
+ {
+  "key": "char_bad",
+  "title": "Thói xấu",
+  "subtitle": "Flaws",
+  "icon": "😈",
+  "accent": "#f59e0b",
+  "section": "🧑 Tính cách"
+ },
+ {
+  "key": "self",
+  "title": "Bản thân & hoài bão",
+  "subtitle": "Self & Ambition",
+  "icon": "🌠",
+  "accent": "#06b6d4",
+  "section": "🧑 Tính cách"
+ },
+ {
+  "key": "emo_sad",
+  "title": "Buồn bã & tổn thương",
+  "subtitle": "Sadness & Hurt",
+  "icon": "😢",
+  "accent": "#ef4444",
+  "section": "😊 Cảm xúc"
+ },
+ {
+  "key": "emo_shock",
+  "title": "Giận dữ, sợ hãi & bối rối",
+  "subtitle": "Anger, Fear & Shock",
+  "icon": "😱",
+  "accent": "#4338ca",
+  "section": "😊 Cảm xúc"
+ },
+ {
+  "key": "emo_pos",
+  "title": "Mong mỏi & bình yên",
+  "subtitle": "Longing & Peace",
+  "icon": "🌅",
+  "accent": "#9f1239",
+  "section": "😊 Cảm xúc"
+ },
+ {
+  "key": "beh_conduct",
+  "title": "Cách cư xử",
+  "subtitle": "Conduct & Habits",
+  "icon": "🙅",
+  "accent": "#22c55e",
+  "section": "🤝 Hành vi"
+ },
+ {
+  "key": "beh_choice",
+  "title": "Lựa chọn & hành động",
+  "subtitle": "Choices & Actions",
+  "icon": "🎲",
+  "accent": "#8b5cf6",
+  "section": "🤝 Hành vi"
+ },
+ {
+  "key": "mind_reason",
+  "title": "Suy luận & quan điểm",
+  "subtitle": "Reasoning & Views",
+  "icon": "🔎",
+  "accent": "#d946ef",
+  "section": "🧠 Tư duy & ngôn ngữ"
+ },
+ {
+  "key": "mind_know",
+  "title": "Hiểu biết & trí nhớ",
+  "subtitle": "Knowledge & Memory",
+  "icon": "🧠",
+  "accent": "#f59e0b",
+  "section": "🧠 Tư duy & ngôn ngữ"
+ },
+ {
+  "key": "speak",
+  "title": "Lời nói & ngôn ngữ",
+  "subtitle": "Speech & Language",
+  "icon": "💬",
+  "accent": "#06b6d4",
+  "section": "🧠 Tư duy & ngôn ngữ"
+ },
+ {
+  "key": "judge_pos",
+  "title": "Lời khen",
+  "subtitle": "Praise",
+  "icon": "🤩",
+  "accent": "#ef4444",
+  "section": "👍 Nhận xét"
+ },
+ {
+  "key": "neg_quality",
+  "title": "Kém cỏi & nhàm chán",
+  "subtitle": "Poor & Dull",
+  "icon": "👎",
+  "accent": "#4338ca",
+  "section": "👍 Nhận xét"
+ },
+ {
+  "key": "neg_harm",
+  "title": "Nguy hại & sai trái",
+  "subtitle": "Harmful & Wrong",
+  "icon": "⚠️",
+  "accent": "#9f1239",
+  "section": "👍 Nhận xét"
+ },
+ {
+  "key": "soc_politics",
+  "title": "Chính trị & quyền lực",
+  "subtitle": "Politics & Power",
+  "icon": "🏛️",
+  "accent": "#22c55e",
+  "section": "🏛️ Xã hội"
+ },
+ {
+  "key": "soc_crime",
+  "title": "Tội phạm & thảm hoạ",
+  "subtitle": "Crime & Disaster",
+  "icon": "🚨",
+  "accent": "#8b5cf6",
+  "section": "🏛️ Xã hội"
+ },
+ {
+  "key": "soc_money",
+  "title": "Tiền bạc & nghề nghiệp",
+  "subtitle": "Money & Careers",
+  "icon": "💰",
+  "accent": "#d946ef",
+  "section": "🏛️ Xã hội"
+ },
+ {
+  "key": "soc_life",
+  "title": "Đời sống & quan hệ",
+  "subtitle": "Life & Relationships",
+  "icon": "👥",
+  "accent": "#f59e0b",
+  "section": "🏛️ Xã hội"
+ },
+ {
+  "key": "health_body",
+  "title": "Cơ thể & ngoại hình",
+  "subtitle": "Body & Looks",
+  "icon": "🧍",
+  "accent": "#06b6d4",
+  "section": "🩺 Sức khoẻ"
+ },
+ {
+  "key": "health_med",
+  "title": "Bệnh tật & y tế",
+  "subtitle": "Illness & Medicine",
+  "icon": "💉",
+  "accent": "#ef4444",
+  "section": "🩺 Sức khoẻ"
+ },
+ {
+  "key": "nature",
+  "title": "Thiên nhiên & môi trường",
+  "subtitle": "Nature & Environment",
+  "icon": "🌿",
+  "accent": "#4338ca",
+  "section": "🌿 Thiên nhiên, đồ vật & giác quan"
+ },
+ {
+  "key": "things",
+  "title": "Đồ vật & chất liệu",
+  "subtitle": "Objects & Materials",
+  "icon": "🧺",
+  "accent": "#9f1239",
+  "section": "🌿 Thiên nhiên, đồ vật & giác quan"
+ },
+ {
+  "key": "senses",
+  "title": "Âm thanh, ánh sáng & mùi vị",
+  "subtitle": "Sounds, Light & Smells",
+  "icon": "👃",
+  "accent": "#22c55e",
+  "section": "🌿 Thiên nhiên, đồ vật & giác quan"
+ },
+ {
+  "key": "arts",
+  "title": "Văn chương & giải trí",
+  "subtitle": "Stories & Entertainment",
+  "icon": "🎭",
+  "accent": "#8b5cf6",
+  "section": "🎭 Nghệ thuật & giải trí"
+ },
+ {
+  "key": "v_grow",
+  "title": "Phát triển & giữ gìn",
+  "subtitle": "Growing & Keeping",
+  "icon": "🌱",
+  "accent": "#d946ef",
+  "section": "🔄 Động từ"
+ },
+ {
+  "key": "v_decline",
+  "title": "Suy giảm & đảo ngược",
+  "subtitle": "Decline & Reversal",
+  "icon": "📉",
+  "accent": "#f59e0b",
+  "section": "🔄 Động từ"
+ },
+ {
+  "key": "v_physical",
+  "title": "Cử chỉ & chuyển động",
+  "subtitle": "Gestures & Movement",
+  "icon": "🤸",
+  "accent": "#06b6d4",
+  "section": "🔄 Động từ"
+ },
+ {
+  "key": "measure",
+  "title": "Số lượng & mức độ",
+  "subtitle": "Amounts & Degree",
+  "icon": "📏",
+  "accent": "#ef4444",
+  "section": "📏 Số lượng & thời gian"
+ },
+ {
+  "key": "time",
+  "title": "Thời gian & thời điểm",
+  "subtitle": "Time & Timing",
+  "icon": "⏳",
+  "accent": "#4338ca",
+  "section": "📏 Số lượng & thời gian"
+ },
+ {
+  "key": "adv_manner",
+  "title": "Cách thức",
+  "subtitle": "Manner",
+  "icon": "🎯",
+  "accent": "#9f1239",
+  "section": "🔗 Trạng từ"
+ },
+ {
+  "key": "adv_degree",
+  "title": "Mức độ & góc nhìn",
+  "subtitle": "Degree & Viewpoint",
+  "icon": "📐",
+  "accent": "#22c55e",
+  "section": "🔗 Trạng từ"
+ }
+]
