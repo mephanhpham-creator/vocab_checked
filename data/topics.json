@@ -479,7 +479,7 @@
     "en": "to place clothing onto your body",
     "ex": "She put on her coat before going outside.",
     "emoji": "⬆️",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "take off",
@@ -657,7 +657,7 @@
     "en": "showing a lack of thought or judgement",
     "ex": "It was silly of me to forget my umbrella.",
     "emoji": "🤪",
-    "level": "B1"
+    "level": "A1"
    },
    {
     "word": "stupid",
@@ -778,7 +778,7 @@
     "en": "in need of rest or sleep",
     "ex": "I felt tired after the long flight.",
     "emoji": "😴",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "amusing",
@@ -916,7 +916,7 @@
     "en": "to have a good relationship with someone",
     "ex": "I get on really well with my sister.",
     "emoji": "😊",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "grow up",
@@ -1324,7 +1324,8 @@
     "en": "to put on special clothes, either for fun or for a formal event",
     "ex": "Children love to dress up for the costume parade.",
     "syn": "get dressed up",
-    "emoji": "👗"
+    "emoji": "👗",
+    "level": "A1"
    },
    {
     "word": "striking",
@@ -1657,7 +1658,7 @@
     "en": "a cold-blooded animal that lives in water and breathes through gills",
     "ex": "There are colorful fish swimming in the coral reef.",
     "syn": "—",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "shark",
@@ -1668,7 +1669,7 @@
     "en": "a large sea fish with sharp teeth, some species of which are dangerous to humans",
     "ex": "A shark circled slowly near the reef.",
     "syn": "—",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "whale",
@@ -1680,7 +1681,7 @@
     "ex": "The whale surfaced and blew a spray of water into the air.",
     "syn": "—",
     "tts": "wayl",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "dolphin",
@@ -1691,7 +1692,7 @@
     "en": "an intelligent sea mammal known for its playful behaviour and curved fin",
     "ex": "A pod of dolphins swam alongside the boat.",
     "syn": "—",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "octopus",
@@ -1733,7 +1734,7 @@
     "en": "a soft, transparent sea creature with stinging tentacles",
     "ex": "Swimmers were warned about jellyfish near the shore.",
     "syn": "—",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "turtle",
@@ -1805,7 +1806,8 @@
     "vi": "vỏ sò, vỏ ốc",
     "en": "the hard outer covering of some sea creatures",
     "ex": "She collected pretty shells along the beach.",
-    "syn": "—"
+    "syn": "—",
+    "level": "A1"
    },
    {
     "word": "coral",
@@ -1873,7 +1875,7 @@
     "en": "rain that falls for a short period of time",
     "ex": "In summer, rain lasts for a short period of time, which is called a shower.",
     "syn": "",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "Pour",
@@ -2010,7 +2012,7 @@
     "en": "a short period of a particular type of weather",
     "ex": "Between June and mid-July, there is a spell of wet weather.",
     "syn": "",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "Bright",
@@ -2268,7 +2270,7 @@
     "en": "feeling mild astonishment or shock",
     "ex": "I was surprised to see him at the party.",
     "syn": "astonished, amazed",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "Frustrated",
@@ -2355,7 +2357,7 @@
     "en": "feeling afraid or nervous, usually about something dangerous",
     "ex": "The little boy was frightened of the dark.",
     "syn": "scared, afraid",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "Anxious",
@@ -2399,7 +2401,7 @@
     "en": "feeling or showing strong displeasure",
     "ex": "My parents were angry with me for coming home late.",
     "syn": "furious, irritated",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "Upset",
@@ -2432,7 +2434,7 @@
     "en": "feeling fear or worry about something",
     "ex": "She was afraid of making a mistake in front of everyone.",
     "syn": "frightened, scared",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "Persuade",
@@ -2548,7 +2550,7 @@
     "en": "to have a particular opinion or belief",
     "ex": "I personally hold the belief that hobby is a personal matter.",
     "syn": "believe, maintain",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "Criticize",
@@ -2854,7 +2856,7 @@
     "en": "the activity of making pictures using a pen or pencil",
     "ex": "He has loved drawing since he was a little boy.",
     "syn": "—",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "Painting",
@@ -2865,7 +2867,7 @@
     "en": "the activity of producing pictures using paint",
     "ex": "She spends every weekend painting landscapes in the countryside.",
     "syn": "—",
-    "level": "A2"
+    "level": "A1"
    },
    {
     "word": "Sculpture",
@@ -2950,7 +2952,7 @@
     "en": "a hard hat that protects your head during a dangerous activity",
     "ex": "You should always wear a helmet when riding a bike or a motorbike.",
     "syn": "—",
-    "level": "B1"
+    "level": "A1"
    },
    {
     "word": "Leisure centre",

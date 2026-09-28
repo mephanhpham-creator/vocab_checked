@@ -10,7 +10,7 @@
 const PROGRESS_KEY = 'ielts_vocab_progress_v1';
 // { topicKey: { sentenceIndex: bestScore0to1 } }
 const READING_KEY = 'ielts_reading_v1';
-// 'a2' | 'b1' | ... | 'ielts': the level chosen in the level picker.
+// 'a1' | 'a2' | ... | 'ielts': the level chosen in the level picker.
 const LEVEL_KEY = 'vocab_level_v1';
 
 function read(key) {
@@ -30,12 +30,13 @@ export const loadIpa = () => get('ipa.json');
 // taking one volume off the shelf instead of carrying the whole set.
 // `ready: false` levels show a "coming soon" note instead of topics.
 export const LEVELS = [
+  { id: 'a1', label: 'A1', name: 'Nhập môn', ready: true },
   { id: 'a2', label: 'A2', name: 'Sơ cấp', ready: true },
   { id: 'b1', label: 'B1', name: 'Trung cấp', ready: true },
-  { id: 'b2', label: 'B2', name: 'Trung cao cấp', ready: false, soon: 'Bộ từ B2 đang được soạn, sẽ có sớm.' },
+  { id: 'b2', label: 'B2', name: 'Trung cao', ready: false, soon: 'Bộ từ B2 đang được soạn, sẽ có sớm.' },
   { id: 'c1', label: 'C1', name: 'Cao cấp', ready: false, soon: 'Bộ từ C1 đang được soạn, sẽ có sớm.' },
   { id: 'c2', label: 'C2', name: 'Thành thạo', ready: false, soon: 'Bộ từ C2 sẽ được thêm khi có danh sách từ C2.' },
-  { id: 'ielts', label: 'IELTS', name: 'Chủ đề IELTS', ready: true },
+  { id: 'ielts', label: 'IELTS', name: 'Chủ đề', ready: true },
 ];
 export const levelInfo = (id) => LEVELS.find(l => l.id === id);
 
@@ -51,14 +52,14 @@ export function loadLevel(id) {
 }
 
 // Topic keys carry their level (a2_food_1); the original IELTS topics have none.
-export const levelOf = (topicKey) => (topicKey.match(/^(a2|b1|b2|c1|c2)_/) || [, 'ielts'])[1];
+export const levelOf = (topicKey) => (topicKey.match(/^(a1|a2|b1|b2|c1|c2)_/) || [, 'ielts'])[1];
 
-// Default: returning learners with IELTS progress keep seeing IELTS; new ones start at A2.
+// Default: returning learners with IELTS progress keep seeing IELTS; new ones start at A1.
 let level = (() => {
   let id = null;
   try { id = localStorage.getItem(LEVEL_KEY); } catch (e) { /* storage blocked */ }
   if (levelInfo(id)) return id;
-  return Object.keys(read(PROGRESS_KEY)).some(k => levelOf(k) === 'ielts') ? 'ielts' : 'a2';
+  return Object.keys(read(PROGRESS_KEY)).some(k => levelOf(k) === 'ielts') ? 'ielts' : 'a1';
 })();
 export const getLevel = () => level;
 export function setLevel(id) {
@@ -81,24 +82,31 @@ export function resetTopic(topicKey) { delete progress[topicKey]; write(PROGRESS
 
 export function knownCount(topic) { return topic.deck.filter(c => getStatus(topic.key, c.word) === 'known').length; }
 
-// When a level's decks are reorganised (A2 was first split by count, then
-// by meaning), marks saved under a deck key that no longer exists move to
-// the deck that now holds the same word, like forwarding mail after a move.
-// Reading scores of a removed deck belong to a passage that is gone, so
-// they are dropped.
+// When decks are reorganised (A2 split by meaning; A1 split out of A2), a
+// word's known/unknown mark follows the word, like forwarding mail after a
+// move: when a level loads, each of its words without a mark takes the mark
+// saved for that word under any other CEFR deck key (a word lives in only
+// one level). Marks nobody claims stay put, so nothing is lost; the IELTS
+// topics are separate and never touched. Reading scores of a removed deck
+// belong to a passage that is gone, so they are dropped.
 function carryOverMarks(levelId, topics) {
   const keys = new Set(topics.map(t => t.key));
-  const stale = Object.keys(progress).filter(k => levelOf(k) === levelId && !keys.has(k));
-  for (const old of stale) {
-    for (const [word, status] of Object.entries(progress[old])) {
-      const target = topics.find(t => t.deck.some(c => c.word === word) && !getStatus(t.key, word));
-      if (target) (progress[target.key] || (progress[target.key] = {}))[word] = status;
+  const sources = Object.keys(progress).filter(k => levelOf(k) !== 'ielts' && !keys.has(k));
+  let moved = false;
+  for (const t of topics) {
+    for (const c of t.deck) {
+      if (getStatus(t.key, c.word)) continue;
+      const from = sources.find(k => progress[k] && progress[k][c.word]);
+      if (!from) continue;
+      (progress[t.key] || (progress[t.key] = {}))[c.word] = progress[from][c.word];
+      delete progress[from][c.word];
+      if (!Object.keys(progress[from]).length) delete progress[from];
+      moved = true;
     }
-    delete progress[old];
   }
   const staleReading = Object.keys(reading).filter(k => levelOf(k) === levelId && !keys.has(k));
   staleReading.forEach(k => delete reading[k]);
-  if (stale.length) write(PROGRESS_KEY, progress);
+  if (moved) write(PROGRESS_KEY, progress);
   if (staleReading.length) write(READING_KEY, reading);
 }
 
