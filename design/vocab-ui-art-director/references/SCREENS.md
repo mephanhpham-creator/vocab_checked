@@ -14,7 +14,7 @@ The top of the page has the app title "🎓 IELTS Vocab & Speaking", then 3 tabs
 |---|---|
 | `tab` + `data-tab="flashcards" / "read" / "ipa"` | Tab links: "📚 Flashcard", "📖 Luyện đọc", "🔤 Phát âm IPA". The active tab has `aria-selected="true"`. |
 | `tab-hint` *(dynamic)* | One-line hint per tab. |
-| `level-picker`, `level-chip` ×6 | Level picker above the grid: A2 · B1 · B2 · C1 · C2 · IELTS (code + Vietnamese name, or "Sắp có"). |
+| `level-picker`, `level-chip` ×7 | Level picker above the grid: A1 · A2 · B1 · B2 · C1 · C2 · IELTS (code + Vietnamese name, or "Sắp có"). |
 | `level-soon` *(state)* | Mascot + note when the chosen level isn't ready yet. |
 | `topic-grid` | Grid of topic cards (Flashcard and Luyện đọc tabs) for the chosen level. |
 | `topic-card` + `data-topic="{key}"` | One card per topic, tinted with that topic's accent. Contains the elements below. |

@@ -84,9 +84,9 @@ button{font:inherit; color:inherit; cursor:pointer;}
 
 /* ===== Level picker + level badge =====
    Levels are app-wide (not per topic), so they use the brand green, never a topic accent. */
-.level-picker{display:grid; grid-template-columns:repeat(3,1fr); gap:var(--s-sm); margin:0 0 var(--s-xl);}
-@media (min-width:760px){ .level-picker{grid-template-columns:repeat(6,1fr); max-width:720px;} }
-.level-chip{height:auto; min-height:44px; padding:6px 16px; flex-direction:column; justify-content:center; gap:0; line-height:1.2;}
+.level-picker{display:grid; grid-template-columns:repeat(4,1fr); gap:var(--s-sm); margin:0 0 var(--s-xl);}
+@media (min-width:760px){ .level-picker{grid-template-columns:repeat(7,1fr); max-width:840px;} }
+.level-chip{height:auto; min-height:44px; padding:6px 4px; white-space:normal; text-align:center; flex-direction:column; justify-content:center; gap:0; line-height:1.2;}
 .level-chip::after{display:none;}
 .level-chip b{font-size:15px; font-weight:800;}
 .level-chip span{font-size:12px; font-weight:600;}
