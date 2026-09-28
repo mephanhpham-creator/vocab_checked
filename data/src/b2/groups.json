@@ -1,0 +1,226 @@
+[
+ {
+  "key": "people",
+  "title": "Con người & các mối quan hệ",
+  "subtitle": "People",
+  "icon": "🧑",
+  "accent": "#22c55e",
+  "section": "🧑 Con người"
+ },
+ {
+  "key": "qualities",
+  "title": "Phẩm chất & tính cách",
+  "subtitle": "Qualities",
+  "icon": "🦉",
+  "accent": "#8b5cf6",
+  "section": "🧑 Con người"
+ },
+ {
+  "key": "emotions",
+  "title": "Cảm xúc mạnh",
+  "subtitle": "Strong Feelings",
+  "icon": "😱",
+  "accent": "#d946ef",
+  "section": "😊 Cảm xúc & nhận xét"
+ },
+ {
+  "key": "opinions",
+  "title": "Khen & chê",
+  "subtitle": "Praise & Criticism",
+  "icon": "🤩",
+  "accent": "#f59e0b",
+  "section": "😊 Cảm xúc & nhận xét"
+ },
+ {
+  "key": "health",
+  "title": "Sức khoẻ & y tế",
+  "subtitle": "Health & Medicine",
+  "icon": "🩺",
+  "accent": "#06b6d4",
+  "section": "🩺 Sức khoẻ & khoa học"
+ },
+ {
+  "key": "science",
+  "title": "Khoa học",
+  "subtitle": "Science",
+  "icon": "🧪",
+  "accent": "#ef4444",
+  "section": "🩺 Sức khoẻ & khoa học"
+ },
+ {
+  "key": "environment",
+  "title": "Môi trường & nông nghiệp",
+  "subtitle": "Environment & Farming",
+  "icon": "🌿",
+  "accent": "#4338ca",
+  "section": "🌳 Môi trường"
+ },
+ {
+  "key": "work",
+  "title": "Việc làm & nghề nghiệp",
+  "subtitle": "Work & Careers",
+  "icon": "💼",
+  "accent": "#9f1239",
+  "section": "💼 Công việc & kinh doanh"
+ },
+ {
+  "key": "business",
+  "title": "Kinh tế & kinh doanh",
+  "subtitle": "Economy & Business",
+  "icon": "💹",
+  "accent": "#22c55e",
+  "section": "💼 Công việc & kinh doanh"
+ },
+ {
+  "key": "politics",
+  "title": "Chính trị & xã hội",
+  "subtitle": "Politics & Society",
+  "icon": "🏛️",
+  "accent": "#8b5cf6",
+  "section": "🏛️ Xã hội & luật pháp"
+ },
+ {
+  "key": "law",
+  "title": "Luật pháp & tội phạm",
+  "subtitle": "Law & Crime",
+  "icon": "⚖️",
+  "accent": "#d946ef",
+  "section": "🏛️ Xã hội & luật pháp"
+ },
+ {
+  "key": "tech",
+  "title": "Công nghệ",
+  "subtitle": "Technology",
+  "icon": "💻",
+  "accent": "#f59e0b",
+  "section": "📱 Công nghệ & truyền thông"
+ },
+ {
+  "key": "media",
+  "title": "Truyền thông & nghệ thuật",
+  "subtitle": "Media & the Arts",
+  "icon": "📰",
+  "accent": "#06b6d4",
+  "section": "📱 Công nghệ & truyền thông"
+ },
+ {
+  "key": "academic",
+  "title": "Nghiên cứu & học thuật",
+  "subtitle": "Academic Words",
+  "icon": "🎓",
+  "accent": "#ef4444",
+  "section": "🎓 Học thuật"
+ },
+ {
+  "key": "city",
+  "title": "Thành phố & đồ vật",
+  "subtitle": "City & Everyday Things",
+  "icon": "🏙️",
+  "accent": "#4338ca",
+  "section": "🏙️ Thành phố & đời sống"
+ },
+ {
+  "key": "sport",
+  "title": "Thể thao",
+  "subtitle": "Sport",
+  "icon": "🏅",
+  "accent": "#9f1239",
+  "section": "🏙️ Thành phố & đời sống"
+ },
+ {
+  "key": "adj_describe",
+  "title": "Miêu tả đặc điểm",
+  "subtitle": "Describing Things",
+  "icon": "📐",
+  "accent": "#22c55e",
+  "section": "📏 Tính từ"
+ },
+ {
+  "key": "adj_judge",
+  "title": "Đánh giá & khả năng",
+  "subtitle": "Judging & Likelihood",
+  "icon": "⚖️",
+  "accent": "#8b5cf6",
+  "section": "📏 Tính từ"
+ },
+ {
+  "key": "v_action",
+  "title": "Động từ hành động",
+  "subtitle": "Action Verbs",
+  "icon": "🏃",
+  "accent": "#d946ef",
+  "section": "🏃 Động từ"
+ },
+ {
+  "key": "v_change",
+  "title": "Thay đổi & tác động",
+  "subtitle": "Change & Effect",
+  "icon": "🔄",
+  "accent": "#f59e0b",
+  "section": "🏃 Động từ"
+ },
+ {
+  "key": "v_mind",
+  "title": "Suy nghĩ & nhận biết",
+  "subtitle": "Thinking & Noticing",
+  "icon": "🧠",
+  "accent": "#06b6d4",
+  "section": "🏃 Động từ"
+ },
+ {
+  "key": "v_social",
+  "title": "Làm việc & ứng xử",
+  "subtitle": "Getting Things Done",
+  "icon": "🤝",
+  "accent": "#ef4444",
+  "section": "🏃 Động từ"
+ },
+ {
+  "key": "adv_degree",
+  "title": "Mức độ",
+  "subtitle": "How Much",
+  "icon": "🎯",
+  "accent": "#4338ca",
+  "section": "🔗 Trạng từ & từ nối"
+ },
+ {
+  "key": "adv_way",
+  "title": "Cách thức & thời gian",
+  "subtitle": "How & When",
+  "icon": "⏱️",
+  "accent": "#9f1239",
+  "section": "🔗 Trạng từ & từ nối"
+ },
+ {
+  "key": "adv_link",
+  "title": "Từ nối",
+  "subtitle": "Linking Words",
+  "icon": "🔗",
+  "accent": "#22c55e",
+  "section": "🔗 Trạng từ & từ nối"
+ },
+ {
+  "key": "abs_change",
+  "title": "Thay đổi & phát triển",
+  "subtitle": "Change & Development",
+  "icon": "🌱",
+  "accent": "#8b5cf6",
+  "section": "🗂️ Danh từ trừu tượng"
+ },
+ {
+  "key": "abs_measure",
+  "title": "Mức độ & số lượng",
+  "subtitle": "Amounts & Degrees",
+  "icon": "📊",
+  "accent": "#d946ef",
+  "section": "🗂️ Danh từ trừu tượng"
+ },
+ {
+  "key": "abs_mind",
+  "title": "Ý kiến & nhận thức",
+  "subtitle": "Ideas & Views",
+  "icon": "💭",
+  "accent": "#f59e0b",
+  "section": "🗂️ Danh từ trừu tượng"
+ }
+]
