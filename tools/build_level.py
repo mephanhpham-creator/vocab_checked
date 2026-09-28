@@ -6,24 +6,22 @@
 
 Sources live in data/src/<level>/:
   cards.tsv      one card per row: word pos group emoji ipa vi en ex syn
-  groups.json    ordered topic groups: key, title (vi), subtitle (en), icon, accent
-  passages.json  reading passages keyed by final topic key (after splitting)
+  groups.json    ordered decks: key, title (vi), subtitle (en), icon, accent,
+                 section (the big theme a deck is listed under, e.g. "🍎 Đồ ăn & thức uống")
+  passages.json  one reading passage per deck, keyed by topic key (<level>_<group>)
 
-A group with more than MAX_DECK cards is split into equal parts
-(<level>_<group>_1, _2, ...) so every deck stays a comfortable size.
-Progress is keyed by topic key + word, so once a level ships, don't
-reorder rows inside a split group — a word moving to another part loses
-its known/unknown mark.
+Each group becomes one deck, split by meaning (e.g. Fruit & Vegetables,
+Drinks) rather than by count. Progress is keyed by topic key + word; if a
+word moves to another deck later, js/store.js carries its mark over.
 
 IPA: --fill-ipa takes Britfone (MIT, British RP, github.com/JoseLlarena/Britfone)
 and writes Cambridge-style transcriptions into empty `ipa` cells. Words it
 doesn't know are listed so they can be filled by hand.
 """
-import csv, json, math, re, sys
+import csv, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-MAX_DECK = 50
 FIELDS = ['word', 'pos', 'group', 'emoji', 'ipa', 'vi', 'en', 'ex', 'syn']
 
 # ---------- IPA ----------
@@ -138,14 +136,10 @@ def build(level):
                 for r in rows if r['group'] == g['key']]
         words = [c['word'] for c in deck]
         errors += [f"{g['key']}: duplicate {w}" for w in set(words) if words.count(w) > 1]
-        parts = max(1, math.ceil(len(deck) / MAX_DECK))
-        size = math.ceil(len(deck) / parts)
-        for p in range(parts):
-            key = f"{level}_{g['key']}" + (f'_{p + 1}' if parts > 1 else '')
-            topics.append({'key': key, 'level': level.upper(),
-                           'title': g['title'] + (f' ({p + 1}/{parts})' if parts > 1 else ''),
-                           'subtitle': g['subtitle'], 'icon': g['icon'], 'accent': g['accent'],
-                           'deck': deck[p * size:(p + 1) * size]})
+        errors += [f"{g['key']}: no cards"] if not deck else []
+        topics.append({'key': f"{level}_{g['key']}", 'level': level.upper(), 'section': g.get('section', ''),
+                       'title': g['title'], 'subtitle': g['subtitle'], 'icon': g['icon'], 'accent': g['accent'],
+                       'deck': deck})
 
     keys = {t['key'] for t in topics}
     errors += [f'passage for unknown topic {k}' for k in passages if k not in keys]

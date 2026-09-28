@@ -1,170 +1,634 @@
 [
  {
-  "key": "family",
-  "title": "Gia đình & bạn bè",
-  "subtitle": "Family & Friends",
+  "key": "family_members",
+  "title": "Thành viên gia đình",
+  "subtitle": "Family Members",
   "icon": "👨‍👩‍👧",
-  "accent": "#22c55e"
+  "accent": "#22c55e",
+  "section": "👨‍👩‍👧 Gia đình & bạn bè"
  },
  {
-  "key": "people",
+  "key": "friends_events",
+  "title": "Bạn bè & dịp đặc biệt",
+  "subtitle": "Friends & Special Days",
+  "icon": "🎉",
+  "accent": "#8b5cf6",
+  "section": "👨‍👩‍👧 Gia đình & bạn bè"
+ },
+ {
+  "key": "appearance",
   "title": "Con người & ngoại hình",
   "subtitle": "People & Appearance",
   "icon": "🧑",
-  "accent": "#8b5cf6"
+  "accent": "#d946ef",
+  "section": "🧑 Con người"
  },
  {
-  "key": "feelings",
-  "title": "Cảm xúc & nhận xét",
-  "subtitle": "Feelings & Opinions",
+  "key": "personality",
+  "title": "Tính cách",
+  "subtitle": "Personality",
+  "icon": "😇",
+  "accent": "#f59e0b",
+  "section": "🧑 Con người"
+ },
+ {
+  "key": "feelings_good",
+  "title": "Cảm xúc tích cực",
+  "subtitle": "Positive Feelings",
   "icon": "😊",
-  "accent": "#d946ef"
+  "accent": "#06b6d4",
+  "section": "😊 Cảm xúc & nhận xét"
  },
  {
-  "key": "body",
-  "title": "Cơ thể & sức khoẻ",
-  "subtitle": "Body & Health",
+  "key": "feelings_bad",
+  "title": "Cảm xúc tiêu cực",
+  "subtitle": "Negative Feelings",
+  "icon": "😟",
+  "accent": "#ef4444",
+  "section": "😊 Cảm xúc & nhận xét"
+ },
+ {
+  "key": "opinions",
+  "title": "Nhận xét & đánh giá",
+  "subtitle": "Giving Opinions",
+  "icon": "👍",
+  "accent": "#4338ca",
+  "section": "😊 Cảm xúc & nhận xét"
+ },
+ {
+  "key": "polite",
+  "title": "Giao tiếp lịch sự",
+  "subtitle": "Polite Phrases",
+  "icon": "🙏",
+  "accent": "#9f1239",
+  "section": "😊 Cảm xúc & nhận xét"
+ },
+ {
+  "key": "body_parts",
+  "title": "Bộ phận cơ thể",
+  "subtitle": "Parts of the Body",
+  "icon": "🦵",
+  "accent": "#22c55e",
+  "section": "🩺 Cơ thể & sức khoẻ"
+ },
+ {
+  "key": "health",
+  "title": "Sức khoẻ & bệnh tật",
+  "subtitle": "Health & Illness",
   "icon": "🩺",
-  "accent": "#f59e0b"
+  "accent": "#8b5cf6",
+  "section": "🩺 Cơ thể & sức khoẻ"
+ },
+ {
+  "key": "hygiene",
+  "title": "Vệ sinh & rèn luyện",
+  "subtitle": "Hygiene & Fitness",
+  "icon": "🧼",
+  "accent": "#d946ef",
+  "section": "🩺 Cơ thể & sức khoẻ"
  },
  {
   "key": "clothes",
-  "title": "Quần áo & màu sắc",
-  "subtitle": "Clothes & Colours",
+  "title": "Quần áo",
+  "subtitle": "Clothes",
   "icon": "👕",
-  "accent": "#06b6d4"
+  "accent": "#f59e0b",
+  "section": "👕 Quần áo & màu sắc"
  },
  {
-  "key": "food",
-  "title": "Đồ ăn & thức uống",
-  "subtitle": "Food & Drink",
-  "icon": "🍎",
-  "accent": "#ef4444"
+  "key": "accessories",
+  "title": "Giày dép & phụ kiện",
+  "subtitle": "Shoes & Accessories",
+  "icon": "👜",
+  "accent": "#06b6d4",
+  "section": "👕 Quần áo & màu sắc"
  },
  {
-  "key": "home",
-  "title": "Nhà cửa & đồ dùng",
-  "subtitle": "House & Home",
-  "icon": "🏠",
-  "accent": "#4338ca"
- },
- {
-  "key": "school",
-  "title": "Trường học",
-  "subtitle": "Education",
-  "icon": "🎒",
-  "accent": "#9f1239"
- },
- {
-  "key": "work",
-  "title": "Công việc & nghề nghiệp",
-  "subtitle": "Work & Jobs",
-  "icon": "💼",
-  "accent": "#22c55e"
- },
- {
-  "key": "tech",
-  "title": "Công nghệ & liên lạc",
-  "subtitle": "Communication & Technology",
-  "icon": "📱",
-  "accent": "#8b5cf6"
- },
- {
-  "key": "media",
-  "title": "Giải trí & truyền thông",
-  "subtitle": "Entertainment & Media",
-  "icon": "🎬",
-  "accent": "#d946ef"
- },
- {
-  "key": "hobbies",
-  "title": "Sở thích & thời gian rảnh",
-  "subtitle": "Hobbies & Leisure",
+  "key": "colours",
+  "title": "Màu sắc & chất liệu",
+  "subtitle": "Colours & Materials",
   "icon": "🎨",
-  "accent": "#f59e0b"
+  "accent": "#ef4444",
+  "section": "👕 Quần áo & màu sắc"
  },
  {
-  "key": "sport",
-  "title": "Thể thao",
-  "subtitle": "Sport",
+  "key": "fruit_veg",
+  "title": "Trái cây & rau củ",
+  "subtitle": "Fruit & Vegetables",
+  "icon": "🍎",
+  "accent": "#4338ca",
+  "section": "🍎 Đồ ăn & thức uống"
+ },
+ {
+  "key": "dishes",
+  "title": "Món ăn",
+  "subtitle": "Dishes",
+  "icon": "🍕",
+  "accent": "#9f1239",
+  "section": "🍎 Đồ ăn & thức uống"
+ },
+ {
+  "key": "sweets",
+  "title": "Đồ ngọt & gia vị",
+  "subtitle": "Sweets & Seasoning",
+  "icon": "🍰",
+  "accent": "#22c55e",
+  "section": "🍎 Đồ ăn & thức uống"
+ },
+ {
+  "key": "drinks",
+  "title": "Đồ uống",
+  "subtitle": "Drinks",
+  "icon": "🥤",
+  "accent": "#8b5cf6",
+  "section": "🍎 Đồ ăn & thức uống"
+ },
+ {
+  "key": "cooking",
+  "title": "Nấu nướng & hương vị",
+  "subtitle": "Cooking & Taste",
+  "icon": "🍳",
+  "accent": "#d946ef",
+  "section": "🍎 Đồ ăn & thức uống"
+ },
+ {
+  "key": "meals",
+  "title": "Bữa ăn & nhà hàng",
+  "subtitle": "Meals & Restaurants",
+  "icon": "🍽️",
+  "accent": "#f59e0b",
+  "section": "🍎 Đồ ăn & thức uống"
+ },
+ {
+  "key": "rooms",
+  "title": "Ngôi nhà & các phòng",
+  "subtitle": "House & Rooms",
+  "icon": "🏠",
+  "accent": "#06b6d4",
+  "section": "🏠 Nhà cửa & đồ dùng"
+ },
+ {
+  "key": "furniture",
+  "title": "Đồ nội thất",
+  "subtitle": "Furniture",
+  "icon": "🛋️",
+  "accent": "#ef4444",
+  "section": "🏠 Nhà cửa & đồ dùng"
+ },
+ {
+  "key": "appliances",
+  "title": "Đồ điện & vật dụng",
+  "subtitle": "Appliances & Things",
+  "icon": "🔌",
+  "accent": "#4338ca",
+  "section": "🏠 Nhà cửa & đồ dùng"
+ },
+ {
+  "key": "housework",
+  "title": "Việc nhà",
+  "subtitle": "Housework",
+  "icon": "🧹",
+  "accent": "#9f1239",
+  "section": "🏠 Nhà cửa & đồ dùng"
+ },
+ {
+  "key": "subjects",
+  "title": "Môn học",
+  "subtitle": "School Subjects",
+  "icon": "📐",
+  "accent": "#22c55e",
+  "section": "🎒 Trường học"
+ },
+ {
+  "key": "school_things",
+  "title": "Đồ dùng học tập",
+  "subtitle": "School Things",
+  "icon": "✏️",
+  "accent": "#8b5cf6",
+  "section": "🎒 Trường học"
+ },
+ {
+  "key": "school_life",
+  "title": "Trường lớp",
+  "subtitle": "School Life",
+  "icon": "🏫",
+  "accent": "#d946ef",
+  "section": "🎒 Trường học"
+ },
+ {
+  "key": "exams",
+  "title": "Thi cử & điểm số",
+  "subtitle": "Exams & Marks",
+  "icon": "📝",
+  "accent": "#f59e0b",
+  "section": "🎒 Trường học"
+ },
+ {
+  "key": "learning",
+  "title": "Học & hiểu bài",
+  "subtitle": "Learning",
+  "icon": "💡",
+  "accent": "#06b6d4",
+  "section": "🎒 Trường học"
+ },
+ {
+  "key": "reading_writing",
+  "title": "Đọc & viết",
+  "subtitle": "Reading & Writing",
+  "icon": "✍️",
+  "accent": "#ef4444",
+  "section": "🎒 Trường học"
+ },
+ {
+  "key": "jobs",
+  "title": "Nghề nghiệp",
+  "subtitle": "Jobs",
+  "icon": "👩‍⚕️",
+  "accent": "#4338ca",
+  "section": "💼 Công việc & nghề nghiệp"
+ },
+ {
+  "key": "workplace",
+  "title": "Nơi làm việc",
+  "subtitle": "At Work",
+  "icon": "💼",
+  "accent": "#9f1239",
+  "section": "💼 Công việc & nghề nghiệp"
+ },
+ {
+  "key": "devices",
+  "title": "Thiết bị điện tử",
+  "subtitle": "Devices",
+  "icon": "💻",
+  "accent": "#22c55e",
+  "section": "📱 Công nghệ & liên lạc"
+ },
+ {
+  "key": "internet",
+  "title": "Internet & máy tính",
+  "subtitle": "Internet & Computers",
+  "icon": "🌐",
+  "accent": "#8b5cf6",
+  "section": "📱 Công nghệ & liên lạc"
+ },
+ {
+  "key": "messages",
+  "title": "Thư từ & liên lạc",
+  "subtitle": "Messages & Letters",
+  "icon": "✉️",
+  "accent": "#d946ef",
+  "section": "📱 Công nghệ & liên lạc"
+ },
+ {
+  "key": "music",
+  "title": "Âm nhạc",
+  "subtitle": "Music",
+  "icon": "🎵",
+  "accent": "#f59e0b",
+  "section": "🎬 Giải trí & truyền thông"
+ },
+ {
+  "key": "film_tv",
+  "title": "Phim ảnh & truyền hình",
+  "subtitle": "Film & TV",
+  "icon": "🎬",
+  "accent": "#06b6d4",
+  "section": "🎬 Giải trí & truyền thông"
+ },
+ {
+  "key": "shows",
+  "title": "Biểu diễn & sự kiện",
+  "subtitle": "Shows & Events",
+  "icon": "🎭",
+  "accent": "#ef4444",
+  "section": "🎬 Giải trí & truyền thông"
+ },
+ {
+  "key": "news",
+  "title": "Báo chí & quảng cáo",
+  "subtitle": "News & Media",
+  "icon": "📰",
+  "accent": "#4338ca",
+  "section": "🎬 Giải trí & truyền thông"
+ },
+ {
+  "key": "games",
+  "title": "Trò chơi & đồ chơi",
+  "subtitle": "Games & Toys",
+  "icon": "🎲",
+  "accent": "#9f1239",
+  "section": "🎨 Sở thích & thời gian rảnh"
+ },
+ {
+  "key": "arts",
+  "title": "Vẽ, chụp ảnh & sưu tầm",
+  "subtitle": "Art, Photos & Collecting",
+  "icon": "📷",
+  "accent": "#22c55e",
+  "section": "🎨 Sở thích & thời gian rảnh"
+ },
+ {
+  "key": "free_time",
+  "title": "Hoạt động thời gian rảnh",
+  "subtitle": "Free-time Activities",
+  "icon": "⛺",
+  "accent": "#8b5cf6",
+  "section": "🎨 Sở thích & thời gian rảnh"
+ },
+ {
+  "key": "sports",
+  "title": "Các môn thể thao",
+  "subtitle": "Sports",
   "icon": "⚽",
-  "accent": "#06b6d4"
+  "accent": "#d946ef",
+  "section": "⚽ Thể thao"
  },
  {
-  "key": "shopping",
-  "title": "Mua sắm & tiền bạc",
-  "subtitle": "Shopping & Money",
+  "key": "water_winter",
+  "title": "Thể thao dưới nước & mùa đông",
+  "subtitle": "Water & Winter Sports",
+  "icon": "🏊",
+  "accent": "#f59e0b",
+  "section": "⚽ Thể thao"
+ },
+ {
+  "key": "exercise",
+  "title": "Vận động & rèn luyện",
+  "subtitle": "Keeping Active",
+  "icon": "🏃",
+  "accent": "#06b6d4",
+  "section": "⚽ Thể thao"
+ },
+ {
+  "key": "competition",
+  "title": "Thi đấu & dụng cụ",
+  "subtitle": "Matches & Equipment",
+  "icon": "🏆",
+  "accent": "#ef4444",
+  "section": "⚽ Thể thao"
+ },
+ {
+  "key": "shops",
+  "title": "Mua sắm",
+  "subtitle": "Shopping",
   "icon": "🛍️",
-  "accent": "#ef4444"
+  "accent": "#4338ca",
+  "section": "🛍️ Mua sắm & tiền bạc"
  },
  {
-  "key": "town",
-  "title": "Thành phố & địa điểm",
-  "subtitle": "Places in Town",
+  "key": "money",
+  "title": "Tiền bạc & thanh toán",
+  "subtitle": "Money & Paying",
+  "icon": "💰",
+  "accent": "#9f1239",
+  "section": "🛍️ Mua sắm & tiền bạc"
+ },
+ {
+  "key": "buildings",
+  "title": "Công trình & địa điểm",
+  "subtitle": "Buildings & Places",
+  "icon": "🏛️",
+  "accent": "#22c55e",
+  "section": "🏙️ Thành phố & địa điểm"
+ },
+ {
+  "key": "streets",
+  "title": "Đường phố & thành phố",
+  "subtitle": "Streets & the City",
   "icon": "🏙️",
-  "accent": "#4338ca"
+  "accent": "#8b5cf6",
+  "section": "🏙️ Thành phố & địa điểm"
  },
  {
-  "key": "travel",
-  "title": "Du lịch & giao thông",
-  "subtitle": "Travel & Transport",
-  "icon": "✈️",
-  "accent": "#9f1239"
+  "key": "vehicles",
+  "title": "Phương tiện giao thông",
+  "subtitle": "Vehicles",
+  "icon": "🚗",
+  "accent": "#d946ef",
+  "section": "✈️ Du lịch & giao thông"
  },
  {
-  "key": "nature",
-  "title": "Thiên nhiên",
-  "subtitle": "The Natural World",
-  "icon": "🌳",
-  "accent": "#22c55e"
+  "key": "stations",
+  "title": "Sân bay, nhà ga & bến xe",
+  "subtitle": "Airports & Stations",
+  "icon": "🚉",
+  "accent": "#f59e0b",
+  "section": "✈️ Du lịch & giao thông"
  },
  {
-  "key": "animals",
-  "title": "Động vật",
-  "subtitle": "Animals",
-  "icon": "🐾",
-  "accent": "#8b5cf6"
+  "key": "holidays",
+  "title": "Du lịch & nghỉ dưỡng",
+  "subtitle": "Holidays",
+  "icon": "🏖️",
+  "accent": "#06b6d4",
+  "section": "✈️ Du lịch & giao thông"
+ },
+ {
+  "key": "countries",
+  "title": "Quốc gia",
+  "subtitle": "Countries",
+  "icon": "🌏",
+  "accent": "#ef4444",
+  "section": "✈️ Du lịch & giao thông"
+ },
+ {
+  "key": "directions",
+  "title": "Chỉ đường",
+  "subtitle": "Directions",
+  "icon": "🧭",
+  "accent": "#4338ca",
+  "section": "✈️ Du lịch & giao thông"
+ },
+ {
+  "key": "landscape",
+  "title": "Cảnh quan thiên nhiên",
+  "subtitle": "Landscapes",
+  "icon": "🏞️",
+  "accent": "#9f1239",
+  "section": "🌳 Thiên nhiên"
+ },
+ {
+  "key": "world",
+  "title": "Trái đất & sự sống",
+  "subtitle": "Earth & Life",
+  "icon": "🌍",
+  "accent": "#22c55e",
+  "section": "🌳 Thiên nhiên"
+ },
+ {
+  "key": "pets_farm",
+  "title": "Thú cưng & vật nuôi",
+  "subtitle": "Pets & Farm Animals",
+  "icon": "🐶",
+  "accent": "#8b5cf6",
+  "section": "🐾 Động vật"
+ },
+ {
+  "key": "wild_animals",
+  "title": "Động vật hoang dã",
+  "subtitle": "Wild Animals",
+  "icon": "🦁",
+  "accent": "#d946ef",
+  "section": "🐾 Động vật"
+ },
+ {
+  "key": "small_sea",
+  "title": "Chim, côn trùng & sinh vật biển",
+  "subtitle": "Birds, Insects & Sea Life",
+  "icon": "🐝",
+  "accent": "#f59e0b",
+  "section": "🐾 Động vật"
  },
  {
   "key": "weather",
   "title": "Thời tiết",
   "subtitle": "Weather",
   "icon": "🌦️",
-  "accent": "#d946ef"
+  "accent": "#06b6d4",
+  "section": "🌦️ Thời tiết"
  },
  {
-  "key": "time",
-  "title": "Thời gian & con số",
-  "subtitle": "Time & Numbers",
+  "key": "calendar",
+  "title": "Thứ, tháng & mùa",
+  "subtitle": "Days, Months & Seasons",
+  "icon": "📅",
+  "accent": "#ef4444",
+  "section": "⏰ Thời gian & con số"
+ },
+ {
+  "key": "time_of_day",
+  "title": "Thời gian trong ngày",
+  "subtitle": "Times of Day",
   "icon": "⏰",
-  "accent": "#f59e0b"
+  "accent": "#4338ca",
+  "section": "⏰ Thời gian & con số"
  },
  {
-  "key": "describe",
-  "title": "Tính từ miêu tả",
-  "subtitle": "Describing Things",
+  "key": "when",
+  "title": "Mốc thời gian & tần suất",
+  "subtitle": "When & How Often",
+  "icon": "🔁",
+  "accent": "#9f1239",
+  "section": "⏰ Thời gian & con số"
+ },
+ {
+  "key": "numbers",
+  "title": "Con số & đo lường",
+  "subtitle": "Numbers & Measuring",
   "icon": "📏",
-  "accent": "#06b6d4"
+  "accent": "#22c55e",
+  "section": "⏰ Thời gian & con số"
  },
  {
-  "key": "verbs",
-  "title": "Động từ thông dụng",
-  "subtitle": "Everyday Verbs",
+  "key": "size",
+  "title": "Kích thước & vị trí",
+  "subtitle": "Size & Position",
+  "icon": "📐",
+  "accent": "#8b5cf6",
+  "section": "📏 Tính từ miêu tả"
+ },
+ {
+  "key": "good_bad",
+  "title": "Tốt – xấu, dễ – khó",
+  "subtitle": "Good & Bad, Easy & Hard",
+  "icon": "⚖️",
+  "accent": "#d946ef",
+  "section": "📏 Tính từ miêu tả"
+ },
+ {
+  "key": "qualities",
+  "title": "Đặc điểm sự vật",
+  "subtitle": "What Things Are Like",
+  "icon": "✨",
+  "accent": "#f59e0b",
+  "section": "📏 Tính từ miêu tả"
+ },
+ {
+  "key": "kinds",
+  "title": "Loại & sự vật",
+  "subtitle": "Kinds of Things",
+  "icon": "🗂️",
+  "accent": "#06b6d4",
+  "section": "📏 Tính từ miêu tả"
+ },
+ {
+  "key": "verbs_action",
+  "title": "Động từ hành động",
+  "subtitle": "Action Verbs",
   "icon": "🏃",
-  "accent": "#ef4444"
+  "accent": "#ef4444",
+  "section": "🏃 Động từ thông dụng"
+ },
+ {
+  "key": "verbs_have",
+  "title": "Cho, lấy & giữ",
+  "subtitle": "Give, Take & Keep",
+  "icon": "🤝",
+  "accent": "#4338ca",
+  "section": "🏃 Động từ thông dụng"
+ },
+ {
+  "key": "verbs_think",
+  "title": "Suy nghĩ & giác quan",
+  "subtitle": "Thinking & Senses",
+  "icon": "🧠",
+  "accent": "#9f1239",
+  "section": "🏃 Động từ thông dụng"
+ },
+ {
+  "key": "verbs_do",
+  "title": "Làm, bắt đầu & thay đổi",
+  "subtitle": "Doing & Changing",
+  "icon": "🔄",
+  "accent": "#22c55e",
+  "section": "🏃 Động từ thông dụng"
+ },
+ {
+  "key": "verbs_talk",
+  "title": "Động từ giao tiếp",
+  "subtitle": "Talking Verbs",
+  "icon": "🗣️",
+  "accent": "#8b5cf6",
+  "section": "🏃 Động từ thông dụng"
  },
  {
   "key": "phrasal",
   "title": "Cụm động từ",
   "subtitle": "Phrasal Verbs",
   "icon": "🧩",
-  "accent": "#4338ca"
+  "accent": "#d946ef",
+  "section": "🧩 Cụm động từ"
  },
  {
-  "key": "adverbs",
-  "title": "Trạng từ & từ nối",
-  "subtitle": "Adverbs & Linking Words",
+  "key": "place",
+  "title": "Trạng từ nơi chốn",
+  "subtitle": "Where",
+  "icon": "📍",
+  "accent": "#f59e0b",
+  "section": "🔗 Trạng từ & từ nối"
+ },
+ {
+  "key": "frequency",
+  "title": "Trạng từ thời gian & tần suất",
+  "subtitle": "When & How Often",
+  "icon": "🔁",
+  "accent": "#06b6d4",
+  "section": "🔗 Trạng từ & từ nối"
+ },
+ {
+  "key": "manner",
+  "title": "Cách thức & mức độ",
+  "subtitle": "How & How Much",
+  "icon": "🎯",
+  "accent": "#ef4444",
+  "section": "🔗 Trạng từ & từ nối"
+ },
+ {
+  "key": "linking",
+  "title": "Từ nối & thái độ",
+  "subtitle": "Linking & Attitude",
   "icon": "🔗",
-  "accent": "#9f1239"
+  "accent": "#4338ca",
+  "section": "🔗 Trạng từ & từ nối"
  }
 ]
