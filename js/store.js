@@ -31,7 +31,7 @@ export const loadIpa = () => get('ipa.json');
 // `ready: false` levels show a "coming soon" note instead of topics.
 export const LEVELS = [
   { id: 'a2', label: 'A2', name: 'Sơ cấp', ready: true },
-  { id: 'b1', label: 'B1', name: 'Trung cấp', ready: false, soon: 'Bộ từ B1 đang được soạn, sẽ có sớm.' },
+  { id: 'b1', label: 'B1', name: 'Trung cấp', ready: true },
   { id: 'b2', label: 'B2', name: 'Trung cao cấp', ready: false, soon: 'Bộ từ B2 đang được soạn, sẽ có sớm.' },
   { id: 'c1', label: 'C1', name: 'Cao cấp', ready: false, soon: 'Bộ từ C1 đang được soạn, sẽ có sớm.' },
   { id: 'c2', label: 'C2', name: 'Thành thạo', ready: false, soon: 'Bộ từ C2 sẽ được thêm khi có danh sách từ C2.' },

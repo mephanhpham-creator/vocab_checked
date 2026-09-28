@@ -9,7 +9,7 @@ Web học từ vựng tiếng Anh theo trình độ (A2 → C2, cộng 8 chủ �
 |---|---|
 | `data/topics.json` | Nhóm **IELTS**: 8 chủ đề, 273 từ (chuyển từ app flashcard trên Netlify). Từ nào có trong danh sách Cambridge/Oxford thì có thêm trường `level` |
 | `data/passages.json` | Mỗi chủ đề IELTS 1 đoạn văn. `{chữ hiển thị\|từ trong bộ thẻ}` đánh dấu từ đã học |
-| `data/levels/<level>.json` | Một file cho mỗi trình độ (`{topics, passages}`), **được sinh ra**, đừng sửa tay. Hiện có `a2.json`: 1.487 từ, 79 bộ thẻ nhỏ chia theo nghĩa, xếp dưới 24 chủ đề lớn, 79 đoạn đọc |
+| `data/levels/<level>.json` | Một file cho mỗi trình độ (`{topics, passages}`), **được sinh ra**, đừng sửa tay. Hiện có `a2.json` (1.487 từ, 79 bộ, 79 đoạn đọc) và `b1.json` (1.420 từ mới so với A2, 76 bộ, 76 đoạn đọc). Các bộ chia theo nghĩa, xếp dưới 24 chủ đề lớn |
 | `data/src/<level>/` | Nguồn để sửa: `cards.tsv` (mỗi dòng một thẻ), `groups.json` (các bộ thẻ, thứ tự, màu, chủ đề lớn `section`), `passages.json` |
 | `tools/build_level.py` | Sinh `data/levels/<level>.json` từ `data/src/<level>/`, kiểm tra dữ liệu và tự điền IPA giọng Anh |
 | `data/ipa.json` | 44 âm IPA giọng Anh và 17 nhóm cặp âm dễ nhầm |
