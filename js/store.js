@@ -34,8 +34,8 @@ export const LEVELS = [
   { id: 'a2', label: 'A2', name: 'Sơ cấp', ready: true },
   { id: 'b1', label: 'B1', name: 'Trung cấp', ready: true },
   { id: 'b2', label: 'B2', name: 'Trung cao', ready: true },
-  { id: 'c1', label: 'C1', name: 'Cao cấp', ready: false, soon: 'Bộ từ C1 đang được soạn, sẽ có sớm.' },
-  { id: 'c2', label: 'C2', name: 'Thành thạo', ready: false, soon: 'Bộ từ C2 đang được soạn, sẽ có sau C1.' },
+  { id: 'c1', label: 'C1', name: 'Cao cấp', ready: true },
+  { id: 'c2', label: 'C2', name: 'Thành thạo', ready: false, soon: 'Bộ từ C2 đang được soạn, sẽ có sớm.' },
   { id: 'ielts', label: 'IELTS', name: 'Chủ đề', ready: true },
 ];
 export const levelInfo = (id) => LEVELS.find(l => l.id === id);

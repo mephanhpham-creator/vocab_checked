@@ -1,0 +1,490 @@
+[
+ {
+  "key": "gov_state",
+  "title": "Nhà nước & chế độ",
+  "subtitle": "State & Regimes",
+  "icon": "🏛️",
+  "accent": "#22c55e",
+  "section": "🏛️ Chính trị & nhà nước"
+ },
+ {
+  "key": "gov_elections",
+  "title": "Bầu cử & nghị viện",
+  "subtitle": "Elections & Parliament",
+  "icon": "🗳️",
+  "accent": "#8b5cf6",
+  "section": "🏛️ Chính trị & nhà nước"
+ },
+ {
+  "key": "gov_law",
+  "title": "Luật & quy định",
+  "subtitle": "Laws & Regulations",
+  "icon": "📜",
+  "accent": "#d946ef",
+  "section": "🏛️ Chính trị & nhà nước"
+ },
+ {
+  "key": "gov_diplomacy",
+  "title": "Ngoại giao & quốc tịch",
+  "subtitle": "Diplomacy & Citizenship",
+  "icon": "🤝",
+  "accent": "#f59e0b",
+  "section": "🏛️ Chính trị & nhà nước"
+ },
+ {
+  "key": "crime_acts",
+  "title": "Tội phạm & vi phạm",
+  "subtitle": "Crimes & Offences",
+  "icon": "🚨",
+  "accent": "#06b6d4",
+  "section": "⚖️ Luật pháp & tội phạm"
+ },
+ {
+  "key": "crime_police",
+  "title": "Cảnh sát & giam giữ",
+  "subtitle": "Police & Prison",
+  "icon": "👮",
+  "accent": "#ef4444",
+  "section": "⚖️ Luật pháp & tội phạm"
+ },
+ {
+  "key": "crime_court",
+  "title": "Toà án & kiện tụng",
+  "subtitle": "Courts & Lawsuits",
+  "icon": "⚖️",
+  "accent": "#4338ca",
+  "section": "⚖️ Luật pháp & tội phạm"
+ },
+ {
+  "key": "war_fight",
+  "title": "Chiến đấu & vũ khí",
+  "subtitle": "Fighting & Weapons",
+  "icon": "⚔️",
+  "accent": "#9f1239",
+  "section": "⚔️ Chiến tranh & xung đột"
+ },
+ {
+  "key": "war_conflict",
+  "title": "Nổi dậy & thương vong",
+  "subtitle": "Rebellion & Casualties",
+  "icon": "✊",
+  "accent": "#22c55e",
+  "section": "⚔️ Chiến tranh & xung đột"
+ },
+ {
+  "key": "soc_rights",
+  "title": "Bình đẳng & quyền lợi",
+  "subtitle": "Equality & Rights",
+  "icon": "✊",
+  "accent": "#8b5cf6",
+  "section": "👥 Xã hội & tôn giáo"
+ },
+ {
+  "key": "soc_community",
+  "title": "Cộng đồng & di cư",
+  "subtitle": "Communities & Migration",
+  "icon": "🌏",
+  "accent": "#d946ef",
+  "section": "👥 Xã hội & tôn giáo"
+ },
+ {
+  "key": "religion",
+  "title": "Tôn giáo & tín ngưỡng",
+  "subtitle": "Religion & Beliefs",
+  "icon": "⛪",
+  "accent": "#f59e0b",
+  "section": "👥 Xã hội & tôn giáo"
+ },
+ {
+  "key": "econ_money",
+  "title": "Tiền bạc & tài chính",
+  "subtitle": "Money & Finance",
+  "icon": "💰",
+  "accent": "#06b6d4",
+  "section": "💹 Kinh tế"
+ },
+ {
+  "key": "econ_business",
+  "title": "Doanh nghiệp & thị trường",
+  "subtitle": "Business & Markets",
+  "icon": "🏢",
+  "accent": "#ef4444",
+  "section": "💹 Kinh tế"
+ },
+ {
+  "key": "econ_industry",
+  "title": "Công nghiệp & vận tải",
+  "subtitle": "Industry & Shipping",
+  "icon": "🏭",
+  "accent": "#4338ca",
+  "section": "💹 Kinh tế"
+ },
+ {
+  "key": "work_staff",
+  "title": "Quản lí & nhân sự",
+  "subtitle": "Management & Staff",
+  "icon": "🧑‍💼",
+  "accent": "#9f1239",
+  "section": "💼 Công việc & giáo dục"
+ },
+ {
+  "key": "work_teamwork",
+  "title": "Hợp tác & vận hành",
+  "subtitle": "Teamwork & Operations",
+  "icon": "🤝",
+  "accent": "#22c55e",
+  "section": "💼 Công việc & giáo dục"
+ },
+ {
+  "key": "education",
+  "title": "Giáo dục",
+  "subtitle": "Education",
+  "icon": "🎓",
+  "accent": "#8b5cf6",
+  "section": "💼 Công việc & giáo dục"
+ },
+ {
+  "key": "health_body",
+  "title": "Cơ thể",
+  "subtitle": "The Body",
+  "icon": "🫀",
+  "accent": "#d946ef",
+  "section": "🩺 Sức khoẻ"
+ },
+ {
+  "key": "health_illness",
+  "title": "Bệnh tật & chấn thương",
+  "subtitle": "Illness & Injury",
+  "icon": "🦠",
+  "accent": "#f59e0b",
+  "section": "🩺 Sức khoẻ"
+ },
+ {
+  "key": "health_care",
+  "title": "Điều trị & chăm sóc",
+  "subtitle": "Treatment & Care",
+  "icon": "💊",
+  "accent": "#06b6d4",
+  "section": "🩺 Sức khoẻ"
+ },
+ {
+  "key": "res_method",
+  "title": "Phương pháp nghiên cứu",
+  "subtitle": "Research Methods",
+  "icon": "📊",
+  "accent": "#ef4444",
+  "section": "🔬 Khoa học & công nghệ"
+ },
+ {
+  "key": "res_ideas",
+  "title": "Tư duy & học thuật",
+  "subtitle": "Ideas & Scholarship",
+  "icon": "💡",
+  "accent": "#4338ca",
+  "section": "🔬 Khoa học & công nghệ"
+ },
+ {
+  "key": "science",
+  "title": "Khoa học tự nhiên",
+  "subtitle": "Natural Science",
+  "icon": "🧪",
+  "accent": "#9f1239",
+  "section": "🔬 Khoa học & công nghệ"
+ },
+ {
+  "key": "tech",
+  "title": "Công nghệ",
+  "subtitle": "Technology",
+  "icon": "💻",
+  "accent": "#22c55e",
+  "section": "🔬 Khoa học & công nghệ"
+ },
+ {
+  "key": "environment",
+  "title": "Thiên nhiên & môi trường",
+  "subtitle": "Nature & Environment",
+  "icon": "🌿",
+  "accent": "#8b5cf6",
+  "section": "🌍 Môi trường & thành phố"
+ },
+ {
+  "key": "city_home",
+  "title": "Nhà cửa & đồ vật",
+  "subtitle": "Homes & Things",
+  "icon": "🏡",
+  "accent": "#d946ef",
+  "section": "🌍 Môi trường & thành phố"
+ },
+ {
+  "key": "city_build",
+  "title": "Công trình & giao thông",
+  "subtitle": "Buildings & Transport",
+  "icon": "🏙️",
+  "accent": "#f59e0b",
+  "section": "🌍 Môi trường & thành phố"
+ },
+ {
+  "key": "arts_stage",
+  "title": "Điện ảnh & biểu diễn",
+  "subtitle": "Film & Performance",
+  "icon": "🎬",
+  "accent": "#06b6d4",
+  "section": "🎭 Nghệ thuật, truyền thông & thể thao"
+ },
+ {
+  "key": "arts_art",
+  "title": "Hội hoạ & văn chương",
+  "subtitle": "Art & Literature",
+  "icon": "🎨",
+  "accent": "#ef4444",
+  "section": "🎭 Nghệ thuật, truyền thông & thể thao"
+ },
+ {
+  "key": "media",
+  "title": "Báo chí & truyền thông",
+  "subtitle": "News & Media",
+  "icon": "📰",
+  "accent": "#4338ca",
+  "section": "🎭 Nghệ thuật, truyền thông & thể thao"
+ },
+ {
+  "key": "sport",
+  "title": "Thể thao",
+  "subtitle": "Sport",
+  "icon": "🏅",
+  "accent": "#9f1239",
+  "section": "🎭 Nghệ thuật, truyền thông & thể thao"
+ },
+ {
+  "key": "people",
+  "title": "Con người & gia đình",
+  "subtitle": "People & Family",
+  "icon": "🧑",
+  "accent": "#22c55e",
+  "section": "🧑 Con người & phẩm chất"
+ },
+ {
+  "key": "q_virtue",
+  "title": "Đức tính",
+  "subtitle": "Virtues",
+  "icon": "😇",
+  "accent": "#8b5cf6",
+  "section": "🧑 Con người & phẩm chất"
+ },
+ {
+  "key": "q_skill",
+  "title": "Năng lực & thái độ",
+  "subtitle": "Skills & Attitudes",
+  "icon": "🛠️",
+  "accent": "#d946ef",
+  "section": "🧑 Con người & phẩm chất"
+ },
+ {
+  "key": "emo_neg",
+  "title": "Cảm xúc tiêu cực",
+  "subtitle": "Negative Feelings",
+  "icon": "😣",
+  "accent": "#f59e0b",
+  "section": "😊 Cảm xúc & nhận xét"
+ },
+ {
+  "key": "emo_pos",
+  "title": "Tình cảm & khát vọng",
+  "subtitle": "Love & Hope",
+  "icon": "💞",
+  "accent": "#06b6d4",
+  "section": "😊 Cảm xúc & nhận xét"
+ },
+ {
+  "key": "opinions_pos",
+  "title": "Lời khen",
+  "subtitle": "Praise",
+  "icon": "🤩",
+  "accent": "#ef4444",
+  "section": "😊 Cảm xúc & nhận xét"
+ },
+ {
+  "key": "opinions_neg",
+  "title": "Lời chê",
+  "subtitle": "Criticism",
+  "icon": "👎",
+  "accent": "#4338ca",
+  "section": "😊 Cảm xúc & nhận xét"
+ },
+ {
+  "key": "adj_time",
+  "title": "Thời gian & trình tự",
+  "subtitle": "Time & Order",
+  "icon": "⏳",
+  "accent": "#9f1239",
+  "section": "📏 Tính từ"
+ },
+ {
+  "key": "adj_nature",
+  "title": "Tính chất & độ mạnh",
+  "subtitle": "Nature & Strength",
+  "icon": "💪",
+  "accent": "#22c55e",
+  "section": "📏 Tính từ"
+ },
+ {
+  "key": "adj_kind",
+  "title": "Đặc điểm & kiểu loại",
+  "subtitle": "Kinds & Features",
+  "icon": "🏷️",
+  "accent": "#8b5cf6",
+  "section": "📏 Tính từ"
+ },
+ {
+  "key": "adj_judge",
+  "title": "Đánh giá & phù hợp",
+  "subtitle": "Judging & Suitability",
+  "icon": "⚖️",
+  "accent": "#d946ef",
+  "section": "📏 Tính từ"
+ },
+ {
+  "key": "v_move",
+  "title": "Di chuyển & cử chỉ",
+  "subtitle": "Moving & Gestures",
+  "icon": "🚶",
+  "accent": "#f59e0b",
+  "section": "🏃 Động từ hành động & thay đổi"
+ },
+ {
+  "key": "v_hands",
+  "title": "Tác động mạnh",
+  "subtitle": "Physical Force",
+  "icon": "💥",
+  "accent": "#06b6d4",
+  "section": "🏃 Động từ hành động & thay đổi"
+ },
+ {
+  "key": "v_handle",
+  "title": "Xử lí & sử dụng",
+  "subtitle": "Handling Things",
+  "icon": "🧰",
+  "accent": "#ef4444",
+  "section": "🏃 Động từ hành động & thay đổi"
+ },
+ {
+  "key": "v_up",
+  "title": "Tăng & phát triển",
+  "subtitle": "Rising & Growing",
+  "icon": "📈",
+  "accent": "#4338ca",
+  "section": "🏃 Động từ hành động & thay đổi"
+ },
+ {
+  "key": "v_down",
+  "title": "Giảm & suy yếu",
+  "subtitle": "Falling & Weakening",
+  "icon": "📉",
+  "accent": "#9f1239",
+  "section": "🏃 Động từ hành động & thay đổi"
+ },
+ {
+  "key": "v_process",
+  "title": "Khởi đầu & tiếp diễn",
+  "subtitle": "Starting & Continuing",
+  "icon": "▶️",
+  "accent": "#22c55e",
+  "section": "🏃 Động từ hành động & thay đổi"
+ },
+ {
+  "key": "speak_state",
+  "title": "Tuyên bố & tiết lộ",
+  "subtitle": "Stating & Revealing",
+  "icon": "📢",
+  "accent": "#8b5cf6",
+  "section": "💬 Động từ giao tiếp & tư duy"
+ },
+ {
+  "key": "speak_react",
+  "title": "Đồng ý & phản đối",
+  "subtitle": "Agreeing & Objecting",
+  "icon": "🙋",
+  "accent": "#d946ef",
+  "section": "💬 Động từ giao tiếp & tư duy"
+ },
+ {
+  "key": "v_mind",
+  "title": "Suy nghĩ & nhận biết",
+  "subtitle": "Thinking & Noticing",
+  "icon": "🧠",
+  "accent": "#f59e0b",
+  "section": "💬 Động từ giao tiếp & tư duy"
+ },
+ {
+  "key": "v_social",
+  "title": "Ứng xử & tác động",
+  "subtitle": "Influencing Others",
+  "icon": "🤝",
+  "accent": "#06b6d4",
+  "section": "💬 Động từ giao tiếp & tư duy"
+ },
+ {
+  "key": "abs_change",
+  "title": "Thay đổi & kết quả",
+  "subtitle": "Change & Outcomes",
+  "icon": "🌱",
+  "accent": "#ef4444",
+  "section": "🗂️ Danh từ trừu tượng"
+ },
+ {
+  "key": "abs_social",
+  "title": "Quan hệ & hỗ trợ",
+  "subtitle": "Relations & Support",
+  "icon": "🤝",
+  "accent": "#4338ca",
+  "section": "🗂️ Danh từ trừu tượng"
+ },
+ {
+  "key": "abs_mind",
+  "title": "Ý tưởng & nhận thức",
+  "subtitle": "Ideas & Awareness",
+  "icon": "💭",
+  "accent": "#9f1239",
+  "section": "🗂️ Danh từ trừu tượng"
+ },
+ {
+  "key": "m_amount",
+  "title": "Số lượng & phần",
+  "subtitle": "Amounts & Parts",
+  "icon": "🧮",
+  "accent": "#22c55e",
+  "section": "🗂️ Danh từ trừu tượng"
+ },
+ {
+  "key": "m_degree",
+  "title": "Mức độ & quy mô",
+  "subtitle": "Degree & Scale",
+  "icon": "📐",
+  "accent": "#8b5cf6",
+  "section": "🗂️ Danh từ trừu tượng"
+ },
+ {
+  "key": "m_chance",
+  "title": "Khả năng & xác suất",
+  "subtitle": "Ability & Likelihood",
+  "icon": "🎲",
+  "accent": "#d946ef",
+  "section": "🗂️ Danh từ trừu tượng"
+ },
+ {
+  "key": "adv_way",
+  "title": "Trạng từ",
+  "subtitle": "Adverbs",
+  "icon": "⏱️",
+  "accent": "#f59e0b",
+  "section": "🔗 Trạng từ & từ nối"
+ },
+ {
+  "key": "adv_link",
+  "title": "Từ nối",
+  "subtitle": "Linking Words",
+  "icon": "🔗",
+  "accent": "#06b6d4",
+  "section": "🔗 Trạng từ & từ nối"
+ }
+]

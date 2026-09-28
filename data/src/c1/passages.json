@@ -1,0 +1,673 @@
+{
+ "c1_gov_state": {
+  "title": "A Country Changes Course",
+  "sentences": [
+   "After years under a military {regime}, the {kingdom} slowly became a {republic}.",
+   "The old {dictator} was removed in a {coup} and many of his {aides|aide} fled abroad.",
+   "The new leaders promised greater {autonomy} for each {province} and less {bureaucracy}.",
+   "Voters wanted {transparency}, and they wanted officials to be {accountable} for their decisions.",
+   "Not everyone agreed on the right {ideology}; a {liberal} {faction} argued with the {socialist} one.",
+   "Still, most people felt that {liberty} was finally within reach."
+  ]
+ },
+ "c1_gov_elections": {
+  "title": "Election Day",
+  "sentences": [
+   "Early in the morning, voters queued to cast their {ballots|ballot}.",
+   "In our {constituency}, three candidates had been {nominated|nominate} for the seat.",
+   "The latest {poll} suggested that the {coalition} would lose power.",
+   "{Turnout} was higher than expected, especially among young people.",
+   "The winning party claimed a clear {mandate} to change the {electoral} system.",
+   "Some {senators|senator} called for a {referendum} before any major reform."
+  ]
+ },
+ "c1_gov_law": {
+  "title": "A New Law on Plastic",
+  "sentences": [
+   "Last year the government decided to {abolish} single-use plastic bags.",
+   "Parliament had to {amend} several old rules before it could {enact} the new {legislation}.",
+   "Shops must now {comply} with the ban, and {compliance} is checked every month.",
+   "A special {regulator} was given the power to {enforce} the rules.",
+   "Some businesses said the law was not {constitutional}, but the courts {upheld|uphold} it.",
+   "Most people agree that the {reform} was necessary."
+  ]
+ },
+ "c1_gov_diplomacy": {
+  "title": "A Summit for Peace",
+  "sentences": [
+   "Leaders from twenty countries met at a {summit} in Geneva.",
+   "Each {ambassador} worked hard to keep the talks {diplomatic}.",
+   "Two old {allies|ally} wanted to sign a {treaty} on water and energy.",
+   "Others demanded new {sanctions|sanction} against a country that had ignored the agreement.",
+   "Some leaders spoke about people seeking {asylum} after years in {exile}.",
+   "At the end, every country signed a {declaration} that respected each nation's {sovereignty}."
+  ]
+ },
+ "c1_crime_acts": {
+  "title": "Trouble in the Old Town",
+  "sentences": [
+   "Last night a {riot} broke out after a football match in the old town.",
+   "An angry {mob} smashed shop windows and threw bottles at the police.",
+   "Earlier that day, a man was {stabbed|stab} near the station.",
+   "Police said the {motive} for the attack was still unclear.",
+   "They are also looking into claims of {corruption} and {harassment} at the city council.",
+   "Anyone who sees something {suspicious} should call the police at once."
+  ]
+ },
+ "c1_crime_police": {
+  "title": "A Busy Night for the Police",
+  "sentences": [
+   "At midnight, officers carried out a {raid} on a warehouse near the port.",
+   "They had a {warrant} to search the building after weeks of {surveillance}.",
+   "Two men were {detained|detain} and taken into {custody}.",
+   "An {investigator} said the {probe} would continue for several months.",
+   "One of the men was released on {bail} the next morning.",
+   "If they are found guilty, they could face long {imprisonment}."
+  ]
+ },
+ "c1_crime_court": {
+  "title": "A Day in Court",
+  "sentences": [
+   "The {accused} stood quietly as the {prosecutor} read out the charges.",
+   "His {solicitor} argued that the {allegations|allegation} were based on rumours.",
+   "Two witnesses {testified|testify} that they had seen him near the bank.",
+   "Their {testimony} was clear, but the defence found small mistakes in it.",
+   "After two days, the jury reached a {verdict}: not guilty.",
+   "The man said he would now {sue} the newspaper that had printed his name."
+  ]
+ },
+ "c1_war_fight": {
+  "title": "The Last Battle",
+  "sentences": [
+   "The two armies met on a cold {battlefield} near the river.",
+   "Each {warrior} carried a {sword}, and the archers stood behind them.",
+   "The general used a clever {tactic}: he pretended to {retreat}.",
+   "When the enemy followed, his soldiers turned and began to {combat} them from both sides.",
+   "After hours of {warfare}, the enemy chose to {surrender}.",
+   "Many years later, an old {veteran} still told the story to his grandchildren."
+  ]
+ },
+ "c1_war_conflict": {
+  "title": "After the War",
+  "sentences": [
+   "For ten years, {rebels|rebel} fought against the {colonial} government.",
+   "Small {guerrilla} groups hid in the mountains and attacked at night.",
+   "The war caused many {casualties|casualty}, and most of them were {civilians|civilian}.",
+   "There were terrible {atrocities|atrocity}, including a {massacre} in a small village.",
+   "When {liberation} finally came, people danced in the streets.",
+   "Today a museum tells the story of their {resistance}."
+  ]
+ },
+ "c1_soc_rights": {
+  "title": "Fighting for Fairness",
+  "sentences": [
+   "My aunt is an {activist} who has spent her life fighting {injustice}.",
+   "She believes that {inequality} begins with {prejudice} and {stereotypes|stereotype}.",
+   "Last year she started a {petition} against {discrimination} at work.",
+   "Thousands of people signed it and joined a {rally} in the capital.",
+   "She says that {equality} is not a {privilege} but a basic right.",
+   "Her work reminds me that {solidarity} can change society."
+  ]
+ },
+ "c1_soc_community": {
+  "title": "A Village by the Sea",
+  "sentences": [
+   "The fishing village has a rich cultural {heritage} that goes back centuries.",
+   "In recent years, {migration} to the cities has left many old people in {isolation}.",
+   "Young people want better {mobility} and jobs in the {mainstream} economy.",
+   "Floods have also {displaced|displace} dozens of families from their homes.",
+   "Local leaders are working on {integration} projects to bring new people in.",
+   "For many, the village is still their true {homeland}."
+  ]
+ },
+ "c1_religion": {
+  "title": "A Visit to the Temple",
+  "sentences": [
+   "Every spring, my grandmother goes to the pagoda to {worship}.",
+   "She brings fruit and flowers as an {offering} and prays for her family.",
+   "A {monk} explains the {doctrine} of kindness to the visitors.",
+   "My grandmother believes that the place is {sacred} and full of {blessings|blessing}.",
+   "On the way home, we visit the {cemetery} and clean my grandfather's {grave}.",
+   "It is a quiet {ritual}, but it means a lot to her."
+  ]
+ },
+ "c1_econ_money": {
+  "title": "Managing a City Budget",
+  "sentences": [
+   "This year the city has a budget {deficit} for the first time.",
+   "Its {expenditure} on roads and schools grew faster than its {earnings}.",
+   "An {audit} showed that too much money was {allocated|allocate} to new offices.",
+   "The mayor wants to cut {subsidies|subsidy} for large companies.",
+   "He says that {taxpayers|taxpayer} should be the main {beneficiaries|beneficiary} of public money.",
+   "If the plan works, the city could have a {surplus} in two years."
+  ]
+ },
+ "c1_econ_business": {
+  "title": "From Market Stall to Big Brand",
+  "sentences": [
+   "Twenty years ago, my uncle was a small {merchant} selling coffee at the market.",
+   "His business was {profitable}, so he opened a second {outlet} in the city.",
+   "He found a {niche}: high-quality coffee for young office workers.",
+   "Later he sold a {franchise} to other shop owners, and the brand grew fast.",
+   "Last year a big company made an offer for the {acquisition} of his business.",
+   "He agreed to the {merger} but kept the {trademark} he had created."
+  ]
+ },
+ "c1_econ_industry": {
+  "title": "A Busy Port",
+  "sentences": [
+   "The port is one of the busiest in Asia.",
+   "Every day, a {fleet} of ships arrives with {cargo} from around the world.",
+   "Heavy {machinery} lifts the containers onto trucks.",
+   "Some goods are stored in a huge {warehouse} before they travel inland.",
+   "Oil comes in by {pipeline}, measured by the {barrel}.",
+   "The {shipping} industry gives work to thousands of people in the city."
+  ]
+ },
+ "c1_work_staff": {
+  "title": "A New Manager",
+  "sentences": [
+   "Last month our old manager handed in her {resignation}.",
+   "Her {successor}, Mr Nam, was {appointed|appoint} by the board.",
+   "He used to be the {deputy} director at another company.",
+   "He wants to {supervise} projects more closely and meet every {supervisor} each week.",
+   "He is also a {mentor} to several young staff members.",
+   "So far, the {personnel} seem happy with the change."
+  ]
+ },
+ "c1_work_teamwork": {
+  "title": "Planning a Big Event",
+  "sentences": [
+   "Our team had three months to organise the company's anniversary party.",
+   "First, we had a {consultation} with every department to hear their ideas.",
+   "Then we worked with a catering company to {cater} for five hundred guests.",
+   "Mai was the {coordinator}, and she helped everyone {collaborate} smoothly.",
+   "We kept careful {documentation} of every decision and cost.",
+   "The {implementation} went well, and the event was a great success."
+  ]
+ },
+ "c1_education": {
+  "title": "My First Year at University",
+  "sentences": [
+   "I {enrolled|enrol} at the Faculty of Law last September.",
+   "During {orientation} week, we learned about the campus and the rules.",
+   "{Attendance} is checked in every class, so I rarely miss a lecture.",
+   "My {tuition} fees are high, but I have a small scholarship.",
+   "Our {educators|educator} are friendly, and they give us useful feedback.",
+   "As an {undergraduate}, I still have a lot to learn."
+  ]
+ },
+ "c1_health_body": {
+  "title": "How Your Body Works",
+  "sentences": [
+   "Your heart pumps blood through your {veins|vein} all day and night.",
+   "You can feel its beat by checking your {pulse} on your wrist.",
+   "Your {liver} and {kidneys|kidney} clean your blood and remove waste.",
+   "Food with plenty of {fibre} keeps your {gut} healthy.",
+   "Your {spine} supports your whole body, so good posture matters.",
+   "A healthy {appetite} is usually a sign that your body is working well."
+  ]
+ },
+ "c1_health_illness": {
+  "title": "When a Virus Spreads",
+  "sentences": [
+   "When a new virus appears, doctors watch closely for an {outbreak}.",
+   "If it spreads quickly, it can become an {epidemic}.",
+   "Most people only have {acute} symptoms for a few days.",
+   "However, some patients develop {chronic} problems or serious {complications|complication}.",
+   "For a few, the disease can even be {fatal}.",
+   "That is why it is important not to {infect} others when you feel ill."
+  ]
+ },
+ "c1_health_care": {
+  "title": "A Visit to the Clinic",
+  "sentences": [
+   "When I felt tired all the time, I went to see a {physician}.",
+   "She asked many questions before she made her {diagnosis}.",
+   "She said I needed more iron and {prescribed|prescribe} some tablets.",
+   "She also told me to take a vitamin {supplement} at the right {dose}.",
+   "For {prevention}, she suggested more exercise and some {meditation}.",
+   "A month later, my sense of {well-being} was much better."
+  ]
+ },
+ "c1_res_method": {
+  "title": "How Scientists Test an Idea",
+  "sentences": [
+   "A good study begins with a clear {methodology}.",
+   "Researchers collect {empirical} data and look for a {correlation} between two {variables|variable}.",
+   "They use {statistical} tools to check whether a result is real.",
+   "They also {verify} their data carefully to ensure its {validity}.",
+   "Every step should be {systematic}, so that others can repeat the {experimental} work.",
+   "Finally, the results face {scrutiny} from other experts."
+  ]
+ },
+ "c1_res_ideas": {
+  "title": "A Great Thinker",
+  "sentences": [
+   "Ancient Greek {philosophers|philosopher} loved to ask big questions.",
+   "They used {logic} and careful {reasoning} to find the truth.",
+   "Each argument began with a {premise} that most people accepted.",
+   "One famous {analogy} compared the human mind to a dark cave.",
+   "Their {discourse} laid the foundations for modern science.",
+   "Many of today's {breakthroughs|breakthrough} began as simple {theoretical} ideas."
+  ]
+ },
+ "c1_science": {
+  "title": "A Lesson in Physics",
+  "sentences": [
+   "Today our teacher explained why an apple falls to the ground: {gravity}.",
+   "Then she showed us a {beam} of light passing through a glass prism.",
+   "The light split into a {spectrum} of colours, like a rainbow.",
+   "Next, she put a {magnetic} bar under some paper covered with iron dust.",
+   "The dust formed lines around the {poles|pole} of the magnet.",
+   "Finally, we wrote the {equation} for the experiment in our notebooks."
+  ]
+ },
+ "c1_tech": {
+  "title": "Setting Up a New Laptop",
+  "sentences": [
+   "When you set up a new laptop, first {upgrade} the operating system.",
+   "Then open your {browser} and connect to a fast {broadband} network.",
+   "Check the {default} settings, because they are not always the safest.",
+   "Turn on a {filter} to stop {spam} from reaching your inbox.",
+   "Make a {backup} of your files and keep it in cloud {storage}.",
+   "Finally, learn the {interface} so you can work quickly."
+  ]
+ },
+ "c1_environment": {
+  "title": "Life on the Coast",
+  "sentences": [
+   "The {coastal} village sits between the mountains and the sea.",
+   "Fishermen go out at {dawn} and come back with the {tide}.",
+   "{Marine} life is rich here, but plastic {debris} is a growing problem.",
+   "{Toxic} waste from nearby factories is another {hazard}.",
+   "Local groups work to {conserve} the beach and protect the {terrain}.",
+   "They believe {preservation} is the key to the village's future."
+  ]
+ },
+ "c1_city_home": {
+  "title": "Renting a Flat",
+  "sentences": [
+   "Last year I moved into a small flat in a {residential} area.",
+   "My {landlord} is kind, and he lives in the {neighbouring} building.",
+   "As a {tenant}, I pay rent and my own {utility} bills.",
+   "The {interior} is simple, but there is a {lawn} behind the building.",
+   "In the evening, I like to sit on the {bench} and read.",
+   "It is not a luxury {suite}, but it feels like home."
+  ]
+ },
+ "c1_city_build": {
+  "title": "A Walk Through the City",
+  "sentences": [
+   "The city is famous for its {architectural} style.",
+   "Its best-known {landmark} is an old clock tower in the main square.",
+   "Near the tower there is a war {memorial} with fresh flowers every day.",
+   "After the storm, the {reconstruction} of the bridge took two years.",
+   "Now {motorists|motorist} pay a small {toll} to cross it.",
+   "Public {transit} is cheap, so many people prefer the bus."
+  ]
+ },
+ "c1_arts_stage": {
+  "title": "A Night at the Theatre",
+  "sentences": [
+   "Last night we saw a stage {adaptation} of a famous novel.",
+   "It was the {debut} of a young actress who played the main role.",
+   "The {backdrop} showed a small village in the mountains.",
+   "In the second act, a {duo} sang a beautiful song together.",
+   "The whole show was a great {spectacle}, and the audience {applauded|applaud} for five minutes.",
+   "The {creator} of the show came on stage to thank everyone."
+  ]
+ },
+ "c1_arts_art": {
+  "title": "The Painter and the Poet",
+  "sentences": [
+   "My friend is a painter who works on large {canvases|canvas}.",
+   "Before she paints, she makes a quick {sketch} in pencil.",
+   "Her pictures {depict} farmers, rivers and rice fields.",
+   "She loves the rough {texture} of oil paint.",
+   "Her {inspiration} often comes from poems her father wrote.",
+   "She says each {verse} is full of {imagery} and {symbolic} meaning."
+  ]
+ },
+ "c1_media": {
+  "title": "Behind the News",
+  "sentences": [
+   "Every evening, millions of people watch the TV news.",
+   "A {correspondent} reports live from the scene with fresh {footage}.",
+   "In the studio, a {commentator} explains what it all means.",
+   "Newspapers also employ a {columnist} who writes about politics each week.",
+   "Some channels spread {propaganda}, so viewers must think carefully.",
+   "Many people now pay for a {subscription} to a trusted news website."
+  ]
+ },
+ "c1_sport": {
+  "title": "The Final Match",
+  "sentences": [
+   "The {arena} was full for the final match of the season.",
+   "Both teams had a strong {line-up}, and each {squad} was ready.",
+   "Our team was the underdog, but it was a real {contender}.",
+   "In the last minute, our striker scored the winning goal.",
+   "The captain lifted the {trophy} while fans cheered.",
+   "The win moved the team up the world {rankings|ranking}."
+  ]
+ },
+ "c1_people": {
+  "title": "A Family Story",
+  "sentences": [
+   "My grandmother became a {widow} when she was still young.",
+   "She raised her {offspring} alone in a small village.",
+   "Every {villager} knew her as a kind and hard-working woman.",
+   "As a {youngster}, my father helped her in the fields.",
+   "Later he became a {prominent} doctor and a {renowned} writer.",
+   "He says his mother was his most loyal {companion}."
+  ]
+ },
+ "c1_q_virtue": {
+  "title": "What Makes a Good Person",
+  "sentences": [
+   "My grandfather believes that {integrity} is more important than money.",
+   "He always speaks with {courtesy}, even to people who are rude.",
+   "He shows {compassion} to anyone who is suffering.",
+   "Although he is successful, he remains {humble} and {thoughtful}.",
+   "His {loyalty} to his friends has never changed.",
+   "For him, {tolerance} and {mercy} are the greatest {virtues|virtue}."
+  ]
+ },
+ "c1_q_skill": {
+  "title": "The Perfect Employee",
+  "sentences": [
+   "Our manager looks for {competence} before anything else.",
+   "She wants people who are {dedicated} and {persistent} when problems appear.",
+   "{Flexibility} is important, because plans often change.",
+   "She also values {precision} in every report.",
+   "A good employee should be {decisive} but also {cautious} with money.",
+   "Above all, she wants staff who are {productive} and {cooperative}."
+  ]
+ },
+ "c1_emo_neg": {
+  "title": "A Bad Week",
+  "sentences": [
+   "It was a {frustrating} week from start to finish.",
+   "On Monday I lost my wallet, and my {frustration} grew all day.",
+   "On Wednesday I forgot my lines in the school play, and I went red with {embarrassment}.",
+   "On Friday I heard that my old teacher had died, and I felt deep {grief}.",
+   "I also felt {guilt} because I had never visited her.",
+   "The memory still {haunts|haunt} me, but I know I must move on."
+  ]
+ },
+ "c1_emo_pos": {
+  "title": "Chasing a Dream",
+  "sentences": [
+   "Since childhood, my sister had one {aspiration}: to become a pilot.",
+   "She was {eager} to learn and full of {optimism}.",
+   "Our parents gave her a lot of {encouragement}, even when money was short.",
+   "When she passed her final exam, she was {thrilled}.",
+   "She showed her {appreciation} by taking them on a trip.",
+   "Her {affection} for her family is as strong as her love of flying."
+  ]
+ },
+ "c1_opinions_pos": {
+  "title": "A Review of a New Café",
+  "sentences": [
+   "The new café on Tran Phu Street is a {superb} place to relax.",
+   "The design is {appealing}, with plants and soft lights everywhere.",
+   "The coffee is {authentic}, made with beans from the Central Highlands.",
+   "The prices are {favourable}, and the staff are friendly.",
+   "The café's {vibrant} atmosphere attracts students and artists.",
+   "It is definitely a {worthwhile} place to visit."
+  ]
+ },
+ "c1_opinions_neg": {
+  "title": "A Terrible Plan",
+  "sentences": [
+   "Many people think the new parking plan is {absurd}.",
+   "It will have an {adverse} effect on small shops in the centre.",
+   "Critics say the rules are {arbitrary} and {flawed}.",
+   "Some of the figures in the report are also {misleading}.",
+   "Residents are {sceptical} that the city will change its mind.",
+   "One journalist called the plan a {disastrous} mistake."
+  ]
+ },
+ "c1_adj_time": {
+  "title": "Big Changes Ahead",
+  "sentences": [
+   "The {upcoming} election could bring big changes to the country.",
+   "{Preliminary} results suggest that turnout will be {unprecedented}.",
+   "For three {consecutive} years, prices have risen faster than wages.",
+   "Many families are tired of {lengthy} debates and {endless} promises.",
+   "Experts warn that a crisis is {imminent} if nothing changes.",
+   "An {interim} government may be needed until the new one is ready."
+  ]
+ },
+ "c1_adj_nature": {
+  "title": "A Storm at Sea",
+  "sentences": [
+   "The weather was {harsh}, and the wind was {fierce}.",
+   "Our small boat felt {fragile} among the huge waves.",
+   "A {dense} fog hid the coast, and we could barely see.",
+   "The captain stayed calm, and his {robust} old boat kept going.",
+   "When we reached the port, the boat was still {intact}.",
+   "The experience had a {profound} effect on all of us."
+  ]
+ },
+ "c1_adj_kind": {
+  "title": "The Mysterious Letter",
+  "sentences": [
+   "One morning, an {anonymous} letter arrived at the police station.",
+   "It was written in {distinctive} green ink.",
+   "The instructions were {explicit}: go to the room {adjacent} to the old library.",
+   "But the reason for the letter remained {vague}.",
+   "Detectives thought there was an {underlying} story they did not yet know.",
+   "They soon found {scattered} clues all over the town."
+  ]
+ },
+ "c1_adj_judge": {
+  "title": "Choosing a Scholarship",
+  "sentences": [
+   "Before you apply for a scholarship, check whether you are {eligible}.",
+   "Make sure your reasons are {legitimate} and {credible}.",
+   "Your plan should be {viable}, not just a dream.",
+   "Don't include {irrelevant} details, because the committee has little time.",
+   "The application form is {straightforward}, but you must send it in a {timely} way.",
+   "Support for {vulnerable} students is an {integral} part of the programme."
+  ]
+ },
+ "c1_v_move": {
+  "title": "Lost in the Forest",
+  "sentences": [
+   "We {embarked|embark} on our hike early in the morning.",
+   "By noon, a thick mist began to {drift} through the trees.",
+   "We {crept|creep} along a narrow path and {clung|cling} to the rocks.",
+   "My friend {stumbled|stumble} and almost fell into the river.",
+   "Suddenly we caught a {glimpse} of a wooden hut below us.",
+   "We {descended|descend} slowly and reached it before dark."
+  ]
+ },
+ "c1_v_hands": {
+  "title": "Making Fresh Juice",
+  "sentences": [
+   "First, {squeeze} two oranges into a large glass.",
+   "Then {crush} some ice and add it to the juice.",
+   "If you like coffee, {grind} a few beans for later.",
+   "Be careful: if you drop the glass, it will {shatter}.",
+   "When you finish, {wipe} the table and {drain} the sink.",
+   "Finally, {seal} the leftover juice in a bottle and put it in the fridge."
+  ]
+ },
+ "c1_v_handle": {
+  "title": "The Old House",
+  "sentences": [
+   "When my grandparents moved, we had to {discard} many old things.",
+   "We found a box that someone had {concealed|conceal} under the stairs.",
+   "It was {bound|bind} with string and covered in dust.",
+   "Inside, we {retrieved|retrieve} old photos and letters.",
+   "My father {assembled|assemble} the photos into a family album.",
+   "He {utilized|utilize} a scanner so everyone could have a copy."
+  ]
+ },
+ "c1_v_up": {
+  "title": "A Company That Grew",
+  "sentences": [
+   "At first, sales grew slowly, but then they began to {accelerate}.",
+   "The company managed to {consolidate} its position in the local market.",
+   "New products helped it {flourish}, and profits began to {soar}.",
+   "Demand {surged|surge} after a famous singer used its phone.",
+   "The company worked to {sustain} this success by hiring more staff.",
+   "Today it continues to {thrive} in many countries."
+  ]
+ },
+ "c1_v_down": {
+  "title": "The Decline of a Town",
+  "sentences": [
+   "When the mine closed, life in the town began to {deteriorate}.",
+   "Shops {ceased|cease} trading one by one.",
+   "The population started to {shrink} as young people left.",
+   "Old traditions {faded|fade} and some festivals {vanished|vanish}.",
+   "A new motorway {disrupted|disrupt} what was left of local business.",
+   "Many people feel the decision {undermined|undermine} the town's future."
+  ]
+ },
+ "c1_v_process": {
+  "title": "How a Festival Began",
+  "sentences": [
+   "The festival {originated|originate} in a small village two hundred years ago.",
+   "Farmers {initiated|initiate} it to celebrate the rice harvest.",
+   "Over time, it began to {blend} music, dance and food.",
+   "Today the celebrations {commence} at sunrise.",
+   "When it rains, organisers {divert} the parade to the main hall.",
+   "Despite modern changes, the old traditions still {persist}."
+  ]
+ },
+ "c1_speak_state": {
+  "title": "The Secret Report",
+  "sentences": [
+   "A newspaper {disclosed|disclose} a secret government report last week.",
+   "The report {asserted|assert} that the new bridge was not safe.",
+   "The minister said the story was only a {rumour} and that journalists liked to {exaggerate}.",
+   "But he did {hint} that some checks might be needed.",
+   "Later, a {vocal} group of engineers {proclaimed|proclaim} that the report was true.",
+   "The {revelation} shocked the whole city."
+  ]
+ },
+ "c1_speak_react": {
+  "title": "An Honest Mistake",
+  "sentences": [
+   "When the coach made a bad decision, the fans began to {yell}.",
+   "Journalists {condemned|condemn} his choice of players.",
+   "At first he issued a {denial}, but later he {conceded|concede} that he was wrong.",
+   "He {pledged|pledge} to listen more to his team.",
+   "The players {reassured|reassure} the fans that they would fight harder.",
+   "In the next match, the captain {vowed|vow} to score, and he did."
+  ]
+ },
+ "c1_v_mind": {
+  "title": "A Difficult Choice",
+  "sentences": [
+   "After school, I had to decide what to study.",
+   "I {contemplated|contemplate} medicine, law and design.",
+   "My parents {deemed|deem} medicine the safest choice.",
+   "But I {aspired|aspire} to become an architect.",
+   "I tried to {grasp} what each job was really like.",
+   "In the end, I {opted|opt} for architecture and have never looked back."
+  ]
+ },
+ "c1_v_social": {
+  "title": "A Good Leader",
+  "sentences": [
+   "A good leader should {foster} trust in the team.",
+   "She should {empower} people to make their own decisions.",
+   "She must never {manipulate} others or {neglect} their needs.",
+   "When there is a {dispute}, she should {intervene} early.",
+   "Sometimes she has to {confront} a problem that others avoid.",
+   "Above all, she tries to {unify} people around a shared goal."
+  ]
+ },
+ "c1_abs_change": {
+  "title": "After the Flood",
+  "sentences": [
+   "In the {aftermath} of the flood, the town was in {chaos}.",
+   "Roads were closed, and the {closure} of the main bridge caused long delays.",
+   "Rebuilding homes was a huge {endeavour} for everyone.",
+   "Slowly, the town gained {momentum} and shops reopened.",
+   "The {transformation} took five years.",
+   "Today the new riverside park is a {legacy} of that difficult time."
+  ]
+ },
+ "c1_abs_social": {
+  "title": "Working Together",
+  "sentences": [
+   "The neighbours reached a {consensus} about the new playground.",
+   "With the {backing} of the city council, the project began.",
+   "Everyone agreed that {mutual} respect was important.",
+   "Parents offered {guidance} to the children who helped plant trees.",
+   "Some people made a real {sacrifice}, giving up their weekends.",
+   "The playground is a {tribute} to the {harmony} of the neighbourhood."
+  ]
+ },
+ "c1_abs_mind": {
+  "title": "A Moral Question",
+  "sentences": [
+   "Last week our class discussed a moral {dilemma}.",
+   "Should a doctor tell a patient the truth if it causes pain?",
+   "Some students said honesty was the {essence} of trust.",
+   "Others thought there was a {contradiction} between honesty and kindness.",
+   "Our teacher said there is no clear {boundary} between right and wrong.",
+   "The discussion gave me more {clarity} about my own {outlook} on life."
+  ]
+ },
+ "c1_m_amount": {
+  "title": "A Trip to the Market",
+  "sentences": [
+   "The market sells an {abundance} of fresh fruit every morning.",
+   "There is a wide {array} of vegetables from nearby farms.",
+   "I bought a {chunk} of cheese and a {handful} of nuts.",
+   "Some shops sell rice in {bulk} for restaurants.",
+   "The {remainder} of the stalls sell clothes and toys.",
+   "Every {segment} of the market has its own smell and sound."
+  ]
+ },
+ "c1_m_degree": {
+  "title": "The Power of the Sea",
+  "sentences": [
+   "The ocean covers an {immense} part of our planet.",
+   "Waves can reach a {tremendous} height during a storm.",
+   "The {magnitude} of an earthquake under the sea can cause a tsunami.",
+   "Even a {marginal} rise in sea levels can affect millions of people.",
+   "The {sheer} {scope} of the problem is hard to imagine.",
+   "Scientists say our response so far has been {insufficient}."
+  ]
+ },
+ "c1_m_chance": {
+  "title": "Planning for Risk",
+  "sentences": [
+   "Before any big project, managers study the {likelihood} of success.",
+   "They check the {availability} of money, people and time.",
+   "Every project has {constraints|constraint}, such as a fixed budget.",
+   "Managers also look for {vulnerabilities|vulnerability} in their systems.",
+   "Improving {efficiency} can reduce costs and risks.",
+   "When the {odds} are good, they move ahead with {stability} and confidence."
+  ]
+ },
+ "c1_adv_way": {
+  "title": "Rumours About a Star",
+  "sentences": [
+   "A famous singer has {reportedly} bought a house in Da Lat.",
+   "She {allegedly} paid a very high price for it.",
+   "{Presumably}, she wants a quiet place to write new songs.",
+   "She {seldom} gives interviews, so fans rely on social media.",
+   "{Frankly}, I don't think her private life is our business.",
+   "She is {undoubtedly} one of the best singers of her generation."
+  ]
+ },
+ "c1_adv_link": {
+  "title": "Two Cities",
+  "sentences": [
+   "Hanoi and Ho Chi Minh City are the country's two largest cities.",
+   "The former is the capital, and the {latter} is the business centre.",
+   "Both are busy, {albeit} in different ways.",
+   "{Whilst} Hanoi has four seasons, the south is warm all year.",
+   "{Nonetheless}, both cities share a love of street food.",
+   "{Notably}, both have grown fast, {thereby} attracting millions of workers."
+  ]
+ }
+}
