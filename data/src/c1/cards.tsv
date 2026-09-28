@@ -1,5 +1,6 @@
 word	pos	group	emoji	ipa	vi	en	ex	syn
 abolish	verb	gov_law	🚫	/əˈbɒlɪʃ/	bãi bỏ	to officially end a law or system	Slavery was abolished in the 19th century.	end
+abortion	noun	health_care	🏥	/əˈbɔːʃən/	sự phá thai	the deliberate ending of a pregnancy	Abortion laws differ from country to country.	termination
 absence	noun	abs_mind	🫥	/ˈæbsəns/	sự vắng mặt	not being present	In the absence of the manager, I'm in charge.	—
 absurd	adjective	opinions_neg	🤪	/əbˈsɜːd/	vô lí, lố bịch	completely unreasonable	That's an absurd idea.	ridiculous
 abundance	noun	m_amount	🌾	/əˈbʌndəns/	sự dồi dào	a large amount	an abundance of fresh fruit	plenty
@@ -507,6 +508,7 @@ gathering	noun	abs_social	👨‍👩‍👧	/ˈɡæðərɪŋ/	buổi họp mặ
 gaze	noun, verb	v_move	👀	/ɡeɪz/	nhìn chăm chú	to look for a long time	She gazed at the sea.	stare
 gear	noun	sport	🎒	/ɡɪə/	dụng cụ; số (xe)	equipment; part of an engine	camping gear	equipment
 generic	adjective	adj_kind	🏷️	/dʒəˈnerɪk/	chung chung; không nhãn hiệu	general; not a brand	generic drugs	general
+genocide	noun	war_conflict	🕯️	/ˈdʒenəsaɪd/	tội diệt chủng	the killing of a whole national or ethnic group	The museum helps people remember the victims of genocide.	mass murder
 glimpse	noun	v_move	👁️	/ɡlɪmps/	cái nhìn thoáng qua	a quick look	I caught a glimpse of the star.	glance
 glorious	adjective	opinions_pos	🌞	/ˈɡlɔːriəs/	huy hoàng, tuyệt đẹp	very beautiful; famous	a glorious day	splendid
 glory	noun	abs_social	🏆	/ˈɡlɔːri/	vinh quang	fame and honour	the glory of winning	honour
@@ -1077,6 +1079,7 @@ successive	adjective	adj_time	🔢	/səkˈsesɪv/	liên tiếp	following one aft
 successor	noun	work_staff	➡️	/səkˈsesə/	người kế nhiệm	a person who takes over	his successor as CEO	heir
 suck	verb	v_hands	🥤	/sʌk/	hút	to pull liquid into your mouth	suck through a straw	—
 sue	verb	crime_court	⚖️	/suː/	kiện	to take legal action against	She sued the company.	take to court
+suicide	noun	health_care	🎗️	/ˈsuːɪsaɪd/	sự tự tử	the act of killing yourself	Schools are running programmes on suicide prevention.	—
 suite	noun	city_home	🛏️	/swiːt/	dãy phòng; bộ	a set of rooms; a set of things	a hotel suite	—
 summit	noun	gov_diplomacy	⛰️	/ˈsʌmɪt/	hội nghị thượng đỉnh; đỉnh núi	a meeting of leaders; the top of a mountain	the G7 summit	peak
 superb	adjective	opinions_pos	🌟	/suːˈpɜːb/	tuyệt vời	excellent	a superb meal	excellent
