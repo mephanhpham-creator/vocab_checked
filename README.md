@@ -9,7 +9,7 @@ Web học từ vựng tiếng Anh theo trình độ (A1 → C2, cộng 8 chủ �
 |---|---|
 | `data/topics.json` | Nhóm **IELTS**: 8 chủ đề, 273 từ (chuyển từ app flashcard trên Netlify). Từ nào có trong danh sách Cambridge/Oxford thì có thêm trường `level` |
 | `data/passages.json` | Mỗi chủ đề IELTS 1 đoạn văn. `{chữ hiển thị\|từ trong bộ thẻ}` đánh dấu từ đã học |
-| `data/levels/<level>.json` | Một file cho mỗi trình độ (`{topics, passages}`), **được sinh ra**, đừng sửa tay. Hiện có `a1.json` (640 từ từ danh sách Cambridge Starters + Movers, 39 bộ, 39 đoạn đọc), `a2.json` (903 từ, 72 bộ, 72 đoạn đọc) `b1.json` (1.420 từ mới so với A2, 76 bộ, 76 đoạn đọc) và `b2.json` (550 từ Oxford 5000 B2 chưa có ở A1–B1, 28 bộ, 28 đoạn đọc). Các bộ chia theo nghĩa, xếp dưới 24 chủ đề lớn |
+| `data/levels/<level>.json` | Một file cho mỗi trình độ (`{topics, passages}`), **được sinh ra**, đừng sửa tay. Hiện có `a1.json` (640 từ từ danh sách Cambridge Starters + Movers, 39 bộ, 39 đoạn đọc), `a2.json` (903 từ, 72 bộ, 72 đoạn đọc) `b1.json` (1.420 từ mới so với A2, 76 bộ, 76 đoạn đọc) `b2.json` (550 từ Oxford 5000 B2 chưa có ở A1–B1, 28 bộ, 28 đoạn đọc) và `c1.json` (1.231 từ Oxford 5000 C1 chưa có ở A1–B2, 61 bộ, 61 đoạn đọc). Các bộ chia theo nghĩa, mỗi trình độ xếp dưới 10–24 chủ đề lớn |
 | `data/src/<level>/` | Nguồn để sửa: `cards.tsv` (mỗi dòng một thẻ), `groups.json` (các bộ thẻ, thứ tự, màu, chủ đề lớn `section`), `passages.json` |
 | `tools/build_level.py` | Sinh `data/levels/<level>.json` từ `data/src/<level>/`, kiểm tra dữ liệu và tự điền IPA giọng Anh |
 | `data/ipa.json` | 44 âm IPA giọng Anh và 17 nhóm cặp âm dễ nhầm |
