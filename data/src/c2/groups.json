@@ -262,5 +262,141 @@
   "icon": "📐",
   "accent": "#22c55e",
   "section": "🔗 Trạng từ"
+ },
+ {
+  "key": "ph_feel",
+  "title": "Vui, buồn & tâm trạng",
+  "subtitle": "Moods & Feelings",
+  "icon": "🌦️",
+  "accent": "#8b5cf6",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_calm",
+  "title": "Giận dữ & bình tĩnh",
+  "subtitle": "Anger & Calm",
+  "icon": "🧊",
+  "accent": "#d946ef",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_rest",
+  "title": "Nghỉ ngơi & sức khoẻ",
+  "subtitle": "Rest & Health",
+  "icon": "🛋️",
+  "accent": "#f59e0b",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_people",
+  "title": "Đối nhân xử thế",
+  "subtitle": "Getting On with People",
+  "icon": "🤝",
+  "accent": "#06b6d4",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_speak",
+  "title": "Nói & bày tỏ",
+  "subtitle": "Saying What You Think",
+  "icon": "🗣️",
+  "accent": "#ef4444",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_think",
+  "title": "Suy nghĩ & trí nhớ",
+  "subtitle": "Thinking & Remembering",
+  "icon": "💭",
+  "accent": "#4338ca",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_judge",
+  "title": "Khen, chê & bất đồng",
+  "subtitle": "Praise, Criticism & Disagreement",
+  "icon": "⚖️",
+  "accent": "#9f1239",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_work",
+  "title": "Làm việc & nỗ lực",
+  "subtitle": "Work & Effort",
+  "icon": "💼",
+  "accent": "#22c55e",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_win",
+  "title": "Thành công & thất bại",
+  "subtitle": "Success & Failure",
+  "icon": "🏆",
+  "accent": "#8b5cf6",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_risk",
+  "title": "Rủi ro & khó khăn",
+  "subtitle": "Risk & Hard Times",
+  "icon": "⚠️",
+  "accent": "#d946ef",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_time",
+  "title": "Thời gian & nhịp độ",
+  "subtitle": "Time & Pace",
+  "icon": "⏱️",
+  "accent": "#f59e0b",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_sure",
+  "title": "Khả năng & mức độ",
+  "subtitle": "Likelihood & Amount",
+  "icon": "🎲",
+  "accent": "#06b6d4",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_argue",
+  "title": "Lập luận & nhượng bộ",
+  "subtitle": "Arguing a Point",
+  "icon": "🧭",
+  "accent": "#ef4444",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_relate",
+  "title": "Nguyên nhân & liên hệ",
+  "subtitle": "Causes & Connections",
+  "icon": "🔗",
+  "accent": "#4338ca",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_happen",
+  "title": "Sự việc & diễn biến",
+  "subtitle": "Events & Turns",
+  "icon": "🎬",
+  "accent": "#9f1239",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_stand",
+  "title": "Luật lệ & lập trường",
+  "subtitle": "Rules & Taking a Stand",
+  "icon": "✊",
+  "accent": "#22c55e",
+  "section": "✨ Nghĩa nâng cao của từ quen"
+ },
+ {
+  "key": "ph_life",
+  "title": "Lối sống & sở thích",
+  "subtitle": "Lifestyle & Likes",
+  "icon": "🎨",
+  "accent": "#8b5cf6",
+  "section": "✨ Nghĩa nâng cao của từ quen"
  }
 ]
