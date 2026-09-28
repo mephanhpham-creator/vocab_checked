@@ -264,139 +264,227 @@
   "section": "🔗 Trạng từ"
  },
  {
+  "key": "nm_people",
+  "title": "Con người & tính cách",
+  "subtitle": "People & Character",
+  "icon": "🧑",
+  "accent": "#8b5cf6",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_feel",
+  "title": "Cảm xúc & tâm trạng",
+  "subtitle": "Feelings & Moods",
+  "icon": "💓",
+  "accent": "#d946ef",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_talk",
+  "title": "Lời nói & tranh luận",
+  "subtitle": "Talking & Arguing",
+  "icon": "💬",
+  "accent": "#f59e0b",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_mind",
+  "title": "Hiểu & đánh giá",
+  "subtitle": "Understanding & Judging",
+  "icon": "🧠",
+  "accent": "#06b6d4",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_work",
+  "title": "Công việc, luật & chính trị",
+  "subtitle": "Work, Law & Politics",
+  "icon": "🏛️",
+  "accent": "#ef4444",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_money",
+  "title": "Tiền bạc & thành tích",
+  "subtitle": "Money & Success",
+  "icon": "💰",
+  "accent": "#4338ca",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_nature",
+  "title": "Thiên nhiên & vật chất",
+  "subtitle": "Nature & Matter",
+  "icon": "🌿",
+  "accent": "#9f1239",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_home",
+  "title": "Đồ vật & nơi chốn",
+  "subtitle": "Things & Places",
+  "icon": "🏠",
+  "accent": "#22c55e",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_act",
+  "title": "Âm thanh & động tác",
+  "subtitle": "Sounds & Actions",
+  "icon": "🥁",
+  "accent": "#8b5cf6",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_change",
+  "title": "Diễn biến & nguyên nhân",
+  "subtitle": "Changes & Causes",
+  "icon": "🔀",
+  "accent": "#d946ef",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
+  "key": "nm_desc",
+  "title": "Miêu tả tình huống",
+  "subtitle": "Describing Situations",
+  "icon": "🎨",
+  "accent": "#f59e0b",
+  "section": "🔄 Nghĩa mới của từ quen"
+ },
+ {
   "key": "ph_feel",
   "title": "Vui, buồn & tâm trạng",
   "subtitle": "Moods & Feelings",
   "icon": "🌦️",
-  "accent": "#8b5cf6",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#06b6d4",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_calm",
   "title": "Giận dữ & bình tĩnh",
   "subtitle": "Anger & Calm",
   "icon": "🧊",
-  "accent": "#d946ef",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#ef4444",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_rest",
   "title": "Nghỉ ngơi & sức khoẻ",
   "subtitle": "Rest & Health",
   "icon": "🛋️",
-  "accent": "#f59e0b",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#4338ca",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_people",
   "title": "Đối nhân xử thế",
   "subtitle": "Getting On with People",
   "icon": "🤝",
-  "accent": "#06b6d4",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#9f1239",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_speak",
   "title": "Nói & bày tỏ",
   "subtitle": "Saying What You Think",
   "icon": "🗣️",
-  "accent": "#ef4444",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#22c55e",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_think",
   "title": "Suy nghĩ & trí nhớ",
   "subtitle": "Thinking & Remembering",
   "icon": "💭",
-  "accent": "#4338ca",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#8b5cf6",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_judge",
   "title": "Khen, chê & bất đồng",
   "subtitle": "Praise, Criticism & Disagreement",
   "icon": "⚖️",
-  "accent": "#9f1239",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#d946ef",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_work",
   "title": "Làm việc & nỗ lực",
   "subtitle": "Work & Effort",
   "icon": "💼",
-  "accent": "#22c55e",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#f59e0b",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_win",
   "title": "Thành công & thất bại",
   "subtitle": "Success & Failure",
   "icon": "🏆",
-  "accent": "#8b5cf6",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#06b6d4",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_risk",
   "title": "Rủi ro & khó khăn",
   "subtitle": "Risk & Hard Times",
   "icon": "⚠️",
-  "accent": "#d946ef",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#ef4444",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_time",
   "title": "Thời gian & nhịp độ",
   "subtitle": "Time & Pace",
   "icon": "⏱️",
-  "accent": "#f59e0b",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#4338ca",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_sure",
   "title": "Khả năng & mức độ",
   "subtitle": "Likelihood & Amount",
   "icon": "🎲",
-  "accent": "#06b6d4",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#9f1239",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_argue",
   "title": "Lập luận & nhượng bộ",
   "subtitle": "Arguing a Point",
   "icon": "🧭",
-  "accent": "#ef4444",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#22c55e",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_relate",
   "title": "Nguyên nhân & liên hệ",
   "subtitle": "Causes & Connections",
   "icon": "🔗",
-  "accent": "#4338ca",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#8b5cf6",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_happen",
   "title": "Sự việc & diễn biến",
   "subtitle": "Events & Turns",
   "icon": "🎬",
-  "accent": "#9f1239",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#d946ef",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_stand",
   "title": "Luật lệ & lập trường",
   "subtitle": "Rules & Taking a Stand",
   "icon": "✊",
-  "accent": "#22c55e",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#f59e0b",
+  "section": "✨ Thành ngữ & cụm cố định"
  },
  {
   "key": "ph_life",
   "title": "Lối sống & sở thích",
   "subtitle": "Lifestyle & Likes",
   "icon": "🎨",
-  "accent": "#8b5cf6",
-  "section": "✨ Nghĩa nâng cao của từ quen"
+  "accent": "#06b6d4",
+  "section": "✨ Thành ngữ & cụm cố định"
  }
 ]

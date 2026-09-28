@@ -1,49 +1,141 @@
 word	pos	group	emoji	ipa	vi	en	ex	syn
+a bar to success	noun	nm_change	🚧	/ə ˌbɑː tə səkˈses/	rào cản thành công (bar = trở ngại)	something that prevents success	Lack of money should not be a bar to education.	barrier
+a blanket of snow	noun	nm_nature	❄️	/ə ˌblæŋkɪt əv ˈsnəʊ/	lớp tuyết dày (blanket = lớp phủ)	a thick layer	The town lay under a blanket of snow.	layer
 a bone of contention	idiom	ph_judge	🦴	/ə ˌbəʊn əv kənˈtenʃən/	nguyên nhân tranh cãi	something people argue about	The car park is a bone of contention.	dispute
 a broken home	phrase	ph_people	🏚️	/ə ˌbrəʊkən ˈhəʊm/	gia đình tan vỡ	a family where the parents have separated	He grew up in a broken home.	—
+a building plot	noun	nm_home	🏗️	/ə ˈbɪldɪŋ plɒt/	lô đất xây dựng (plot = mảnh đất)	a piece of land for building	They bought a building plot.	lot
+a cabin on the ship	noun	nm_home	🛳️	/ə ˌkæbɪn ɒn ðə ˈʃɪp/	khoang ngủ trên tàu (cabin = buồng tàu)	a small room on a ship	We had a cabin on the top deck.	berth
+a ceiling on pay	noun	nm_money	📏	/ə ˌsiːlɪŋ ɒn ˈpeɪ/	mức trần lương (ceiling = giới hạn)	a limit on an amount	They set a ceiling on pay rises.	cap
+a challenge to authority	noun	nm_talk	✊	/ə ˌtʃælɪndʒ tə ɔːˈθɒrəti/	sự thách thức quyền lực (challenge = sự phản đối)	an expression of disagreement	The protest was a challenge to the authority of the president.	opposition
+a champion of human rights	noun	nm_people	🛡️	/ə ˌtʃæmpiən əv hjuːmən ˈraɪts/	người đấu tranh cho nhân quyền (champion = người bênh vực)	someone who fights for a belief	She was a champion of human rights.	defender
+a channel of communication	noun	nm_talk	📡	/ə ˌtʃænəl əv kəˌmjuːnɪˈkeɪʃən/	kênh liên lạc (channel = kênh)	a way of communicating	We need a new channel of communication.	means
+a cherry stone	noun	nm_nature	🍒	/ə ˈtʃeri stəʊn/	hạt anh đào (stone = hạt cứng)	the hard seed in some fruits	Be careful of the cherry stones.	pit
+a clean record	adjective	nm_work	✅	/ə ˌkliːn ˈrekɔːd/	lí lịch trong sạch (clean = không tiền án)	showing no crime	He has a clean driving licence.	spotless
+a closed mind	adjective	nm_people	🔒	/ə ˌkləʊzd ˈmaɪnd/	đầu óc bảo thủ (closed = không tiếp nhận)	not willing to accept new ideas	He has a closed mind about modern art.	narrow mind
+a comfortable retirement	adjective	nm_money	🏖️	/ə ˌkʌmftəbəl rɪˈtaɪəmənt/	tuổi già sung túc (comfortable = đủ đầy)	having enough money	They have a comfortable retirement.	well-off
+a critical study	adjective	nm_mind	🧐	/ə ˌkrɪtɪkəl ˈstʌdi/	nghiên cứu phê bình (critical = mang tính phân tích)	giving careful judgements	a critical study of the poet's work	analytical
+a cruel monster	noun	nm_people	👹	/ə ˌkrʊəl ˈmɒnstə/	kẻ tàn ác (monster = con người độc ác)	a cruel and frightening person	You'd have to be a monster to hurt a child.	brute
+a deep conversation	adjective	nm_mind	🌊	/ə ˌdiːp ˌkɒnvəˈseɪʃən/	cuộc trò chuyện sâu sắc (deep = sâu xa)	serious and hard to understand	We had a deep and meaningful conversation.	profound
+a drinking straw	noun	nm_home	🥤	/ə ˈdrɪŋkɪŋ strɔː/	ống hút (straw = ống hút)	a thin tube for drinking	Could I have a straw, please?	—
 a drop in the ocean	idiom	ph_sure	💧	/ə ˌdrɒp ɪn ðə ˈəʊʃən/	muối bỏ biển	a very small amount compared to what is needed	The money we raised is a drop in the ocean.	—
+a dry subject	adjective	nm_desc	🥱	/ə ˌdraɪ ˈsʌbdʒekt/	môn học khô khan (dry = nhàm chán)	not interesting	Law can be a dry subject.	dull
+a feature on	noun	nm_talk	📰	/ə ˈfiːtʃə ɒn/	bài phóng sự về (feature = bài đặc biệt)	a special article or programme	a double-page feature on global warming	report
+a film of dust	noun	nm_nature	🌫️	/ə ˌfɪlm əv ˈdʌst/	lớp bụi mỏng (film = lớp mỏng)	a thin layer on a surface	A film of dust covered the furniture.	coating
+a flash of anger	noun	nm_feel	⚡	/ə ˌflæʃ əv ˈæŋɡə/	cơn giận thoáng qua (flash = chợt loé)	a sudden feeling	I felt a flash of anger.	burst
+a flood of letters	noun	nm_nature	✉️	/ə ˌflʌd əv ˈletəz/	hàng loạt thư (flood = dòng người/vật ồ ạt)	a large number arriving at once	We received a flood of letters.	stream
+a flower bed	noun	nm_nature	🌷	/ə ˈflaʊə bed/	luống hoa (bed = luống đất)	a piece of ground for growing flowers	She planted roses in the flower bed.	—
 a force to be reckoned with	idiom	ph_win	💪	/ə ˌfɔːs tə bɪ ˈrekənd wɪð/	đối thủ đáng gờm	a very powerful person or group	The new party is a force to be reckoned with.	—
 a free hand	idiom	ph_work	✋	/ə ˌfriː ˈhænd/	toàn quyền quyết định	freedom to decide how to do something	The manager gave me a free hand.	—
+a full house	noun	nm_home	🎭	/ə ˌfʊl ˈhaʊs/	kín chỗ (house = khán giả)	the people watching a performance	The actors played to a full house.	audience
 a gap in the market	idiom	ph_life	🧩	/ə ˌɡæp ɪn ðə ˈmɑːkɪt/	khoảng trống thị trường	a chance to sell something that doesn't exist yet	She saw a gap in the market for healthy snacks.	—
 a good judge of	phrase	ph_judge	⚖️	/ə ˌɡʊd ˈdʒʌdʒ əv/	người đánh giá giỏi về	someone who is usually right about something	She's a good judge of character.	—
 a good read	phrase	ph_life	📖	/ə ˌɡʊd ˈriːd/	cuốn sách hay	something enjoyable to read	This novel is a really good read.	—
+a grain of sand	noun	nm_nature	🏖️	/ə ˌɡreɪn əv ˈsænd/	một hạt cát (grain = hạt nhỏ)	a very small piece	a grain of sand	speck
+a grain of truth	noun	nm_nature	🔎	/ə ˌɡreɪn əv ˈtruːθ/	một chút sự thật (grain = một chút)	a very small amount of a quality	There isn't a grain of truth in her story.	shred
+a hand rail	noun	nm_home	🛗	/ə ˈhænd reɪl/	tay vịn cầu thang (rail = thanh vịn)	a bar you hold to stop you falling	Hold on to the hand rail.	banister
+a healthy economy	adjective	nm_money	💪	/ə ˌhelθi ɪˈkɒnəmi/	nền kinh tế lành mạnh (healthy = vững mạnh)	successful and strong	a healthy economy	strong
+a heavy blow	noun	nm_change	🥊	/ə ˌhevi ˈbləʊ/	đòn nặng nề (blow = cú đánh; cú sốc)	a hard hit; a damaging event	Losing his job was a heavy blow.	setback
+a kind thought	noun	nm_feel	💐	/ə ˌkaɪnd ˈθɔːt/	một cử chỉ chu đáo (thought = sự quan tâm)	something that shows you care	Thanks for the card; it was a kind thought.	gesture
 a labour of love	idiom	ph_work	💗	/ə ˌleɪbə əv ˈlʌv/	việc làm vì đam mê	hard work you do because you enjoy it	Restoring the old boat was a labour of love.	—
+a lamp shade	noun	nm_home	💡	/ə ˈlæmp ʃeɪd/	chụp đèn (shade = tấm che)	a cover for a light	a paper lamp shade	—
 a last resort	phrase	ph_risk	🆘	/ə ˌlɑːst rɪˈzɔːt/	biện pháp cuối cùng	something you do when everything else has failed	Surgery is a last resort.	—
+a line of trees	noun	nm_nature	🌳	/ə ˌlaɪn əv ˈtriːz/	hàng cây (line = hàng)	a row of things	A line of trees ran along the road.	row
+a loose adaptation	adjective	nm_mind	〰️	/ə ˌluːs ˌædəpˈteɪʃən/	bản chuyển thể phóng khoáng (loose = không sát)	not exact	The film is a loose adaptation of the novel.	free
+a master of disguise	noun	nm_people	🥸	/ə ˌmɑːstə əv dɪsˈɡaɪz/	bậc thầy cải trang (master = bậc thầy)	someone who does something very well	The thief was a master of disguise.	expert
 a matter of life and death	idiom	ph_risk	🚑	/ə ˌmætə əv laɪf ənd ˈdeθ/	chuyện sống còn	a very serious situation	Call me only if it's a matter of life and death.	—
 a means to an end	idiom	ph_relate	🪜	/ə ˌmiːnz tə ən ˈend/	phương tiện để đạt mục đích	something done only to achieve something else	For him, the job is a means to an end.	—
+a miserable fifty pounds	adjective	nm_money	😒	/ə ˌmɪzərəbəl ˌfɪfti ˈpaʊndz/	vỏn vẹn 50 bảng (miserable = ít ỏi)	too small to be acceptable	She offered me a miserable fifty pounds for my old bike.	paltry
+a mountain of papers	noun	nm_nature	📚	/ə ˌmaʊntɪn əv ˈpeɪpəz/	núi giấy tờ (mountain = đống lớn)	a large pile	There's a mountain of papers on my desk.	pile
+a music stand	noun	nm_home	🎼	/ə ˈmjuːzɪk stænd/	giá để bản nhạc (stand = giá đỡ)	a piece of furniture for holding things	a music stand	rack
 a narrow escape	phrase	ph_risk	😅	/ə ˌnærəʊ ɪˈskeɪp/	thoát chết trong gang tấc	when you only just avoid danger	We had a narrow escape on the mountain road.	close call
 a nest egg	idiom	ph_life	🪺	/ə ˌnest ˈeɡ/	khoản tiết kiệm	money saved for the future	They have a nest egg for their retirement.	savings
+a pack of wolves	noun	nm_nature	🐺	/ə ˌpæk əv ˈwʊlvz/	bầy sói (pack = bầy)	a group of animals	A pack of wolves was hunting.	group
+a paper on	noun	nm_talk	📄	/ə ˈpeɪpə ɒn/	bài nghiên cứu về (paper = bài báo khoa học)	a piece of academic writing	She has published a paper on bilingualism.	article
+a plain girl	adjective	nm_people	🙂	/ə ˌpleɪn ˈɡɜːl/	cô gái không xinh (plain = bình thường, không hấp dẫn)	not attractive	She was a plain child but became a beautiful woman.	ordinary
+a platform for	noun	nm_talk	📢	/ə ˈplætfɔːm fə/	diễn đàn để (platform = kênh bày tỏ)	a way of telling the public your opinions	He uses the newspaper as a platform for his views.	forum
+a poetry reading	noun	nm_talk	📜	/ə ˈpəʊɪtri riːdɪŋ/	buổi đọc thơ (reading = buổi đọc trước khán giả)	an event where someone reads to an audience	We went to a poetry reading.	—
 a prime example	phrase	ph_relate	🥇	/ə ˌpraɪm ɪɡˈzɑːmpəl/	ví dụ điển hình	a very good example	This church is a prime example of Gothic style.	—
+a quiet corner of	noun	nm_home	📍	/ə ˌkwaɪət ˈkɔːnə əv/	một góc yên tĩnh của (corner = vùng)	a part of a larger area	He lives in a quiet corner of the countryside.	area
+a quotation for the work	noun	nm_talk	🧾	/ə kwəʊˌteɪʃən fə ðə ˈwɜːk/	bảng báo giá công việc (quotation = báo giá)	a statement of what work will cost	Get a quotation before they start.	estimate
+a quote from	noun	nm_talk	❝	/ə ˈkwəʊt frɒm/	trích dẫn từ (quote = lời trích)	words repeated from a text	Use plenty of quotes from her poems.	quotation
+a regulatory body	noun	nm_work	🏛️	/ə ˌreɡjələtəri ˈbɒdi/	cơ quan quản lí (body = tổ chức)	an official group	the sport's regulatory body	organization
+a remote possibility	adjective	nm_mind	🔭	/ə rɪˌməʊt ˌpɒsɪˈbɪləti/	khả năng rất nhỏ (remote = mong manh)	slight	There is a remote possibility of rain.	slight
 a roof over your head	idiom	ph_risk	🏠	/ə ˌruːf əʊvə jə ˈhed/	chốn nương thân	somewhere to live	At least we have a roof over our heads.	—
 a rough ride	idiom	ph_risk	🛻	/ə ˌrʌf ˈraɪd/	giai đoạn gian nan	a time with many problems	The new law will face a rough ride.	—
+a routine check	adjective	nm_desc	🔁	/ə ruːˌtiːn ˈtʃek/	kiểm tra định kì (routine = thường lệ)	done regularly	It's just a routine check.	regular
+a rush of air	noun	nm_nature	💨	/ə ˌrʌʃ əv ˈeə/	luồng gió ùa vào (rush = chuyển động nhanh)	a sudden quick movement	I felt a rush of air.	gust
+a ruthless individual	noun	nm_people	🐺	/ə ˌruːθləs ˌɪndɪˈvɪdʒuəl/	một kẻ tàn nhẫn (individual = người có đặc điểm riêng)	a person with a particular character	He's a ruthless individual who will do anything to win.	person
 a safe bet	idiom	ph_sure	✅	/ə ˌseɪf ˈbet/	điều chắc ăn	something certain to happen or succeed	A black dress is always a safe bet.	—
+a scathing attack	noun	nm_talk	🗯️	/ə ˌskeɪðɪŋ əˈtæk/	lời công kích gay gắt (attack = lời chỉ trích)	strong criticism	The paper published a scathing attack on the minister.	criticism
+a seat in parliament	noun	nm_work	💺	/ə ˌsiːt ɪn ˈpɑːləmənt/	ghế trong nghị viện (seat = vị trí)	a position in parliament	He won a seat in parliament.	—
+a secure investment	adjective	nm_money	🔒	/ə sɪˌkjʊə ɪnˈvestmənt/	khoản đầu tư an toàn (secure = chắc chắn)	not likely to fail	Property is a secure investment.	safe
+a sense of purpose	noun	nm_feel	🎯	/ə ˌsens əv ˈpɜːpəs/	cảm giác có mục đích (purpose = ý chí)	knowing what you want to do	He seems to have lost his sense of purpose.	direction
+a sense of security	noun	nm_feel	🏠	/ə ˌsens əv sɪˈkjʊərəti/	cảm giác an toàn (security = sự yên tâm)	confidence about yourself and your situation	Children need a sense of security.	safety
+a shallow person	adjective	nm_people	🪞	/ə ˌʃæləʊ ˈpɜːsən/	người nông cạn (shallow = hời hợt)	not interested in serious ideas	He is a very shallow person.	superficial
 a shoulder to cry on	idiom	ph_feel	🫂	/ə ˌʃəʊldə tə ˈkraɪ ɒn/	chỗ dựa tinh thần	someone who listens when you are upset	My sister has always been a shoulder to cry on.	—
+a sick joke	adjective	nm_people	🤢	/ə ˌsɪk ˈdʒəʊk/	trò đùa bệnh hoạn (sick = độc ác)	cruel and unpleasant	That was a sick joke.	twisted
 a slap in the face	idiom	ph_risk	👋	/ə ˌslæp ɪn ðə ˈfeɪs/	cái tát vào mặt	something that insults or upsets you	Losing the job was a slap in the face.	insult
+a slim chance	adjective	nm_mind	🤏	/ə ˌslɪm ˈtʃɑːns/	cơ hội mong manh (slim = ít ỏi)	small	There's a slim chance he'll succeed.	slight
+a software giant	noun	nm_work	🏢	/ə ˈsɒfweə dʒaɪənt/	gã khổng lồ phần mềm (giant = tập đoàn lớn)	a very large company	a media giant	—
 a sore point	idiom	ph_judge	🩹	/ə ˌsɔː ˈpɔɪnt/	chuyện nhạy cảm	a subject that upsets people	His exam results are a sore point.	touchy subject
 a stone's throw	idiom	ph_happen	🪨	/ə ˌstəʊnz ˈθrəʊ/	cách một quãng ngắn	a very short distance	The hotel is a stone's throw from the beach.	close by
+a strict translation	adjective	nm_mind	📏	/ə ˌstrɪkt ˌtrænˈsleɪʃən/	bản dịch sát nghĩa (strict = chính xác)	exactly correct	a strict translation of the text	exact
 a string of	phrase	ph_sure	📿	/ə ˈstrɪŋ əv/	một loạt	a number of similar things	a string of successes	series
 a stroke of luck	idiom	ph_life	🍀	/ə ˌstrəʊk əv ˈlʌk/	vận may bất ngờ	something good that happens by chance	By a stroke of luck, we found a taxi.	—
+a strong case for	noun	nm_talk	📋	/ə ˌstrɒŋ ˈkeɪs fə/	lí lẽ vững chắc cho (case = lập luận)	arguments that support an opinion	There is a strong case for the new law.	argument
+a symptom of	noun	nm_change	🩺	/ə ˈsɪmptəm əv/	dấu hiệu của (symptom = biểu hiện của vấn đề lớn)	a problem that shows a bigger problem	His drinking was a symptom of unhappiness.	sign
+a talk show host	noun	nm_talk	📺	/ə ˈtɔːk ʃəʊ həʊst/	người dẫn chương trình trò chuyện (host = MC)	someone who introduces guests on TV	a popular talk show host	presenter
 a taste for	phrase	ph_life	😋	/ə ˈteɪst fɔː/	thích, có sở thích với	a liking for	She has a taste for adventure.	liking
 a thirst for	phrase	ph_life	🥤	/ə ˈθɜːst fɔː/	khát khao	a strong wish for	a thirst for knowledge	craving
 a tight corner	idiom	ph_risk	🧱	/ə ˌtaɪt ˈkɔːnə/	tình thế khó khăn	a difficult situation	He's good at getting out of a tight corner.	—
+a treasure chest	noun	nm_home	🧰	/ə ˈtreʒə tʃest/	rương báu (chest = hòm)	a strong wooden box	a pirate's treasure chest	box
 a trip down memory lane	idiom	ph_think	📸	/ə ˌtrɪp daʊn meməri ˈleɪn/	chuyến hoài niệm	a time of remembering the past	Looking at old photos was a trip down memory lane.	—
+a true friend	adjective	nm_people	🤝	/ə ˌtruː ˈfrend/	người bạn thật lòng (true = trung thành)	sincere and loyal	A true friend helps you in difficult times.	loyal
+a very intense person	adjective	nm_people	🔥	/ə ˌveri ɪntens ˈpɜːsən/	người rất nghiêm nghị, mãnh liệt (intense)	very serious with strong feelings	She's a very intense person.	serious
+a violent storm	adjective	nm_nature	🌪️	/ə ˌvaɪlənt ˈstɔːm/	cơn bão dữ dội (violent = mạnh, gây hại)	sudden and causing damage	a violent storm	fierce
+a volume of poems	noun	nm_home	📚	/ə ˌvɒljuːm əv ˈpəʊɪmz/	một tập thơ (volume = tập sách)	a book, especially one of a set	a dictionary in two volumes	book
+a water tank	noun	nm_home	🛢️	/ə ˈwɔːtə tæŋk/	bồn nước (tank = bồn chứa)	a container for liquid	The water tank is on the roof.	container
 a wealth of	phrase	ph_sure	💰	/ə ˈwelθ əv/	rất nhiều (điều tốt)	a large amount of something good	She has a wealth of experience.	abundance
+a wild night	adjective	nm_nature	🌪️	/ə ˌwaɪld ˈnaɪt/	một đêm giông bão (wild = dữ dội)	with a lot of wind and rain	It was a wild and stormy night.	stormy
+a willing helper	adjective	nm_people	🙋	/ə ˌwɪlɪŋ ˈhelpə/	người giúp việc nhiệt tình (willing = sẵn lòng)	wanting to help	He is a very willing helper.	eager
+above suspicion	preposition	nm_desc	😇	/əˌbʌv səˈspɪʃən/	không thể bị nghi ngờ (above = vượt trên)	too good to be suspected	No one is above suspicion.	—
 abrupt	adjective	neg_harm	⚡	/əˈbrʌpt/	đột ngột; cộc lốc	sudden and unexpected; rude and short	Our conversation came to an abrupt end.	sudden
 abruptly	adverb	adv_manner	⚡	/əˈbrʌptli/	một cách đột ngột	suddenly and unexpectedly	The meeting ended abruptly.	suddenly
+absolutely impossible	adjective	nm_people	😤	/æbsəˌluːtli ɪmˈpɒsɪbəl/	không thể nói lí được (impossible = khó chịu)	very difficult to deal with	You can't reason with her; she's absolutely impossible.	difficult
 abusive	adjective	beh_conduct	🤬	/əˈbjuːsɪv/	lăng mạ, ngược đãi	rude, cruel or violent	He was sent off for abusive language.	insulting
+accompany on the piano	verb	nm_act	🎹	/əˌkʌmpəni ɒn ðə piˈænəʊ/	đệm đàn piano (accompany = đệm nhạc)	to play music to support a singer	He accompanied me on the piano.	—
 account for	phrasal verb	ph_relate	🧾	/əˈkaʊnt fɔː/	giải thích; là nguyên nhân của	to explain or be the reason for	That accounts for his bad mood.	explain
 add insult to injury	idiom	ph_risk	🤕	/ˌæd ɪnsʌlt tə ˈɪndʒəri/	đã khổ lại càng khổ	to make a bad situation worse	To add insult to injury, it started to rain.	—
+address a conference	verb	nm_talk	🎤	/əˌdres ə ˈkɒnfrəns/	phát biểu tại hội nghị (address = nói trước công chúng)	to give a speech to an audience	She will address a major conference in London.	speak to
 affectionate	adjective	char_good	🤗	/əˈfekʃənət/	trìu mến	showing love and caring	He is very affectionate with his children.	loving
 agenda	noun	soc_politics	📋	/əˈdʒendə/	chương trình nghị sự	a list of things to discuss; a hidden plan	Climate change is high on the agenda.	programme
+ahead in French	adjective	nm_desc	🏃	/əˌhed ɪn ˈfrentʃ/	giỏi hơn ở môn tiếng Pháp (ahead = tiến bộ hơn)	making more progress than others	Sue is ahead of everyone else in French.	—
+air traffic	noun	nm_home	✈️	/ˈeə træfɪk/	giao thông hàng không (traffic = máy bay qua lại)	planes moving around an area	air traffic control	—
 alcoholic	adjective, noun	health_med	🍷	/ˌælkəˈhɒlɪk/	có cồn; người nghiện rượu	containing alcohol; a person addicted to alcohol	alcoholic drinks	—
 alive and kicking	idiom	ph_rest	🦵	/əˌlaɪv ənd ˈkɪkɪŋ/	vẫn khoẻ mạnh, vẫn tồn tại	still active and healthy	The old tradition is alive and kicking.	thriving
+alive with laughter	adjective	nm_desc	🎉	/əˌlaɪv wɪð ˈlɑːftə/	rộn ràng tiếng cười (alive = náo nhiệt)	full of activity	The café was alive with laughter.	lively
 all but	phrase	ph_sure	🤏	/ˌɔːl ˈbʌt/	gần như	almost	The game was all but over.	nearly
 all shapes and sizes	idiom	ph_sure	🔷	/ˌɔːl ʃeɪps ənd ˈsaɪzɪz/	đủ loại	many different types	Dogs come in all shapes and sizes.	all kinds
 allied	adjective	soc_politics	🤝	/ˈælaɪd/	liên minh; liên quan	joined as allies; related	allied forces	related
 along the lines of	phrase	ph_argue	📏	/əlɒŋ ðə ˈlaɪnz əv/	tương tự như	similar to	Something along the lines of a small café	like
 ambiguity	noun	speak	❓	/ˌæmbɪˈɡjuːəti/	sự mơ hồ, nước đôi	having more than one possible meaning	There is some ambiguity in the contract.	vagueness
 ambiguous	adjective	speak	❓	/æmˈbɪɡjuəs/	mơ hồ, nước đôi	having more than one possible meaning	The ending of the film is ambiguous.	unclear
+an able student	adjective	nm_people	🎓	/ən ˌeɪbəl ˈstjuːdənt/	học sinh giỏi (able = giỏi, có năng lực)	a clever student	She's a very able student.	capable
+an absolute tip	noun	nm_home	🗑️	/ən ˌæbsəluːt ˈtɪp/	bừa bộn kinh khủng (tip = nơi bẩn thỉu)	a very untidy place	His bedroom is an absolute tip.	mess
+an acting career	noun	nm_work	🎬	/ən ˌæktɪŋ kəˈrɪə/	sự nghiệp diễn xuất (career = quãng thời gian làm nghề)	the time spent doing a job	She began her acting career in TV adverts.	—
+an air of authority	noun	nm_people	🎩	/ən ˌeə əv ɔːˈθɒrəti/	vẻ uy quyền (air = dáng vẻ)	a particular appearance or quality	He has an air of authority.	manner
+an army of helpers	noun	nm_nature	👥	/ən ˌɑːmi əv ˈhelpəz/	một đội quân người giúp (army = nhóm đông)	a large organised group	an army of cleaners	crowd
+an eagle's cry	noun	nm_nature	🦅	/ən ˌiːɡəlz ˈkraɪ/	tiếng kêu của đại bàng (cry = tiếng kêu)	the sound an animal makes	We heard an eagle's cry.	call
+an elastic band	noun	nm_home	🪢	/ən ɪˌlæstɪk ˈbænd/	dây thun (band = vòng)	a piece of material put around something	Put an elastic band around the cards.	rubber band
+an electric atmosphere	adjective	nm_feel	⚡	/ən ɪˌlektrɪk ˈætməsfɪə/	bầu không khí sôi động (electric = phấn khích)	full of excitement	The atmosphere at the concert was electric.	thrilling
+an equal slice	noun	nm_money	🍕	/ən ˌiːkwəl ˈslaɪs/	phần chia bằng nhau (slice = phần)	a part of something	We each took an equal slice of the profits.	share
+an image in my mind	noun	nm_mind	🖼️	/ən ˌɪmɪdʒ ɪn maɪ ˈmaɪnd/	hình dung trong đầu (image = hình ảnh tưởng tượng)	a picture in your mind	I have an image in my mind of the perfect garden.	picture
+an innocent mistake	adjective	nm_people	😇	/ən ˌɪnəsənt mɪˈsteɪk/	lỗi vô tình (innocent = không có ác ý)	not meant to harm	It was an innocent mistake.	harmless
+an official visit	adjective	nm_work	🤵	/ən əˌfɪʃəl ˈvɪzɪt/	chuyến thăm chính thức (official = thuộc chức vụ)	relating to official duties	The president is on an official visit.	formal
+an oil field	noun	nm_nature	🛢️	/ən ˈɔɪl fiːld/	mỏ dầu (field = vùng có khoáng sản)	an area containing a substance	The country has rich oil fields.	—
 an unknown quantity	idiom	ph_sure	❔	/ən ˌʌnnəʊn ˈkwɒntəti/	ẩn số	someone or something you know little about	The new coach is an unknown quantity.	—
+an unlikely story	adjective	nm_mind	🤥	/ən ʌnˌlaɪkli ˈstɔːri/	chuyện khó tin (unlikely = không đáng tin)	difficult to believe	That's an unlikely story.	implausible
+an unpleasant character	noun	nm_people	🧍	/ən ʌnˌplezənt ˈkærɪktə/	một kẻ khó ưa (character = người, nhân vật)	a particular kind of person	There were some unpleasant characters at the bar.	person
 analogous	adjective	mind_reason	🔄	/əˈnæləɡəs/	tương tự	similar in some ways	The brain is analogous to a computer.	comparable
 animated	adjective	char_strong	🎉	/ˈænɪmeɪtɪd/	sôi nổi; hoạt hình	full of energy; made as a cartoon	an animated discussion	lively
 antibiotic	noun	health_med	💊	/ˌæntɪbaɪˈɒtɪk/	thuốc kháng sinh	a medicine that kills bacteria	The doctor prescribed antibiotics.	—
@@ -53,10 +145,12 @@ appalling	adjective	neg_harm	😱	/əˈpɔːlɪŋ/	kinh khủng	very bad or shoc
 applause	noun	arts	👏	/əˈplɔːz/	tràng pháo tay	clapping to show approval	The singer received loud applause.	clapping
 apply yourself	phrase	ph_work	📚	/əˌplaɪ jəˈself/	chăm chỉ, dốc sức	to work hard	If you apply yourself, you'll pass.	work hard
 arch	noun	things	🌉	/ɑːtʃ/	mái vòm, cổng vòm	a curved structure over an opening	a stone arch	—
+arguing over nothing	preposition	nm_talk	🙄	/ˌɑːɡjuːɪŋ əʊvə ˈnʌθɪŋ/	cãi nhau vì chuyện vặt (over = về)	about	It's stupid arguing over something so small.	about
 arid	adjective	nature	🏜️	/ˈærɪd/	khô cằn	very dry, with little rain	an arid region	dry
 arm in arm	phrase	ph_people	👫	/ˌɑːm ɪn ˈɑːm/	khoác tay nhau	with arms linked together	The old couple walked arm in arm.	—
 armed	adjective	soc_politics	🔫	/ɑːmd/	có vũ trang	carrying weapons	armed police	—
 arouse	verb	emo_pos	🔥	/əˈraʊz/	khơi dậy	to cause a feeling or reaction	The case aroused public interest.	stir
+art treasures	noun	nm_home	🖼️	/ˈɑːt treʒəz/	bảo vật nghệ thuật (treasure = đồ quý)	very valuable objects	The museum has many art treasures.	valuables
 as it stands	phrase	ph_relate	📋	/æz ɪt ˈstændz/	như hiện tại	as something is now	As it stands, the plan won't work.	currently
 as opposed to	phrase	ph_argue	↔️	/æz əˈpəʊzd tə/	trái với	used to show a contrast	I prefer tea as opposed to coffee.	rather than
 aspiring	adjective	self	🌠	/əˈspaɪərɪŋ/	đầy hoài bão, chớm nở	hoping to become something	an aspiring actor	would-be
@@ -77,6 +171,7 @@ attach importance to	phrase	ph_judge	📌	/əˌtætʃ ɪmˈpɔːtəns tə/	coi t
 attainable	adjective	judge_pos	🎯	/əˈteɪnəbəl/	có thể đạt được	possible to achieve	Set yourself attainable goals.	achievable
 attribute something to	phrase	ph_relate	🔖	/əˈtrɪbjuːt ˌsʌmθɪŋ tə/	cho là do	to say something is caused by	She attributes her success to hard work.	credit
 awe	noun	emo_pos	🤩	/ɔː/	sự kinh ngạc, kính sợ	a feeling of great respect and wonder	We stood in awe of the mountains.	wonder
+back a candidate	verb	nm_work	🤝	/ˌbæk ə ˈkændɪdɪt/	ủng hộ ứng viên (back = ủng hộ)	to support	The union backed Mr Clark.	support
 back to front	phrase	ph_life	🔄	/ˌbæk tə ˈfrʌnt/	mặc ngược (trước ra sau)	with the back part at the front	You've got your T-shirt on back to front.	—
 backward	adjective	neg_quality	⏪	/ˈbækwəd/	lạc hậu; về phía sau	less developed; towards the back	a backward step	—
 bark	verb	speak	🗣️	/bɑːk/	quát tháo; (chó) sủa	to say something loudly and angrily	The officer barked orders at the men.	shout
@@ -89,6 +184,8 @@ be news to someone	phrase	ph_think	📰	/bi ˌnjuːz tə ˈsʌmwʌn/	là chuyệ
 bear a grudge	idiom	ph_people	😤	/ˌbeər ə ˈɡrʌdʒ/	thù dai	to keep feeling angry at someone	She doesn't bear a grudge; she forgives quickly.	resent
 bear fruit	idiom	ph_win	🍎	/ˌbeə ˈfruːt/	đơm hoa kết trái	to produce good results	Our hard work finally bore fruit.	succeed
 bear no resemblance to	phrase	ph_relate	🙅	/ˌbeə nəʊ rɪˈzembləns tə/	chẳng giống gì	to not be similar to	The hotel bore no resemblance to the photos.	—
+beat a drum	verb	nm_act	🥁	/ˌbiːt ə ˈdrʌm/	đánh trống (beat = gõ)	to hit something to make a regular sound	The soldiers beat their drums.	—
+been around for years	adverb	nm_desc	⏳	/ˌbɪn əraʊnd fə ˈjɪəz/	đã có từ lâu (around = tồn tại)	present or available	Mobile phones have been around for years.	exist
 bend the rules	idiom	ph_work	〰️	/ˌbend ðə ˈruːlz/	lách luật, du di	to allow something that is not usually allowed	Could you bend the rules just this once?	—
 beside the point	phrase	ph_judge	↪️	/bɪˌsaɪd ðə ˈpɔɪnt/	không liên quan	not important to what is being discussed	Whether he's rich is beside the point.	irrelevant
 beyond a shadow of a doubt	idiom	ph_sure	💯	/bɪˌjɒnd ə ʃædəʊ əv ə ˈdaʊt/	không chút nghi ngờ	certainly	She is, beyond a shadow of a doubt, the best.	definitely
@@ -97,6 +194,7 @@ beyond dispute	phrase	ph_sure	🔒	/bɪˌjɒnd dɪˈspjuːt/	không thể bàn c
 beyond reach	phrase	ph_sure	🏔️	/bɪˌjɒnd ˈriːtʃ/	ngoài tầm với	not possible to have	A house in the city is beyond our reach.	unattainable
 beyond your wildest dreams	idiom	ph_sure	🌠	/bɪˌjɒnd jə ˌwaɪldɪst ˈdriːmz/	hơn cả mơ ước	better than you could imagine	The trip was beyond my wildest dreams.	—
 bits and pieces	idiom	ph_sure	🧩	/ˌbɪts ənd ˈpiːsɪz/	lặt vặt	small unimportant things	I've got a few bits and pieces to do.	odds and ends
+bitter and twisted	adjective	nm_people	🌀	/ˌbɪtə ənd ˈtwɪstɪd/	cay đắng và méo mó (twisted = kì quặc, độc ác)	strange and slightly cruel	He'd become bitter and twisted.	warped
 blackmail	noun, verb	soc_crime	💌	/ˈblækmeɪl/	sự tống tiền	threatening to reveal secrets unless paid	He was arrested for blackmail.	extortion
 bland	adjective	neg_quality	🥣	/blænd/	nhạt nhẽo	without taste or interest	The soup was rather bland.	tasteless
 bleak	adjective	neg_harm	🌫️	/bliːk/	ảm đạm, u ám	without hope; cold and grey	The future looks bleak.	gloomy
@@ -104,6 +202,8 @@ blind to	phrase	ph_think	🙈	/ˈblaɪnd tə/	làm ngơ trước	not noticing so
 blindness	noun	health_med	🦯	/ˈblaɪndnəs/	sự mù loà	being unable to see	The disease can cause blindness.	—
 blink	verb	v_physical	😉	/blɪŋk/	chớp mắt	to close and open your eyes quickly	He didn't even blink.	—
 blister	noun	health_body	🦶	/ˈblɪstə/	vết phồng rộp	a small bubble on the skin	New shoes gave me blisters.	—
+block the plans	verb	nm_change	⛔	/ˌblɒk ðə ˈplænz/	ngăn chặn kế hoạch (block = cản)	to stop something from happening	The council blocked plans for a supermarket.	stop
+blow a trumpet	verb	nm_act	🎺	/ˌbləʊ ə ˈtrʌmpɪt/	thổi kèn (blow = thổi nhạc cụ)	to make a sound with an instrument	He blew a few notes on the trumpet.	play
 blow your mind	idiom	ph_think	🤯	/ˌbləʊ jə ˈmaɪnd/	làm choáng ngợp	to amaze you	The view from the top will blow your mind.	amaze
 blunt	adjective	char_social	🔪	/blʌnt/	thẳng thừng; cùn	saying what you think directly; not sharp	To be blunt, your work is not good enough.	frank
 bomber	noun	soc_crime	💣	/ˈbɒmə/	kẻ đánh bom; máy bay ném bom	a person who plants bombs; a plane that drops bombs	The bomber was caught.	—
@@ -117,10 +217,12 @@ bring a lump to your throat	idiom	ph_feel	🥲	/ˌbrɪŋ ə lʌmp tə jə ˈθr�
 bring out the best in someone	idiom	ph_people	🌟	/ˌbrɪŋ aʊt ðə best ɪn ˈsʌmwʌn/	khơi dậy điều tốt đẹp nhất ở ai	to make someone show their best qualities	A good teacher brings out the best in students.	—
 broadminded	adjective	char_social	🌈	/ˌbrɔːdˈmaɪndɪd/	cởi mở, rộng lượng	willing to accept different ideas	My parents are very broadminded.	open-minded
 bronze	noun	things	🥉	/brɒnz/	đồng thiếc; huy chương đồng	a brown metal; third place	She won a bronze medal.	—
+bubbling on the stove	verb	nm_act	🍲	/ˌbʌblɪŋ ɒn ðə ˈstəʊv/	sôi lục bục trên bếp (bubble = sủi bọt)	to have bubbles rising	The soup was bubbling on the stove.	boil
 bundle	noun	things	📦	/ˈbʌndəl/	bó, gói	a group of things tied together	a bundle of letters	bunch
 burn the midnight oil	idiom	ph_work	🕯️	/ˌbɜːn ðə mɪdnaɪt ˈɔɪl/	thức khuya làm việc	to work late into the night	I burned the midnight oil to finish the report.	stay up late
 burst into flames	phrase	ph_happen	💥	/ˌbɜːst ɪntə ˈfleɪmz/	bốc cháy	to suddenly start burning	The truck burst into flames.	catch fire
 bury yourself in	idiom	ph_work	📖	/ˌberi jəˈself ɪn/	vùi đầu vào	to give all your attention to	He buried himself in his work.	immerse yourself
+buy a round	noun	nm_money	🍻	/ˌbaɪ ə ˈraʊnd/	mời cả nhóm một chầu (round = lượt đồ uống)	drinks bought for a group	It's your turn to buy a round.	—
 buzz	noun	emo_pos	🐝	/bʌz/	cảm giác phấn khích; tiếng vo ve	excitement; a low humming sound	I get a real buzz from performing.	thrill
 by all means	phrase	ph_speak	✅	/baɪ ˌɔːl ˈmiːnz/	cứ tự nhiên	used to agree to let someone do something	"""Can I borrow this?"" ""By all means."""	of course
 by any chance	phrase	ph_speak	🍀	/baɪ ˌeni ˈtʃɑːns/	liệu có phải	used to ask politely	Are you free tonight, by any chance?	possibly
@@ -131,20 +233,27 @@ by your side	phrase	ph_people	🤝	/baɪ jə ˈsaɪd/	ở bên cạnh ai	giving 
 call it a day	idiom	ph_rest	🏁	/ˌkɔːl ɪt ə ˈdeɪ/	nghỉ tay, dừng lại	to stop working for the day	It's late; let's call it a day.	stop
 call someone names	idiom	ph_people	🗯️	/ˌkɔːl sʌmwʌn ˈneɪmz/	chửi rủa ai	to use rude words about someone	The boys called him names at school.	insult
 carefree	adjective	char_social	🎈	/ˈkeəfriː/	vô tư	without worries	a carefree childhood	relaxed
+cash reserves	noun	nm_money	🏦	/ˈkæʃ rɪzɜːvz/	dự trữ tiền mặt (reserve = nguồn dự trữ)	a supply kept for later	emergency cash reserves	savings
 casserole	noun	things	🍲	/ˈkæsərəʊl/	món hầm	food cooked slowly in the oven	a chicken casserole	stew
 cast a spell on	idiom	ph_life	✨	/ˌkɑːst ə ˈspel ɒn/	mê hoặc	to attract someone as if by magic	The city cast a spell on us.	enchant
 cast your mind back	idiom	ph_think	⏪	/ˌkɑːst jə maɪnd ˈbæk/	hồi tưởng	to try to remember	Cast your mind back to your first day at school.	recall
 cast your vote	phrase	ph_stand	🗳️	/ˌkɑːst jə ˈvəʊt/	bỏ phiếu	to vote	Millions of people cast their votes today.	vote
+casual work	adjective	nm_work	🧹	/ˌkæʒuəl ˈwɜːk/	việc làm thời vụ (casual = không cố định)	not regular or fixed	He does casual work in the summer.	temporary
 catastrophe	noun	soc_crime	🌋	/kəˈtæstrəfi/	thảm hoạ	a sudden disaster	an environmental catastrophe	disaster
 catch sight of	phrase	ph_happen	👀	/kætʃ ˈsaɪt əv/	thoáng thấy	to see something suddenly	I caught sight of her in the crowd.	glimpse
 catch someone off guard	idiom	ph_risk	😲	/ˌkætʃ sʌmwʌn ɒf ˈɡɑːd/	làm ai bất ngờ	to surprise someone who is not ready	The question caught me off guard.	surprise
 catch someone's eye	idiom	ph_people	👀	/ˌkætʃ sʌmwʌnz ˈaɪ/	thu hút ánh nhìn của ai	to get someone's attention	A red dress caught my eye.	attract
+caught on the handle	verb	nm_act	🧷	/ˌkɔːt ɒn ðə ˈhændəl/	bị móc vào tay nắm (catch = vướng)	to become stuck	My dress caught on the door handle.	snag
+cause for concern	noun	nm_feel	😟	/ˌkɔːz fə kənˈsɜːn/	lí do để lo lắng (cause = lí do)	a reason to feel worried	There's no cause for concern.	reason
 chancellor	noun	soc_politics	🏛️	/ˈtʃɑːnsələ/	thủ tướng; bộ trưởng tài chính (Anh)	a head of government; a senior official	the German Chancellor	—
+change overnight	adverb	nm_desc	🌙	/ˌtʃeɪndʒ ˈəʊvənaɪt/	thay đổi trong một sớm một chiều (overnight = đột ngột)	very quickly or suddenly	Change does not happen overnight.	suddenly
+change track	noun	nm_change	🔀	/ˌtʃeɪndʒ ˈtræk/	đổi hướng (track = hướng đi sự nghiệp)	the direction your career develops	She was a lawyer, then changed track.	direction
 chapel	noun	things	⛪	/ˈtʃæpəl/	nhà nguyện	a small church	a wedding in the chapel	—
 charisma	noun	char_strong	✨	/kəˈrɪzmə/	sức hút	a strong personal charm	The president has great charisma.	charm
 charismatic	adjective	char_strong	✨	/ˌkærɪzˈmætɪk/	lôi cuốn, có sức hút	having strong personal charm	a charismatic leader	charming
 cheerfulness	noun	char_social	😊	/ˈtʃɪəfəlnəs/	sự vui vẻ	being happy and positive	Her cheerfulness lifted everyone.	happiness
 chill	noun, verb	nature	🥶	/tʃɪl/	cái lạnh; làm lạnh	a feeling of cold; to make cold	There's a chill in the air.	cold
+circle above	verb	nm_act	🦅	/ˌsɜːkəl əˈbʌv/	lượn vòng phía trên (circle = bay vòng)	to move in a circle	Birds circled above the trees.	—
 circular	adjective, noun	things	⭕	/ˈsɜːkjələ/	tròn; thông tư	round; a letter sent to many people	a circular table	round
 clear the air	idiom	ph_judge	🌬️	/ˌklɪə ðə ˈeə/	xoá bỏ hiểu lầm	to talk so people feel less angry	We had a long talk to clear the air.	—
 clumsiness	noun	char_social	🙈	/ˈklʌmzinəs/	sự vụng về	being awkward and careless	His clumsiness caused the accident.	awkwardness
@@ -154,6 +263,7 @@ coherence	noun	speak	🧩	/kəʊˈhɪərəns/	sự mạch lạc	being logical an
 coherent	adjective	speak	🧩	/kəʊˈhɪərənt/	mạch lạc	logical and clear	a coherent argument	logical
 coldness	noun	char_social	🧊	/ˈkəʊldnəs/	sự lạnh lùng	an unfriendly manner	the coldness of her voice	—
 collect your thoughts	phrase	ph_calm	🧠	/kəˌlekt jə ˈθɔːts/	trấn tĩnh lại	to get control of your thoughts and feelings	I need a minute to collect my thoughts.	compose yourself
+coloured by	verb	nm_change	🎨	/ˈkʌləd baɪ/	bị chi phối bởi (colour = ảnh hưởng)	to affect what someone thinks	Her views are coloured by bad experiences.	influenced by
 come into being	phrase	ph_time	🌱	/ˌkʌm ɪntə ˈbiːɪŋ/	ra đời	to start to exist	The law came into being in 1990.	begin
 come into effect	phrase	ph_time	📜	/ˌkʌm ɪntə ɪˈfekt/	có hiệu lực	to start being used	The new rules come into effect next month.	take effect
 come to light	idiom	ph_happen	💡	/ˌkʌm tə ˈlaɪt/	bị phát hiện	to become known	New facts have come to light.	emerge
@@ -173,13 +283,16 @@ conclusive	adjective	mind_reason	✅	/kənˈkluːsɪv/	thuyết phục, dứt kh
 conclusively	adverb	adv_degree	✅	/kənˈkluːsɪvli/	một cách dứt khoát	in a way that proves something	It was conclusively proved.	definitively
 consistent with	phrase	ph_relate	🟰	/kənˈsɪstənt wɪð/	nhất quán với	agreeing with other facts	The injuries are consistent with a fall.	compatible with
 constrain	verb	v_decline	🚧	/kənˈstreɪn/	hạn chế, kìm hãm	to limit	We are constrained by a lack of money.	restrict
+contain his anger	verb	nm_feel	🤐	/kənˌteɪn hɪz ˈæŋɡə/	kìm nén cơn giận (contain = kiềm chế)	to control your emotions	He could barely contain his anger.	control
 continental	adjective	nature	🌍	/ˌkɒntɪˈnentəl/	thuộc lục địa	relating to a continent	a continental climate	—
 continuity	noun	time	🔗	/ˌkɒntɪˈnjuːəti/	tính liên tục	continuing without change	continuity in education	consistency
 contradict	verb	speak	🙅	/ˌkɒntrəˈdɪkt/	phản bác; mâu thuẫn	to say the opposite	The evidence contradicts his story.	dispute
 contradictory	adjective	speak	🔀	/ˌkɒntrəˈdɪktəri/	mâu thuẫn	opposite and not agreeing	contradictory statements	conflicting
+cool towards us	adjective	nm_people	🧊	/ˌkuːl təˈwɔːdz ʌs/	lạnh nhạt với chúng tôi (cool = không thân thiện)	unfriendly	She was very cool towards us.	unfriendly
 coolness	noun	char_social	😎	/ˈkuːlnəs/	sự bình tĩnh; sự lạnh nhạt	calmness; unfriendliness	his coolness under pressure	calmness
 coral	noun	nature	🪸	/ˈkɒrəl/	san hô	a hard substance formed by sea animals	a coral reef	—
 corpse	noun	health_med	⚰️	/kɔːps/	xác chết	a dead body	The police found a corpse.	body
+count him as a friend	verb	nm_mind	🤝	/ˌkaʊnt ɪm æz ə ˈfrend/	coi anh ấy là bạn (count = xem như)	to think of someone in a particular way	I count him as my closest friend.	consider
 courteous	adjective	char_good	🙇	/ˈkɜːtiəs/	lịch sự, nhã nhặn	polite and respectful	The staff were very courteous.	polite
 cover something up	phrasal verb	ph_stand	🙈	/ˌkʌvə sʌmθɪŋ ˈʌp/	che đậy	to hide the truth about something bad	They tried to cover up the mistake.	conceal
 crackdown	noun	soc_politics	🚔	/ˈkrækdaʊn/	chiến dịch trấn áp	strong action against crime	a crackdown on drink-driving	clampdown
@@ -188,6 +301,7 @@ craving	noun	emo_pos	🍫	/ˈkreɪvɪŋ/	sự thèm muốn	a strong desire	a cra
 craziness	noun	char_social	🤪	/ˈkreɪzinəs/	sự điên rồ	crazy behaviour	the craziness of city life	madness
 crisp	adjective	senses	🥨	/krɪsp/	giòn; (không khí) mát lạnh	hard and breaking easily; cold and fresh	a crisp autumn morning	crunchy
 cross someone's path	idiom	ph_people	🛤️	/ˌkrɒs sʌmwʌnz ˈpɑːθ/	tình cờ gặp ai	to meet someone by chance	Our paths crossed again in Paris.	meet
+crossed into Laos	verb	nm_home	🛂	/ˌkrɒst ɪntə ˈlɑːɒs/	vượt biên sang Lào (cross = đi qua biên giới)	to travel over a border	They crossed into Laos at dawn.	—
 crumble	verb	v_decline	🍪	/ˈkrʌmbəl/	vỡ vụn; sụp đổ	to break into small pieces; to fail	The old walls are crumbling.	collapse
 cry your eyes out	idiom	ph_feel	😭	/ˌkraɪ jə aɪz ˈaʊt/	khóc hết nước mắt	to cry a lot	I cried my eyes out at the end of the film.	sob
 crystal clear	idiom	ph_sure	💎	/ˌkrɪstəl ˈklɪə/	rõ như ban ngày	very easy to understand	The instructions were crystal clear.	obvious
@@ -205,6 +319,7 @@ decay	noun, verb	nature	🍂	/dɪˈkeɪ/	sự mục nát; mục rữa	to be slow
 deceased	adjective	health_med	🕊️	/dɪˈsiːst/	đã qua đời	dead	her deceased husband	dead
 deception	noun	beh_conduct	🎭	/dɪˈsepʃən/	sự lừa dối	making someone believe something false	He got the money by deception.	trickery
 deceptive	adjective	neg_harm	🎭	/dɪˈseptɪv/	dễ gây lầm tưởng	making you believe something false	Appearances can be deceptive.	misleading
+decide the match	verb	nm_change	⚽	/dɪˌsaɪd ðə ˈmætʃ/	quyết định trận đấu (decide = định đoạt)	to make a particular result happen	This goal will decide the match.	settle
 decisively	adverb	adv_manner	⚡	/dɪˈsaɪsɪvli/	một cách quyết đoán	firmly and quickly	She acted decisively.	firmly
 dedicate	verb	beh_choice	🎗️	/ˈdedɪkeɪt/	cống hiến; đề tặng	to give time and energy to; to name in honour	He dedicated his life to medicine.	devote
 deduce	verb	mind_reason	🕵️	/dɪˈdjuːs/	suy ra	to reach a conclusion from facts	From the clues, she deduced the answer.	infer
@@ -223,6 +338,7 @@ devastating	adjective	emo_sad	💔	/ˈdevəsteɪtɪŋ/	tàn khốc; gây sốc	v
 devastation	noun	soc_crime	🌪️	/ˌdevəˈsteɪʃən/	sự tàn phá	great destruction	the devastation caused by the storm	destruction
 dialect	noun	speak	🗣️	/ˈdaɪəlekt/	phương ngữ	a local form of a language	the Hue dialect	accent
 diarrhoea	noun	health_med	🚽	/ˌdaɪəˈrɪə/	tiêu chảy	an illness causing frequent loose waste	The water made him ill with diarrhoea.	—
+different directions	noun	nm_change	🧭	/ˌdɪfrənt daɪˈrekʃənz/	các ngả khác nhau (direction = hướng phát triển)	the way someone changes or develops	Our careers went in different directions.	paths
 dignified	adjective	char_good	🎩	/ˈdɪɡnɪfaɪd/	đường hoàng, trang nghiêm	calm and serious, deserving respect	a dignified silence	noble
 dim	adjective	senses	🔅	/dɪm/	mờ, lờ mờ	not bright	a dim light	faint
 diplomacy	noun	soc_politics	🤝	/dɪˈpləʊməsi/	ngoại giao; sự khéo léo	managing relations between countries; tact	international diplomacy	tact
@@ -237,6 +353,7 @@ disgust	noun	emo_shock	🤢	/dɪsˈɡʌst/	sự ghê tởm	a strong feeling of d
 disillusioned	adjective	emo_sad	😞	/ˌdɪsɪˈluːʒənd/	vỡ mộng	disappointed after learning the truth	disillusioned with politics	disappointed
 disloyal	adjective	char_bad	🐍	/dɪsˈlɔɪəl/	không trung thành	not loyal	a disloyal friend	unfaithful
 dismay	noun	emo_sad	😧	/dɪˈsmeɪ/	sự thất vọng, mất tinh thần	shock and disappointment	To my dismay, the shop was closed.	alarm
+display no interest	verb	nm_feel	😐	/dɪˌspleɪ nəʊ ˈɪntrɪst/	không tỏ ra quan tâm (display = bộc lộ)	to show a feeling	He never displayed any interest in music.	show
 disposable	adjective	things	🥤	/dɪˈspəʊzəbəl/	dùng một lần	made to be thrown away after use	disposable cups	throwaway
 disposable income	noun	soc_money	💳	/dɪˌspəʊzəbəl ˈɪnkʌm/	thu nhập khả dụng	money left after paying bills	People have less disposable income.	—
 disposed	adjective	beh_choice	🙂	/dɪˈspəʊzd/	sẵn lòng; có thiện cảm	willing; having a feeling towards	She was well disposed towards us.	inclined
@@ -244,6 +361,7 @@ disposition	noun	char_social	🙂	/ˌdɪspəˈzɪʃən/	tính khí	a person's na
 disqualify	verb	soc_life	🚫	/dɪˈskwɒlɪfaɪ/	truất quyền	to stop someone from taking part	He was disqualified from driving.	ban
 disrespectful	adjective	beh_conduct	😒	/ˌdɪsrɪˈspektfəl/	thiếu tôn trọng	showing no respect	disrespectful behaviour	rude
 disruptive	adjective	beh_conduct	📢	/dɪsˈrʌptɪv/	gây rối	causing problems	a disruptive student	troublesome
+disturb younger viewers	verb	nm_feel	😟	/dɪˌstɜːb jʌŋɡə ˈvjuːəz/	làm khán giả nhỏ tuổi bất an (disturb = gây lo lắng)	to make someone upset	Some scenes may disturb younger viewers.	upset
 disturbance	noun	beh_conduct	📢	/dɪˈstɜːbəns/	sự náo loạn, làm phiền	a noise or trouble	Police were called to a disturbance.	disruption
 disturbed	adjective	emo_shock	😟	/dɪˈstɜːbd/	bất an; rối loạn	worried; mentally ill	I was disturbed by the news.	upset
 do someone a world of good	idiom	ph_rest	🌿	/ˌduː sʌmwʌn ə wɜːld əv ˈɡʊd/	rất có lợi cho ai	to make someone feel much better	A week in the mountains will do you a world of good.	benefit
@@ -262,10 +380,15 @@ draw a comparison	phrase	ph_relate	⚖️	/ˌdrɔː ə kəmˈpærɪsən/	so sán
 draw to a close	phrase	ph_time	🔚	/ˌdrɔː tə ə ˈkləʊs/	sắp kết thúc	to be almost finished	The year is drawing to a close.	end
 dread	noun, verb	emo_shock	😨	/dred/	sự khiếp sợ	to fear something that will happen	I dread going to the dentist.	fear
 drive someone round the bend	idiom	ph_calm	🌀	/ˌdraɪv sʌmwʌn raʊnd ðə ˈbend/	làm ai phát điên	to make someone very annoyed	The noise from next door is driving me round the bend.	annoy
+driven by ambition	verb	nm_change	🚀	/ˌdrɪvən baɪ æmˈbɪʃən/	bị thúc đẩy bởi tham vọng (drive = thúc đẩy)	to provide the energy that makes someone act	She was driven by ambition.	motivated by
 dubious	adjective	neg_harm	🤨	/ˈdjuːbiəs/	đáng ngờ; nghi ngờ	probably not honest; doubtful	a dubious business deal	suspicious
+earn their respect	verb	nm_work	🏅	/ˌɜːn ðeə rɪˈspekt/	giành được sự tôn trọng (earn = xứng đáng có được)	to get what you deserve	Teachers have to earn the respect of students.	win
 eccentric	adjective	char_social	🎩	/ɪkˈsentrɪk/	lập dị	strange and unusual	an eccentric old man	odd
+economic strength	noun	nm_money	🏋️	/iːkəˌnɒmɪk ˈstreŋθ/	sức mạnh kinh tế (strength = thế lực)	power and influence	the country's economic strength	power
+effectively ended	adverb	nm_mind	🎯	/ɪˌfektɪvli ˈendɪd/	thực tế đã chấm dứt (effectively = trên thực tế)	used to describe the real result	His illness effectively ended his career.	in effect
 elapse	verb	time	⌛	/ɪˈlæps/	(thời gian) trôi qua	to pass	Three years elapsed before we met again.	pass
 elated	adjective	emo_pos	🥳	/ɪˈleɪtɪd/	phấn khởi	very happy and excited	She was elated at the news.	overjoyed
+election fever	noun	nm_feel	🗳️	/ɪˈlekʃən fiːvə/	cơn sốt bầu cử (fever = sự sôi sục)	great excitement	Election fever has gripped the nation.	excitement
 elimination	noun	v_decline	❌	/ɪˌlɪmɪˈneɪʃən/	sự loại bỏ	removing something	the elimination of poverty	removal
 elusive	adjective	neg_harm	🦋	/ɪˈluːsɪv/	khó nắm bắt	difficult to find or achieve	Success proved elusive.	hard to find
 eminent	adjective	char_good	🏅	/ˈemɪnənt/	lỗi lạc	famous and respected	an eminent scientist	distinguished
@@ -274,11 +397,16 @@ empathy	noun	char_good	💞	/ˈempəθi/	sự đồng cảm	the ability to share
 endow	verb	soc_money	🎁	/ɪnˈdaʊ/	tài trợ; phú cho	to give money or a quality	She is endowed with great talent.	give
 endurance	noun	char_strong	🏃	/ɪnˈdjʊərəns/	sức chịu đựng	the ability to continue	a test of endurance	stamina
 engrossed	adjective	mind_know	📖	/ɪnˈɡrəʊst/	mải mê	giving all your attention to	He was engrossed in his book.	absorbed
+enjoy great success	verb	nm_money	🏆	/enˌdʒɔɪ ɡreɪt səkˈses/	gặt hái thành công lớn (enjoy = có được)	to have something good	The play enjoyed great success.	have
+enter into a dialogue	noun	nm_talk	🤝	/ˌentə ɪntə ə ˈdaɪəlɒɡ/	mở cuộc đối thoại (dialogue = đàm phán)	a formal discussion between groups	The two sides entered into a dialogue.	talks
 envy	noun, verb	emo_pos	💚	/ˈenvi/	sự ghen tị	wanting what someone else has	I envy your freedom.	jealousy
 equate	verb	mind_reason	🟰	/ɪˈkweɪt/	đánh đồng	to consider as the same	You can't equate money with happiness.	identify
 eradicate	verb	v_decline	🧹	/ɪˈrædɪkeɪt/	xoá bỏ	to destroy completely	eradicate poverty	eliminate
 erode	verb	nature	🌊	/ɪˈrəʊd/	xói mòn	to wear away slowly	The sea has eroded the cliffs.	wear away
 erosion	noun	nature	🌊	/ɪˈrəʊʒən/	sự xói mòn	wearing away slowly	soil erosion	wearing away
+escape her attention	verb	nm_mind	👀	/ɪˌskeɪp hɜː əˈtenʃən/	lọt khỏi tầm mắt cô ấy (escape = không được chú ý)	to not be noticed	Nothing escapes her attention.	—
+establish how he died	verb	nm_mind	🔍	/ɪˌstæblɪʃ haʊ hiː ˈdaɪd/	xác định anh ta chết thế nào (establish = làm rõ)	to find out or prove	Police are trying to establish how he died.	determine
+establish priorities	verb	nm_mind	📋	/ɪˌstæblɪʃ praɪˈɒrɪtiz/	xác định ưu tiên (establish = quyết định)	to decide something	Our first step is to establish priorities.	set
 ethical	adjective	judge_pos	⚖️	/ˈeθɪkəl/	hợp đạo đức	morally right	ethical business practices	moral
 eventful	adjective	time	🎢	/ɪˈventfəl/	nhiều sự kiện	full of events	an eventful day	busy
 eventual	adjective	time	🏁	/ɪˈventʃuəl/	cuối cùng	happening at the end	the eventual winner	final
@@ -286,9 +414,11 @@ every so often	phrase	ph_time	🔁	/ˌevri səʊ ˈɒfən/	thỉnh thoảng	some
 excel	verb	beh_choice	🏆	/ɪkˈsel/	xuất sắc	to be very good at something	She excels at maths.	shine
 exclaim	verb	speak	❗	/ɪksˈkleɪm/	thốt lên	to say suddenly and loudly	"""How beautiful!"" she exclaimed."	cry out
 exemplify	verb	mind_reason	📌	/ɪɡˈzemplɪfaɪ/	minh hoạ, là ví dụ điển hình	to be a typical example of	This building exemplifies modern design.	illustrate
+exercise your right	verb	nm_work	🗳️	/ˌeksəsaɪz jə ˈraɪt/	thực hiện quyền của mình (exercise = sử dụng)	to use a power or right	Always exercise your right to vote.	use
 expressive	adjective	arts	🎭	/ɪkˈspresɪv/	giàu cảm xúc	showing feelings clearly	expressive eyes	eloquent
 exquisite	adjective	judge_pos	💎	/ɪkˈskwɪzɪt/	tinh xảo	very beautiful and delicate	exquisite jewellery	beautiful
 extravagant	adjective	beh_conduct	💸	/ɪkˈstrævəɡənt/	phung phí; xa hoa	spending too much money	an extravagant lifestyle	wasteful
+eyes shining with excitement	verb	nm_feel	✨	/ˌaɪz ʃaɪnɪŋ wɪð ɪkˈsaɪtmənt/	mắt sáng lên vì phấn khích (shine = rạng rỡ)	to look happy and excited	His eyes were shining with excitement.	glow
 facial	adjective	health_body	🙂	/ˈfeɪʃəl/	thuộc khuôn mặt	relating to the face	facial expressions	—
 faint	adjective, verb	senses	😵	/feɪnt/	mờ nhạt; ngất	not strong or clear; to lose consciousness	a faint smell	weak
 fair play	phrase	ph_stand	🤝	/ˌfeə ˈpleɪ/	tinh thần thượng võ	fair and honest behaviour	The team won an award for fair play.	sportsmanship
@@ -302,29 +432,38 @@ fanatic	noun	char_social	🤯	/fəˈnætɪk/	người cuồng tín	a person with
 far removed from	phrase	ph_relate	🛰️	/ˌfɑː rɪˈmuːvd frəm/	khác xa	very different from	The film is far removed from reality.	—
 faraway	adjective	nature	🗺️	/ˌfɑːrəˈweɪ/	xa xôi	a long distance away	faraway places	distant
 faultless	adjective	judge_pos	💯	/ˈfɔːltləs/	hoàn hảo	without any mistakes	a faultless performance	perfect
+favourites to win	noun	nm_money	🎯	/ˌfeɪvrɪts tə ˈwɪn/	ứng viên sáng giá (favourite = đội được đánh giá cao)	the one most likely to win	They are now favourites to win.	—
 fearful	adjective	emo_shock	😨	/ˈfɪəfəl/	sợ hãi	frightened or worried	fearful of the future	afraid
 fearless	adjective	char_strong	🦁	/ˈfɪələs/	không sợ hãi	not afraid	a fearless explorer	brave
 feast	noun	things	🍗	/fiːst/	bữa tiệc lớn	a large special meal	a wedding feast	banquet
 feeble	adjective	neg_quality	🥀	/ˈfiːbəl/	yếu ớt; kém cỏi	very weak; not good enough	a feeble excuse	weak
+feeling blue	adjective	nm_feel	💙	/ˌfiːlɪŋ ˈbluː/	cảm thấy buồn (blue = buồn)	feeling sad	I've been feeling blue all week.	sad
 fend for yourself	phrase	beh_choice	🧍	/ˌfend fə jɔːˈself/	tự lo liệu	to take care of yourself without help	Young birds must fend for themselves.	look after yourself
 fertile	adjective	nature	🌱	/ˈfɜːtaɪl/	màu mỡ	able to produce many plants	fertile soil	rich
 few and far between	idiom	ph_time	🦄	/ˌfjuː ənd fɑː bɪˈtwiːn/	hiếm hoi	not happening often	Good jobs are few and far between here.	rare
 fictional	adjective	arts	📚	/ˈfɪkʃənəl/	hư cấu	existing only in stories	a fictional character	imaginary
+financial gain	noun	nm_money	📈	/faɪˌnænʃəl ˈɡeɪn/	lợi ích tài chính (gain = cái thu được)	getting something useful	He did it for financial gain.	profit
+financial ruin	noun	nm_money	💸	/faɪˌnænʃəl ˈruːɪn/	phá sản (ruin = sự khánh kiệt)	losing everything	The crash left many in financial ruin.	bankruptcy
 find common ground	idiom	ph_judge	🤝	/ˌfaɪnd kɒmən ˈɡraʊnd/	tìm tiếng nói chung	to find shared ideas	The two sides tried to find common ground.	agree
 find fault with	phrase	ph_judge	🔍	/faɪnd ˈfɔːlt wɪð/	bới lông tìm vết	to criticise, often unfairly	She always finds fault with my cooking.	criticize
+fine hair	adjective	nm_nature	💇	/ˌfaɪn ˈheə/	tóc mảnh (fine = mảnh, nhỏ)	thin or made of very small pieces	She has fine, brown hair.	thin
 fingertip	noun	health_body	☝️	/ˈfɪŋɡətɪp/	đầu ngón tay	the end of a finger	at your fingertips	—
 finite	adjective	measure	⏹️	/ˈfaɪnaɪt/	có hạn	having a limit	The earth's resources are finite.	limited
 fire someone's imagination	idiom	ph_life	🚀	/ˌfaɪə sʌmwʌnz ɪˌmædʒɪˈneɪʃən/	khơi dậy trí tưởng tượng	to make someone very interested	The stories fired his imagination.	inspire
 fireplace	noun	things	🔥	/ˈfaɪəpleɪs/	lò sưởi	a space in a wall for a fire	We sat by the fireplace.	hearth
+firm with children	adjective	nm_people	✋	/ˌfɜːm wɪð ˈtʃɪldrən/	nghiêm khắc với trẻ (firm = kiên quyết)	strict	You have to be firm with children.	strict
 fist	noun	health_body	✊	/fɪst/	nắm đấm	a closed hand	He banged his fist on the table.	—
 flair	noun	char_strong	🎨	/fleə/	năng khiếu	a natural ability	She has a flair for languages.	talent
 flashback	noun	arts	🎞️	/ˈflæʃbæk/	cảnh hồi tưởng	a scene from the past in a story	The film is told in flashbacks.	—
+flat lemonade	adjective	nm_act	🥤	/ˌflæt ˌleməˈneɪd/	nước chanh hết ga (flat = mất ga)	without enough gas bubbles	This lemonade is flat.	—
 flatten	verb	v_decline	🫓	/ˈflætən/	làm phẳng; san bằng	to make flat	The storm flattened the crops.	level
 flawless	adjective	judge_pos	💎	/ˈflɔːləs/	hoàn mĩ	perfect	flawless skin	perfect
 flick	verb	v_physical	👆	/flɪk/	búng, lướt nhanh	to move with a quick small movement	She flicked through the magazine.	flip
 floppy	adjective	senses	🐶	/ˈflɒpi/	mềm rũ	soft and hanging loosely	a dog with floppy ears	limp
+flown to hospital	verb	nm_home	🚁	/ˌfləʊn tə ˈhɒspɪtəl/	được đưa bằng máy bay đến bệnh viện (fly = chở bằng máy bay)	to take by aircraft	She was flown to hospital by helicopter.	airlift
 fluctuate	verb	v_decline	📊	/ˈflʌktʃueɪt/	dao động	to change often	Prices fluctuate daily.	vary
 fly in the face of	idiom	ph_relate	🌬️	/flaɪ ɪn ðə ˈfeɪs əv/	đi ngược lại	to be the opposite of what is accepted	His ideas fly in the face of science.	contradict
+fog hung over the town	verb	nm_nature	🌫️	/ˌfɒɡ hʌŋ əʊvə ðə ˈtaʊn/	sương mù lơ lửng trên thị trấn (hang = lơ lửng)	to stay in the air	Thick fog hung over the town.	linger
 follow someone's example	phrase	ph_life	🧑‍🏫	/ˌfɒləʊ sʌmwʌnz ɪɡˈzɑːmpəl/	noi gương ai	to copy someone's behaviour	Follow your sister's example and study hard.	imitate
 follow suit	idiom	ph_life	👣	/ˌfɒləʊ ˈsuːt/	làm theo	to do the same as someone else	One shop cut prices, and others followed suit.	copy
 footstep	noun	senses	👣	/ˈfʊtstep/	tiếng bước chân	the sound of a step	I heard footsteps outside.	step
@@ -358,6 +497,7 @@ fussy	adjective	char_bad	🙄	/ˈfʌsi/	kén chọn, cầu kì	difficult to plea
 gamble	verb, noun	beh_choice	🎲	/ˈɡæmbəl/	đánh bạc; mạo hiểm	to risk money; a risky action	It was a gamble, but it paid off.	risk
 gasp	verb, noun	v_physical	😮	/ɡɑːsp/	há hốc; thở hổn hển	to breathe in suddenly with surprise	The audience gasped.	pant
 germ	noun	health_med	🦠	/dʒɜːm/	vi trùng	a tiny organism causing disease	Wash your hands to kill germs.	bacteria
+get a kick out of	noun	nm_feel	🤩	/ˌɡet ə kɪk ˈaʊt əv/	thấy thích thú với (kick = cảm giác phấn khích)	to enjoy something very much	She gets a kick out of performing live.	enjoy
 get a move on	idiom	ph_work	🏃	/ˌɡet ə ˈmuːv ɒn/	nhanh lên	to hurry	Get a move on, or we'll miss the bus!	hurry up
 get out of hand	idiom	ph_risk	🌀	/ˌɡet aʊt əv ˈhænd/	vượt tầm kiểm soát	to become difficult to control	The party got out of hand.	—
 get something out of the way	phrase	ph_time	✅	/ˌɡet sʌmθɪŋ aʊt əv ðə ˈweɪ/	giải quyết cho xong	to finish something unpleasant	Let's get the hard part out of the way first.	—
@@ -373,6 +513,7 @@ give vent to	idiom	ph_calm	📢	/ɡɪv ˈvent tə/	trút (cảm xúc)	to express
 give way to	phrase	ph_happen	🔄	/ɡɪv ˈweɪ tə/	nhường chỗ cho, chuyển thành	to change into something else	Fear gave way to anger.	—
 glare	verb, noun	v_physical	😠	/ɡleə/	trừng mắt; ánh chói	to look angrily; a strong light	She glared at him.	stare
 glow	verb, noun	senses	🏮	/ɡləʊ/	ánh sáng dịu; toả sáng	to give a soft light	the glow of the lamp	shine
+glue it back together	verb	nm_act	🧴	/ˌɡluː ɪt bæk təˈɡeðə/	dán lại (glue = dán bằng keo)	to stick with glue	Can you glue this vase back together?	stick
 go downhill	idiom	ph_happen	⛷️	/ˌɡəʊ daʊnˈhɪl/	xuống dốc	to get worse	The restaurant has gone downhill.	decline
 go out of your way	idiom	ph_work	🛣️	/ˌɡəʊ aʊt əv jə ˈweɪ/	cất công, cố hết sức	to try very hard to help	She went out of her way to make us welcome.	make an effort
 go overboard	phrase	beh_choice	🌊	/ˌɡəʊ ˈəʊvəbɔːd/	làm quá tay	to do too much	Don't go overboard on decorations.	overdo it
@@ -380,7 +521,9 @@ go so far as to	phrase	ph_stand	🛫	/ˌɡəʊ ˌsəʊ ˈfɑːr əz tə/	thậm 
 go through the motions	idiom	ph_work	😑	/ˌɡəʊ θruː ðə ˈməʊʃənz/	làm cho có	to do something without real effort or interest	He's just going through the motions at work.	—
 go too far	idiom	ph_stand	🚫	/ˌɡəʊ tuː ˈfɑː/	đi quá giới hạn	to do something that upsets people	This time you've gone too far.	overstep
 go with the flow	idiom	ph_life	🌊	/ˌɡəʊ wɪð ðə ˈfləʊ/	thuận theo dòng	to accept what is happening	I don't plan much; I just go with the flow.	—
+good points	noun	nm_people	👍	/ˌɡʊd ˈpɔɪnts/	ưu điểm (point = điểm tốt)	good qualities	She's bossy, but she has lots of good points.	strengths
 graceful	adjective	char_good	🦢	/ˈɡreɪsfəl/	duyên dáng	moving in a smooth, attractive way	a graceful dancer	elegant
+grains of rice	noun	nm_nature	🍚	/ˌɡreɪnz əv ˈraɪs/	hạt gạo (grain = hạt)	seeds eaten as food	a few grains of rice	seeds
 grammatical	adjective	speak	📝	/ɡrəˈmætɪkəl/	thuộc ngữ pháp; đúng ngữ pháp	relating to grammar	grammatical mistakes	—
 green with envy	idiom	ph_feel	💚	/ˌɡriːn wɪð ˈenvi/	ghen tị ra mặt	very jealous	My friends were green with envy when they saw my new bike.	jealous
 grim	adjective	neg_harm	😐	/ɡrɪm/	nghiêm nghị; ảm đạm	serious; unpleasant	grim news	bleak
@@ -388,13 +531,16 @@ groan	verb, noun	senses	😩	/ɡrəʊn/	rên rỉ	to make a deep sound of pain	H
 grounds	noun	mind_reason	📜	/ɡraʊndz/	căn cứ, lí do	reasons for saying or doing something	grounds for divorce	reasons
 gulf	noun	soc_life	🌊	/ɡʌlf/	hố sâu ngăn cách; vịnh	a big difference; a large bay	the gulf between rich and poor	gap
 guts	noun	char_strong	🦁	/ɡʌts/	sự can đảm	courage	It takes guts to say no.	courage
+hammering away	adverb	nm_desc	🔨	/ˌhæmərɪŋ əˈweɪ/	đóng búa liên tục (away = liên tục)	continuously	He was hammering away all day.	—
 hand in your notice	phrase	ph_work	📄	/ˌhænd ɪn jə ˈnəʊtɪs/	nộp đơn nghỉ việc	to tell your employer you are leaving	She handed in her notice yesterday.	resign
+handle food	verb	nm_work	🍞	/ˌhændəl ˈfuːd/	cầm, chạm vào thực phẩm (handle = cầm nắm)	to touch or pick up	Wash your hands before handling food.	touch
 harshly	adverb	adv_manner	🥶	/ˈhɑːʃli/	một cách khắc nghiệt	in a cruel or severe way	He was treated harshly.	severely
 haul	verb, noun	v_physical	🚚	/hɔːl/	kéo lê; mẻ (cá, tang vật)	to pull with effort; an amount taken	They hauled the boat onto the beach.	drag
 have a soft spot for	idiom	ph_people	💗	/hæv ə ˌsɒft ˈspɒt fɔː/	có cảm tình đặc biệt với	to like someone or something a lot	I've always had a soft spot for old films.	be fond of
 have a weakness for	idiom	ph_life	🍫	/hæv ə ˈwiːknəs fə/	không cưỡng lại được	to like something very much	I have a weakness for chocolate.	—
 have it in for someone	idiom	ph_people	😠	/həv ɪt ɪn fə ˈsʌmwʌn/	có ác ý với ai	to dislike someone and want to cause problems	I think my boss has it in for me.	—
 have no time for	idiom	ph_judge	🙅	/hæv nəʊ ˈtaɪm fɔː/	không ưa	to have no respect for	I have no time for people who lie.	dislike
+have reservations	noun	nm_mind	🤨	/həv ˌrezəˈveɪʃənz/	còn e ngại (reservation = sự nghi ngờ)	to have doubts	I still have reservations about the plan.	doubts
 have something on your mind	idiom	ph_think	😟	/həv ˌsʌmθɪŋ ɒn jə ˈmaɪnd/	có điều bận lòng	to be worrying about something	You look quiet. Have you got something on your mind?	—
 have something up your sleeve	idiom	ph_life	🃏	/həv ˌsʌmθɪŋ ʌp jə ˈsliːv/	có sẵn con át chủ bài	to have a secret plan	The coach still has something up his sleeve.	—
 have the edge over	idiom	ph_win	📐	/həv ðə ˌedʒ ˈəʊvə/	nhỉnh hơn	to be slightly better than	Their team has the edge over ours.	—
@@ -402,17 +548,24 @@ have your hands full	idiom	ph_work	🙌	/həv jə ˌhændz ˈfʊl/	bận tối m
 hazardous	adjective	neg_harm	☣️	/ˈhæzədəs/	nguy hiểm	dangerous	hazardous waste	dangerous
 heap	noun	measure	⛰️	/hiːp/	đống	a messy pile	a heap of clothes	pile
 heir	noun	soc_money	👑	/eə/	người thừa kế	a person who will receive property	the heir to the throne	successor
+her late husband	adjective	nm_people	🕊️	/hɜː ˌleɪt ˈhʌzbənd/	người chồng quá cố (late = đã mất)	who has died	She gave her late husband's clothes to charity.	deceased
+her voice shook	verb	nm_feel	🥶	/hɜː ˌvɔɪs ˈʃʊk/	giọng cô ấy run run (shake = run)	to sound nervous or frightened	Her voice shook as she spoke.	tremble
 hesitation	noun	beh_choice	🤔	/ˌhezɪˈteɪʃən/	sự do dự	a pause before doing something	She agreed without hesitation.	doubt
 hierarchical	adjective	soc_life	🔺	/ˌhaɪəˈrɑːkɪkəl/	theo thứ bậc	arranged in levels of importance	a hierarchical system	—
+high concentrations of	noun	nm_nature	🧲	/ˌhaɪ ˌkɒnsənˈtreɪʃənz əv/	nồng độ cao (concentration = mật độ)	a large amount in one place	high concentrations of minerals	—
 hinder	verb	v_decline	🚧	/ˈhɪndə/	cản trở	to make difficult	Bad weather hindered the search.	obstruct
+his big break	noun	nm_change	🍀	/hɪz ˌbɪɡ ˈbreɪk/	cơ hội đổi đời (break = cơ hội may mắn)	a lucky opportunity	His big break came with a TV role.	chance
 hit the roof	idiom	ph_calm	🌋	/ˌhɪt ðə ˈruːf/	nổi trận lôi đình	to become very angry and shout	Dad hit the roof when he saw the bill.	explode
 hold your breath	idiom	ph_calm	🫢	/ˌhəʊld jə ˈbreθ/	nín thở chờ	to wait anxiously for something	The whole country held its breath.	wait
 hold your own	idiom	ph_win	🥊	/ˌhəʊld jə ˈəʊn/	không hề kém cạnh	to be as good as others	She held her own against older players.	—
 hollow	adjective	senses	🕳️	/ˈhɒləʊ/	rỗng; sáo rỗng	empty inside; without real value	a hollow promise	empty
 homelessness	noun	soc_money	🏚️	/ˈhəʊmləsnəs/	tình trạng vô gia cư	having no home	the problem of homelessness	—
+hop across the room	verb	nm_act	🦘	/ˌhɒp əkrɒs ðə ˈruːm/	nhảy lò cò qua phòng (hop = nhảy một chân)	to jump on one foot	He hopped across the room.	—
 hopelessly	adverb	adv_degree	😩	/ˈhəʊpləsli/	vô vọng, hoàn toàn	completely; without hope	hopelessly lost	completely
 horrified	adjective	emo_shock	😱	/ˈhɒrɪfaɪd/	kinh hoàng	very shocked	I was horrified by the news.	appalled
 horrifying	adjective	neg_harm	😱	/ˈhɒrɪfaɪɪŋ/	khủng khiếp	very shocking	a horrifying accident	terrifying
+house a collection	verb	nm_home	🏛️	/ˌhaʊz ə kəˈlekʃən/	lưu giữ bộ sưu tập (house = chứa)	to provide space for	The museum houses a huge collection.	hold
+how to put it	verb	nm_talk	💬	/haʊ tə ˈpʊt ɪt/	nói sao cho phải (put = diễn đạt)	to say something in a particular way	I don't know how to put it politely.	express
 hum	verb, noun	senses	🎵	/hʌm/	ngân nga; tiếng vo ve	to sing with closed lips; a low sound	She hummed a tune.	buzz
 humiliated	adjective	emo_sad	😳	/hjuːˈmɪlieɪtɪd/	bị bẽ mặt	very ashamed	I felt humiliated.	ashamed
 humiliating	adjective	emo_sad	😳	/hjuːˈmɪlieɪtɪŋ/	nhục nhã	making you feel ashamed	a humiliating defeat	embarrassing
@@ -420,6 +573,8 @@ humility	noun	char_good	🙇	/hjuːˈmɪləti/	sự khiêm nhường	being humbl
 hygienic	adjective	health_med	🧼	/haɪˈdʒenɪk/	hợp vệ sinh	clean and free of germs	hygienic conditions	clean
 hypocrisy	noun	char_bad	🎭	/hɪˈpɒkrəsi/	thói đạo đức giả	saying one thing and doing another	political hypocrisy	insincerity
 hypocritical	adjective	char_bad	🎭	/ˌhɪpəˈkrɪtɪkəl/	đạo đức giả	saying one thing and doing another	It's hypocritical to complain about pollution and then drive everywhere.	two-faced
+I figured that	verb	nm_mind	🤔	/aɪ ˈfɪɡəd ðət/	tôi nghĩ rằng (figure = cho rằng)	to decide after thinking	I figured it was time to tell her.	reckon
+I should have known	verb	nm_mind	🤦	/aɪ ˌʃʊd həv ˈnəʊn/	lẽ ra tôi phải đoán được (know = đoán đúng)	to guess something correctly	I should have known he wouldn't come.	—
 I take it	phrase	ph_speak	🤔	/aɪ ˈteɪk ɪt/	tôi đoán là	used when you think something is probably true	I take it you're not coming tonight.	I assume
 I told you so	phrase	ph_speak	😏	/aɪ ˌtəʊld juː ˈsəʊ/	đã bảo rồi mà	used to say you were right	I hate to say I told you so, but I did.	—
 iceberg	noun	nature	🧊	/ˈaɪsbɜːɡ/	tảng băng trôi	a huge piece of floating ice	the tip of the iceberg	—
@@ -451,8 +606,10 @@ in anticipation of	phrase	ph_time	⏳	/ɪn ˌæntɪsɪˈpeɪʃən əv/	để đ�
 in awe of	phrase	ph_feel	🤩	/ɪn ˈɔː əv/	kính nể	feeling great respect for	The young players were in awe of the captain.	—
 in bad taste	phrase	ph_judge	🙊	/ɪn ˌbæd ˈteɪst/	thiếu tế nhị	likely to upset people	That joke was in very bad taste.	offensive
 in conjunction with	phrase	adv_degree	🤝	/ɪn kənˈdʒʌŋkʃən wɪð/	cùng với, kết hợp với	together with	The course is run in conjunction with the local college.	together with
+in dead silence	adjective	nm_desc	🤫	/ɪn ˌded ˈsaɪləns/	trong im lặng tuyệt đối (dead = hoàn toàn)	complete	We waited in dead silence.	total
 in effect	phrase	ph_argue	🎯	/ɪn ɪˈfekt/	thực chất	used to say what the real situation is	In effect, the plan has failed.	effectively
 in essence	phrase	ph_argue	💧	/ɪn ˈesəns/	về bản chất	basically	In essence, the two ideas are the same.	basically
+in good humour	noun	nm_feel	😄	/ɪn ˌɡʊd ˈhjuːmə/	tâm trạng vui vẻ (humour = tâm trạng)	in a good mood	Everyone was in good humour.	mood
 in good taste	phrase	ph_judge	🎩	/ɪn ˌɡʊd ˈteɪst/	có văn hoá, phù hợp	acceptable and not offensive	The jokes were all in good taste.	appropriate
 in hand	phrase	ph_time	✋	/ɪn ˈhænd/	đang được xử lí	being dealt with now	The matter is in hand.	—
 in isolation	phrase	ph_relate	🏝️	/ɪn ˌaɪsəˈleɪʃən/	một cách tách biệt	separately from other things	These facts cannot be seen in isolation.	separately
@@ -480,6 +637,7 @@ incurable	adjective	health_med	💔	/ɪnˈkjʊərəbəl/	không thể chữa	imp
 indefinitely	adverb	time	♾️	/ɪnˈdefɪnətli/	vô thời hạn	for an unknown period	The trip was postponed indefinitely.	—
 indifference	noun	emo_shock	😐	/ɪnˈdɪfərəns/	sự thờ ơ	lack of interest	public indifference	apathy
 indifferent	adjective	emo_shock	😐	/ɪnˈdɪfərənt/	thờ ơ	not interested	indifferent to the suffering of others	uninterested
+indirect taxes	adjective	nm_money	🧾	/ɪndɪˌrekt ˈtæksɪz/	thuế gián thu (indirect = không trực tiếp)	not obvious or direct	indirect taxes and costs	—
 indispensable	adjective	judge_pos	🔑	/ˌɪndɪˈspensəbəl/	không thể thiếu	absolutely necessary	A phone is indispensable today.	essential
 indisputable	adjective	mind_reason	✅	/ˌɪndɪˈspjuːtəbəl/	không thể chối cãi	obviously true	indisputable facts	undeniable
 individuality	noun	char_strong	🦄	/ˌɪndɪˌvɪdʒuˈæləti/	cá tính	qualities that make someone different	She expresses her individuality through clothes.	uniqueness
@@ -508,11 +666,13 @@ insomnia	noun	health_med	🌙	/ɪnˈsɒmniə/	chứng mất ngủ	being unable t
 intellect	noun	mind_know	🧠	/ˈɪntəlekt/	trí tuệ	the ability to think	a woman of great intellect	intelligence
 intellectually	adverb	adv_degree	🧠	/ˌɪntəˈlektʃuəli/	về mặt trí tuệ	in a way that relates to thinking	intellectually challenging	mentally
 intensely	adverb	adv_degree	🔥	/ɪnˈtensli/	mãnh liệt	extremely	intensely private	extremely
+into March and beyond	adverb	nm_desc	📅	/ɪntə ˌmɑːtʃ ənd bɪˈjɒnd/	đến tháng Ba và sau đó (beyond = xa hơn về thời gian)	after a particular time	The strike may continue into March and beyond.	—
 into the bargain	idiom	ph_argue	➕	/ɪntə ðə ˈbɑːɡɪn/	thêm vào đó	as well as everything else	He's clever, and handsome into the bargain.	as well
 intolerable	adjective	neg_harm	😤	/ɪnˈtɒlərəbəl/	không thể chịu nổi	too bad to accept	intolerable noise	unbearable
 intolerance	noun	soc_life	🚫	/ɪnˈtɒlərəns/	sự không khoan dung; không dung nạp	not accepting others; a bad reaction to food	religious intolerance	prejudice
 intolerant	adjective	char_bad	🚫	/ɪnˈtɒlərənt/	không khoan dung	not accepting different ideas	intolerant of other views	narrow-minded
 intrinsic	adjective	judge_pos	🧬	/ɪnˈtrɪnzɪk/	nội tại, vốn có	belonging naturally	the intrinsic value of education	inherent
+introduce the speaker	verb	nm_talk	🎙️	/ɪntrəˌdjuːs ðə ˈspiːkə/	giới thiệu diễn giả (introduce = giới thiệu trước khán giả)	to tell an audience who will speak	Let me introduce our speaker this evening.	present
 introvert	noun	char_social	🐢	/ˈɪntrəʊvɜːt/	người hướng nội	a quiet, shy person	As an introvert, I need time alone.	—
 intrude	verb	beh_conduct	🚪	/ɪnˈtruːd/	xâm phạm	to go where you are not wanted	I don't want to intrude.	interfere
 intruder	noun	soc_crime	🥷	/ɪnˈtruːdə/	kẻ đột nhập	a person who enters without permission	The alarm scared the intruder away.	burglar
@@ -520,6 +680,7 @@ intrusion	noun	beh_conduct	🚪	/ɪnˈtruːʒən/	sự xâm phạm	entering wher
 intuition	noun	mind_know	💡	/ˌɪntjuˈɪʃən/	trực giác	knowing without thinking	Trust your intuition.	instinct
 invade someone's privacy	phrase	ph_stand	🚪	/ɪnˌveɪd sʌmwʌnz ˈprɪvəsi/	xâm phạm đời tư ai	to get involved in someone's private life	Photographers invade people's privacy.	intrude
 invariably	adverb	adv_degree	🔁	/ɪnˈveəriəbli/	luôn luôn	always	He is invariably late.	always
+iron deposits	noun	nm_nature	⛏️	/ˈaɪən dɪpɒzɪts/	mỏ quặng sắt (deposit = lớp trầm tích)	a layer of a natural substance	deposits of iron ore	—
 irrational	adjective	mind_know	🌀	/ɪˈræʃənəl/	phi lí	not based on reason	an irrational fear	illogical
 irresistible	adjective	judge_pos	😍	/ˌɪrɪˈzɪstəbəl/	không thể cưỡng lại	too attractive to resist	an irresistible offer	tempting
 irrespective of	preposition	adv_degree	🤷	/ˌɪrɪˈspektɪv əv/	bất kể	without considering	irrespective of age	regardless of
@@ -527,12 +688,15 @@ irreversible	adjective	v_decline	⛔	/ˌɪrɪˈvɜːsəbəl/	không thể đảo
 irritable	adjective	char_bad	😠	/ˈɪrɪtəbəl/	dễ cáu	easily annoyed	He gets irritable when tired.	grumpy
 irritation	noun	emo_shock	😤	/ˌɪrɪˈteɪʃən/	sự bực mình; kích ứng	annoyance; soreness of the skin	skin irritation	annoyance
 it follows that	phrase	ph_argue	➡️	/ɪt ˈfɒləʊz ðət/	suy ra rằng	if one thing is true, another is also true	It follows that we need more staff.	therefore
+it suddenly clicked	verb	nm_mind	🖱️	/ɪt ˌsʌdənli ˈklɪkt/	chợt hiểu ra (click = vỡ lẽ)	to suddenly understand	Suddenly everything clicked.	dawn on
+it's quite plain	adjective	nm_mind	👁️	/ɪts ˌkwaɪt ˈpleɪn/	rõ ràng là (plain = hiển nhiên)	obvious and clear	It's quite plain that she doesn't like me.	obvious
 itch	verb, noun	health_body	🦟	/ɪtʃ/	ngứa	to feel you want to scratch	My leg itches.	—
 join forces	idiom	ph_stand	🤝	/ˌdʒɔɪn ˈfɔːsɪz/	hợp lực	to work together	Two companies joined forces to build the bridge.	team up
 juggle	verb	beh_choice	🤹	/ˈdʒʌɡəl/	tung hứng; xoay xở	to throw and catch; to manage many things	She juggles work and family.	balance
 juicy	adjective	senses	🍑	/ˈdʒuːsi/	mọng nước; hấp dẫn	full of juice; interesting	juicy gossip	succulent
 jump on the bandwagon	phrase	beh_choice	🚌	/ˌdʒʌmp ɒn ðə ˈbændwæɡən/	chạy theo trào lưu	to do something because it is popular	Many firms have jumped on the green bandwagon.	—
 jump to conclusions	idiom	ph_think	🦘	/ˌdʒʌmp tə kənˈkluːʒənz/	vội kết luận	to decide something too quickly	Don't jump to conclusions before you hear the facts.	—
+just an act	noun	nm_feel	🎭	/ˌdʒʌst ən ˈækt/	chỉ là giả vờ (act = màn kịch)	behaviour that hides real feelings	Was she really upset, or was it just an act?	pretence
 justifiable	adjective	judge_pos	✅	/ˈdʒʌstɪfaɪəbəl/	có thể biện minh	having a good reason	justifiable anger	reasonable
 keep a cool head	idiom	ph_calm	🧊	/ˌkiːp ə kuːl ˈhed/	giữ cái đầu lạnh	to stay calm in a difficult situation	A good pilot keeps a cool head in an emergency.	stay calm
 keep a straight face	idiom	ph_calm	😐	/ˌkiːp ə streɪt ˈfeɪs/	nhịn cười	to stop yourself from laughing	It was hard to keep a straight face.	—
@@ -540,20 +704,30 @@ keep body and soul together	idiom	ph_risk	🥖	/ˌkiːp bɒdi ənd səʊl təˈ�
 keep someone at arm's length	idiom	ph_people	🙅	/ˌkiːp sʌmwʌn ət ˌɑːmz ˈleŋθ/	giữ khoảng cách với ai	to avoid becoming too friendly with someone	She keeps her colleagues at arm's length.	—
 keep something at bay	idiom	ph_risk	🛡️	/ˌkiːp sʌmθɪŋ ət ˈbeɪ/	ngăn chặn	to stop something bad from coming near	Vitamin C helps keep colds at bay.	ward off
 keep something quiet	phrase	ph_speak	🤫	/ˌkiːp sʌmθɪŋ ˈkwaɪət/	giữ kín chuyện gì	to not tell people a secret	Can you keep it quiet for now?	keep secret
+keep the language alive	adjective	nm_desc	🌱	/ˌkiːp ðə læŋɡwɪdʒ əˈlaɪv/	giữ cho ngôn ngữ tồn tại (alive = tiếp tục tồn tại)	continuing to exist	People are fighting to keep the language alive.	—
 keep your head above water	idiom	ph_risk	🏊	/ˌkiːp jə hed əbʌv ˈwɔːtə/	xoay xở cầm cự	to have just enough money to survive	We're just about keeping our heads above water.	get by
 keep your temper	phrase	ph_calm	🧘	/ˌkiːp jə ˈtempə/	kìm cơn giận	to stay calm and not become angry	She managed to keep her temper.	stay calm
 kick yourself	idiom	ph_feel	🤦	/ˌkɪk jəˈself/	tự trách mình	to be annoyed with yourself for a mistake	I could kick myself for forgetting her birthday.	regret
+kill the conversation	verb	nm_change	🔇	/ˌkɪl ðə ˌkɒnvəˈseɪʃən/	làm cuộc trò chuyện tắt ngấm (kill = chấm dứt)	to stop an activity completely	His remark killed the conversation.	end
 knot	noun	things	🪢	/nɒt/	nút thắt	a tied part of string	Tie a knot in the rope.	—
 know your stuff	idiom	ph_work	🎓	/ˌnəʊ jə ˈstʌf/	thành thạo chuyên môn	to know a lot about a subject	The guide really knew her stuff.	be an expert
 knowingly	adverb	adv_manner	😏	/ˈnəʊɪŋli/	cố ý; ra vẻ hiểu biết	deliberately; showing you know	He knowingly broke the law.	deliberately
 knuckle	noun	health_body	✊	/ˈnʌkəl/	khớp ngón tay	a joint in the finger	She cracked her knuckles.	—
 laid-back	adjective	char_social	😌	/ˌleɪdˈbæk/	thoải mái, thư thái	relaxed and calm	a laid-back attitude	easy-going
+land a new job	verb	nm_work	🎣	/ˌlænd ə njuː ˈdʒɒb/	kiếm được việc mới (land = giành được)	to get something good	He's just landed a new job in London.	get
+last year alone	adverb	nm_desc	☝️	/ˌlɑːst jɪə əˈləʊn/	chỉ riêng năm ngoái (alone = riêng)	used to emphasise only one thing	Last year alone, sales doubled.	only
 lavish	adjective	judge_pos	💎	/ˈlævɪʃ/	xa hoa, hào phóng	expensive and impressive	a lavish party	luxurious
 law and order	phrase	ph_stand	👮	/ˌlɔː ənd ˈɔːdə/	an ninh trật tự	a situation where people obey the law	The army was sent in to restore law and order.	—
+lead the field	noun	nm_money	🏃	/ˌliːd ðə ˈfiːld/	dẫn đầu lĩnh vực (field = những người cạnh tranh)	the people competing	We lead the field in genetic research.	—
+lead the world	verb	nm_money	🌍	/ˌliːd ðə ˈwɜːld/	dẫn đầu thế giới (lead = giỏi nhất)	to be better than anyone else	The country leads the world in solar power.	—
 learn the hard way	idiom	ph_win	🧱	/ˌlɜːn ðə hɑːd ˈweɪ/	học qua vấp ngã	to learn from a difficult experience	I learned the hard way to save money.	—
 learn the ropes	idiom	ph_work	🪢	/ˌlɜːn ðə ˈrəʊps/	học việc	to learn how to do a job	It took me a month to learn the ropes.	get the hang of it
+leave it till later	verb	nm_change	⏳	/ˌliːv ɪt tɪl ˈleɪtə/	để sau (leave = hoãn)	to do something later	Don't leave your packing till the last minute.	postpone
 leave someone to their own devices	idiom	ph_life	🧍	/ˌliːv sʌmwʌn tə ðeə əʊn dɪˈvaɪsɪz/	để ai tự xoay xở	to let someone do what they want	The kids were left to their own devices.	—
 leave your mark	idiom	ph_win	👣	/ˌliːv jə ˈmɑːk/	để lại dấu ấn	to do something people remember	He left his mark on the company.	—
+left all his money	verb	nm_change	📜	/ˌleft ɔːl hɪz ˈmʌni/	để lại toàn bộ tiền (leave = để lại sau khi mất)	to give after you die	He left all his money to his nieces.	bequeath
+left of centre	noun	nm_work	⬅️	/ˌleft əv ˈsentə/	thiên tả (centre = lập trường trung dung)	a political position between extremes	His views are left of centre.	—
+left worse off	verb	nm_change	😣	/ˌleft wɜːs ˈɒf/	khiến tình hình tệ hơn (leave = để lại hậu quả)	to produce a situation	The new law has left many people worse off.	—
 lend itself to	phrase	ph_relate	🧰	/ˌlend ɪtˈself tə/	phù hợp để	to be suitable for	The book lends itself to a film.	suit
 lenient	adjective	char_good	🤲	/ˈliːniənt/	khoan dung	not strict	a lenient sentence	mild
 let go of	phrase	ph_happen	🎈	/let ˈɡəʊ əv/	buông ra	to stop holding	Don't let go of the rope.	release
@@ -584,9 +758,11 @@ lose your cool	idiom	ph_calm	😡	/ˌluːz jə ˈkuːl/	mất bình tĩnh	to sud
 lucrative	adjective	judge_pos	💰	/ˈluːkrətɪv/	sinh lời	making a lot of money	a lucrative business	profitable
 lump	noun	things	🧱	/lʌmp/	cục, khối u	a solid piece; a swelling	a lump of sugar	chunk
 lure	verb, noun	beh_choice	🎣	/lʊə/	dụ dỗ; sức hấp dẫn	to attract, often by a trick	The shops lure customers with discounts.	tempt
+maintain his innocence	verb	nm_talk	⚖️	/meɪnˌteɪn hɪz ˈɪnəsəns/	khăng khăng mình vô tội (maintain = khẳng định)	to say firmly that something is true	He has always maintained his innocence.	insist
 make a go of	idiom	ph_work	🚀	/meɪk ə ˈɡəʊ əv/	cố gắng làm cho thành công	to try hard to make something succeed	They're determined to make a go of the café.	—
 make a name for yourself	idiom	ph_win	🌟	/ˌmeɪk ə neɪm fə jəˈself/	tạo dựng tên tuổi	to become famous or respected	She made a name for herself as a writer.	become famous
 make a run for it	idiom	ph_happen	🏃	/ˌmeɪk ə ˈrʌn fər ɪt/	bỏ chạy	to run fast to escape	When the police arrived, he made a run for it.	flee
+make a scene	noun	nm_feel	📢	/ˌmeɪk ə ˈsiːn/	làm ầm ĩ (scene = cảnh cãi vã)	to argue loudly in public	She made a scene in the restaurant.	—
 make a splash	idiom	ph_win	💦	/ˌmeɪk ə ˈsplæʃ/	gây tiếng vang	to get a lot of public attention	The new phone made a big splash.	—
 make a stand	idiom	ph_stand	✊	/ˌmeɪk ə ˈstænd/	kiên quyết phản đối	to publicly defend or oppose something	Local people made a stand against the new road.	resist
 make a start	phrase	ph_work	▶️	/ˌmeɪk ə ˈstɑːt/	bắt tay vào làm	to begin doing something	Let's make a start on the cleaning.	begin
@@ -601,6 +777,7 @@ make your blood boil	idiom	ph_calm	♨️	/ˌmeɪk jə blʌd ˈbɔɪl/	khiến s
 make your blood run cold	idiom	ph_calm	🥶	/ˌmeɪk jə blʌd rʌn ˈkəʊld/	làm lạnh sống lưng	to frighten you very much	The scream made my blood run cold.	terrify
 make your presence felt	idiom	ph_life	📣	/ˌmeɪk jə prezəns ˈfelt/	thể hiện sự có mặt	to have a strong effect on others	The new manager soon made her presence felt.	—
 malicious	adjective	char_bad	😈	/məˈlɪʃəs/	hiểm độc	intending to harm	malicious gossip	spiteful
+marked by	verb	nm_change	🔖	/ˈmɑːkt baɪ/	mang đặc điểm là (mark = đánh dấu)	to show a characteristic	Her songs are marked by honest lyrics.	characterized by
 masterpiece	noun	arts	🖼️	/ˈmɑːstəpiːs/	kiệt tác	a work of great skill	Mona Lisa is a masterpiece.	—
 materialism	noun	char_bad	💎	/məˈtɪəriəlɪzəm/	chủ nghĩa vật chất	caring too much about money and things	a culture of materialism	—
 materialist	noun	char_bad	💎	/məˈtɪəriəlɪst/	người thực dụng	a person who values possessions	He's a true materialist.	—
@@ -609,10 +786,12 @@ mean well	phrase	ph_people	😇	/ˌmiːn ˈwel/	có ý tốt	to intend to be kin
 medically	adverb	adv_degree	🩺	/ˈmedɪkli/	về mặt y học	in a medical way	medically trained	—
 mediocre	adjective	neg_quality	😐	/ˌmiːdiˈəʊkə/	tầm thường	not very good	a mediocre film	average
 mediocrity	noun	neg_quality	😐	/ˌmiːdiˈɒkrəti/	sự tầm thường	being not very good	a life of mediocrity	—
+meet every goal	verb	nm_work	🎯	/ˌmiːt evri ˈɡəʊl/	đạt mọi mục tiêu (meet = đạt được)	to achieve something	He met every goal he set himself.	achieve
 merciful	adjective	char_good	🕊️	/ˈmɜːsɪfəl/	nhân từ	showing mercy	a merciful judge	forgiving
 merciless	adjective	char_bad	🐺	/ˈmɜːsɪləs/	tàn nhẫn	showing no mercy	a merciless attack	cruel
 meticulous	adjective	char_good	🔍	/məˈtɪkjələs/	tỉ mỉ	very careful with details	meticulous planning	careful
 mighty	adjective	measure	💪	/ˈmaɪti/	hùng mạnh	very large or powerful	the mighty river	powerful
+military rule	noun	nm_work	🪖	/ˌmɪlɪtəri ˈruːl/	chế độ quân quản (rule = sự cai trị)	control of a country	The country was under military rule.	government
 millennium	noun	time	📅	/mɪˈleniəm/	thiên niên kỉ	a period of 1,000 years	the start of the new millennium	—
 mind you	phrase	ph_speak	☝️	/ˈmaɪnd juː/	nhưng mà này	used before adding something different	The food was great. Mind you, it was expensive.	however
 mingle	verb	beh_choice	🥂	/ˈmɪŋɡəl/	hoà mình; trộn lẫn	to meet and talk with people; to mix	She mingled with the guests.	socialize
@@ -634,18 +813,24 @@ muddle	noun, verb	mind_know	🌀	/ˈmʌdəl/	tình trạng lộn xộn; làm r�
 muddled	adjective	mind_know	🌀	/ˈmʌdəld/	lộn xộn, rối rắm	confused	muddled thinking	confused
 murmur	verb, noun	speak	🤫	/ˈmɜːmə/	thì thầm	to speak very quietly	She murmured a reply.	whisper
 musically	adverb	adv_degree	🎵	/ˈmjuːzɪkli/	về mặt âm nhạc	in a musical way	musically gifted	—
+my arm's gone dead	adjective	nm_desc	💤	/maɪ ˌɑːmz ɡɒn ˈded/	tay tôi bị tê (dead = mất cảm giác)	without feeling	My arm's gone dead.	numb
+my base	noun	nm_home	🏠	/maɪ ˈbeɪs/	nơi làm việc chính (base = nơi ở chính)	the main place where you live and work	Hanoi is still my base.	home
+mystery surrounds	verb	nm_change	❓	/ˌmɪstəri səˈraʊndz/	bí ẩn bao trùm (surround = gắn liền)	to be closely connected with	Mystery surrounds his death.	—
 narrative	noun	arts	📖	/ˈnærətɪv/	câu chuyện, lời kể	a story	a narrative of his travels	story
 narrator	noun	arts	🎙️	/nəˈreɪtə/	người kể chuyện	the person telling a story	The narrator is a young girl.	storyteller
+narrow the gap	verb	nm_change	↔️	/ˌnærəʊ ðə ˈɡæp/	thu hẹp khoảng cách (narrow = làm hẹp lại)	to make a difference smaller	We must narrow the gap between rich and poor.	reduce
 needless	adjective	neg_harm	🙅	/ˈniːdləs/	không cần thiết	not needed	needless to say	unnecessary
 negligence	noun	soc_crime	⚠️	/ˈneɡlɪdʒəns/	sự cẩu thả	failure to take proper care	medical negligence	carelessness
 negligent	adjective	beh_conduct	⚠️	/ˈneɡlɪdʒənt/	cẩu thả	not taking proper care	a negligent driver	careless
 negligible	adjective	measure	🤏	/ˈneɡlɪdʒəbəl/	không đáng kể	too small to matter	a negligible difference	tiny
 no match for	phrase	ph_win	🥈	/nəʊ ˈmætʃ fɔː/	không phải đối thủ của	not as good as	Our team was no match for them.	—
 no mean feat	idiom	ph_win	🏔️	/ˌnəʊ miːn ˈfiːt/	không phải chuyện nhỏ	a difficult achievement	Climbing that mountain is no mean feat.	—
+no need for alarm	noun	nm_feel	😨	/ˌnəʊ niːd fə əˈlɑːm/	không cần hoảng sợ (alarm = sự lo sợ)	a sudden feeling of fear	There's no need for alarm; it's completely safe.	fear
 normality	noun	soc_life	🏠	/nɔːˈmæləti/	sự bình thường	a normal situation	a return to normality	normalcy
 nostalgia	noun	emo_pos	📻	/nɒsˈtældʒə/	nỗi hoài niệm	happy sadness about the past	nostalgia for childhood	longing
 nostalgic	adjective	emo_pos	📻	/nɒsˈtældʒɪk/	hoài niệm	thinking fondly about the past	a nostalgic song	sentimental
 nostril	noun	health_body	👃	/ˈnɒstrəl/	lỗ mũi	one of the openings in the nose	He breathed through his nostrils.	—
+not a care in the world	noun	nm_feel	🎈	/ˌnɒt ə keə ɪn ðə ˈwɜːld/	chẳng lo nghĩ gì (care = nỗi lo)	no worries at all	He didn't have a care in the world.	—
 not have the faintest idea	idiom	ph_think	🤷	/ˌnɒt hæv ðə ˌfeɪntɪst aɪˈdɪə/	không hề biết gì	to not know at all	I don't have the faintest idea where he is.	—
 not in the least	phrase	ph_sure	🚫	/ˌnɒt ɪn ðə ˈliːst/	không hề	not at all	I'm not in the least tired.	not at all
 not least	phrase	ph_sure	☝️	/ˌnɒt ˈliːst/	đặc biệt là	especially	Many people helped, not least my parents.	especially
@@ -655,10 +840,12 @@ not someone's type	phrase	ph_people	🙅	/ˌnɒt sʌmwʌnz ˈtaɪp/	không phả
 not take kindly to	phrase	ph_judge	😒	/nɒt teɪk ˈkaɪndli tə/	không thích	to not like something someone does	She doesn't take kindly to criticism.	resent
 not think much of	phrase	ph_judge	👎	/nɒt θɪŋk ˈmʌtʃ əv/	không đánh giá cao	to not like or respect	I don't think much of his new song.	dislike
 not up to much	idiom	ph_judge	😕	/ˌnɒt ʌp tə ˈmʌtʃ/	chẳng ra gì	of poor quality	The hotel wasn't up to much.	poor
+not very academic	adjective	nm_people	📚	/ˌnɒt veri ˌækəˈdemɪk/	không giỏi học hành (academic = sáng dạ, giỏi học)	not clever at studying	He's not very academic, but he's great with his hands.	—
 nothing ventured, nothing gained	idiom	ph_risk	🎲	/ˌnʌθɪŋ ˈventʃəd ˌnʌθɪŋ ˈɡeɪnd/	không vào hang sao bắt được cọp	it is worth trying even if you may fail	Just apply for it; nothing ventured, nothing gained.	—
 novelty	noun	judge_pos	✨	/ˈnɒvəlti/	sự mới lạ	being new and unusual	The novelty soon wore off.	newness
 obligatory	adjective	soc_life	📌	/əˈblɪɡətəri/	bắt buộc	required by rule	Attendance is obligatory.	compulsory
 observant	adjective	char_good	👀	/əbˈzɜːvənt/	tinh ý	good at noticing things	an observant child	alert
+observe the law	verb	nm_work	📜	/əbˌzɜːv ðə ˈlɔː/	tuân thủ pháp luật (observe = tuân theo)	to obey a rule or custom	Everyone must observe the law.	obey
 obsessive	adjective	beh_conduct	🌀	/əbˈsesɪv/	ám ảnh, thái quá	thinking about something too much	obsessive about cleanliness	compulsive
 oddly	adverb	adv_degree	🤨	/ˈɒdli/	một cách kì lạ	strangely	Oddly enough, I liked it.	strangely
 odour	noun	senses	👃	/ˈəʊdə/	mùi (khó chịu)	a smell, often unpleasant	a strange odour	smell
@@ -688,6 +875,7 @@ on your guard	idiom	ph_risk	🛡️	/ɒn jə ˈɡɑːd/	cảnh giác	ready to de
 once and for all	idiom	ph_time	🔒	/ˌwʌns ənd fə ˈɔːl/	dứt điểm một lần	completely and finally	Let's settle this once and for all.	finally
 only so much	phrase	ph_sure	🧮	/ˌəʊnli səʊ ˈmʌtʃ/	có giới hạn	used to say there are limits	There's only so much I can do.	—
 onwards	adverb	time	➡️	/ˈɒnwədz/	trở đi	from a time and after	from 2020 onwards	forward
+open about his feelings	adjective	nm_people	💬	/ˌəʊpən əbaʊt hɪz ˈfiːlɪŋz/	cởi mở về cảm xúc (open = thẳng thắn)	honest and not hiding feelings	He's very open about his feelings.	frank
 open your heart	idiom	ph_speak	💗	/ˌəʊpən jə ˈhɑːt/	mở lòng, giãi bày	to tell someone your secret feelings	He finally opened his heart to me.	confide
 openness	noun	char_social	🌞	/ˈəʊpənnəs/	sự cởi mở	being honest and open	openness to new ideas	frankness
 opposed	adjective	mind_reason	🙅	/əˈpəʊzd/	phản đối	disagreeing strongly	I'm opposed to the plan.	against
@@ -696,8 +884,10 @@ ordeal	noun	emo_sad	😖	/ɔːˈdɪəl/	thử thách khắc nghiệt	a very bad 
 ornament	noun	things	🏺	/ˈɔːnəmənt/	đồ trang trí	a decorative object	Christmas ornaments	decoration
 orphan	noun	soc_life	🧒	/ˈɔːfən/	trẻ mồ côi	a child whose parents are dead	He was an orphan.	—
 orthodox	adjective	mind_reason	📘	/ˈɔːθədɒks/	chính thống	generally accepted	orthodox medicine	conventional
+out at sea	adverb	nm_home	🚢	/ˌaʊt ət ˈsiː/	ngoài khơi (out = xa bờ)	far from land	The boats were out at sea for days.	offshore
 out of a job	phrase	ph_work	📦	/ˌaʊt əv ə ˈdʒɒb/	thất nghiệp	without a job	Thousands of people are out of a job.	unemployed
 out of line	idiom	ph_judge	🚫	/ˌaʊt əv ˈlaɪn/	quá đáng	not acceptable	Your comment was out of line.	inappropriate
+out of my own pocket	noun	nm_money	👖	/ˌaʊt əv maɪ əʊn ˈpɒkɪt/	tự bỏ tiền túi (pocket = tiền riêng)	from your own money	I paid for it out of my own pocket.	—
 out of place	phrase	ph_life	🧍	/ˌaʊt əv ˈpleɪs/	lạc lõng	not suitable in a situation	I felt out of place at the party.	—
 out of shape	phrase	ph_rest	🏋️	/ˌaʊt əv ˈʃeɪp/	kém thể lực	not physically fit	I'm so out of shape after the holidays.	unfit
 out of the ordinary	phrase	ph_life	🦄	/ˌaʊt əv ðə ˈɔːdɪnəri/	khác thường	unusual	Nothing out of the ordinary happened.	unusual
@@ -738,6 +928,7 @@ pitch dark	idiom	ph_happen	🌑	/ˌpɪtʃ ˈdɑːk/	tối đen như mực	extrem
 pitiful	adjective	neg_quality	🥺	/ˈpɪtɪfəl/	đáng thương; tệ hại	making you feel pity; very bad	a pitiful sight	pathetic
 place emphasis on	phrase	ph_judge	🔦	/ˌpleɪs ˈemfəsɪs ɒn/	nhấn mạnh vào	to give something importance	The school places emphasis on reading.	stress
 plague	noun, verb	health_med	🦠	/pleɪɡ/	bệnh dịch; gây khổ sở	a deadly disease; to cause trouble for	The team has been plagued by injuries.	trouble
+plant doubts	verb	nm_mind	🌱	/ˌplɑːnt ˈdaʊts/	gieo nghi ngờ (plant = gieo vào đầu)	to make someone start thinking something	You've planted doubts in my mind.	sow
 plausible	adjective	mind_reason	🤔	/ˈplɔːzəbəl/	hợp lí, có vẻ đúng	likely to be true	a plausible explanation	believable
 play it by ear	idiom	ph_life	🎧	/ˌpleɪ ɪt baɪ ˈɪə/	tuỳ cơ ứng biến	to decide as things develop	Let's not plan; we'll play it by ear.	improvise
 play with fire	idiom	ph_risk	🔥	/ˌpleɪ wɪð ˈfaɪə/	đùa với lửa	to do something dangerous	Driving that fast is playing with fire.	—
@@ -753,17 +944,22 @@ pose	verb	v_grow	⚠️	/pəʊz/	gây ra (vấn đề); tạo dáng	to cause a p
 pose a question	phrase	ph_speak	❓	/ˌpəʊz ə ˈkwestʃən/	đặt ra câu hỏi	to ask or raise a question	The report poses a difficult question.	raise
 posh	adjective	judge_pos	🎩	/pɒʃ/	sang trọng	expensive and high-class	a posh hotel	smart
 possessive	adjective	char_bad	🔒	/pəˈzesɪv/	chiếm hữu	wanting someone all to yourself	a possessive boyfriend	jealous
+practical applications	noun	nm_change	🔧	/ˌpræktɪkəl ˌæplɪˈkeɪʃənz/	ứng dụng thực tế (application = cách dùng)	a way something can be used	The technology has many practical applications.	uses
 pragmatic	adjective	char_strong	🛠️	/præɡˈmætɪk/	thực tế	dealing with things sensibly	a pragmatic approach	practical
 predominant	adjective	measure	📊	/prɪˈdɒmɪnənt/	chiếm ưu thế	most noticeable or common	The predominant colour is blue.	main
+presence on stage	noun	nm_people	🌟	/ˌprezəns ɒn ˈsteɪdʒ/	phong thái trên sân khấu (presence = khí chất)	a quality that makes people notice you	She's small, but she has real presence on stage.	charisma
 press charges	phrase	ph_stand	⚖️	/ˌpres ˈtʃɑːdʒɪz/	khởi kiện	to make an official complaint in court	She decided not to press charges.	sue
+press him to	verb	nm_talk	👉	/ˈpres ɪm tə/	ép anh ấy (press = thúc ép)	to try hard to persuade someone	They pressed him to reveal more.	urge
 presumption	noun	mind_reason	🤔	/prɪˈzʌmpʃən/	sự giả định	something thought to be true	the presumption of innocence	assumption
 preventive	adjective	health_med	🛡️	/prɪˈventɪv/	phòng ngừa	intended to stop something	preventive medicine	preventative
 privileged	adjective	soc_money	🎩	/ˈprɪvəlɪdʒd/	có đặc quyền	having advantages	a privileged background	wealthy
+problems may develop	verb	nm_change	🌱	/ˌprɒbləmz meɪ dɪˈveləp/	vấn đề có thể phát sinh (develop = bắt đầu xảy ra)	to start to happen	Further problems may develop.	arise
 procession	noun	soc_politics	🚶	/prəˈseʃən/	đoàn diễu hành	a line of people moving slowly	a funeral procession	parade
 profoundly	adverb	adv_degree	🌊	/prəˈfaʊndli/	sâu sắc	deeply	profoundly affected	deeply
 prone	adjective	beh_choice	↘️	/prəʊn/	dễ bị, có xu hướng	likely to suffer or do	prone to injury	likely
 prosper	verb	v_grow	📈	/ˈprɒspə/	thịnh vượng	to be successful	The town prospered.	thrive
 protagonist	noun	arts	🦸	/prəʊˈtæɡənɪst/	nhân vật chính	the main character	The protagonist is a young girl.	hero
+protect their interests	noun	nm_work	🛡️	/prəˌtekt ðeə ˈɪntrɪsts/	bảo vệ quyền lợi (interest = lợi ích)	something that gives an advantage	A union looks after the interests of its members.	benefits
 prove yourself	phrase	ph_work	🏆	/ˌpruːv jəˈself/	chứng tỏ bản thân	to show that you are good at something	The new player wants to prove himself.	—
 proverb	noun	speak	📜	/ˈprɒvɜːb/	tục ngữ	a short saying with advice	an old Vietnamese proverb	saying
 provocation	noun	beh_conduct	😠	/ˌprɒvəˈkeɪʃən/	sự khiêu khích	an action that makes someone angry	He reacted without provocation.	incitement
@@ -773,13 +969,16 @@ pull your weight	idiom	ph_work	🏋️	/ˌpʊl jə ˈweɪt/	làm tròn phần vi
 pushy	adjective	char_bad	👉	/ˈpʊʃi/	hay ép buộc	too eager to get what you want	a pushy salesman	aggressive
 put someone first	phrase	ph_life	🥇	/ˌpʊt sʌmwʌn ˈfɜːst/	đặt ai lên hàng đầu	to consider someone the most important	Good parents put their children first.	prioritize
 put someone in their place	idiom	ph_people	👇	/ˌpʊt sʌmwʌn ɪn ðeə ˈpleɪs/	dạy cho ai biết thân phận	to show someone they are not as important as they think	She put him in his place with one sharp reply.	—
+put the children first	preposition	nm_desc	👶	/ˌpʊt ðə tʃɪldrən ˈfɜːst/	đặt con cái lên trên (before = quan trọng hơn)	treated as more important	They put the children's needs before their own.	prioritize
 put your feet up	idiom	ph_rest	🛋️	/ˌpʊt jə fiːt ˈʌp/	nghỉ ngơi	to sit down and relax	Put your feet up; I'll cook tonight.	relax
 put your finger on	idiom	ph_think	👉	/ˌpʊt jə ˈfɪŋɡər ɒn/	chỉ ra chính xác	to understand exactly what is wrong	Something is wrong, but I can't put my finger on it.	pinpoint
 put your foot in it	idiom	ph_speak	🦶	/ˌpʊt jə ˈfʊt ɪn ɪt/	lỡ lời	to say something embarrassing by mistake	I really put my foot in it when I mentioned his ex.	blunder
 quaint	adjective	judge_pos	🏡	/kweɪnt/	cổ kính, lạ mắt	attractive and old-fashioned	a quaint village	charming
 questionable	adjective	neg_harm	🤨	/ˈkwestʃənəbəl/	đáng ngờ	possibly not honest or true	questionable methods	doubtful
+quote a price	verb	nm_money	💬	/ˌkwəʊt ə ˈpraɪs/	báo giá (quote = đưa ra giá)	to say what work will cost	He quoted a price for the new roof.	estimate
 raise the alarm	idiom	ph_risk	🚨	/ˌreɪz ðə əˈlɑːm/	báo động	to warn people of danger	A neighbour raised the alarm.	—
 rash	adjective	beh_conduct	⚡	/ræʃ/	hấp tấp	done without thinking	a rash decision	hasty
+read music	verb	nm_act	🎼	/ˌriːd ˈmjuːzɪk/	đọc nốt nhạc (read = hiểu kí hiệu)	to understand signs	Can you read music?	—
 readiness	noun	beh_choice	🙋	/ˈredɪnəs/	sự sẵn sàng	being ready	her readiness to help	willingness
 readjust	verb	v_grow	🔧	/ˌriːəˈdʒʌst/	điều chỉnh lại	to change to fit a new situation	It takes time to readjust.	adapt
 realistically	adverb	adv_manner	🎯	/ˌrɪəˈlɪstɪkli/	một cách thực tế	in a practical way	Realistically, we can't finish today.	practically
@@ -788,6 +987,7 @@ reassurance	noun	emo_pos	🤗	/ˌriːəˈʃʊərəns/	sự trấn an	words that 
 receptive	adjective	char_good	👂	/rɪˈseptɪv/	dễ tiếp thu	willing to listen to new ideas	receptive to suggestions	open
 recharge	verb	v_grow	🔋	/ˌriːˈtʃɑːdʒ/	sạc lại; nạp lại năng lượng	to fill with power again	I need a holiday to recharge.	refresh
 recharge your batteries	idiom	ph_rest	🔋	/ˌriːˌtʃɑːdʒ jə ˈbætəriz/	nạp lại năng lượng	to rest so you feel energetic again	I need a weekend at the beach to recharge my batteries.	rest
+recite from memory	noun	nm_mind	🧠	/rɪˌsaɪt frəm ˈmeməri/	đọc thuộc lòng (memory = trí nhớ)	using your ability to remember	He recited the poem from memory.	by heart
 reckless	adjective	beh_conduct	🏎️	/ˈrekləs/	liều lĩnh	not caring about danger	reckless driving	careless
 recollect	verb	mind_know	💭	/ˌrekəˈlekt/	nhớ lại	to remember	I don't recollect his name.	recall
 recollection	noun	mind_know	💭	/ˌrekəˈlekʃən/	kí ức	a memory	I have no recollection of that.	memory
@@ -801,14 +1001,19 @@ redundant	adjective	soc_money	📦	/rɪˈdʌndənt/	bị cho thôi việc; thừ
 refine	verb	v_grow	✨	/rɪˈfaɪn/	tinh chế; hoàn thiện	to make pure; to improve	refine your technique	improve
 refined	adjective	char_good	🎩	/rɪˈfaɪnd/	tao nhã; tinh chế	polite and elegant; made pure	refined sugar	elegant
 refrain	verb	beh_choice	✋	/rɪˈfreɪn/	kiềm chế, tránh	to stop yourself from doing	Please refrain from smoking.	avoid
+register their opposition	verb	nm_feel	✋	/ˌredʒɪstə ðeə ˌɒpəˈzɪʃən/	bày tỏ sự phản đối (register = thể hiện)	to show an opinion or feeling	People gathered to register their opposition.	express
+relate the story	verb	nm_talk	📖	/rɪˌleɪt ðə ˈstɔːri/	kể lại câu chuyện (relate = thuật lại)	to tell a story	He related the story of their journey.	tell
 relentless	adjective	char_strong	🏃	/rɪˈlentləs/	không ngừng nghỉ	never stopping	relentless pressure	constant
 relentlessly	adverb	adv_manner	🏃	/rɪˈlentləsli/	không ngừng	without stopping	She worked relentlessly.	constantly
 reliance	noun	soc_life	🔗	/rɪˈlaɪəns/	sự phụ thuộc	depending on something	reliance on imports	dependence
 reliant	adjective	soc_life	🔗	/rɪˈlaɪənt/	phụ thuộc	depending on	reliant on tourism	dependent
 relish	verb, noun	emo_pos	😋	/ˈrelɪʃ/	thích thú	to enjoy very much	She relishes a challenge.	enjoy
 remorse	noun	emo_sad	😔	/rɪˈmɔːs/	sự hối hận	deep regret	He showed no remorse.	regret
+remove the core	noun	nm_nature	🍎	/rɪˌmuːv ðə ˈkɔː/	bỏ lõi (core = lõi quả)	the hard centre of a fruit	Peel the apples and remove the cores.	—
+removed from his job	verb	nm_work	🚪	/rɪˌmuːvd frɒm hɪz ˈdʒɒb/	bị cách chức (remove = bãi nhiệm)	to make someone stop doing their job	He was removed from his job.	dismiss
 renewable	adjective	nature	♻️	/rɪˈnjuːəbəl/	có thể tái tạo	able to be replaced naturally	renewable energy	sustainable
 renewal	noun	v_grow	🔄	/rɪˈnjuːəl/	sự đổi mới; gia hạn	making new again	urban renewal	renovation
+repair relations	verb	nm_change	🤝	/rɪˌpeə rɪˈleɪʃənz/	hàn gắn quan hệ (repair = cải thiện)	to improve a bad situation	It will take time to repair relations.	mend
 repetition	noun	speak	🔁	/ˌrepɪˈtɪʃən/	sự lặp lại	doing or saying again	Learn by repetition.	repeat
 reproach	noun, verb	speak	👉	/rɪˈprəʊtʃ/	sự trách móc	to criticise someone gently	a look of reproach	blame
 resemblance	noun	mind_reason	👯	/rɪˈzembləns/	sự giống nhau	being similar	a family resemblance	likeness
@@ -817,6 +1022,7 @@ resentment	noun	emo_shock	😤	/rɪˈzentmənt/	sự oán giận	anger about unf
 resilience	noun	char_strong	🌱	/rɪˈzɪliəns/	sự kiên cường	the ability to recover quickly	the resilience of children	toughness
 resilient	adjective	char_strong	🌱	/rɪˈzɪliənt/	kiên cường	able to recover quickly	a resilient economy	tough
 resolve	verb, noun	beh_choice	🎯	/rɪˈzɒlv/	giải quyết; quyết tâm	to solve; strong determination	resolve a problem	settle
+resolve their differences	noun	nm_talk	⚖️	/rɪˌzɒlv ðeə ˈdɪfrənsɪz/	giải quyết bất đồng (difference = mâu thuẫn)	a disagreement	They must resolve their differences peacefully.	disagreement
 resourceful	adjective	char_good	🧰	/rɪˈzɔːsfəl/	tháo vát	good at finding solutions	a resourceful manager	inventive
 respectable	adjective	judge_pos	🎩	/rɪˈspektəbəl/	đáng kính; kha khá	socially accepted; good enough	a respectable job	decent
 respectfully	adverb	adv_manner	🙇	/rɪˈspektfəli/	một cách kính trọng	in a polite way	He spoke respectfully.	politely
@@ -877,6 +1083,7 @@ self-reliant	adjective	self	🧍	/ˌselfrɪˈlaɪənt/	tự lực	not needing he
 self-respect	noun	self	🦁	/ˌselfrɪˈspekt/	lòng tự trọng	respect for yourself	He lost his self-respect.	dignity
 self-sufficient	adjective	self	🌾	/ˌselfsəˈfɪʃənt/	tự cung tự cấp	able to provide everything you need	The farm is self-sufficient.	independent
 sell like hot cakes	idiom	ph_life	🥞	/ˌsel laɪk hɒt ˈkeɪks/	bán chạy như tôm tươi	to be sold quickly in large numbers	The new game is selling like hot cakes.	—
+sell the idea	verb	nm_talk	💡	/ˌsel ðə aɪˈdɪə/	thuyết phục về ý tưởng (sell = làm người khác chấp nhận)	to persuade someone an idea is good	I'm trying to sell the idea to my boss.	promote
 send shivers down your spine	idiom	ph_calm	😱	/ˌsend ˌʃɪvəz daʊn jə ˈspaɪn/	làm rợn tóc gáy	to make you feel afraid or excited	The music sent shivers down my spine.	thrill
 sensational	adjective	judge_pos	🤩	/senˈseɪʃənəl/	giật gân; tuyệt vời	causing excitement; very good	a sensational goal	amazing
 senseless	adjective	neg_harm	🙅	/ˈsensləs/	vô nghĩa	without purpose	senseless violence	pointless
@@ -885,9 +1092,11 @@ sentimental	adjective	emo_pos	💌	/ˌsentɪˈmentəl/	đa cảm; mang giá tr�
 serene	adjective	emo_pos	🌅	/sɪˈriːn/	thanh bình	calm and peaceful	a serene lake	peaceful
 serenity	noun	emo_pos	🌅	/sɪˈrenəti/	sự thanh thản	calm and peace	a feeling of serenity	calmness
 serve a purpose	phrase	ph_win	🎯	/ˌsɜːv ə ˈpɜːpəs/	có ích	to be useful	The old shed still serves a purpose.	—
+serve a sentence	verb	nm_work	⛓️	/ˌsɜːv ə ˈsentəns/	chấp hành án tù (serve = thụ án)	to be in prison for a period	He is serving a four-year sentence.	—
 set fire to	phrase	ph_happen	🔥	/set ˈfaɪə tə/	phóng hoả, đốt	to make something start burning	Someone set fire to the car.	burn
 set the ball rolling	idiom	ph_work	⚽	/ˌset ðə bɔːl ˈrəʊlɪŋ/	khởi động, bắt đầu	to start an activity	Let me set the ball rolling with a question.	get started
 set your sights on	idiom	ph_stand	🎯	/ˌset jə ˈsaɪts ɒn/	đặt mục tiêu vào	to decide to achieve something	She has set her sights on a gold medal.	aim for
+settle the bill	verb	nm_money	🧾	/ˌsetəl ðə ˈbɪl/	thanh toán hoá đơn (settle = trả)	to pay what you owe	I've got some bills to settle.	pay
 severity	noun	measure	⚠️	/sɪˈverəti/	mức độ nghiêm trọng	how serious something is	the severity of the injury	seriousness
 shabby	adjective	neg_quality	🧥	/ˈʃæbi/	tồi tàn	old and in bad condition	a shabby coat	worn-out
 shaken	adjective	emo_shock	😰	/ˈʃeɪkən/	bàng hoàng	shocked and upset	She was badly shaken by the accident.	upset
@@ -906,6 +1115,7 @@ sip	verb, noun	v_physical	🍵	/sɪp/	nhấp (từng ngụm)	to drink in small a
 siren	noun	senses	🚨	/ˈsaɪərən/	còi báo động	a loud warning sound	a police siren	alarm
 slaughter	noun, verb	soc_crime	🔪	/ˈslɔːtə/	sự tàn sát	killing many people or animals	the slaughter of innocent people	massacre
 slender	adjective	health_body	🧍	/ˈslendə/	thon thả; ít ỏi	thin and graceful; small	slender fingers	slim
+slipped from the frame	verb	nm_act	🖼️	/ˌslɪpt frɒm ðə ˈfreɪm/	tuột khỏi khung (slip = trượt khỏi chỗ)	to slide out of position	The photo slipped from the frame.	slide
 smoky	adjective	senses	💨	/ˈsməʊki/	đầy khói	full of smoke	a smoky room	—
 smoothly	adverb	adv_manner	🧈	/ˈsmuːðli/	trôi chảy	without problems	Everything went smoothly.	easily
 snatch	verb	v_physical	🫳	/snætʃ/	giật lấy	to take quickly	He snatched her bag.	grab
@@ -918,7 +1128,9 @@ so far so good	phrase	ph_win	👌	/səʊ ˌfɑː səʊ ˈɡʊd/	đến giờ v�
 so to speak	phrase	ph_speak	😉	/səʊ tə ˈspiːk/	có thể nói là	used to show you are not using words in their usual meaning	He's the heart of the team, so to speak.	as it were
 sober	adjective	beh_conduct	🥤	/ˈsəʊbə/	tỉnh táo (không say); nghiêm túc	not drunk; serious	He stayed sober all night.	serious
 socialism	noun	soc_politics	🚩	/ˈsəʊʃəlɪzəm/	chủ nghĩa xã hội	a political system of shared ownership	the ideals of socialism	—
+sold as seconds	noun	nm_money	🏷️	/ˌsəʊld æz ˈsekəndz/	bán dưới dạng hàng lỗi (seconds = hàng thứ phẩm)	goods sold cheaply because they are damaged	Some of those towels are seconds.	—
 solitary	adjective	soc_life	🧍	/ˈsɒlɪtəri/	đơn độc	alone; single	a solitary walk	lonely
+solve the puzzle	noun	nm_mind	🧩	/ˌsɒlv ðə ˈpʌzəl/	giải được bí ẩn (puzzle = điều khó hiểu)	a situation that is hard to understand	Scientists are still trying to solve the puzzle.	mystery
 someone's whereabouts	phrase	ph_stand	📍	/ˌsʌmwʌnz ˈweərəbaʊts/	nơi ở, tung tích	where someone is	His whereabouts are unknown.	location
 soothing	adjective	emo_pos	🛁	/ˈsuːðɪŋ/	êm dịu	making you calm	soothing music	calming
 sorrow	noun	emo_sad	😢	/ˈsɒrəʊ/	nỗi buồn	deep sadness	She hid her sorrow.	grief
@@ -932,6 +1144,7 @@ spit	verb	v_physical	💦	/spɪt/	khạc nhổ	to force out from the mouth	Don't
 splash	verb, noun	v_physical	💦	/splæʃ/	té nước	to hit water and make it fly	The kids splashed in the pool.	spray
 splendour	noun	judge_pos	🏰	/ˈsplendə/	sự lộng lẫy	great beauty	the splendour of the palace	magnificence
 spotless	adjective	judge_pos	✨	/ˈspɒtləs/	sạch bong	completely clean	a spotless kitchen	immaculate
+spread with jam	verb	nm_act	🍓	/ˌspred wɪð ˈdʒæm/	phết mứt (spread = phết)	to cover a surface with something soft	toast spread with jam	—
 spring to mind	idiom	ph_think	💡	/ˌsprɪŋ tə ˈmaɪnd/	chợt nảy ra trong đầu	to be the first thing you think of	No names spring to mind.	occur to you
 sprinkle	verb	v_physical	🧂	/ˈsprɪŋkəl/	rắc	to scatter small drops or pieces	Sprinkle sugar on top.	scatter
 spur	verb, noun	v_grow	🐎	/spɜː/	thúc đẩy	to encourage to act	Success spurred him on.	motivate
@@ -940,8 +1153,11 @@ squeak	verb, noun	senses	🐭	/skwiːk/	kêu cót két, chít chít	to make a sh
 squeaky	adjective	senses	🐭	/ˈskwiːki/	cót két, the thé	making a high sound	a squeaky voice	high-pitched
 stagger	verb	v_physical	🥴	/ˈstæɡə/	lảo đảo	to walk unsteadily	He staggered home.	stumble
 stain	noun, verb	things	🟤	/steɪn/	vết bẩn	a dirty mark	a coffee stain	mark
+stamp your foot	verb	nm_act	🦶	/ˌstæmp jə ˈfʊt/	dậm chân (stamp = dậm mạnh)	to put your foot down hard	She shouted and stamped her foot.	—
 stand a chance	phrase	ph_sure	🍀	/ˌstænd ə ˈtʃɑːns/	có cơ hội	to have a chance of success	Do you think we stand a chance?	—
+stand for parliament	verb	nm_work	🏛️	/ˌstænd fə ˈpɑːləmənt/	ra tranh cử nghị viện (stand = ứng cử)	to compete in an election	She's standing for parliament.	run for
 stand to gain	phrase	ph_stand	💰	/ˌstænd tə ˈɡeɪn/	có thể được lợi	to be likely to get an advantage	Who stands to gain from this deal?	—
+standards fall	verb	nm_change	📉	/ˌstændədz ˈfɔːl/	tiêu chuẩn đi xuống (fall = sa sút)	to become worse	Standards in schools are falling.	decline
 standpoint	noun	mind_reason	🧍	/ˈstændpɔɪnt/	quan điểm	a point of view	from a legal standpoint	viewpoint
 stardom	noun	arts	⭐	/ˈstɑːdəm/	sự nổi tiếng	being a star	her rise to stardom	fame
 starvation	noun	soc_crime	🥣	/stɑːˈveɪʃən/	nạn đói	suffering from lack of food	dying of starvation	hunger
@@ -951,7 +1167,12 @@ stereotypical	adjective	soc_life	🏷️	/ˌsteriəʊˈtɪpɪkəl/	rập khuôn	
 stern	adjective	char_social	😠	/stɜːn/	nghiêm khắc	serious and strict	a stern warning	strict
 stick by someone	phrasal verb	ph_people	🤞	/ˌstɪk baɪ ˈsʌmwʌn/	luôn bên cạnh ai	to support someone during problems	His friends stuck by him during the trial.	support
 stick up for someone	phrasal verb	ph_people	🛡️	/ˌstɪk ʌp fə ˈsʌmwʌn/	bênh vực ai	to defend someone who is criticised	Thanks for sticking up for me.	defend
+stiff competition	adjective	nm_desc	🥊	/ˌstɪf ˌkɒmpɪˈtɪʃən/	cạnh tranh gay gắt (stiff = khốc liệt)	very severe	The company faces stiff competition.	tough
+stiff with strangers	adjective	nm_people	🧍	/ˌstɪf wɪð ˈstreɪndʒəz/	cứng nhắc, khách sáo (stiff = trịnh trọng)	formal and not relaxed	He was always very stiff with strangers.	formal
 still going strong	idiom	ph_rest	💪	/ˌstɪl ɡəʊɪŋ ˈstrɒŋ/	vẫn còn sung sức	still successful or healthy after a long time	My grandfather is ninety and still going strong.	thriving
+still water	adjective	nm_nature	🏞️	/ˌstɪl ˈwɔːtə/	mặt nước phẳng lặng (still = không gợn sóng)	without waves or wind	She dived into the still water.	calm
+stir up anger	verb	nm_feel	🥄	/ˌstɜː ʌp ˈæŋɡə/	khuấy động sự giận dữ (stir = gợi lên)	to make someone feel a strong emotion	The case has stirred up great anger.	arouse
+stirred in its sleep	verb	nm_act	👶	/ˌstɜːd ɪn ɪts ˈsliːp/	cựa mình trong giấc ngủ (stir = cựa quậy)	to move slightly	The baby stirred in its sleep.	move
 stitch	noun, verb	things	🧵	/stɪtʃ/	mũi khâu; khâu	a piece of thread in cloth or skin	He needed ten stitches.	—
 stop short of	phrase	ph_stand	✋	/stɒp ˈʃɔːt əv/	suýt nữa thì, nhưng dừng lại	to almost do something but not do it	She stopped short of calling him a liar.	—
 stranded	adjective	soc_crime	🏝️	/ˈstrændɪd/	mắc kẹt	unable to leave	stranded at the airport	stuck
@@ -974,6 +1195,7 @@ superiority	noun	soc_life	🥇	/suːˌpɪəriˈɒrəti/	sự vượt trội	bein
 supplementary	adjective	measure	➕	/ˌsʌplɪˈmentəri/	bổ sung	added to something	supplementary materials	additional
 sure enough	phrase	ph_sure	👌	/ˌʃɔː ɪˈnʌf/	quả nhiên	as expected	I said it would rain, and sure enough, it did.	as expected
 surpass	verb	v_grow	🏆	/səˈpɑːs/	vượt qua	to be better than	Sales surpassed expectations.	exceed
+suspect his motives	verb	nm_mind	🕵️	/səˌspekt hɪz ˈməʊtɪvz/	nghi ngờ động cơ (suspect = không tin)	to not trust	She suspected his motives for helping.	distrust
 suspense	noun	arts	😬	/səˈspens/	sự hồi hộp	excitement about what will happen	Don't keep me in suspense!	tension
 sustainability	noun	nature	♻️	/səˌsteɪnəˈbɪləti/	tính bền vững	using resources without harming the future	environmental sustainability	—
 swift	adjective	time	⚡	/swɪft/	nhanh chóng	quick	a swift response	fast
@@ -988,30 +1210,71 @@ tactful	adjective	char_good	🤐	/ˈtæktfəl/	khéo léo, tế nhị	careful no
 tactless	adjective	char_bad	🙊	/ˈtæktləs/	vô duyên, thiếu tế nhị	likely to upset others	a tactless remark	insensitive
 take a turn for the worse	idiom	ph_happen	📉	/ˌteɪk ə tɜːn fə ðə ˈwɜːs/	trở nên tồi tệ hơn	to suddenly become worse	His health took a turn for the worse.	worsen
 take exception to	phrase	ph_judge	😠	/teɪk ɪkˈsepʃən tə/	phật ý vì	to be offended by	He took exception to my comment.	object to
+take her temperature	verb	nm_act	🌡️	/ˌteɪk hɜː ˈtemprətʃə/	đo nhiệt độ cho cô ấy (take = đo)	to measure something	The nurse took her temperature.	measure
 take it as it comes	idiom	ph_life	🌤️	/ˌteɪk ɪt æz ɪt ˈkʌmz/	đến đâu hay đến đó	to deal with something as it happens	I don't worry about the future; I take it as it comes.	—
+take it the wrong way	verb	nm_mind	😕	/ˌteɪk ɪt ðə rɒŋ ˈweɪ/	hiểu sai ý (take = hiểu)	to understand in a particular way	Don't take it the wrong way.	misunderstand
 take shape	phrase	ph_happen	🏗️	/ˌteɪk ˈʃeɪp/	thành hình	to start to develop clearly	The plan is taking shape.	develop
 take stock	idiom	ph_think	📋	/ˌteɪk ˈstɒk/	nhìn lại, cân nhắc	to think carefully about a situation	It's time to take stock of our finances.	review
+talk of job losses	noun	nm_talk	🗣️	/ˌtɔːk əv dʒɒb ˈlɒsɪz/	tin đồn về cắt giảm việc làm (talk = lời bàn tán)	people discussing what might happen	There's been some talk of job losses.	rumours
 tangible	adjective	mind_reason	✋	/ˈtændʒəbəl/	hữu hình, rõ ràng	real and able to be shown	tangible results	concrete
 tasteful	adjective	judge_pos	🎨	/ˈteɪstfəl/	trang nhã	attractive and well chosen	tasteful decoration	elegant
 tasteless	adjective	neg_quality	🙅	/ˈteɪstləs/	nhạt; kém duyên	without flavour; offensive	a tasteless joke	vulgar
 teach someone a lesson	idiom	ph_stand	📏	/ˌtiːtʃ sʌmwʌn ə ˈlesən/	cho ai một bài học	to punish someone so they learn	Losing the game taught him a lesson.	—
+technically British	adverb	nm_mind	📑	/ˌteknɪkli ˈbrɪtɪʃ/	về mặt thủ tục là người Anh (technically = theo đúng quy định)	according to the exact rules	He's technically British but lives in Dublin.	officially
 tell you what	phrase	ph_speak	💡	/ˌtel juː ˈwɒt/	thế này nhé	used to suggest a plan	Tell you what, let's order pizza.	—
 tenderness	noun	emo_pos	💗	/ˈtendənəs/	sự dịu dàng	gentle love	She spoke with tenderness.	gentleness
 territorial	adjective	soc_politics	🗺️	/ˌterɪˈtɔːriəl/	thuộc lãnh thổ	relating to land owned by a country	territorial waters	—
+the action of water	noun	nm_nature	💧	/ðə ˌækʃən əv ˈwɔːtə/	tác động của nước (action = quá trình tự nhiên)	a natural movement or process	The rocks are smoothed by the action of water.	effect
+the afternoon dragged	verb	nm_act	🐌	/ðə ɑːftəˌnuːn ˈdræɡd/	buổi chiều trôi chậm chạp (drag = kéo dài lê thê)	to continue in a boring way	The afternoon really dragged.	—
+the appointment of	noun	nm_work	📋	/ðə əˈpɔɪntmənt əv/	việc bổ nhiệm (appointment = sự bổ nhiệm)	choosing someone for an important job	the appointment of three new teachers	nomination
+the arm of a chair	noun	nm_home	🪑	/ðə ˌɑːm əv ə ˈtʃeə/	tay vịn ghế (arm = tay ghế)	the part of a chair where your arm rests	She sat on the arm of the chair.	armrest
+the arrival of the railway	noun	nm_change	🚂	/ðə əˌraɪvəl əv ðə ˈreɪlweɪ/	sự xuất hiện của đường sắt (arrival = sự ra đời)	when something new becomes available	The town grew with the arrival of the railway.	coming
 the beauty of	phrase	ph_judge	✨	/ðə ˈbjuːti əv/	cái hay của	the quality that makes something good	The beauty of this plan is its simplicity.	advantage
 the best part of	phrase	ph_time	⌛	/ðə ˌbest ˈpɑːt əv/	phần lớn (thời gian)	most of a period of time	I waited the best part of an hour.	most of
 the bottom line	idiom	ph_argue	📉	/ðə ˌbɒtəm ˈlaɪn/	điều cốt lõi	the most important fact	The bottom line is that we need more money.	the main point
 the centre of attention	phrase	ph_life	🔦	/ðə ˌsentə əv əˈtenʃən/	tâm điểm chú ý	the person everyone looks at	She loves being the centre of attention.	—
 the chances are	phrase	ph_sure	🎲	/ðə ˈtʃɑːnsɪz ɑː/	nhiều khả năng là	it is likely	The chances are he's forgotten.	probably
+the city fell	verb	nm_change	🏰	/ðə ˌsɪti ˈfel/	thành phố thất thủ (fall = bị chiếm)	to be defeated	In 1453, the city fell to the Turks.	—
+the clock ticked	verb	nm_act	🕰️	/ðə ˌklɒk ˈtɪkt/	đồng hồ kêu tích tắc (tick = kêu tích tắc)	to make a sound every second	The clock ticked loudly.	—
+the composition of the air	noun	nm_nature	🧪	/ðə kɒmpəˌzɪʃən əv ðə ˈeə/	thành phần không khí (composition = cấu tạo)	the parts that something is made of	the composition of the atmosphere	make-up
+the computer market	noun	nm_work	💹	/ðə kəmˈpjuːtə mɑːkɪt/	thị trường máy tính (market = ngành kinh doanh)	the buying and selling of something	the personal computer market	industry
+the course of history	noun	nm_change	🗺️	/ðə ˌkɔːs əv ˈhɪstri/	tiến trình lịch sử (course = diễn tiến)	the way something develops	It changed the course of history.	path
+the depth of his knowledge	noun	nm_mind	🌊	/ðə ˌdepθ əv hɪz ˈnɒlɪdʒ/	chiều sâu kiến thức (depth = mức độ hiểu biết)	how much someone knows	I was amazed at the depth of his knowledge.	extent
+the development of cancer	noun	nm_change	🧬	/ðə dɪˌveləpmənt əv ˈkænsə/	sự hình thành ung thư (development = sự bắt đầu)	when something starts to exist	Smoking encourages the development of cancer.	onset
+the door clicked shut	verb	nm_act	🚪	/ðə ˌdɔː ˌklɪkt ˈʃʌt/	cửa đóng lại cạch một tiếng (click = kêu lách cách)	to make a short sharp sound	The door clicked shut behind him.	snap
 the extent to which	phrase	ph_relate	📏	/ðə ˌɪkstent tə ˈwɪtʃ/	mức độ mà	how much something happens	We don't know the extent to which it will help.	how far
+the feeling will pass	verb	nm_feel	🌤️	/ðə ˌfiːlɪŋ wəl ˈpɑːs/	cảm giác rồi sẽ qua (pass = qua đi)	to go away	He's angry now, but it will pass.	fade
 the fruits of	phrase	ph_win	🍇	/ðə ˈfruːts əv/	thành quả của	the good results of your work	She is enjoying the fruits of her labour.	rewards
+the future of	noun	nm_change	🔮	/ðə ˈfjuːtʃə əv/	tương lai của (future = số phận)	what will happen to something	We need to discuss the future of the company.	fate
+the head of the table	noun	nm_home	🍽️	/ðə ˌhed əv ðə ˈteɪbəl/	đầu bàn (head = phía đầu)	the front or top part	Grandpa sat at the head of the table.	top
+the highest offer	noun	nm_money	💰	/ðə ˌhaɪɪst ˈɒfə/	mức trả giá cao nhất (offer = giá đề nghị)	an amount you will pay	The highest offer so far is £150.	bid
+the idea hit me	verb	nm_mind	💡	/ðə aɪˌdɪə ˈhɪt miː/	ý tưởng chợt đến (hit = nảy ra)	to suddenly think of something	The idea hit me in the middle of the night.	strike
+the impact of the crash	noun	nm_change	💥	/ðə ˌɪmpækt əv ðə ˈkræʃ/	lực va chạm (impact = sự va chạm)	the force of one object hitting another	The impact of the crash was enormous.	collision
 the ins and outs of	idiom	ph_relate	🔍	/ði ˌɪnz ənd ˈaʊts əv/	mọi chi tiết của	the details of	She knows the ins and outs of the law.	details
+the laws of physics	noun	nm_nature	⚛️	/ðə ˌlɔːz əv ˈfɪzɪks/	các định luật vật lí (law = định luật)	something always true in science	It breaks the laws of physics.	principles
 the length and breadth of	idiom	ph_sure	🗺️	/ðə ˌleŋθ ənd ˈbredθ əv/	khắp mọi nơi	in every part of a place	We travelled the length and breadth of Vietnam.	all over
+the means to buy	noun	nm_money	💳	/ðə ˌmiːnz tə ˈbaɪ/	đủ tiền để mua (means = tiền bạc)	money	We don't have the means to buy a house.	money
+the name escapes me	verb	nm_mind	🫥	/ðə ˌneɪm ɪˈskeɪps miː/	tôi quên mất tên (escape = không nhớ ra)	to be unable to remember	Her name escapes me at the moment.	—
+the nerve to	noun	nm_feel	🦁	/ðə ˈnɜːv tə/	can đảm để (nerve = sự gan dạ)	the courage to do something	I haven't got the nerve to tell him.	courage
 the next thing I knew	phrase	ph_time	😲	/ðə ˌnekst θɪŋ aɪ ˈnjuː/	chưa kịp hiểu chuyện gì thì	used to show something happened suddenly	The next thing I knew, I was on the floor.	suddenly
+the official line	noun	nm_talk	📏	/ðə əˌfɪʃəl ˈlaɪn/	lập trường chính thức (line = đường lối)	a way of thinking about something	The government's official line is to refuse to negotiate.	position
+the old quarter	noun	nm_home	🏘️	/ðə ˌəʊld ˈkwɔːtə/	khu phố cổ (quarter = khu phố)	a part of a town	We stayed in the old quarter of Hanoi.	district
+the party's left wing	noun	nm_work	🪽	/ðə ˌpɑːtiz ˌleft ˈwɪŋ/	cánh tả của đảng (wing = phe)	a group within a party	the nationalist wing of the party	faction
+the prime suspect	adjective	nm_work	🕵️	/ðə ˌpraɪm səˈspekt/	nghi phạm chính (prime = chủ yếu)	main	He is the prime suspect.	main
+the prospect of	noun	nm_mind	🔭	/ðə ˈprɒspekt əv/	viễn cảnh (prospect = điều có thể xảy ra)	the idea of something in the future	We face the prospect of starting again.	possibility
+the rest of the gang	noun	nm_people	👯	/ðə ˌrest əv ðə ˈɡæŋ/	cả hội bạn (gang = nhóm bạn)	a group of young friends	I'm going camping with the rest of the gang.	group
+the running of	noun	nm_work	⚙️	/ðə ˈrʌnɪŋ əv/	việc điều hành (running = quản lí)	controlling or looking after something	She handed over the day-to-day running of the shop.	management
+the same story	noun	nm_talk	🙄	/ðə ˌseɪm ˈstɔːri/	cùng một lời giải thích (story = lời bào chữa)	an explanation that may not be true	He told me the same story about why he was late.	excuse
+the sea bed	noun	nm_nature	🌊	/ðə ˈsiː bed/	đáy biển (bed = đáy)	the ground at the bottom of the sea	Divers searched the sea bed.	seabed
 the seeds of	phrase	ph_happen	🌱	/ðə ˈsiːdz əv/	mầm mống của	the beginning of something	the seeds of a revolution	origins
+the storm broke	verb	nm_nature	⛈️	/ðə ˌstɔːm ˈbrəʊk/	cơn bão ập đến (break = bắt đầu đột ngột)	to start suddenly	The storm broke just as we got home.	begin
 the tail end of	phrase	ph_time	🐾	/ðə ˌteɪl ˈend əv/	phần cuối của	the last part of	We arrived at the tail end of the party.	the end of
+the talks collapsed	verb	nm_change	📉	/ðə ˌtɔːks kəˈlæpst/	cuộc đàm phán đổ vỡ (collapse = thất bại)	to fail to work	The peace talks have collapsed.	fail
+the threat of war	noun	nm_change	⚠️	/ðə ˌθret əv ˈwɔː/	nguy cơ chiến tranh (threat = khả năng xấu)	the possibility that something bad will happen	the threat of invasion	danger
 the tip of the iceberg	idiom	ph_risk	🧊	/ðə ˌtɪp əv ði ˈaɪsbɜːɡ/	phần nổi của tảng băng	a small part of a big problem	These cases are just the tip of the iceberg.	—
+the town is dead	adjective	nm_desc	🌃	/ðə ˌtaʊn ɪz ˈded/	thị trấn vắng tanh (dead = buồn tẻ)	too quiet	The town centre is dead after eight.	quiet
 the turn of the century	phrase	ph_time	🕰️	/ðə ˌtɜːn əv ðə ˈsentʃəri/	thời điểm chuyển giao thế kỉ	the start of a new century	The house was built at the turn of the century.	—
+the weather breaks	verb	nm_nature	🌦️	/ðə ˌweðə ˈbreɪks/	thời tiết chuyển xấu (break = thay đổi)	to change suddenly, usually for the worse	The weather is due to break at the weekend.	change
 then again	phrase	ph_argue	🔄	/ˌðen əˈɡen/	nhưng mặt khác	used to add a different idea	It's expensive. Then again, it's good quality.	on the other hand
 theoretically	adverb	adv_degree	📐	/ˌθɪəˈretɪkli/	về lí thuyết	in theory	Theoretically, it should work.	in theory
 thick and fast	idiom	ph_time	🌧️	/ˌθɪk ənd ˈfɑːst/	dồn dập	quickly and in large numbers	The questions came thick and fast.	rapidly
@@ -1019,31 +1282,40 @@ think highly of	phrase	ph_judge	👍	/θɪŋk ˈhaɪli əv/	đánh giá cao	to a
 thinker	noun	mind_know	🤔	/ˈθɪŋkə/	nhà tư tưởng	a person who thinks deeply	a great thinker	philosopher
 thoughtfully	adverb	adv_manner	💭	/ˈθɔːtfəli/	một cách trầm ngâm; chu đáo	in a thinking or kind way	She looked at me thoughtfully.	—
 thoughtless	adjective	beh_conduct	🙊	/ˈθɔːtləs/	vô tâm	not caring about others	a thoughtless remark	inconsiderate
+threatened to spread	verb	nm_change	🔥	/ˌθretənd tə ˈspred/	có nguy cơ lan rộng (threaten = có khả năng)	to be likely to happen	The conflict threatened to spread.	—
 thriving	adjective	judge_pos	🌿	/ˈθraɪvɪŋ/	phát đạt	very successful	a thriving business	flourishing
 throne	noun	soc_politics	👑	/θrəʊn/	ngai vàng	a king's or queen's special chair	the heir to the throne	—
 throw caution to the wind	idiom	ph_risk	🌬️	/ˌθrəʊ kɔːʃən tə ðə ˈwɪnd/	bất chấp rủi ro	to take a risk	We threw caution to the wind and bought the house.	—
 throw in the towel	idiom	ph_win	🏳️	/ˌθrəʊ ɪn ðə ˈtaʊəl/	bỏ cuộc	to stop trying because you cannot succeed	After three failures, he threw in the towel.	give up
 tie the knot	idiom	ph_people	💍	/ˌtaɪ ðə ˈnɒt/	kết hôn	to get married	They're tying the knot in April.	marry
+tied with France	verb	nm_money	🤝	/ˌtaɪd wɪð ˈfrɑːns/	hoà với Pháp (tie = bằng điểm)	to have the same score	Sweden tied with France.	draw
 tighten your belt	idiom	ph_risk	🪢	/ˌtaɪtən jə ˈbelt/	thắt lưng buộc bụng	to spend less money	We'll have to tighten our belts this year.	economize
 time after time	phrase	ph_time	🔂	/ˌtaɪm ɑːftə ˈtaɪm/	hết lần này đến lần khác	again and again	I've told you time after time to lock the door.	repeatedly
+time flies	verb	nm_act	⏱️	/ˌtaɪm ˈflaɪz/	thời gian trôi nhanh (fly = trôi vèo)	to pass very quickly	Time flies when you're having fun.	—
 timid	adjective	char_social	🐭	/ˈtɪmɪd/	nhút nhát	shy and nervous	a timid child	shy
+tip over	verb	nm_act	🪑	/ˌtɪp ˈəʊvə/	lật đổ (tip = nghiêng đổ)	to fall over	Her chair tipped over.	topple
 tiresome	adjective	neg_quality	😩	/ˈtaɪəsəm/	phiền phức, chán ngắt	annoying and boring	a tiresome task	tedious
 to say nothing of	phrase	ph_argue	🤐	/tə ˌseɪ ˈnʌθɪŋ əv/	chưa kể đến	used to add another problem	It's slow, to say nothing of the cost.	not to mention
 to someone's credit	phrase	ph_judge	🏅	/tə ˌsʌmwʌnz ˈkredɪt/	phải ghi nhận ai	used to say someone deserves praise	To his credit, he admitted his mistake.	—
 toddler	noun	soc_life	🧒	/ˈtɒdlə/	trẻ mới biết đi	a young child learning to walk	a toddler of two	—
 toe the line	idiom	ph_work	📏	/ˌtəʊ ðə ˈlaɪn/	tuân thủ nề nếp	to do what you are told to do	Staff who don't toe the line are fired.	obey
 token	noun	things	🎟️	/ˈtəʊkən/	thẻ, xu; biểu tượng	a disc used instead of money; a sign	a token of our thanks	symbol
+top the charts	verb	nm_money	🥇	/ˌtɒp ðə ˈtʃɑːts/	đứng đầu bảng xếp hạng (top = dẫn đầu)	to be the most successful	The song topped the charts for five weeks.	lead
 torrential	adjective	nature	🌧️	/təˈrenʃəl/	như trút nước	very heavy (rain)	torrential rain	heavy
 toss and turn	idiom	ph_rest	🛏️	/ˌtɒs ənd ˈtɜːn/	trằn trọc	to be unable to sleep	I tossed and turned all night.	—
 totalitarian	adjective	soc_politics	🏛️	/təʊˌtælɪˈteəriən/	chuyên chế	controlling everything with no opposition	a totalitarian state	authoritarian
 touch and go	idiom	ph_risk	🎢	/ˌtʌtʃ ənd ˈɡəʊ/	ngàn cân treo sợi tóc	uncertain whether it will end well	It was touch and go whether he would survive.	uncertain
+tough new rules	adjective	nm_desc	📏	/ˌtʌf njuː ˈruːlz/	quy định mới nghiêm ngặt (tough = khắt khe)	severe	Tough new safety standards were introduced.	strict
+tough on kids	adjective	nm_desc	😢	/ˌtʌf ɒn ˈkɪdz/	khó khăn với trẻ (tough = bất hạnh)	unfair or unlucky	Divorce can be tough on kids.	hard
 toughness	noun	char_strong	💪	/ˈtʌfnəs/	sự cứng rắn	strength and determination	mental toughness	strength
 tragically	adverb	adv_manner	💔	/ˈtrædʒɪkli/	một cách bi thảm	in a very sad way	He died tragically young.	sadly
 train of thought	phrase	ph_think	🚂	/ˌtreɪn əv ˈθɔːt/	mạch suy nghĩ	a series of connected thoughts	The phone call broke my train of thought.	—
 tranquillity	noun	emo_pos	🌿	/træŋˈkwɪləti/	sự yên bình	peace and calm	the tranquillity of the countryside	peace
+translate into action	verb	nm_change	▶️	/trænˌsleɪt ɪntə ˈækʃən/	biến thành hành động (translate = chuyển thành)	to make an idea happen	How does this theory translate into action?	turn into
 transplant	noun, verb	health_med	🫀	/ˈtrænsplɑːnt/	sự cấy ghép	moving an organ to another body	a heart transplant	—
 traumatic	adjective	emo_sad	💔	/trɔːˈmætɪk/	gây chấn thương tâm lí	very upsetting	a traumatic experience	distressing
 tread	verb	v_physical	👣	/tred/	giẫm lên	to put your foot on	Don't tread on the grass.	step
+tried for murder	verb	nm_work	⚖️	/ˌtraɪd fə ˈmɜːdə/	bị xét xử tội giết người (try = xét xử)	to examine a case in court	He was tried for murder.	prosecute
 trilogy	noun	arts	📚	/ˈtrɪlədʒi/	bộ ba tác phẩm	a set of three books or films	the Lord of the Rings trilogy	—
 troublesome	adjective	neg_quality	😣	/ˈtrʌbəlsəm/	gây rắc rối	causing problems	a troublesome cough	annoying
 trudge	verb	v_physical	🥾	/trʌdʒ/	lê bước	to walk slowly and with effort	We trudged through the snow.	plod
@@ -1051,6 +1323,8 @@ turbulent	adjective	soc_politics	🌪️	/ˈtɜːbjələnt/	hỗn loạn, sóng 
 turmoil	noun	emo_sad	🌪️	/ˈtɜːmɔɪl/	sự hỗn loạn	great confusion	The country was in turmoil.	chaos
 turn over a new leaf	idiom	ph_win	🍃	/ˌtɜːn əʊvə ə njuː ˈliːf/	làm lại cuộc đời	to start behaving better	He promised to turn over a new leaf.	—
 turn your nose up at	idiom	ph_life	🙄	/ˌtɜːn jə ˌnəʊz ˈʌp ət/	chê bai, coi thường	to refuse because you think it is not good enough	He turned his nose up at the cheap wine.	reject
+ugly scenes	adjective	nm_desc	😠	/ˌʌɡli ˈsiːnz/	cảnh tượng khó coi (ugly = bạo lực)	very unpleasant and violent	There were ugly scenes outside the stadium.	violent
+ultimately his decision	adverb	nm_mind	🏁	/ˌʌltɪmɪtli hɪz dɪˈsɪʒən/	suy cho cùng là quyết định của anh ấy (ultimately = rốt cuộc)	used to emphasise the most important fact	Ultimately, it's his decision.	in the end
 unaffected	adjective	v_grow	🛡️	/ˌʌnəˈfektɪd/	không bị ảnh hưởng	not changed by something	Our area was unaffected.	untouched
 unanimous	adjective	soc_politics	🙌	/juːˈnænɪməs/	nhất trí	agreed by everyone	a unanimous decision	united
 unanimously	adverb	adv_manner	🙌	/juːˈnænɪməsli/	nhất trí	with everyone agreeing	The plan was approved unanimously.	—
@@ -1061,6 +1335,7 @@ unbiased	adjective	judge_pos	⚖️	/ʌnˈbaɪəst/	khách quan	fair, not favour
 unconditional	adjective	emo_pos	💗	/ˌʌnkənˈdɪʃənəl/	vô điều kiện	without limits	unconditional love	absolute
 unconsciously	adverb	adv_manner	💤	/ʌnˈkɒnʃəsli/	một cách vô thức	without knowing	She unconsciously touched her hair.	unknowingly
 undeniably	adverb	adv_degree	✅	/ˌʌndɪˈnaɪəbli/	không thể phủ nhận	certainly	It is undeniably beautiful.	clearly
+under the command of	noun	nm_work	🎖️	/ˌʌndə ðə kəˈmɑːnd əv/	dưới quyền chỉ huy của (command = quyền chỉ huy)	control over people	The soldiers were under the command of a sergeant.	control
 under the weather	idiom	ph_feel	🤒	/ˌʌndə ðə ˈweðə/	thấy không khoẻ	slightly ill	I'm feeling a bit under the weather today.	unwell
 underdeveloped	adjective	soc_money	🌱	/ˌʌndədɪˈveləpt/	kém phát triển	not fully developed	underdeveloped countries	developing
 undertaking	noun	soc_money	🏗️	/ˌʌndəˈteɪkɪŋ/	công việc lớn	a big task or project	a major undertaking	task
@@ -1085,18 +1360,22 @@ unwise	adjective	neg_harm	🙅	/ʌnˈwaɪz/	thiếu khôn ngoan	not sensible	an 
 uphill	adjective, adverb	v_physical	⛰️	/ʌpˈhɪl/	lên dốc; gian nan	going up; difficult	an uphill battle	difficult
 upkeep	noun	soc_money	🔧	/ˈʌpkiːp/	chi phí bảo trì	the cost of keeping something in good condition	the upkeep of the house	maintenance
 upwards	adverb	v_physical	⬆️	/ˈʌpwədz/	hướng lên	towards a higher place	She looked upwards.	up
+urge caution	verb	nm_talk	⚠️	/ˌɜːdʒ ˈkɔːʃən/	khuyên nên thận trọng (urge = khuyến cáo)	to strongly advise	Experts are urging caution.	advise
 utter	adjective, verb	speak	💬	/ˈʌtə/	hoàn toàn; thốt ra	complete; to say	utter nonsense	complete
 vaccinate	verb	health_med	💉	/ˈvæksɪneɪt/	tiêm vắc-xin	to give a vaccine	All children should be vaccinated.	immunize
 vaccination	noun	health_med	💉	/ˌvæksɪˈneɪʃən/	sự tiêm chủng	giving a vaccine	a vaccination programme	immunization
 vaccine	noun	health_med	💉	/ˈvæksiːn/	vắc-xin	a substance that protects against disease	a flu vaccine	—
 vaguely	adverb	adv_degree	🌫️	/ˈveɪɡli/	mơ hồ; hơi hơi	not clearly; slightly	I vaguely remember him.	faintly
 vain	adjective	char_bad	🪞	/veɪn/	tự phụ; vô ích	too proud of your looks; useless	a vain attempt	conceited
+valued at	verb	nm_money	💎	/ˈvæljuːd ət/	được định giá (value = định giá)	to judge how much something is worth	The ring was valued at $1,000.	price
 vandalism	noun	soc_crime	🧱	/ˈvændəlɪzəm/	sự phá hoại của công	damaging property on purpose	acts of vandalism	—
 vanity	noun	char_bad	🪞	/ˈvænəti/	tính phù phiếm	being too proud of yourself	an act of vanity	conceit
+vegetable matter	noun	nm_nature	🥬	/ˌvedʒtəbəl ˈmætə/	chất thực vật (matter = chất)	a type of substance	The soil is rich in vegetable matter.	material
 velvet	noun	things	🧣	/ˈvelvɪt/	vải nhung	a soft cloth	a velvet dress	—
 vent	verb, noun	emo_pos	💨	/vent/	trút (giận); lỗ thông hơi	to express strong feelings; an opening for air	She vented her anger on me.	express
 versatile	adjective	char_good	🔧	/ˈvɜːsətaɪl/	đa năng	able to do many things	a versatile actor	adaptable
 vicinity	noun	measure	📍	/vɪˈsɪnəti/	vùng lân cận	the nearby area	in the vicinity of the school	neighbourhood
+viewed as a hero	verb	nm_mind	🦸	/ˌvjuːd æz ə ˈhɪərəʊ/	được xem là anh hùng (view = coi là)	to have a particular opinion about	He is viewed as a hero in his country.	regard
 visibly	adverb	adv_degree	👀	/ˈvɪzəbli/	rõ ràng, thấy rõ	in a way that can be seen	She was visibly upset.	noticeably
 vitality	noun	char_strong	⚡	/vaɪˈtæləti/	sức sống	energy and strength	full of vitality	energy
 vitally	adverb	adv_degree	❗	/ˈvaɪtəli/	cực kì (quan trọng)	extremely	vitally important	crucially
@@ -1107,15 +1386,19 @@ voluntarily	adverb	adv_manner	🙋	/ˈvɒləntərəli/	tự nguyện	without bei
 vomit	verb, noun	health_med	🤮	/ˈvɒmɪt/	nôn	to bring food up from the stomach	The child vomited twice.	be sick
 voter	noun	soc_politics	🗳️	/ˈvəʊtə/	cử tri	a person who votes	young voters	—
 wary	adjective	char_social	🦊	/ˈweəri/	cảnh giác	careful because of danger	wary of strangers	cautious
+we just clicked	verb	nm_mind	🤝	/wi ˌdʒʌst ˈklɪkt/	hợp nhau ngay (click = hợp cạ)	to like each other immediately	We met at college and just clicked.	hit it off
+wear a smile	verb	nm_feel	😊	/ˌweə ə ˈsmaɪl/	nở nụ cười (wear = mang trên mặt)	to show an emotion on your face	He was wearing a big smile.	—
 weary	adjective	emo_sad	😩	/ˈwɪəri/	mệt mỏi	very tired	weary travellers	tired
 weep	verb	emo_sad	😭	/wiːp/	khóc	to cry	She wept with joy.	cry
 where someone stands	phrase	ph_speak	📍	/ˌweə sʌmwʌn ˈstændz/	lập trường của ai	what someone's opinion is	I'm not sure where he stands on this issue.	position
 whim	noun	beh_choice	💭	/wɪm/	ý thích bất chợt	a sudden wish	on a whim	impulse
+white with shock	adjective	nm_feel	😱	/ˌwaɪt wɪð ˈʃɒk/	mặt trắng bệch vì sốc (white = tái nhợt)	pale because of shock	He was white with shock.	pale
 wholeheartedly	adverb	adv_manner	💯	/ˌhəʊlˈhɑːtɪdli/	hết lòng	completely	I agree wholeheartedly.	fully
 wicked	adjective	char_bad	😈	/ˈwɪkɪd/	độc ác	very bad; evil	a wicked witch	evil
 wield	verb	soc_politics	🗡️	/wiːld/	nắm giữ (quyền lực); cầm	to have power; to hold a weapon	She wields great influence.	exercise
 wilderness	noun	nature	🏔️	/ˈwɪldənəs/	vùng hoang dã	a wild, empty area	the Alaskan wilderness	wilds
 willpower	noun	self	💪	/ˈwɪlpaʊə/	ý chí	the ability to control yourself	It takes willpower to diet.	self-control
+win the title	noun	nm_money	🏆	/ˌwɪn ðə ˈtaɪtəl/	giành chức vô địch (title = danh hiệu)	what you win in a big competition	He won the world title.	championship
 wink	verb, noun	v_physical	😉	/wɪŋk/	nháy mắt	to close one eye quickly	He winked at me.	—
 with bated breath	idiom	ph_calm	😮	/wɪð ˌbeɪtɪd ˈbreθ/	nín thở chờ đợi	in an excited or anxious way	We waited with bated breath for the winner.	anxiously
 with your bare hands	phrase	ph_happen	✋	/wɪð jə ˌbeə ˈhændz/	bằng tay không	without a tool or weapon	He built the wall with his bare hands.	—
@@ -1141,6 +1424,7 @@ yearn	verb	emo_pos	💭	/jɜːn/	khao khát	to want something very much	She year
 years someone's junior	phrase	ph_people	👶	/ˌjɪəz sʌmwʌnz ˈdʒuːniə/	kém ai ... tuổi	younger than someone by that many years	My wife is eight years my junior.	younger
 you can't beat	phrase	ph_judge	🥇	/jə ˌkɑːnt ˈbiːt/	không gì bằng	used to say something is the best	You can't beat home cooking.	—
 you have to hand it to	idiom	ph_judge	👏	/jə ˌhæv tə ˈhænd ɪt tuː/	phải công nhận	used to show you admire someone	You have to hand it to her; she never gives up.	—
+you've got a nerve	noun	nm_feel	😤	/juːv ˌɡɒt ə ˈnɜːv/	mặt dày thật (nerve = sự trơ tráo)	rudeness	You've got a nerve, coming here!	cheek
 your best bet	idiom	ph_sure	🎯	/jə ˌbest ˈbet/	lựa chọn tốt nhất	the action most likely to succeed	Your best bet is to take a taxi.	best option
 your own flesh and blood	idiom	ph_people	👪	/jə ˌəʊn fleʃ ənd ˈblʌd/	máu mủ ruột thịt	a member of your family	How could he treat his own flesh and blood like that?	family
 your take on	phrase	ph_speak	🧐	/jə ˈteɪk ɒn/	quan điểm của bạn về	your opinion about a situation	What's your take on the new rules?	view

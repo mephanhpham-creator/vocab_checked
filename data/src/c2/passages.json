@@ -548,5 +548,126 @@
    "She says she {has a weakness for|have a weakness for} street food.",
    "Her {thirst for|a thirst for} adventure never seems to end."
   ]
+ },
+ "c2_nm_people": {
+  "title": "Two Classmates",
+  "sentences": [
+   "At school, Nam was {an able student|an able student}, while his friend Tuan was {not very academic}.",
+   "Nam was quiet and a little {stiff with strangers}.",
+   "Tuan was {open about his feelings} and always had {an air of authority}.",
+   "Their teacher was {firm with children}, but she saw {good points} in both boys.",
+   "Years later, Nam became {a champion of human rights}.",
+   "Tuan, still {a willing helper}, now runs a school for poor children."
+  ]
+ },
+ "c2_nm_feel": {
+  "title": "A Family Wedding",
+  "sentences": [
+   "On the morning of the wedding, the bride admitted she was {feeling blue}.",
+   "Her mother said {the feeling will pass}, and she was right.",
+   "By the afternoon, there was {an electric atmosphere} in the hall.",
+   "The groom could hardly {contain his anger} when the band arrived late.",
+   "But soon everyone was {in good humour}.",
+   "Even Grandpa, who usually hates parties, {wore a smile|wear a smile} all evening."
+  ]
+ },
+ "c2_nm_talk": {
+  "title": "A Meeting at City Hall",
+  "sentences": [
+   "The mayor was invited to {address a conference} on housing.",
+   "She was asked to {relate the story} of the city's new plan.",
+   "Some journalists {pressed her to|press him to} give more details.",
+   "She said {the official line} was that nothing would change this year.",
+   "One reporter made {a scathing attack} on her plan.",
+   "Still, the mayor promised to {enter into a dialogue} with local residents."
+  ]
+ },
+ "c2_nm_mind": {
+  "title": "The Detective's Idea",
+  "sentences": [
+   "For weeks, the detective could not {solve the puzzle}.",
+   "She {suspected his motives|suspect his motives} but had no proof.",
+   "Then one night, {the idea hit her|the idea hit me}.",
+   "{It suddenly clicked}: the key was in the old photograph.",
+   "It was only {a slim chance}, but she followed it.",
+   "{Ultimately, it was her decision|ultimately his decision}, and it proved right."
+  ]
+ },
+ "c2_nm_work": {
+  "title": "From Lawyer to Politician",
+  "sentences": [
+   "After ten years in law, my aunt decided to {stand for parliament}.",
+   "She was known for {a clean record|a clean record} and hard work.",
+   "Several unions agreed to {back her|back a candidate}.",
+   "She won {a seat in parliament} in her first election.",
+   "Now she works hard to {protect their interests|protect their interests}, especially for young workers.",
+   "She always says that everyone should {exercise their right|exercise your right} to vote."
+  ]
+ },
+ "c2_nm_money": {
+  "title": "A Lucky Business",
+  "sentences": [
+   "My uncle started a small shop with {the means to buy|the means to buy} only a few shelves.",
+   "He paid for everything {out of my own pocket|out of my own pocket}, as he likes to say.",
+   "Within five years, his products began to {top the charts} in online sales.",
+   "He always {settles the bill|settle the bill} when the family eats out.",
+   "Now he enjoys {a comfortable retirement}.",
+   "He says his success came from {a healthy economy} and a lot of luck."
+  ]
+ },
+ "c2_nm_nature": {
+  "title": "A Winter Morning",
+  "sentences": [
+   "When I woke up, the town lay under {a blanket of snow}.",
+   "{Fog hung over the town|fog hung over the town} until midday.",
+   "The lake was {still water}, as smooth as glass.",
+   "{A pack of wolves} was seen near the forest.",
+   "From time to time, we heard {an eagle's cry} high above.",
+   "It was hard to believe that {a violent storm} had passed the night before."
+  ]
+ },
+ "c2_nm_home": {
+  "title": "Grandpa's Old House",
+  "sentences": [
+   "Grandpa's house is in {the old quarter} of the city.",
+   "His favourite place is {the arm of a chair} by the window.",
+   "In the attic, there is {a treasure chest} full of old letters.",
+   "On the roof, there is {a water tank} that still works.",
+   "He always sits at {the head of the table} during family meals.",
+   "His bedroom, however, is {an absolute tip}."
+  ]
+ },
+ "c2_nm_act": {
+  "title": "A Quiet Evening",
+  "sentences": [
+   "In the living room, {the clock ticked} slowly.",
+   "My sister {accompanied me on the piano|accompany on the piano} while I sang.",
+   "Outside, a neighbour began to {beat a drum} for a festival.",
+   "The baby {stirred in its sleep} but did not wake.",
+   "In the kitchen, the soup was {bubbling on the stove}.",
+   "When the guests left, {the door clicked shut} behind them."
+  ]
+ },
+ "c2_nm_change": {
+  "title": "The End of the Factory",
+  "sentences": [
+   "When {the talks collapsed}, the region fell into crisis.",
+   "Soon, {the threat of war} was in every newspaper.",
+   "The old factory was {a symptom of} the region's problems.",
+   "The council tried to {block the plans} for a new mine.",
+   "New laws {left many families worse off|left worse off}.",
+   "Still, people hope to {repair relations} with their neighbours."
+  ]
+ },
+ "c2_nm_desc": {
+  "title": "A Quiet Town",
+  "sentences": [
+   "After eight in the evening, {the town is dead}.",
+   "We walked home {in dead silence}.",
+   "Life here can be {tough on kids}, who have little to do.",
+   "The only café, however, is {alive with laughter} at weekends.",
+   "Local people are fighting to {keep the language alive}.",
+   "They know that change does not happen {overnight|change overnight}."
+  ]
  }
 }
