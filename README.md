@@ -9,8 +9,8 @@ Web học từ vựng tiếng Anh theo trình độ (A2 → C2, cộng 8 chủ �
 |---|---|
 | `data/topics.json` | Nhóm **IELTS**: 8 chủ đề, 273 từ (chuyển từ app flashcard trên Netlify). Từ nào có trong danh sách Cambridge/Oxford thì có thêm trường `level` |
 | `data/passages.json` | Mỗi chủ đề IELTS 1 đoạn văn. `{chữ hiển thị\|từ trong bộ thẻ}` đánh dấu từ đã học |
-| `data/levels/<level>.json` | Một file cho mỗi trình độ (`{topics, passages}`), **được sinh ra**, đừng sửa tay. Hiện có `a2.json`: 1.487 từ, 39 bộ thẻ, 39 đoạn đọc |
-| `data/src/<level>/` | Nguồn để sửa: `cards.tsv` (mỗi dòng một thẻ), `groups.json` (chủ đề, thứ tự, màu), `passages.json` |
+| `data/levels/<level>.json` | Một file cho mỗi trình độ (`{topics, passages}`), **được sinh ra**, đừng sửa tay. Hiện có `a2.json`: 1.487 từ, 79 bộ thẻ nhỏ chia theo nghĩa, xếp dưới 24 chủ đề lớn, 79 đoạn đọc |
+| `data/src/<level>/` | Nguồn để sửa: `cards.tsv` (mỗi dòng một thẻ), `groups.json` (các bộ thẻ, thứ tự, màu, chủ đề lớn `section`), `passages.json` |
 | `tools/build_level.py` | Sinh `data/levels/<level>.json` từ `data/src/<level>/`, kiểm tra dữ liệu và tự điền IPA giọng Anh |
 | `data/ipa.json` | 44 âm IPA giọng Anh và 17 nhóm cặp âm dễ nhầm |
 | `js/match.js` | So khớp lời nói với câu mẫu (thuần logic, có test) |
@@ -40,7 +40,7 @@ npm test    # node --test
 3. Build và kiểm tra: `python3 tools/build_level.py a2`. Lệnh báo lỗi nếu thiếu trường, trùng từ trong một chủ đề, hoặc đoạn đọc đánh dấu một từ không có trong bộ thẻ.
 4. Mở trình độ mới trên web: đặt `ready: true` cho trình độ đó trong `LEVELS` (`js/store.js`).
 
-Chủ đề có hơn 50 từ được chia đều thành nhiều bộ (`a2_food_1`, `a2_food_2`…). Tiến độ học được lưu theo *mã chủ đề + từ*, nên sau khi đã đưa lên web, đừng đổi thứ tự hay thêm bớt từ trong một chủ đề bị chia: từ bị đẩy sang bộ khác sẽ mất dấu "đã thuộc".
+Mỗi nhóm trong `groups.json` là một bộ thẻ, chia theo nghĩa (ví dụ *Trái cây & rau củ*, *Đồ uống*) chứ không chia theo số lượng từ. Tiến độ được lưu theo *mã bộ + từ*. Nếu sau này một từ chuyển sang bộ khác, `js/store.js` tự chuyển dấu "đã thuộc" theo từ đó.
 
 ## Giới hạn của chức năng kiểm tra phát âm
 Chức năng này dùng nhận dạng giọng nói có sẵn trong trình duyệt (Web Speech API):

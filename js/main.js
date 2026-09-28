@@ -88,8 +88,16 @@ function renderSection(id, level) {
     bindArtFallbacks(body);
     return {};
   }
-  const topics = level.topics.filter(t => id !== 'read' || level.passages[t.key]);
-  body.innerHTML = `<div class="topic-grid is-app" data-ui="topic-grid">${topics.map(t => topicCardHtml(t, id, level.passages)).join('')}</div>`;
+  // Decks are listed under their big theme (e.g. "🍎 Đồ ăn & thức uống"), like
+  // chapters in a book's table of contents; the IELTS topics have no theme.
+  const sections = [];
+  for (const t of level.topics.filter(t => id !== 'read' || level.passages[t.key])) {
+    let sec = sections[sections.length - 1];
+    if (!sec || sec.name !== (t.section || '')) sections.push(sec = { name: t.section || '', topics: [] });
+    sec.topics.push(t);
+  }
+  body.innerHTML = sections.map(sec => `${sec.name ? `<h2 class="section-title topic-section" data-ui="topic-section">${esc(sec.name)} <small>· ${sec.topics.length} bộ</small></h2>` : ''}
+    <div class="topic-grid is-app" data-ui="topic-grid">${sec.topics.map(t => topicCardHtml(t, id, level.passages)).join('')}</div>`).join('');
   body.querySelectorAll('[data-ui="topic-card"]').forEach(b => b.addEventListener('click', () => go(`#/${id}/${b.dataset.topic}`)));
   return {};
 }

@@ -92,6 +92,8 @@ button{font:inherit; color:inherit; cursor:pointer;}
 .level-chip span{font-size:12px; font-weight:600;}
 .level-chip.is-soon:not(.is-active){background:transparent; border:1px dashed rgba(0,0,0,.2);}
 .level-soon{margin-top:var(--s-lg);}
+.topic-section{margin:var(--s-xl) 0 var(--s-md);}
+.topic-section:first-child{margin-top:0;}
 .level-badge{font-size:12px; font-weight:800; letter-spacing:.04em; line-height:1; padding:5px 8px; border-radius:var(--r-full);
   background:rgba(46,125,50,.12); color:var(--primary-strong);}
 .level-badge:empty{display:none;}

@@ -44,7 +44,7 @@ export function loadLevel(id) {
   if (!levelCache[id]) {
     levelCache[id] = (id === 'ielts'
       ? Promise.all([get('topics.json'), get('passages.json')]).then(([topics, passages]) => ({ topics, passages }))
-      : get(`levels/${id}.json`)
+      : get(`levels/${id}.json`).then(data => { carryOverMarks(id, data.topics); return data; })
     ).catch(e => { delete levelCache[id]; throw e; }); // allow a retry after a network error
   }
   return levelCache[id];
@@ -80,6 +80,27 @@ export function setStatus(topicKey, word, status) {
 export function resetTopic(topicKey) { delete progress[topicKey]; write(PROGRESS_KEY, progress); }
 
 export function knownCount(topic) { return topic.deck.filter(c => getStatus(topic.key, c.word) === 'known').length; }
+
+// When a level's decks are reorganised (A2 was first split by count, then
+// by meaning), marks saved under a deck key that no longer exists move to
+// the deck that now holds the same word, like forwarding mail after a move.
+// Reading scores of a removed deck belong to a passage that is gone, so
+// they are dropped.
+function carryOverMarks(levelId, topics) {
+  const keys = new Set(topics.map(t => t.key));
+  const stale = Object.keys(progress).filter(k => levelOf(k) === levelId && !keys.has(k));
+  for (const old of stale) {
+    for (const [word, status] of Object.entries(progress[old])) {
+      const target = topics.find(t => t.deck.some(c => c.word === word) && !getStatus(t.key, word));
+      if (target) (progress[target.key] || (progress[target.key] = {}))[word] = status;
+    }
+    delete progress[old];
+  }
+  const staleReading = Object.keys(reading).filter(k => levelOf(k) === levelId && !keys.has(k));
+  staleReading.forEach(k => delete reading[k]);
+  if (stale.length) write(PROGRESS_KEY, progress);
+  if (staleReading.length) write(READING_KEY, reading);
+}
 
 // ---------- Reading scores ----------
 const reading = read(READING_KEY);

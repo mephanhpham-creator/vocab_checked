@@ -20,7 +20,8 @@ for (const file of levels) {
     for (const t of topics) {
       assert.ok(t.key.startsWith(id + '_'), `${t.key} carries its level`);
       assert.ok(!keys.has(t.key), `${t.key} is unique`); keys.add(t.key);
-      assert.ok(t.deck.length > 0 && t.deck.length <= 50, `${t.key} has 1–50 cards`);
+      assert.ok(t.deck.length > 0, `${t.key} has cards`);
+      assert.ok(t.section, `${t.key} is listed under a theme`);
       const words = new Set();
       for (const c of t.deck) {
         for (const f of ['word', 'pos', 'ipa', 'vi', 'en', 'ex']) assert.ok(c[f], `${t.key}/${c.word}: ${f}`);
