@@ -40,6 +40,17 @@ Plain pure white background (#FFFFFF), no text, no speech bubble, no props.
 Square 1024x1024.
 ```
 
+## Icon app (Thêm vào Màn hình chính trên iPhone)
+Gà con linh vật đeo kính tròn, chăm chú đọc sách bìa cam, nền kem với vòng tròn xanh nhạt. Tạo bằng ChatGPT, gửi kèm `mascot.webp` để giữ đúng nhân vật.
+
+| File | Cỡ | Dùng cho |
+|---|---|---|
+| `assets/icons/apple-touch-icon.png` | 180×180 | Icon trên màn hình iPhone/iPad |
+| `assets/icons/icon-192.png` | 192×192 | Biểu tượng tab trình duyệt, Android |
+| `assets/icons/icon-512.png` | 512×512 | Màn hình chờ khi mở app (Android) |
+
+Khai báo trong `index.html` và `manifest.webmanifest` (tên dưới icon: "IELTS Vocab", mở toàn màn hình như app). Ảnh gốc phải là hình vuông kín nền, **không bo góc, không nền trong suốt** (iPhone tự bo góc; chỗ trong suốt sẽ bị tô đen), nhân vật nằm trong khoảng 75% giữa ảnh. Khi đổi icon: thay ảnh gốc rồi xuất lại 3 cỡ trên.
+
 ## Lưu ý
 - **Không chép nhân vật có sẵn:** không đưa ảnh mẫu (app EnglishUp) cho Gemini vẽ lại. Hai prompt trên đã có đặc điểm riêng (sách xanh, mầm lá 🌱 của thương hiệu), để hình là của bạn.
 - **Không có chữ trong hình:** chữ trong ảnh AI hay bị sai, tiêu đề đã có sẵn bằng chữ thật trên web.

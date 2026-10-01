@@ -1,0 +1,15 @@
+{
+  "name": "IELTS Vocab & Speaking",
+  "short_name": "IELTS Vocab",
+  "description": "Ôn từ vựng IELTS bằng flashcard, luyện đọc to đoạn văn và luyện phát âm IPA.",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFF8EC",
+  "theme_color": "#FFF8EC",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
